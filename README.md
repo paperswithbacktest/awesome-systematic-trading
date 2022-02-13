@@ -218,7 +218,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1945051817/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1945051817&linkId=3990d9fa29d1a002bfed6f6b49ee3d1c">
-        <img src="./static/Day Trading QuickStart Guide.jpeg" style="width:100px;">
+        <img src="./static/Day Trading QuickStart Guide.jpeg" style="width:80px;">
       </a>
     </td>
     <td>
@@ -269,7 +269,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1981038353/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1981038353&linkId=54da9ef0d2ba8592331e4f48782e8d1d">
-        <img src="./static/Introduction To Algo Trading.jpeg" style="width:400px;">
+        <img src="./static/Introduction To Algo Trading.jpeg" style="width:500px;">
       </a>
     </td>
     <td>
@@ -437,7 +437,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/B086Y6H6YG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B086Y6H6YG&linkId=883c45fc9de3b131eb066191fa3c404a">
         <div style="width:200px">
-          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:300px;">
+          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:500px;">
         </div>
       </a>
     </td>
@@ -459,7 +459,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/178934834X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178934834X&linkId=bcc743ff86810288ea8d699ce3537e4a">
         <div style="width:200px">
-          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:300px;">
+          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:500px;">
         </div>
       </a>
     </td>
