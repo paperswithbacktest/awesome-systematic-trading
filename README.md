@@ -1561,7 +1561,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1839217715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1839217715&linkId=80e3e93e1b6027596858ed0f1fbf10c2">
         <div style="width:100px">
-          <img src="./static/Machine Learning for Algorithmic Trading.jpeg" width="200">
+          <img src="./static/Machine Learning for Algorithmic Trading.jpeg" width="200" style="max-height: none; max-width: none;">
         </div>
       </a>
     </td>
@@ -1585,7 +1585,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/3030410676/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=3030410676&linkId=5f5f1df6be62ae96ef7a0c536c3ecdb4">
         <div style="width:100px">
-          <img src="./static/Machine Learning in Finance.jpeg" width="200">
+          <img src="./static/Machine Learning in Finance.jpeg" width="200" style="max-height: none; max-width: none;">
         </div>
       </a>
     </td>
