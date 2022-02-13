@@ -746,7 +746,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1118778987/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118778987&linkId=dfff171a899dad1923bec571f4f6725f">
         <div style="width:100px">
-          <img src="./static/Building Winning Algorithmic Trading Systems.jpeg" style="width:500px;">
+          <img src="./static/Building Winning Algorithmic Trading Systems.jpeg" style="width:600px;">
         </div>
       </a>
     </td>
@@ -766,7 +766,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0857198084/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857198084&linkId=18282291517fefad774951181219307d">
-        <img src="./static/How I Invest My Money.jpeg" style="width:800px;">
+        <img src="./static/How I Invest My Money.jpeg" style="width:1000px;">
       </a>
     </td>
     <td>
@@ -785,7 +785,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0857197215/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857197215&linkId=15176ea86c632b8b350323884368d385">
-        <img src="./static/Leveraged Trading.jpeg" style="width:200px;">
+        <img src="./static/Leveraged Trading.jpeg" style="width:300px;">
       </a>
     </td>
     <td>
@@ -811,7 +811,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1119219604/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119219604&linkId=de1c1bc3779a9441f81653fa6cfaac03">
         <div style="width:100px">
-          <img src="./static/Machine Trading.jpeg" style="width:600px;">
+          <img src="./static/Machine Trading.jpeg" style="width:800px;">
         </div>
       </a>
     </td>
