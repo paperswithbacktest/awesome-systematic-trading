@@ -31,7 +31,145 @@
 
 ## ETFs
 
-(coming soon)
+[ETF Arbitrage: Intraday Evidence](https://drive.google.com/file/d/1jT5rPW8c8Jb0dM01vJfvQsCkKOfVOxWQ/view?usp=sharing)
+
+- We use two extremely liquid S&P 500 ETFs to analyze the prevailing trading conditions when
+mispricing allowing arbitrage opportunities is created. While these ETFs are not perfect
+substitutes, we show that their minor differences are not responsible for the mispricing. Spreads
+increase just before arbitrage opportunities, consistent with a decrease in liquidity. Order
+imbalance increases as markets become more one-sided and spread changes become more
+volatile which suggests an increase in liquidity risk. The price deviations are economically
+significant (mean profit of 6.6% p.a. net of spreads) and are followed by a tendency to quickly
+correct back towards parity.
+
+
+[The Limits of Arbitrage: Evidence from Exchange Traded Funds](https://drive.google.com/file/d/1mQnitFn-j8r3AQcHUCVoFEUUDzHD_iFC/view?usp=sharing)
+
+- Exchange Traded Funds (ETFs) consistently trade away from their net asset value.
+In violation of market efficiency, these discounts vary substantially over time and are
+found to be significant in the explanation of future returns. Returns to simple strategies
+which incorporate information in the variation of discounts outperform buy-and-hold
+strategies by an annualized 15%, net of transaction costs, but only expose the investor
+to about one fifth the risk. ETFs, on average, are found to be about 17% more volatile
+than their underlying assets; 70% of the excess volatility can be explained by proxies
+for transaction and holding costs which inhibit successful arbitrage. The findings in this
+paper are consistent with noise trader models of costly arbitrage and are inconsistent
+with hypotheses of financial market efficiency.
+
+[Abnormal returns with momentum/contrarian strategies using exchange-traded funds](https://drive.google.com/file/d/1OKm2ExNpKUBJUooQDrG8jqvte11O_Fgs/view?usp=sharing)
+
+- Investing in portfolios of exchange-traded funds (ETFs) provides abnormal
+returns that exceed transactions costs, when returns are adjusted for risk using Fama and
+French’s three-factor model. Short formation and holding periods of one day to one week
+provide abnormal contrarian returns, as past losers become winners and past winners
+become losers. Medium formation and holding periods of 4–39 weeks provide abnormal
+momentum returns, as past winners keep winning and past losers keep losing. Abnormal
+returns for portfolios of ETFs result in an asset allocation setting including all four types of
+ETFs, namely domestic, international, sector, and bond ETFs, with contrarian returns
+maximised over a one-day formation and holding period, and with momentum returns
+maximised over a 20-week formation and holding period.
+
+[Do Demographic Changes Affect Risk Premiums? Evidence from International Data](https://drive.google.com/file/d/1Ezyqsb1E7U3pdcQX5qUwSYtCJdv2P5MQ/view?usp=sharing)
+
+- We examine the link between equity risk premiums and demographic changes using a very long
+sample over the twentieth century for the US, Japan, UK, Germany and France, and a shorter sample
+covering the last third of the twentieth century for fifteen countries. We find that demographic
+variables significantly predict excess returns internationally. However, the demographic
+predictability found in the US by past studies for the average age of the population does not extend
+to other countries. Pooling international data, we find that, on average, faster growth in the fraction
+of retired persons significantly decreases risk premiums. This demographic predictability of risk
+premiums is strongest in countries with well-developed social security systems and lesser-developed
+financial markets.
+
+[Overreaction and Trading Strategies in European iShares](https://drive.google.com/file/d/15PAWAOooBKM6h9mMEkyU-ObFYhfTDrG1/view?usp=sharing)
+
+- This paper examines the forecasting power of German, UK and French iShares
+for the next day returns of the underlying Morgan Stanley country equity indexes and
+assesses whether European iShares overreact to developments after the close of European
+trading. The findings indicate that although deviations of European iShare prices from
+net asset values (NAVs) at the close of US trading have significant forecast power for
+next day NAV returns, they overpredict. Deviations of closing iShare prices from their
+NAVs also lead to next day iShare price reversals that average roughly 3/8 of the size of
+the deviations. Finally, the paper demonstrates the profitability of trading rules that
+exploit the tendency of European iShares to overreact to late day US trading activity.
+
+
+[Understanding ETNs on VIX Futures](https://drive.google.com/file/d/1qGX7QHElz0WqXOM77SPXCl9GYzNMCBtd/view?usp=sharing)
+
+- This paper aims to improve transparency in the market for direct, leveraged and inverse exchange-
+traded notes (ETNs) on VIX futures. The first VIX futures ETNs were issued in 2009. Now there are about 30 of them, with a market cap of about $3 billion and trading volume on some of
+these products can reach $5 billion per day. Yet volatility trading is highly complex and regulators
+should be concerned that many market participants lack sufficient understanding of the risks they
+are taking. We recommend that exchanges, market-makers, issuers and potential investors, as well
+as regulators, read this paper to improve their understanding of these ETNs.
+We provide a detailed explanation of the roll yield and convexity effects that drive the returns
+on VIX futures ETNs, and we track their volatility and assess their performance over an eight-year
+period starting in March 2004, by replicating their values using daily close VIX futures prices. We
+explain how ETN issuers can construct almost perfect hedges of their suite of ETNs and control their
+issue (most ETNs are callable) to make very significant profits under all bootstrapped scenarios.
+However, market knowledge has precipitated front-running of the issuer’s hedging activities, making
+profits more difficult to control. Moreover, for hedging the ETNs such large positions must be taken
+on VIX futures that the ETN market now leads the VIX futures that they are supposed to track.
+The result has been an evident increase in the volatility of VIX futures since 2009. If this increase
+in statistical volatility induces an increase in VIX futures implied volatility, a knock-on effect would
+be higher prices of VIX options whilst S&P options are unaffected.
+A previous discussion paper, Alexander and Korovilas (2012), provided incontrovertible evi-
+dence that single positions on direct VIX futures ETNs of any maturity – including mid-term and
+longer-term trackers – could only provide a diversification/hedge of equity exposure during the first
+few months of a great crisis of similar magnitude to the banking collapse in late 2008. By contrast,
+the present discussion paper shows that some highly attractive long-term investment vehicles can
+be simply constructed by holding certain portfolios of VIX futures ETNs. In particular, we intro-
+duce a new class of ‘roll-yield arbitrage’ ETN portfolios which we call ETN2
+(because they allocate between direct and inverse VIX futures tracker ETNs) and ETN3 portfolios (that allocate between static and dynamic ETN2). These portfolios have positive exposure to mid-term direct-tracker ETNs and (typically) negative exposure to short-term direct-tracker ETNs (equivalently, positive exposure to short-term inverse-tracker ETNs). Their unique risk and return characteristics make
+them highly attractive long-term investments, as well as superb diversifiers of stocks, bonds and
+commodities.
+
+[Adaptive Asset Allocation: A Primer](https://drive.google.com/file/d/1s8gwV5xUJQzVm2ODTiUlkbS4U6yYXSBN/view?usp=sharing)
+
+- Modern Portfolio Theory (MPT) is the most widely used method to construct portfolios
+which maximize expected returns at different levels of risk. Investors often use long-term
+average asset returns and risks to find optimal portfolios, but these long-term estimates are
+subject to large errors in the intermediate term. As small errors in estimates can lead to large
+errors in portfolios formed using MPT, investors add heuristic constraints to produce more
+intuitive and diversified portfolios than MPT would prescribe. Unfortunately, these heuristic
+adjustments often drive portfolios far away from optimal values. In this paper, we describe
+methods of portfolio optimization that rely on shorter term estimates of risk and return,
+and which change through time in response to observed changes in markets. In stepwise
+fashion we demonstrate how using shorter-term rolling estimates of risk, diversification, and
+returns delivers more resilient portfolios which thrive in good times - and bad.
+
+[Long-Term Return Reversal: Evidence from International Market Indices](https://drive.google.com/file/d/1bVln9ouXZZ_wkc7lKVmMiw4u6W3hLP6A/view?usp=sharing)
+
+- This paper documents evidence of reversals in the long-term returns of international equity
+markets. We use recent short-term performance to better select contrarian securities that
+appear ready to reverse. Our late-stage contrarian strategy consistently provides stronger
+evidence of long-term return reversal than does the traditional pure contrarian strategy when
+applied to developed and emerging market indices. Despite an absence of cross-sectional
+contrarian profits for developed markets in our post-1989 subsample, longitudinal analysis
+provides strong evidence of reversals during this period. Overall, our results suggest that the
+reversal of long-term returns may be stronger and more pervasive than is generally
+understood.
+
+Momentum and Trend Following in Global Asset Allocation
+Trading VIX ETFs
+Skewness Effect in Country Equity Indexes
+Trading Commodity ETFs versus Equity ETFs
+Long-Term Reversal Combined with a Momentum Effect in Industry Portfolios
+Timing the Small Cap Effect ver. 2
+Multi-Asset Market Breadth Momentum
+Trading VIX ETFs v2
+Sector Rotation Strategy Based on Multivariate Regression Analysis
+Risk-Managed Industry Momentum
+Spread Trading with ADRs
+US Sector Rotation with Five-Factor Fama-French Alphas
+ETF Creation/Redemption Activity and Return Predictability
+The Crisis Alpha Portfolio
+Optimalized Subportfolio Momentum
+The Value Spread and Asset Allocation in Global Equity Markets
+Intraday Momentum in Crude Oil ETF
+Machine Learning Adaptive Portfolio Asset Allocation
+Market Breadth in Global Equities
+
 ## Futures
 
 [Are There Exploitable Trends in Commodity Future Prices?](https://drive.google.com/file/d/1SCXgmejgzm0EEM8EsDtc4dgeHHRqkLxv/view?usp=sharing)
@@ -1423,7 +1561,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1839217715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1839217715&linkId=80e3e93e1b6027596858ed0f1fbf10c2">
         <div style="width:100px">
-          <img src="./static/Machine Learning for Algorithmic Trading.jpeg" style="width:300px;">
+          <img src="./static/Machine Learning for Algorithmic Trading.jpeg" width="200">
         </div>
       </a>
     </td>
@@ -1447,7 +1585,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/3030410676/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=3030410676&linkId=5f5f1df6be62ae96ef7a0c536c3ecdb4">
         <div style="width:100px">
-          <img src="./static/Machine Learning in Finance.jpeg" style="width:700px;">
+          <img src="./static/Machine Learning in Finance.jpeg" width="200">
         </div>
       </a>
     </td>
