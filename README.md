@@ -437,7 +437,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/B086Y6H6YG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B086Y6H6YG&linkId=883c45fc9de3b131eb066191fa3c404a">
         <div style="width:200px">
-          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:500px;">
+          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:600px;">
         </div>
       </a>
     </td>
@@ -459,7 +459,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/178934834X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178934834X&linkId=bcc743ff86810288ea8d699ce3537e4a">
         <div style="width:200px">
-          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:500px;">
+          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:600px;">
         </div>
       </a>
     </td>
@@ -617,7 +617,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/B07XG2J3S9/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07XG2J3S9&linkId=5d7f6662ba86f43f0b4ccf6378fecd6d">
-        <img src="./static/Why Buy Bitcoin.jpeg" style="width:500px;">
+        <img src="./static/Why Buy Bitcoin.jpeg" style="width:600px;">
       </a>
     </td>
     <td>
@@ -638,7 +638,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0070248826/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0070248826&linkId=a419ec1b0c93b98a5bd207cc4f9d074a">
-        <img src="./static/Active Portfolio Management.jpeg" style="width:500px;">
+        <img src="./static/Active Portfolio Management.jpeg" style="width:600px;">
       </a>
     </td>
     <td>
@@ -702,7 +702,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1498737161/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1498737161&linkId=2414093d8ee0157a60f7c2e4ca73ae2d">
-        <img src="./static/Algorithmic Trading and Quantitative Strategies.jpeg" style="width:500px;">
+        <img src="./static/Algorithmic Trading and Quantitative Strategies.jpeg" style="width:600px;">
       </a>
     </td>
     <td>
@@ -766,7 +766,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0857198084/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857198084&linkId=18282291517fefad774951181219307d">
-        <img src="./static/How I Invest My Money.jpeg" style="width:600px;">
+        <img src="./static/How I Invest My Money.jpeg" style="width:700px;">
       </a>
     </td>
     <td>
@@ -811,7 +811,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1119219604/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119219604&linkId=de1c1bc3779a9441f81653fa6cfaac03">
         <div style="width:100px">
-          <img src="./static/Machine Trading.jpeg" style="width:400px;">
+          <img src="./static/Machine Trading.jpeg" style="width:500px;">
         </div>
       </a>
     </td>
@@ -876,7 +876,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1118129857/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118129857&linkId=0cd406ecce7def37d286796f55a647fc">
         <div style="width:100px">
-          <img src="./static/Professional Automated Trading.jpeg" style="width:300px;">
+          <img src="./static/Professional Automated Trading.jpeg" style="width:400px;">
         </div>
       </a>
     </td>
@@ -899,7 +899,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0071459391/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071459391&linkId=f627ac125c9bf5e047f3e8f50b0d3717">
-        <img src="./static/Quantitative Equity Portfolio Management.jpeg" style="width:300px;">
+        <img src="./static/Quantitative Equity Portfolio Management.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -940,7 +940,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0979183855/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0979183855&linkId=8ef7bda69477bdccf90f5ac02ee495b0">
-        <img src="./static/Quantitative Technical Analysis.jpeg" style="width:100px;">
+        <img src="./static/Quantitative Technical Analysis.jpeg" style="width:70px;">
       </a>
     </td>
     <td>
@@ -1079,7 +1079,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1118467450/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118467450&linkId=67ee502653bc52a5240ced9fc88eb76d">
-        <img src="./static/The New Trading for a Living.jpeg" style="width:400px;">
+        <img src="./static/The New Trading for a Living.jpeg" style="width:350px;">
       </a>
     </td>
     <td>
@@ -1143,7 +1143,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/085719755X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=085719755X&linkId=97aa558484a8dc2bf57a5296e7f38cad">
         <div style="width:100px">
-          <img src="./static/Trading Systems 2nd edition.jpeg" style="width:400px;">
+          <img src="./static/Trading Systems 2nd edition.jpeg" style="width:500px;">
         </div>
       </a>
     </td>
@@ -1317,7 +1317,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0128156309/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0128156309&linkId=0a197c0b547a0ee63ccd19389bb42edd">
-        <img src="./static/Algorithmic Trading Methods.jpeg" style="width:600px;">
+        <img src="./static/Algorithmic Trading Methods.jpeg" style="width:800px;">
       </a>
     </td>
     <td>
