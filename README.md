@@ -151,23 +151,41 @@ reversal of long-term returns may be stronger and more pervasive than is general
 understood.
 
 Momentum and Trend Following in Global Asset Allocation
+
 Trading VIX ETFs
+
 Skewness Effect in Country Equity Indexes
+
 Trading Commodity ETFs versus Equity ETFs
+
 Long-Term Reversal Combined with a Momentum Effect in Industry Portfolios
+
 Timing the Small Cap Effect ver. 2
+
 Multi-Asset Market Breadth Momentum
+
 Trading VIX ETFs v2
+
 Sector Rotation Strategy Based on Multivariate Regression Analysis
+
 Risk-Managed Industry Momentum
+
 Spread Trading with ADRs
+
 US Sector Rotation with Five-Factor Fama-French Alphas
+
 ETF Creation/Redemption Activity and Return Predictability
+
 The Crisis Alpha Portfolio
+
 Optimalized Subportfolio Momentum
+
 The Value Spread and Asset Allocation in Global Equity Markets
+
 Intraday Momentum in Crude Oil ETF
+
 Machine Learning Adaptive Portfolio Asset Allocation
+
 Market Breadth in Global Equities
 
 ## Futures
