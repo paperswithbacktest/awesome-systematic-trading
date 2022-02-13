@@ -181,13 +181,13 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson]()
+[Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://www.amazon.fr/gp/product/0956399207/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0956399207&linkId=364d559d8591478e25a18aac93974d10)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0956399207/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0956399207&linkId=364d559d8591478e25a18aac93974d10">
+        <img src="./static/Algorithmic Trading and DMA.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -212,13 +212,13 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan]()
+[Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://www.amazon.fr/gp/product/1945051817/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1945051817&linkId=3990d9fa29d1a002bfed6f6b49ee3d1c)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1945051817/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1945051817&linkId=3990d9fa29d1a002bfed6f6b49ee3d1c">
+        <img src="./static/Day Trading QuickStart Guide.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -263,13 +263,13 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey]()
+[Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://www.amazon.fr/gp/product/1981038353/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1981038353&linkId=54da9ef0d2ba8592331e4f48782e8d1d)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1981038353/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1981038353&linkId=54da9ef0d2ba8592331e4f48782e8d1d">
+        <img src="./static/Introduction To Algo Trading.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -430,14 +430,14 @@ A comprehensive list of books for quantitative traders.
 
 ## Coding
 
-[Algorithmic Trading with Python: Quantitative Methods and Strategy Development - Chris Conlan]()
+[Algorithmic Trading with Python: Quantitative Methods and Strategy Development - Chris Conlan](https://www.amazon.fr/gp/product/B086Y6H6YG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B086Y6H6YG&linkId=883c45fc9de3b131eb066191fa3c404a)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/B086Y6H6YG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B086Y6H6YG&linkId=883c45fc9de3b131eb066191fa3c404a">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -452,14 +452,14 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Learn Algorithmic Trading: Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis - Sebastien Donadio]()
+[Learn Algorithmic Trading: Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis - Sebastien Donadio](https://www.amazon.fr/gp/product/178934834X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178934834X&linkId=bcc743ff86810288ea8d699ce3537e4a)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/178934834X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178934834X&linkId=bcc743ff86810288ea8d699ce3537e4a">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -477,14 +477,14 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Python for Algorithmic Trading: From Idea to Cloud Deployment - Yves Hilpisch]()
+[Python for Algorithmic Trading: From Idea to Cloud Deployment - Yves Hilpisch](https://www.amazon.fr/gp/product/149205335X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=149205335X&linkId=c70133e4ef5361176d855b09606a49df)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/149205335X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=149205335X&linkId=c70133e4ef5361176d855b09606a49df">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Python for Algorithmic Trading.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -502,14 +502,14 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Python for Finance: Mastering Data-Driven Finance - Yves Hilpisch]()
+[Python for Finance: Mastering Data-Driven Finance - Yves Hilpisch](https://www.amazon.fr/gp/product/1492024333/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492024333&linkId=f9b3dcd4f18afce3011a6bd4e3da10b9)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1492024333/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492024333&linkId=f9b3dcd4f18afce3011a6bd4e3da10b9">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Python for Finance.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -527,14 +527,14 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Trading Evolved: Anyone can Build Killer Trading Strategies in Python - Andreas F. Clenow]()
+[Trading Evolved: Anyone can Build Killer Trading Strategies in Python - Andreas F. Clenow](https://www.amazon.fr/gp/product/109198378X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=109198378X&linkId=e8be824c9f01896010b06ac4b54729ee)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/109198378X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=109198378X&linkId=e8be824c9f01896010b06ac4b54729ee">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Trading Evolved.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -551,13 +551,13 @@ A comprehensive list of books for quantitative traders.
 
 ## Crypto
 
-[Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption - Ben Mezrich]()
+[Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption - Ben Mezrich](https://www.amazon.fr/gp/product/B07GN8HWZW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07GN8HWZW&linkId=852c328be797b234bbf69d1d2e9aef08)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/B07GN8HWZW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07GN8HWZW&linkId=852c328be797b234bbf69d1d2e9aef08">
+        <img src="./static/Bitcoin Billionaires.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -570,13 +570,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos]()
+[Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos](https://www.amazon.fr/gp/product/1491954388/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1491954388&linkId=a4bce5f25bb10c171abfb8e4e41c8b1f)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1491954388/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1491954388&linkId=a4bce5f25bb10c171abfb8e4e41c8b1f">
+        <img src="./static/Mastering Bitcoin.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -592,13 +592,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[The Bitcoin Standard: The Decentralized Alternative to Central Banking - Saifedean Ammous]()
+[The Bitcoin Standard: The Decentralized Alternative to Central Banking - Saifedean Ammous](https://www.amazon.fr/gp/product/1119473861/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119473861&linkId=1c9e3a499ca7f2d2c3b7970aaa1bc575)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1119473861/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119473861&linkId=1c9e3a499ca7f2d2c3b7970aaa1bc575">
+        <img src="./static/The Bitcoin Standard.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -611,13 +611,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Why Buy Bitcoin: Investing Today in the Money of Tomorrow - Andy Edstrom]()
+[Why Buy Bitcoin: Investing Today in the Money of Tomorrow - Andy Edstrom](https://www.amazon.fr/gp/product/B07XG2J3S9/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07XG2J3S9&linkId=5d7f6662ba86f43f0b4ccf6378fecd6d)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/B07XG2J3S9/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07XG2J3S9&linkId=5d7f6662ba86f43f0b4ccf6378fecd6d">
+        <img src="./static/Why Buy Bitcoin.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -632,13 +632,13 @@ A comprehensive list of books for quantitative traders.
 
 ## General
 
-[Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk - Richard Grinold, Ronald Kahn]()
+[Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk - Richard Grinold, Ronald Kahn](https://www.amazon.fr/gp/product/0070248826/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0070248826&linkId=a419ec1b0c93b98a5bd207cc4f9d074a)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0070248826/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0070248826&linkId=a419ec1b0c93b98a5bd207cc4f9d074a">
+        <img src="./static/Active Portfolio Management.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -651,13 +651,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Advances in Active Portfolio Management: New Developments in Quantitative Investing - Richard Grinold, Ronald Kahn]()
+[Advances in Active Portfolio Management: New Developments in Quantitative Investing - Richard Grinold, Ronald Kahn](https://www.amazon.fr/gp/product/1260453715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1260453715&linkId=3a83315467b455cd287f05031d8485ff)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1260453715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1260453715&linkId=3a83315467b455cd287f05031d8485ff">
+        <img src="./static/Advances in Active Portfolio Management.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -696,13 +696,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Algorithmic Trading and Quantitative Strategies (Chapman and Hall/CRC Financial Mathematics Series) - Raja Velu, Maxence Hardy, Daniel Nehren]()
+[Algorithmic Trading and Quantitative Strategies (Chapman and Hall/CRC Financial Mathematics Series) - Raja Velu, Maxence Hardy, Daniel Nehren](https://www.amazon.fr/gp/product/1498737161/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1498737161&linkId=2414093d8ee0157a60f7c2e4ca73ae2d)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1498737161/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1498737161&linkId=2414093d8ee0157a60f7c2e4ca73ae2d">
+        <img src="./static/Algorithmic Trading and Quantitative Strategies.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -718,14 +718,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Algorithmic Trading: Winning Strategies and Their Rationale - Ernest P. Chan]()
+[Algorithmic Trading: Winning Strategies and Their Rationale - Ernest P. Chan](https://www.amazon.fr/gp/product/1118460146/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118460146&linkId=5a70176e74d051596c73b224633c5c73)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1118460146/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118460146&linkId=5a70176e74d051596c73b224633c5c73">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Algorithmic Trading.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -739,14 +739,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Building Winning Algorithmic Trading Systems, + Website: A Trader’s Journey From Data Mining to Monte Carlo Simulation to Live Trading (Wiley Trading) - Kevin J Davey]()
+[Building Winning Algorithmic Trading Systems: A Trader’s Journey From Data Mining to Monte Carlo Simulation to Live Trading (Wiley Trading) - Kevin J Davey](https://www.amazon.fr/gp/product/1118778987/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118778987&linkId=dfff171a899dad1923bec571f4f6725f)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1118778987/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118778987&linkId=dfff171a899dad1923bec571f4f6725f">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Building Winning Algorithmic Trading Systems.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -760,13 +760,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[How I Invest My Money: Finance experts reveal how they save, spend, and invest - Joshua Brown, Brian Portnoy]()
+[How I Invest My Money: Finance experts reveal how they save, spend, and invest - Joshua Brown, Brian Portnoy](https://www.amazon.fr/gp/product/0857198084/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857198084&linkId=18282291517fefad774951181219307d)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0857198084/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857198084&linkId=18282291517fefad774951181219307d">
+        <img src="./static/How I Invest My Money.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -779,13 +779,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Leveraged Trading: A professional approach to trading FX, stocks on margin, CFDs, spread bets and futures for all traders - Robert Carver]()
+[Leveraged Trading: A professional approach to trading FX, stocks on margin, CFDs, spread bets and futures for all traders - Robert Carver](https://www.amazon.fr/gp/product/0857197215/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857197215&linkId=15176ea86c632b8b350323884368d385)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0857197215/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857197215&linkId=15176ea86c632b8b350323884368d385">
+        <img src="./static/Leveraged Trading.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -804,14 +804,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Machine Trading: Deploying Computer Algorithms to Conquer the Markets - Ernest P. Chan]()
+[Machine Trading: Deploying Computer Algorithms to Conquer the Markets - Ernest P. Chan](https://www.amazon.fr/gp/product/1119219604/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119219604&linkId=de1c1bc3779a9441f81653fa6cfaac03)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1119219604/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119219604&linkId=de1c1bc3779a9441f81653fa6cfaac03">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Machine Trading.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -825,13 +825,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Naked Forex: High-Probability Techniques for Trading Without Indicators - Alex Nekritin]()
+[Naked Forex: High-Probability Techniques for Trading Without Indicators - Alex Nekritin](https://www.amazon.fr/gp/product/1118114019/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118114019&linkId=57d43657b79b68e98b9d4fe638529c97)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1118114019/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118114019&linkId=57d43657b79b68e98b9d4fe638529c97">
+        <img src="./static/Naked Forex.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -847,13 +847,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Option Volatility and Pricing: Advanced Trading Strategies and Techniques, 2nd Edition - Sheldon Natenberg]()
+[Option Volatility and Pricing: Advanced Trading Strategies and Techniques, 2nd Edition - Sheldon Natenberg](https://www.amazon.fr/gp/product/0071818774/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071818774&linkId=753beb5a763ee583425f07052ef54a59)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0071818774/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071818774&linkId=753beb5a763ee583425f07052ef54a59">
+        <img src="./static/Option Volatility and Pricing.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -869,14 +869,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Professional Automated Trading: Theory and Practice - Eugene A. Durenard]()
+[Professional Automated Trading: Theory and Practice - Eugene A. Durenard](https://www.amazon.fr/gp/product/1118129857/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118129857&linkId=0cd406ecce7def37d286796f55a647fc)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1118129857/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118129857&linkId=0cd406ecce7def37d286796f55a647fc">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Professional Automated Trading.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -893,13 +893,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Quantitative Equity Portfolio Management: An Active Approach to Portfolio Construction and Management (McGraw-Hill Library of Investment and Finance) - Ludwig B Chincarini, Daehwan Kim]()
+[Quantitative Equity Portfolio Management: An Active Approach to Portfolio Construction and Management (McGraw-Hill Library of Investment and Finance) - Ludwig B Chincarini, Daehwan Kim](https://www.amazon.fr/gp/product/0071459391/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071459391&linkId=f627ac125c9bf5e047f3e8f50b0d3717)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0071459391/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071459391&linkId=f627ac125c9bf5e047f3e8f50b0d3717">
+        <img src="./static/Quantitative Equity Portfolio Management.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -915,13 +915,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Quantitative Momentum: A Practitioner’s Guide to Building a Momentum-Based Stock Selection System (Wiley Finance) - Wesley R. Gray, Jack R. Vogel]()
+[Quantitative Momentum: A Practitioner’s Guide to Building a Momentum-Based Stock Selection System (Wiley Finance) - Wesley R. Gray, Jack R. Vogel](https://www.amazon.fr/gp/product/111923719X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=111923719X&linkId=b825cb65462a4a9254af3b7dc5328131)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/111923719X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=111923719X&linkId=b825cb65462a4a9254af3b7dc5328131">
+        <img src="./static/Quantitative Momentum.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -934,13 +934,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Quantitative Technical Analysis: An integrated approach to trading system development and trading management - Dr Howard B Bandy]()
+[Quantitative Technical Analysis: An integrated approach to trading system development and trading management - Dr Howard B Bandy](https://www.amazon.fr/gp/product/0979183855/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0979183855&linkId=8ef7bda69477bdccf90f5ac02ee495b0)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0979183855/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0979183855&linkId=8ef7bda69477bdccf90f5ac02ee495b0">
+        <img src="./static/Quantitative Technical Analysis.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -953,13 +953,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Quantitative Trading: Algorithms, Analytics, Data, Models, Optimization - Xin Guo, Tze Leung Lai, Howard Shek, Samuel Po-Shing Wong]()
+[Quantitative Trading: Algorithms, Analytics, Data, Models, Optimization - Xin Guo, Tze Leung Lai, Howard Shek, Samuel Po-Shing Wong](https://www.amazon.fr/gp/product/0367871815/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0367871815&linkId=3f2ba1cbc0e1fe02e255da740423b2fb)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0367871815/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0367871815&linkId=3f2ba1cbc0e1fe02e255da740423b2fb">
+        <img src="./static/Quantitative Trading-2.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -972,13 +972,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Quantitative Trading: How to Build Your Own Algorithmic Trading Business - Ernest P. Chan]()
+[Quantitative Trading: How to Build Your Own Algorithmic Trading Business - Ernest P. Chan](https://www.amazon.fr/gp/product/0470284889/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470284889&linkId=7121da8f65a34315d15f3f8d4e09da15)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0470284889/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470284889&linkId=7121da8f65a34315d15f3f8d4e09da15">
+        <img src="./static/Quantitative Trading.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -991,13 +991,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Systematic Trading: A unique new method for designing trading and investing systems - Robert Carver]()
+[Systematic Trading: A unique new method for designing trading and investing systems - Robert Carver](https://www.amazon.fr/gp/product/0857194453/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857194453&linkId=32d8bffc32c01041cde066bacab76c04)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0857194453/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857194453&linkId=32d8bffc32c01041cde066bacab76c04">
+        <img src="./static/Systematic Trading.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -1013,13 +1013,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[The Art and Science of Technical Analysis: Market Structure, Price Action, and Trading Strategies - Adam Grimes]()
+[The Art and Science of Technical Analysis: Market Structure, Price Action, and Trading Strategies - Adam Grimes](https://www.amazon.fr/gp/product/1118115120/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118115120&linkId=d5dc1f0e6727b2663d2186a110a31ad0)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1118115120/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118115120&linkId=d5dc1f0e6727b2663d2186a110a31ad0">
+        <img src="./static/The Art and Science of Technical Analysis.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -1032,13 +1032,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[The Four Pillars of Investing: Lessons for Building a Winning Portfolio - William J. Bernstein]()
+[The Four Pillars of Investing: Lessons for Building a Winning Portfolio - William J. Bernstein](https://www.amazon.fr/gp/product/B0041842TW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B0041842TW&linkId=d9bc2fec4f3faa41ca4f24aed3c72122)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/B0041842TW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B0041842TW&linkId=d9bc2fec4f3faa41ca4f24aed3c72122">
+        <img src="./static/The Four Pillars of Investing.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -1073,13 +1073,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[The New Trading for a Living: Psychology, Discipline, Trading Tools and Systems, Risk Control, Trade Management (Wiley Trading) - Alexander Elder]()
+[The New Trading for a Living: Psychology, Discipline, Trading Tools and Systems, Risk Control, Trade Management (Wiley Trading) - Alexander Elder](https://www.amazon.fr/gp/product/1118467450/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118467450&linkId=67ee502653bc52a5240ced9fc88eb76d)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1118467450/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118467450&linkId=67ee502653bc52a5240ced9fc88eb76d">
+        <img src="./static/The New Trading for a Living.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -1096,13 +1096,13 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Trading and Exchanges: Market Microstructure for Practitioners - Larry Harris]()
+[Trading and Exchanges: Market Microstructure for Practitioners - Larry Harris](https://www.amazon.fr/gp/product/0195144708/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0195144708&linkId=e47e596fc0696cbd624726cce05b4500)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0195144708/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0195144708&linkId=e47e596fc0696cbd624726cce05b4500">
+        <img src="./static/Trading and Exchanges.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -1115,14 +1115,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Trading Systems: A New Approach to System Development and Portfolio Optimisation - Emilio Tomasini, Urban Jaekle]()
+[Trading Systems: A New Approach to System Development and Portfolio Optimisation - Emilio Tomasini, Urban Jaekle](https://www.amazon.fr/gp/product/1905641796/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1905641796&linkId=61e6634242c497498338f73641ce0a80)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1905641796/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1905641796&linkId=61e6634242c497498338f73641ce0a80">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Trading Systems.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -1136,14 +1136,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Trading Systems 2nd edition: A new approach to system development and portfolio optimisation - Emilio Tomasini, Urban Jaekle]()
+[Trading Systems 2nd edition: A new approach to system development and portfolio optimisation - Emilio Tomasini, Urban Jaekle](https://www.amazon.fr/gp/product/085719755X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=085719755X&linkId=97aa558484a8dc2bf57a5296e7f38cad)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/085719755X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=085719755X&linkId=97aa558484a8dc2bf57a5296e7f38cad">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Trading Systems 2nd edition.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -1178,13 +1178,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[An Introduction to High-Frequency Finance - Ramazan Gençay, Michel Dacorogna, Ulrich A. Muller, Olivier Pictet, Richard Olsen]()
+[An Introduction to High-Frequency Finance - Ramazan Gençay, Michel Dacorogna, Ulrich A. Muller, Olivier Pictet, Richard Olsen](https://www.amazon.fr/gp/product/0122796713/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0122796713&linkId=7e6c098026204f399e45d7fbb803dcca)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:1000px;">
+      <a href="https://www.amazon.fr/gp/product/0122796713/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0122796713&linkId=7e6c098026204f399e45d7fbb803dcca">
+        <img src="./static/An Introduction to High-Frequency Finance.jpeg" style="width:1000px;">
       </a>
     </td>
     <td>
@@ -1244,13 +1244,13 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Inside the Black Box: A Simple Guide to Quantitative and High Frequency Trading - Rishi K. Narang]()
+[Inside the Black Box: A Simple Guide to Quantitative and High Frequency Trading - Rishi K. Narang](https://www.amazon.fr/gp/product/1118362411/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118362411&linkId=35e02d4e636350366531a5033597a541)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/1118362411/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118362411&linkId=35e02d4e636350366531a5033597a541">
+        <img src="./static/Inside the Black Box.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -1311,13 +1311,13 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Algorithmic Trading Methods: Applications Using Advanced Statistics, Optimization, and Machine Learning Techniques - Robert Kissell]()
+[Algorithmic Trading Methods: Applications Using Advanced Statistics, Optimization, and Machine Learning Techniques - Robert Kissell](https://www.amazon.fr/gp/product/0128156309/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0128156309&linkId=0a197c0b547a0ee63ccd19389bb42edd)
 
 <table>
   <tr>
     <td>
-      <a href="">
-        <img src="" style="width:400px;">
+      <a href="https://www.amazon.fr/gp/product/0128156309/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0128156309&linkId=0a197c0b547a0ee63ccd19389bb42edd">
+        <img src="./static/Algorithmic Trading Methods.jpeg" style="width:400px;">
       </a>
     </td>
     <td>
@@ -1330,14 +1330,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Artificial Intelligence in Finance: A Python-Based Guide - Yves Hilpisch]()
+[Artificial Intelligence in Finance: A Python-Based Guide - Yves Hilpisch](https://www.amazon.fr/gp/product/1492055433/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492055433&linkId=7c20249be4d35badb127d6a5423fc495)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1492055433/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492055433&linkId=7c20249be4d35badb127d6a5423fc495">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Artificial Intelligence in Finance.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -1355,14 +1355,14 @@ A comprehensive list of books for quantitative traders.
 </table>
 
 
-[Dark Pools: The rise of A.I. trading machines and the looming threat to Wall Street - Scott Patterson]()
+[Dark Pools: The rise of A.I. trading machines and the looming threat to Wall Street - Scott Patterson](https://www.amazon.fr/gp/product/0307887189/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0307887189&linkId=2572cae24ed7de0b279580312daf0f03)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/0307887189/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0307887189&linkId=2572cae24ed7de0b279580312daf0f03">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Dark Pools.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -1416,14 +1416,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python, 2nd Edition - Stefan Jansen]()
+[Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python, 2nd Edition - Stefan Jansen](https://www.amazon.fr/gp/product/1839217715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1839217715&linkId=80e3e93e1b6027596858ed0f1fbf10c2)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/1839217715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1839217715&linkId=80e3e93e1b6027596858ed0f1fbf10c2">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Machine Learning for Algorithmic Trading.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
@@ -1440,14 +1440,14 @@ A comprehensive list of books for quantitative traders.
   </tr>
 </table>
 
-[Machine Learning in Finance: From Theory to Practice - Matthew F. Dixon, Igor Halperin, Paul Bilokon]()
+[Machine Learning in Finance: From Theory to Practice - Matthew F. Dixon, Igor Halperin, Paul Bilokon](https://www.amazon.fr/gp/product/3030410676/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=3030410676&linkId=5f5f1df6be62ae96ef7a0c536c3ecdb4)
 
 <table>
   <tr>
     <td>
-      <a href="">
+      <a href="https://www.amazon.fr/gp/product/3030410676/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=3030410676&linkId=5f5f1df6be62ae96ef7a0c536c3ecdb4">
         <div style="width:100px">
-          <img src="" style="width:300px;">
+          <img src="./static/Machine Learning in Finance.jpeg" style="width:300px;">
         </div>
       </a>
     </td>
