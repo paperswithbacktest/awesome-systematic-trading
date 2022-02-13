@@ -921,7 +921,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/111923719X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=111923719X&linkId=b825cb65462a4a9254af3b7dc5328131">
-        <img src="./static/Quantitative Momentum.jpeg" style="width:700px;">
+        <img src="./static/Quantitative Momentum.jpeg" style="width:800px;">
       </a>
     </td>
     <td>
@@ -1019,7 +1019,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1118115120/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118115120&linkId=d5dc1f0e6727b2663d2186a110a31ad0">
-        <img src="./static/The Art and Science of Technical Analysis.jpeg" style="width:700px;">
+        <img src="./static/The Art and Science of Technical Analysis.jpeg" style="width:900px;">
       </a>
     </td>
     <td>
