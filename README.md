@@ -23,9 +23,9 @@
 
 - Bond Carry Strategy
 
-| Sharpe Ratio | Volatility | Maximum Drawdown |
-|--------------|------------|------------------|
-| 0.68         | 8.63%      | -24.74%          |
+| Sharpe Ratio | Volatility | Maximum Drawdown | Keywords                                  |
+|--------------|------------|------------------|-------------------------------------------|
+| 0.68         | 8.63%      | -24.74%          | carry trade, factor investing, smart beta |
 
 
 
