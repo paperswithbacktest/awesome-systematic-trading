@@ -21,8 +21,6 @@
 
 [Finding Yield in a 2% World](https://drive.google.com/file/d/1qCJDTB6Pu8lvo5VAGUVfFqSBZE3gPm1y/view?usp=sharing)
 
-- Bond Carry Strategy
-
 | Sharpe Ratio | Volatility | Maximum Drawdown | Keywords                                  |
 |--------------|------------|------------------|-------------------------------------------|
 | 0.68         | 8.63%      | -24.74%          | carry trade, factor investing, smart beta |
