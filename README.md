@@ -5,11 +5,6 @@
 # Table of Contents
 
 - [Academic Papers](#academic-papers)
-  - [Bonds](#bonds)
-  - [Cryptos](#cryptos)
-  - [ETFs](#etfs)
-  - [Futures](#futures)
-  - [Stocks](#stocks)
 - [Educational Books](#educational-books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -21,290 +16,6 @@
 
 
 # Academic Papers
-
-## Bonds
-
-(coming soon)
-## Cryptos
-
-(coming soon)
-
-## ETFs
-
-[ETF Arbitrage: Intraday Evidence](https://drive.google.com/file/d/1jT5rPW8c8Jb0dM01vJfvQsCkKOfVOxWQ/view?usp=sharing)
-
-- We use two extremely liquid S&P 500 ETFs to analyze the prevailing trading conditions when
-mispricing allowing arbitrage opportunities is created. While these ETFs are not perfect
-substitutes, we show that their minor differences are not responsible for the mispricing. Spreads
-increase just before arbitrage opportunities, consistent with a decrease in liquidity. Order
-imbalance increases as markets become more one-sided and spread changes become more
-volatile which suggests an increase in liquidity risk. The price deviations are economically
-significant (mean profit of 6.6% p.a. net of spreads) and are followed by a tendency to quickly
-correct back towards parity.
-
-
-[The Limits of Arbitrage: Evidence from Exchange Traded Funds](https://drive.google.com/file/d/1mQnitFn-j8r3AQcHUCVoFEUUDzHD_iFC/view?usp=sharing)
-
-- Exchange Traded Funds (ETFs) consistently trade away from their net asset value.
-In violation of market efficiency, these discounts vary substantially over time and are
-found to be significant in the explanation of future returns. Returns to simple strategies
-which incorporate information in the variation of discounts outperform buy-and-hold
-strategies by an annualized 15%, net of transaction costs, but only expose the investor
-to about one fifth the risk. ETFs, on average, are found to be about 17% more volatile
-than their underlying assets; 70% of the excess volatility can be explained by proxies
-for transaction and holding costs which inhibit successful arbitrage. The findings in this
-paper are consistent with noise trader models of costly arbitrage and are inconsistent
-with hypotheses of financial market efficiency.
-
-[Abnormal returns with momentum/contrarian strategies using exchange-traded funds](https://drive.google.com/file/d/1OKm2ExNpKUBJUooQDrG8jqvte11O_Fgs/view?usp=sharing)
-
-- Investing in portfolios of exchange-traded funds (ETFs) provides abnormal
-returns that exceed transactions costs, when returns are adjusted for risk using Fama and
-French’s three-factor model. Short formation and holding periods of one day to one week
-provide abnormal contrarian returns, as past losers become winners and past winners
-become losers. Medium formation and holding periods of 4–39 weeks provide abnormal
-momentum returns, as past winners keep winning and past losers keep losing. Abnormal
-returns for portfolios of ETFs result in an asset allocation setting including all four types of
-ETFs, namely domestic, international, sector, and bond ETFs, with contrarian returns
-maximised over a one-day formation and holding period, and with momentum returns
-maximised over a 20-week formation and holding period.
-
-[Do Demographic Changes Affect Risk Premiums? Evidence from International Data](https://drive.google.com/file/d/1Ezyqsb1E7U3pdcQX5qUwSYtCJdv2P5MQ/view?usp=sharing)
-
-- We examine the link between equity risk premiums and demographic changes using a very long
-sample over the twentieth century for the US, Japan, UK, Germany and France, and a shorter sample
-covering the last third of the twentieth century for fifteen countries. We find that demographic
-variables significantly predict excess returns internationally. However, the demographic
-predictability found in the US by past studies for the average age of the population does not extend
-to other countries. Pooling international data, we find that, on average, faster growth in the fraction
-of retired persons significantly decreases risk premiums. This demographic predictability of risk
-premiums is strongest in countries with well-developed social security systems and lesser-developed
-financial markets.
-
-[Overreaction and Trading Strategies in European iShares](https://drive.google.com/file/d/15PAWAOooBKM6h9mMEkyU-ObFYhfTDrG1/view?usp=sharing)
-
-- This paper examines the forecasting power of German, UK and French iShares
-for the next day returns of the underlying Morgan Stanley country equity indexes and
-assesses whether European iShares overreact to developments after the close of European
-trading. The findings indicate that although deviations of European iShare prices from
-net asset values (NAVs) at the close of US trading have significant forecast power for
-next day NAV returns, they overpredict. Deviations of closing iShare prices from their
-NAVs also lead to next day iShare price reversals that average roughly 3/8 of the size of
-the deviations. Finally, the paper demonstrates the profitability of trading rules that
-exploit the tendency of European iShares to overreact to late day US trading activity.
-
-
-[Understanding ETNs on VIX Futures](https://drive.google.com/file/d/1qGX7QHElz0WqXOM77SPXCl9GYzNMCBtd/view?usp=sharing)
-
-- This paper aims to improve transparency in the market for direct, leveraged and inverse exchange-
-traded notes (ETNs) on VIX futures. The first VIX futures ETNs were issued in 2009. Now there are about 30 of them, with a market cap of about $3 billion and trading volume on some of
-these products can reach $5 billion per day. Yet volatility trading is highly complex and regulators
-should be concerned that many market participants lack sufficient understanding of the risks they
-are taking. We recommend that exchanges, market-makers, issuers and potential investors, as well
-as regulators, read this paper to improve their understanding of these ETNs.
-We provide a detailed explanation of the roll yield and convexity effects that drive the returns
-on VIX futures ETNs, and we track their volatility and assess their performance over an eight-year
-period starting in March 2004, by replicating their values using daily close VIX futures prices. We
-explain how ETN issuers can construct almost perfect hedges of their suite of ETNs and control their
-issue (most ETNs are callable) to make very significant profits under all bootstrapped scenarios.
-However, market knowledge has precipitated front-running of the issuer’s hedging activities, making
-profits more difficult to control. Moreover, for hedging the ETNs such large positions must be taken
-on VIX futures that the ETN market now leads the VIX futures that they are supposed to track.
-The result has been an evident increase in the volatility of VIX futures since 2009. If this increase
-in statistical volatility induces an increase in VIX futures implied volatility, a knock-on effect would
-be higher prices of VIX options whilst S&P options are unaffected.
-A previous discussion paper, Alexander and Korovilas (2012), provided incontrovertible evi-
-dence that single positions on direct VIX futures ETNs of any maturity – including mid-term and
-longer-term trackers – could only provide a diversification/hedge of equity exposure during the first
-few months of a great crisis of similar magnitude to the banking collapse in late 2008. By contrast,
-the present discussion paper shows that some highly attractive long-term investment vehicles can
-be simply constructed by holding certain portfolios of VIX futures ETNs. In particular, we intro-
-duce a new class of ‘roll-yield arbitrage’ ETN portfolios which we call ETN2
-(because they allocate between direct and inverse VIX futures tracker ETNs) and ETN3 portfolios (that allocate between static and dynamic ETN2). These portfolios have positive exposure to mid-term direct-tracker ETNs and (typically) negative exposure to short-term direct-tracker ETNs (equivalently, positive exposure to short-term inverse-tracker ETNs). Their unique risk and return characteristics make
-them highly attractive long-term investments, as well as superb diversifiers of stocks, bonds and
-commodities.
-
-[Adaptive Asset Allocation: A Primer](https://drive.google.com/file/d/1s8gwV5xUJQzVm2ODTiUlkbS4U6yYXSBN/view?usp=sharing)
-
-- Modern Portfolio Theory (MPT) is the most widely used method to construct portfolios
-which maximize expected returns at different levels of risk. Investors often use long-term
-average asset returns and risks to find optimal portfolios, but these long-term estimates are
-subject to large errors in the intermediate term. As small errors in estimates can lead to large
-errors in portfolios formed using MPT, investors add heuristic constraints to produce more
-intuitive and diversified portfolios than MPT would prescribe. Unfortunately, these heuristic
-adjustments often drive portfolios far away from optimal values. In this paper, we describe
-methods of portfolio optimization that rely on shorter term estimates of risk and return,
-and which change through time in response to observed changes in markets. In stepwise
-fashion we demonstrate how using shorter-term rolling estimates of risk, diversification, and
-returns delivers more resilient portfolios which thrive in good times - and bad.
-
-[Long-Term Return Reversal: Evidence from International Market Indices](https://drive.google.com/file/d/1bVln9ouXZZ_wkc7lKVmMiw4u6W3hLP6A/view?usp=sharing)
-
-- This paper documents evidence of reversals in the long-term returns of international equity
-markets. We use recent short-term performance to better select contrarian securities that
-appear ready to reverse. Our late-stage contrarian strategy consistently provides stronger
-evidence of long-term return reversal than does the traditional pure contrarian strategy when
-applied to developed and emerging market indices. Despite an absence of cross-sectional
-contrarian profits for developed markets in our post-1989 subsample, longitudinal analysis
-provides strong evidence of reversals during this period. Overall, our results suggest that the
-reversal of long-term returns may be stronger and more pervasive than is generally
-understood.
-
-Momentum and Trend Following in Global Asset Allocation
-
-Trading VIX ETFs
-
-Skewness Effect in Country Equity Indexes
-
-Trading Commodity ETFs versus Equity ETFs
-
-Long-Term Reversal Combined with a Momentum Effect in Industry Portfolios
-
-Timing the Small Cap Effect ver. 2
-
-Multi-Asset Market Breadth Momentum
-
-Trading VIX ETFs v2
-
-Sector Rotation Strategy Based on Multivariate Regression Analysis
-
-Risk-Managed Industry Momentum
-
-Spread Trading with ADRs
-
-US Sector Rotation with Five-Factor Fama-French Alphas
-
-ETF Creation/Redemption Activity and Return Predictability
-
-The Crisis Alpha Portfolio
-
-Optimalized Subportfolio Momentum
-
-The Value Spread and Asset Allocation in Global Equity Markets
-
-Intraday Momentum in Crude Oil ETF
-
-Machine Learning Adaptive Portfolio Asset Allocation
-
-Market Breadth in Global Equities
-
-## Futures
-
-[Are There Exploitable Trends in Commodity Future Prices?](https://drive.google.com/file/d/1SCXgmejgzm0EEM8EsDtc4dgeHHRqkLxv/view?usp=sharing)
-
-- We provide evidence that a simple moving average timing strategy, when applied to portfolios of commodity futures, can generate superior performance to the buy-and-hold strategy. The outperformance is very robust. It can survive the transaction costs in the futures markets, it is not concentrated in a particular subperiod, and it is robust to short-sale constraint, alternative specifications of the moving average lag length, and alternative construction of the continuous time-series of futures prices. The outperformance of the timing strategy is stronger during recession and with high investor sentiment, which likely proxies for high real interest rates. Finally, we confirm that the outperformance of the moving average timing strategy in the commodity
-futures comes from the successful timing of the market portfolio.
-
-[Assessing the profitability of intraday opening range breakout strategies](https://drive.google.com/file/d/1HTVW_A3huK1QU4JtQwMbryhT_6fdtCeh/view?usp=sharing)
-
-- Is it possible to beat the market by mechanical trading rules based on historical and publicly
-known information? Such rules have long been used by investors and in this paper, we test
-the success rate of trades and profitability of the Open Range Breakout (ORB) strategy. An
-investor that trades on the ORB strategy seeks to identify large intraday price movements
-and trades only when the price moves beyond some predetermined threshold. We present
-an ORB strategy based on normally distributed returns to identify such days and find that
-our ORB trading strategy result in significantly higher returns than zero as well as an
-increased success rate in relation to a fair game. The characteristics of such an approach
-over conventional statistical tests is that it involves the joint distribution of Low, High, Open
-and Close over a given time horizon.
-
-[Carry](https://drive.google.com/file/d/1d4xoaGk2hnIK1SrydXPfAVXr0RP7sIbe/view?usp=sharing)
-
-- We apply the concept of carry, which has been studied almost exclusively in
-currency markets, to any asset. A security’s expected return is decomposed into
-its “carry” – an ex-ante and model-free characteristic – and its expected price
-appreciation. Carry predicts returns cross-sectionally and in time series for a host
-of different asset classes, including global equities, global bonds, commodities, US
-Treasuries, credit, and options. Carry is not explained by known predictors of
-returns from these asset classes, and captures many of these predictors, providing
-a unifying framework for return predictability. We reject a generalized version
-of Uncovered Interest Parity and the Expectations Hypothesis in favor of models
-with varying risk premia, where carry strategies are commonly exposed to global
-recession, liquidity, and volatility risks, though none fully explain carry’s premium.
-
-[Cross-Sectional Seasonalities in International Government Bond Returns](https://drive.google.com/file/d/1ml4D19LB_iKbsY7A0VtvN0ri7nJ159Uf/view?usp=sharing)
-
-- We are the first to document the cross-sectional return seasonality effect in international
-government bonds. Using a variety of tests, we examine fixed-income securities from 22
-countries for the years 1980–2018. The bonds with high (low) returns in the same-calendar
-month in the past continue to overperform (underperform) in the future. The effect is robust to
-many considerations, including controlling for established predictors of bond returns. Our
-results support the behavioural story of the anomaly, demonstrating its highest profitability in
-the periods of elevated investor sentiment and in the market segments of strong limits to
-arbitrage. Nonetheless, investment application of bond seasonality might be challenging due to
-high trading costs and the required short holding periods.
-
-[Dealer Funding Costs: Implications for the Term Structure of Dividend Risk Premia](https://drive.google.com/file/d/1m6Js26cCgYfKGsxJzGfShgiDIHxqBaeC/view?usp=sharing)
-
-- I show how debt-overhang funding costs to derivatives dealers’ shareholders for carrying and hedging inventory affect mid-market derivatives prices. An implication is that some supposed “no-arbitrage” pricing relationships, such as options put-call parity, frequently break down. I also explore the implications for measuring the term structure of S&P 500 dividend risk premia.
-
-[Commodity Strategies Based on Momentum, Term Structure and Idiosyncratic Volatility](https://drive.google.com/file/d/144qccqCyeY2hJBYHkhfpPmr3nGuL8gIP/view?usp=sharing)
-
-- This article demonstrates that momentum, term structure and idiosyncratic volatility signals in commodity futures markets are not overlapping which inspires a novel triple-screen strategy. We show that simultaneously buying contracts with high past performance, high roll-yields and low idiosyncratic volatility, and shorting contracts with poor past performance, low roll-yields and high idiosyncratic volatility yields a Sharpe ratio over the 1985 to 2011 period which is five times that of the S&P-GSCI. The triple-screen strategy dominates the double-screen and individual strategies and this outcome cannot be attributed to overreaction, liquidity risk, transaction costs or the financialization of commodity futures markets.
-
-[Investor Sentiment And Return Predictability in Agricultural Futures Market](https://drive.google.com/file/d/1ETcudgT4B-LlUAcqUOuhPmHmMXSbv4EG/view?usp=sharing)
-
-- This study examines the usefulness of trader-position-based sentiment index for forecasting future prices in six major agricultural futures markets. It has been found that large speculator sentiment forecasts price continuations. In contrast, large hedger sentiment predicts price reversals. Small trader sentiment hardly forecasts future market movements. An investigation was performed into various sentiment-based timing strategies, and it was found that the combination of extreme large trader sentiments provides the strongest timing signal. These results are generally consistent with the hedging-pressure theory, suggesting that hedgers pay risk premiums to transfer nonmarketable risks in futures markets. Moreover, it does not appear that large speculators in the futures markets possess any superior forecasting ability.
-
-[Momentum in the Indian Equity Markets: Positive Convexity and Positive Alpha](https://drive.google.com/file/d/1WJFZjxBFewNaqNZcPAi_068NL1DdUBOm/view?usp=sharing)
-
-- We present effective momentum strategies over the liquid equity futures market in India. We evaluate and determine the persistence of the returns at various look-backs ranging from quarterly and weekly to more granular look-backs. We look at a universe of the liquid equity instruments traded across the Indian markets to evaluate this anomaly. We evaluate momentum across the two datasets based
-on frequency - daily data and intraday bar data. On the daily scale we compare momentum with other style factors. In the intraday scale we evaluate time series momentum or absolute momentum and cross-sectional momentum or relative momentum. We demonstrate that at the optimal horizon, momentum strategies on securities in India can be a source of uncorrelated alpha. We use active risk-
-budgeting at a given target risk for portfolio construction. We will show in a separate publication how it outperforms mean-variance optimization.
-
-[Pairs Trading the Commodity Futures Curve](https://drive.google.com/file/d/1McgQJ7K5IosZf20RkXtKEzADquYhvR5n/view?usp=sharing)
-
-- I create a pairs trade on the commodity futures curve, which captures the roll returns of commodity
-futures and minimizes the standard deviation of the returns. The end results is a strategy that has an annualized arithmetic return of 6,04% and an annualized standard deviation of 2,01%. Transaction
-costs and liquidity are also accounted for.
-- The goal was to create and backtest a trading strategy that tries to capture the roll return component of commodity futures returns. In order to reduce the very high spot price volatility of commodity returns a market neutral systematic arbitrage was introduced through a pairs trade. The pairs trade involves taking a counter position relative to the position that is designed to capture the roll return, with as small of a negative expected return as possible.
-- In practice capturing the roll return component means taking a long position into the largest dollar difference of a backwarded futures curve. And the pairs trade component is then a short position into the same curve, but with the smallest dollar difference. If the commodity futures curve was in contango, the procedure was reverts.
-- It can be concluded, that both of the targets of this research were reach; capturing the roll returns of the commodity futures and minimizing volatility through a statistical arbitrage pairs trade.
-- The trades designed to capture the roll returns of commodity futures returned 5,55% annually (which
-was 91,9% of the portfolios total return), compared to the annualized return of the benchmark index of 0,5%.
-- The pairs trade designed to minimize the standard deviation of these returns, lowered the annualized standard deviation of the portfolio’s returns from 6,37% to 2,01%, making it almost fully market neutral.
-
-[Tactical Allocation in Commodity Futures Markets: Combining Momentum and Term Structure Signals](https://drive.google.com/file/d/1jnya9zOhEfQZesrHvBkKBP3Lk_768MZE/view?usp=sharing)
-
-- This paper examines the combined role of momentum and term structure signals for the design of profitable trading strategies in commodity futures markets. With significant annualized alphas of 10.14% and 12.66% respectively, the momentum and term structure strategies appear profitable when implemented individually. With an abnormal return of 21.02%, a novel double-sort strategy that exploits both momentum and term structure signals clearly outperforms the single-sort strategies. This double-sort strategy can additionally be utilized as a portfolio diversification tool. Interestingly, the abnormal performance of the double-sort portfolios cannot be explained by a lack of liquidity or data mining and is robust to transaction costs and to different specifications of the risk-return trade-off.
-
-[Trading Opportunities in the Natural Gas-Propane Futures Spread](https://drive.google.com/file/d/1r7QxF-3LWbWFuAS7Hzgma4QKJkWVYZkg/view?usp=sharing)
-
-- This paper examines the statistical properties of natural gas and propane futures prices. First, it shows that each price series is integrated of the same order. Next, the study shows that the two price series are cointegrated, that is they are reliably linked in the long run. The study then exploits the cointegrating nature of the two energy price series to demonstrate the existence of profitable trading opportunities involving the two energy markets. More specifically, the paper develops and back-tests a trading strategy based on the finding that natural gas and propane prices
-are cointegrated and finds that the proposed trading system yields economically significant risk-adjusted results.
-
-[Trend Following, Risk Parity and Momentum in Commodity Futures](https://drive.google.com/file/d/1WY8TuDvPhnfKj8VpWjnzd1hinZcQN0Sx/view?usp=sharing)
-
-- We show that combining momentum and trend following strategies for individual
-commodity futures can lead to portfolios which offer attractive risk adjusted returns which
-are superior to simple momentum strategies; when we expose these returns to a wide array of
-sources of systematic risk we find that robust alpha survives. Experimenting with risk parity
-portfolio weightings has limited impact on our results though in particular is beneficial to
-long-short strategies; the marginal impact of applying trend following methods far outweighs
-momentum and risk parity adjustments in terms of risk-adjusted returns and limiting
-downside risk. Overall this leads to an attractive strategy for investing in commodity futures
-and emphasises the importance of trend following as an investment strategy in the
-commodity futures context.
-
-[Trend Following Strategies in Commodity Markets and the Impact of Financialization](https://drive.google.com/file/d/1ZoMExywMimOmDHlQiWu6fJmV3eYJlITR/view?usp=sharing)
-
-- This paper studies the returns to a simple trend following strategy in commodity markets and their potential drivers. We find that the strategy delivers low annualized returns in the period from 1990 to 2004 of 2.1% that show a significant increase from 2005 to 2013 to 6.5%, yielding Sharpe ratios of up to 1.8. This rise in returns coincides with the increase in participation in these mar-
-kets by financial investors. Commodity markets entail particular features not shared by other assets classes, mainly physical delivery and the non-availability of infinitely lived contracts. For commodity funds that wish to maintain constant exposure, this means that they have to roll their positions to create an infinitely lived asset. This need to roll creates predictable demand for liquidity and predictable steepening and flattening of the futures curve, which can be exploited by trend following strategies. We find that the strategies returns are positively correlated to the rebalancing demand of funds thereby providing novel evidence of limits of arbitrage in these markets.
-
-
-[What Drives Informed Trading Before Public Releases? Evidence from Natural Gas Inventory Announcements](https://drive.google.com/file/d/1WLu2e3RBWllgJBbZZB_RcNKfxKvAbw3C/view?usp=sharing)
-
-- This paper shows evidence of informed trading in the natural gas futures market before gas
-inventory announcements. We examine whether traders can predict the upcoming announcement
-by processing public information. The results show that the difference between the median
-forecast of analysts with high historical forecasting accuracy and the consensus forecast can be
-used to predict inventory surprises. This predictor explains some of the pre-announcement price
-drift, suggesting that informed trading before the announcement is likely to be driven by superior
-forecasting rather than by information leakage. A simple trading strategy conditioned on the
-predictor would have generated an annualized Sharpe ratio of 1.26.
-
-
-## Stocks
 
 (coming soon)
 
@@ -343,7 +54,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0956399207/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0956399207&linkId=364d559d8591478e25a18aac93974d10">
-        <img src="./static/Algorithmic Trading and DMA.jpeg" style="width:200px;">
+        <img src="./static/Algorithmic Trading and DMA.jpeg" style="width:190px;">
       </a>
     </td>
     <td>
@@ -425,7 +136,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1981038353/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1981038353&linkId=54da9ef0d2ba8592331e4f48782e8d1d">
-        <img src="./static/Introduction To Algo Trading.jpeg" style="width:500px;">
+        <img src="./static/Introduction To Algo Trading.jpeg" style="width:480px;">
       </a>
     </td>
     <td>
@@ -446,7 +157,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1636100287/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1636100287&linkId=12f78afde6de5b474beb3847edc67990">
-        <img src="./static/Investing QuickStart Guide.jpeg" style="width:120px;">
+        <img src="./static/Investing QuickStart Guide.jpeg" style="width:130px;">
       </a>
     </td>
     <td>
@@ -571,7 +282,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0470192739/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470192739&linkId=ec657ec224b094a27945b12a03c9856c">
-        <img src="./static/My Life as a Quant.jpeg" style="width:400px;">
+        <img src="./static/My Life as a Quant.jpeg" style="width:425px;">
       </a>
     </td>
     <td>
