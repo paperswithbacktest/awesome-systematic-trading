@@ -4,7 +4,16 @@
 
 # Table of Contents
 
-- [Academic Papers](#academic-papers)
+- [Strategy Papers](#academic-papers)
+  - [Bonds](#bonds)
+  - [Bonds, Commodities, Currencies, Equities](#bonds-commodities-currencies-equities)
+  - [Bonds, Currencies, Equities](#bonds-currencies-equities)
+  - [Bonds, Equities](#bonds-equities)
+  - [Commodities](#commodities)
+  - [Commodities, Equities](#commodities-equities)
+  - [Cryptos](#cryptos)
+  - [Currencies](#currencies)
+  - [Equities](#equities)
 - [Educational Books](#educational-books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -21,11 +30,708 @@
 
 [Finding Yield in a 2% World](https://drive.google.com/file/d/1qCJDTB6Pu8lvo5VAGUVfFqSBZE3gPm1y/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Maximum Drawdown | Keywords                                  |
-|--------------|------------|------------------|-------------------------------------------|
-| 0.68         | 8.63%      | -24.74%          | carry trade, factor investing, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.68         | 8.63%      | Monthly               | carry trade, factor investing, smart beta |
+
+Term Spread Premium
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.62         | 10%        | Monthly               | bond timing, factor investing, market timing, smart beta, term spread |
+
+Mean-Reverting Yield Curve Strategies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.65         | 15%        | Monthly               | arbitrage, reversal                       |
+
+Overnight-Intraday Weekly Reversal in Interest Rate Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.89         | 7.69%      | Weekly                | reversal                                  |
+
+International Carry Investing on the Yield Curve
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | carry trade, factor investing, smart beta |
+
+Cross-Sectional Seasonalities in International Government Bond Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.56         | 13.85%     | Monthly               | bond timing, factor investing, seasonality, smart beta |
+
+1 Month Momentum in Bonds
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.62         | 9.69%      | Monthly               | factor investing, momentum, rotational system, smart beta |
+
+Unemployment Gap Factor in Fixed Income
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.13         | 10.1%      | Monthly               | bond timing, factor investing             |
+
+Growth Gap Factor in Fixed Income
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.1          | 9.99%      | Quarterly             | bond timing, factor investing             |
+
+Reversal – Yield Change Factor in Fixed Income
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.17         | 10%        | Monthly               | bond timing, factor investing             |
+
+## Bonds, Commodities, Currencies, Equities
+
+Carry Factor within Asset Classes
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.41         | 4.9%       | Monthly               | asset class picking, carry trade, factor investing, smart beta |
+
+Returns Signal Momentum
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.97         | 12.3%      | Monthly               | factor investing, momentum, smart beta    |
+
+Time Series Reversal of Momentum on Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.17         | 20.9%      | Monthly               | factor investing, momentum, reversal, smart beta, trend-following |
+
+Trading Futures Using Basis Indicator
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.49         | 7.67%      | Monthly               | carry trade, term spread                  |
+
+Time-Series Momentum and Carry
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.92         | 10%        | Monthly               | carry trade, factor investing, momentum, smart beta |
 
 
+## Bonds, Currencies, Equities
+
+Momentum in Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.5          | 12.91%     | 6 Months              | factor investing, momentum, smart beta    |
+
+Trend-Following and Spillover Eﬀect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.67         | 4.8%       | Weekly                | momentum, smart beta, trend-following     |
+
+
+## Bonds, Equities
+
+Seasonality in Government Bond Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | 6 Months              | asset class picking, market timing, seasonality |
+
+Market Timing Using Lumber/Gold Ratio
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.84         | 11.8%      | Weekly                | asset class picking, market timing, small cap |
+
+Global Cross-Asset Time Series Momentum in Bond and Equity Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.65         | 10%        | Monthly               | momentum, smart beta, trend-following     |
+
+Timing S&P500 Using Full vs. Partial Employment
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.72         | 11.05%     | Monthly               | asset class picking, market timing, seasonality |
+
+
+## Commodities
+
+Momentum Effect Combined with Term Structure in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.79         | 27.6%      | Monthly               | factor investing, momentum, rotational system, smart beta, term spread |
+
+Gold Market Timing
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.91         | 29.63%     | Monthly               | market timing                             |
+
+COT Report Predicts Prices of Agricultural Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | alternative data, market timing, sentiment trading |
+
+Open Interest in Futures Predicts Commodity Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | market timing                             |
+
+Speculators’ Effect in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.25         | 17.17%     | Weekly                | alternative data, factor investing, rotational system, smart beta |
+
+Hedgers’ Effect in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.41         | 18.09%     | Weekly                | alternative data, factor investing, rotational system, smart beta |
+
+Dynamic Commodity Timing Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 18%        | Monthly               | market timing                             |
+
+Volatility Effect in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 19.3%      | Weekly                | factor investing, smart beta, volatility effect |
+
+Seasonality in Gold
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | market timing, seasonality                |
+
+Timing Commodity Momentum
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.41         | 11.09%     | Monthly               | market timing, momentum                   |
+
+Trendfollowing Combined with Momentum in Commodity Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.76         | 19.33%     | Monthly               | factor investing, momentum, rotational system, smart beta, trend-following |
+
+Trading Commodity Calendar Spreads
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 3.09         | 2.01%      | Monthly               | pairs trading, spread trading             |
+
+Spread (Basis) Momentum within Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.92         | 19.98%     | Monthly               | factor investing, momentum, smart beta, spread trading |
+
+Combining Momentum, Term Structure, and Idiosyncratic Volatility within Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.68         | 10.79%     | Monthly               | factor investing, momentum, smart beta, term spread, volatility effect |
+
+Seasonality Within Trend-Following Strategy in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.38         | 9.32%      | Monthly               | seasonality, trend-following              |
+
+Commodity Option Implied Volatility Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.69         | 18.48%     | Monthly               | factor investing, rotational system, smart beta, volatility effect |
+
+Idiosyncratic Commodity Momentum
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.59         | 29.42%     | Monthly               | factor investing, momentum, smart beta, trend-following |
+
+Trading the Crude Oil Term Structure
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.76         | 7.1%       | Weekly                | arbitrage, pairs trading, spread trading  |
+
+Political Uncertainty and Commodity Prices
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Quarterly             | market timing, seasonality, sentiment trading |
+
+Long-Run Reversal in Commodity Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.83         | 19.37%     | Yearly                | factor investing, reversal, smart beta    |
+
+1 Month Momentum in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.01         | 20.86%     | Monthly               | factor investing, momentum, rotational system, smart beta |
+
+Hazard Fear in Commodity Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.89         | 9.26%      | Weekly                | alternative data, factor investing, sentiment trading, smart beta |
+
+## Commodities, Equities
+
+Timing Commodities and S&P500 with COT Report
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.24         | 10.3%      | Weekly                | alternative data, asset class picking, market timing, sentiment trading |
+
+When to Own Stocks and When to Own Gold
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 14%        | Yearly                | asset class picking, fund picking, market timing, rotational system, seasonality |
+
+## Cryptos
+
+Time-Series Momentum Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.78         | 8.1%       | Weekly                | cryptocurrencies, momentum                |
+
+Carry Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.19         | 7.5%       | Weekly                | carry trade, cryptocurrencies             |
+
+Value Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.13         | 7.1%       | Weekly                | cryptocurrencies, value                   |
+
+Blended Factors in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.9          | 13.2%      | Weekly                | carry trade, cryptocurrencies, momentum, value |
+
+Computing Power Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.06         | 9.3%       | Weekly                | cryptocurrencies                          |
+
+Network Size Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.25         | 6.63%      | Weekly                | cryptocurrencies                          |
+
+
+## Currencies
+
+Changes in Long Term Rates Predict FX Rates
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.52         | 3.67%      | Monthly               | forex system, FX anomaly                  |
+
+Term Spread Predicts FX Rates
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.68         | 3.94%      | Monthly               | factor investing, forex system, FX anomaly, smart beta |
+
+Combined Mean Reversion and Momentum in Foreign Exchange Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.43         | 10%        | Monthly               | factor investing, forex system, FX anomaly, momentum, reversal, smart beta |
+
+FX Carry Trade Combined with PPP (Value) Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.87         | 4.97%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta, value |
+
+Speculators’ Effect in FX
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+Hedgers’ Effect in FX
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+FX Volatility Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.48         | 8.68%      | 6 Months              | factor investing, forex system, FX anomaly, smart beta, volatility effect |
+
+FX Volatility Effect ver. 2
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.33         | 9.56%      | Monthly               | factor investing, forex system, FX anomaly, smart beta, volatility effect |
+
+Optimized Currency Portfolios
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.4          | 23.89%     | Monthly               | carry trade, factor investing, forex system, FX anomaly, momentum, reversal, smart beta |
+
+Timing Carry Trade
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.86         | 10%        | Monthly               | carry trade, factor investing, forex system, FX anomaly, market timing, smart beta |
+
+Timing Carry Trade v2
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.01         | 9.07%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, market timing, smart beta |
+
+Mean Variance Carry Trade Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.99         | 6.97%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+
+FX Value v2 – Real Exchange Rate Changes
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.01         | 9.51%      | Monthly               | factor investing, forex system, FX anomaly, smart beta, value |
+
+FX Value v3 – Real Exchange Rate Levels
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.73         | 9.53%      | Weekly                | factor investing, forex system, FX anomaly, smart beta, value |
+
+Economic Momentum in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.1          | 5.6%       | Monthly               | alternative data, factor investing, forex system, FX anomaly, momentum, smart beta |
+
+Trading based on Higher Moments in Currency Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.38         | 8%         | Monthly               | forex system, FX anomaly                  |
+
+Spread (Basis) Momentum within Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.91         | 9.23%      | Monthly               | factor investing, forex system, FX anomaly, momentum, smart beta, spread trading |
+
+Overnight-Intraday Weekly Reversal in Currency Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.9          | 10.23%     | Weekly                | reversal                                  |
+
+Short-Term (1 Month) Momentum in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.88         | 8.1%       | Weekly                | factor investing, forex system, FX anomaly, momentum, smart beta |
+
+Investor Sentiment and Momentum Effect in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.56         | 10.36%     | Monthly               | factor investing, forex system, FX anomaly, momentum, sentiment trading, smart beta |
+
+Effect of Corruption on FX Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.74         | 8.14%      | Yearly                | factor investing, forex system, FX anomaly, sentiment trading, smart beta |
+
+Curvature Factor in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.39         | 6.7%       | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+
+Carry On – Enhanced Carry Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.82         | 2.47%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+
+Sovereign CDS Predicts FX Market Return
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.82         | 5.92%      | Monthly               | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+A Multi Strategy Approach to Trading Foreign Exchange Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.5          | 13.16%     | Monthly               | carry trade, forex system, FX anomaly, momentum, reversal |
+
+US Equity Tail Risk and Currency Risk Premia
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.75         | 8.12%      | Monthly               | beta factor, factor investing, forex system, FX anomaly, smart beta, volatility effect |
+
+The Equity Differential Factor in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.61         | 3.1%       | Monthly               | factor investing, forex system, FX anomaly, smart beta |
+
+Taylor Rule and FX Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.81         | 7.61%      | Monthly               | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+Machine Learning and Currency Carry Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.55         | 19.65%     | Monthly               | carry trade, factor investing, forex system, FX anomaly, machine learning, smart beta |
+
+## Equities
+
+Volatility Risk Premium Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.16         | 19%        | Monthly               | factor investing, smart beta, volatility effect, volatility premium |
+
+Market Timing with Aggregate and Idiosyncratic Stock Volatilities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 37.8%      | Quarterly             | market timing, volatility effect          |
+
+Market Timing S&P 500 with VIX and COT Report
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.52         | 11%        | Weekly                | alternative data, market timing, sentiment trading |
+
+Market Timing with Aggregate Accruals
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.8          | 37.7%      | Yearly                | accruals effect, market timing            |
+
+Election Cycle
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.29         | 15.34%     | Yearly                | market timing, seasonality                |
+
+Timing the Small Cap Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.38         | 14.62%     | Monthly               | equity long short, factor investing, market timing, small cap, smart beta |
+
+Consumer Sentiment Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | market timing, sentiment trading          |
+
+Short-Term Reversal in Equity Index Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | country picking, factor investing, reversal, smart beta |
+
+Market Timing Using Sharpe Ratios
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.66         | 15.38%     | Monthly               | market timing                             |
+
+Dividend Announcement Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.78         | 6.74%      | Monthly               | equity long short, factor investing, smart beta, stock picking |
+
+Value Effect within Countries v2
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.3          | 9.21%      | Monthly               | country picking, equity long short, factor investing, rotational system, smart beta, value |
+
+Momentum Combined with Value Effect within Countries
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.82         | 24.53%     | Monthly               | country picking, equity long short, factor investing, momentum, rotational system, smart beta, value |
+
+The FOMC Cycle Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.83         | 13.92%     | Weekly                | market timing, seasonality                |
+
+Halloween Effect During the Pre-Election Year
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.47         | 24.47%     | 6 Months              | market timing, seasonality                |
+
+Timing S&P500 Using a Large Set of Forecasting Variables
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.76         | 16.6%      | Monthly               | market timing                             |
+
+Alpha Momentum in Country and Industry Equity Indexes
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.31         | 20.02%     | Monthly               | country picking, equity long short, factor investing, momentum, rotational system, smart beta |
+
+Halloween Effect during Low and High CAPE Months
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.46         | 17.78%     | 6 Months              | market timing, seasonality                |
+
+1 Month Momentum in International Equities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.8          | 20.38%     | Monthly               | country picking, factor investing, momentum, rotational system, smart beta |
 
 # Educational Books
 
@@ -222,7 +928,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1119404509/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119404509&linkId=5235f3ac643dd2c7aa52203cecf1654d">
-        <img src="./static/The Little Book of Common Sense Investing.jpeg" style="width:150px;">
+        <img src="./static/The Little Book of Common Sense Investing.jpeg" style="width:170px;">
       </a>
     </td>
     <td>
@@ -244,7 +950,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1535585951/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1535585951&linkId=bfd952bf59db1d9ad67d133859b8de68">
-        <img src="./static/How to Day Trade for a Living.jpeg" style="width:300px;">
+        <img src="./static/How to Day Trade for a Living.jpeg" style="width:330px;">
       </a>
     </td>
     <td>
@@ -269,7 +975,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0470452579/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470452579&linkId=baf3e52c0ea02de22bf45d4df208b96d">
-        <img src="./static/How I Became a Quant.jpeg" style="width:400px;">
+        <img src="./static/How I Became a Quant.jpeg" style="width:390px;">
       </a>
     </td>
     <td>
@@ -290,7 +996,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0470192739/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470192739&linkId=ec657ec224b094a27945b12a03c9856c">
-        <img src="./static/My Life as a Quant.jpeg" style="width:425px;">
+        <img src="./static/My Life as a Quant.jpeg" style="width:410px;">
       </a>
     </td>
     <td>
@@ -312,7 +1018,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/B086Y6H6YG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B086Y6H6YG&linkId=883c45fc9de3b131eb066191fa3c404a">
         <div style="width:200px">
-          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:600px;">
+          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:700px;">
         </div>
       </a>
     </td>
@@ -334,7 +1040,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/178934834X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178934834X&linkId=bcc743ff86810288ea8d699ce3537e4a">
         <div style="width:200px">
-          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:600px;">
+          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:660px;">
         </div>
       </a>
     </td>
@@ -359,7 +1065,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/149205335X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=149205335X&linkId=c70133e4ef5361176d855b09606a49df">
         <div style="width:100px">
-          <img src="./static/Python for Algorithmic Trading.jpeg" style="width:300px;">
+          <img src="./static/Python for Algorithmic Trading.jpeg" style="width:340px;">
         </div>
       </a>
     </td>
@@ -384,7 +1090,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1492024333/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492024333&linkId=f9b3dcd4f18afce3011a6bd4e3da10b9">
         <div style="width:100px">
-          <img src="./static/Python for Finance.jpeg" style="width:350px;">
+          <img src="./static/Python for Finance.jpeg" style="width:370px;">
         </div>
       </a>
     </td>
@@ -409,7 +1115,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/109198378X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=109198378X&linkId=e8be824c9f01896010b06ac4b54729ee">
         <div style="width:100px">
-          <img src="./static/Trading Evolved.jpeg" style="width:350px;">
+          <img src="./static/Trading Evolved.jpeg" style="width:375px;">
         </div>
       </a>
     </td>
@@ -432,7 +1138,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/B07GN8HWZW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07GN8HWZW&linkId=852c328be797b234bbf69d1d2e9aef08">
-        <img src="./static/Bitcoin Billionaires.jpeg" style="width:400px;">
+        <img src="./static/Bitcoin Billionaires.jpeg" style="width:430px;">
       </a>
     </td>
     <td>
@@ -473,7 +1179,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1119473861/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119473861&linkId=1c9e3a499ca7f2d2c3b7970aaa1bc575">
-        <img src="./static/The Bitcoin Standard.jpeg" style="width:450px;">
+        <img src="./static/The Bitcoin Standard.jpeg" style="width:480px;">
       </a>
     </td>
     <td>
@@ -492,7 +1198,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/B07XG2J3S9/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07XG2J3S9&linkId=5d7f6662ba86f43f0b4ccf6378fecd6d">
-        <img src="./static/Why Buy Bitcoin.jpeg" style="width:700px;">
+        <img src="./static/Why Buy Bitcoin.jpeg" style="width:750px;">
       </a>
     </td>
     <td>
@@ -513,7 +1219,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0070248826/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0070248826&linkId=a419ec1b0c93b98a5bd207cc4f9d074a">
-        <img src="./static/Active Portfolio Management.jpeg" style="width:700px;">
+        <img src="./static/Active Portfolio Management.jpeg" style="width:770px;">
       </a>
     </td>
     <td>
@@ -532,7 +1238,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1260453715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1260453715&linkId=3a83315467b455cd287f05031d8485ff">
-        <img src="./static/Advances in Active Portfolio Management.jpeg" style="width:500px;">
+        <img src="./static/Advances in Active Portfolio Management.jpeg" style="width:470px;">
       </a>
     </td>
     <td>
@@ -577,7 +1283,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1498737161/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1498737161&linkId=2414093d8ee0157a60f7c2e4ca73ae2d">
-        <img src="./static/Algorithmic Trading and Quantitative Strategies.jpeg" style="width:700px;">
+        <img src="./static/Algorithmic Trading and Quantitative Strategies.jpeg" style="width:690px;">
       </a>
     </td>
     <td>
@@ -600,7 +1306,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1118460146/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118460146&linkId=5a70176e74d051596c73b224633c5c73">
         <div style="width:100px">
-          <img src="./static/Algorithmic Trading.jpeg" style="width:400px;">
+          <img src="./static/Algorithmic Trading.jpeg" style="width:380px;">
         </div>
       </a>
     </td>
@@ -621,7 +1327,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1118778987/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118778987&linkId=dfff171a899dad1923bec571f4f6725f">
         <div style="width:100px">
-          <img src="./static/Building Winning Algorithmic Trading Systems.jpeg" style="width:600px;">
+          <img src="./static/Building Winning Algorithmic Trading Systems.jpeg" style="width:560px;">
         </div>
       </a>
     </td>
@@ -641,7 +1347,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0857198084/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857198084&linkId=18282291517fefad774951181219307d">
-        <img src="./static/How I Invest My Money.jpeg" style="width:1000px;">
+        <img src="./static/How I Invest My Money.jpeg" style="width:1100px;">
       </a>
     </td>
     <td>
@@ -660,7 +1366,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0857197215/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857197215&linkId=15176ea86c632b8b350323884368d385">
-        <img src="./static/Leveraged Trading.jpeg" style="width:300px;">
+        <img src="./static/Leveraged Trading.jpeg" style="width:245px;">
       </a>
     </td>
     <td>
@@ -686,7 +1392,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1119219604/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119219604&linkId=de1c1bc3779a9441f81653fa6cfaac03">
         <div style="width:100px">
-          <img src="./static/Machine Trading.jpeg" style="width:800px;">
+          <img src="./static/Machine Trading.jpeg" style="width:760px;">
         </div>
       </a>
     </td>
@@ -706,7 +1412,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1118114019/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118114019&linkId=57d43657b79b68e98b9d4fe638529c97">
-        <img src="./static/Naked Forex.jpeg" style="width:300px;">
+        <img src="./static/Naked Forex.jpeg" style="width:265px;">
       </a>
     </td>
     <td>
@@ -728,7 +1434,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0071818774/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071818774&linkId=753beb5a763ee583425f07052ef54a59">
-        <img src="./static/Option Volatility and Pricing.jpeg" style="width:350px;">
+        <img src="./static/Option Volatility and Pricing.jpeg" style="width:325px;">
       </a>
     </td>
     <td>
@@ -751,7 +1457,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1118129857/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118129857&linkId=0cd406ecce7def37d286796f55a647fc">
         <div style="width:100px">
-          <img src="./static/Professional Automated Trading.jpeg" style="width:500px;">
+          <img src="./static/Professional Automated Trading.jpeg" style="width:465px;">
         </div>
       </a>
     </td>
@@ -774,7 +1480,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0071459391/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071459391&linkId=f627ac125c9bf5e047f3e8f50b0d3717">
-        <img src="./static/Quantitative Equity Portfolio Management.jpeg" style="width:350px;">
+        <img src="./static/Quantitative Equity Portfolio Management.jpeg" style="width:290px;">
       </a>
     </td>
     <td>
@@ -796,7 +1502,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/111923719X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=111923719X&linkId=b825cb65462a4a9254af3b7dc5328131">
-        <img src="./static/Quantitative Momentum.jpeg" style="width:800px;">
+        <img src="./static/Quantitative Momentum.jpeg" style="width:790px;">
       </a>
     </td>
     <td>
@@ -815,7 +1521,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0979183855/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0979183855&linkId=8ef7bda69477bdccf90f5ac02ee495b0">
-        <img src="./static/Quantitative Technical Analysis.jpeg" style="width:70px;">
+        <img src="./static/Quantitative Technical Analysis.jpeg" style="width:68px;">
       </a>
     </td>
     <td>
@@ -834,7 +1540,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0367871815/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0367871815&linkId=3f2ba1cbc0e1fe02e255da740423b2fb">
-        <img src="./static/Quantitative Trading-2.jpeg" style="width:450px;">
+        <img src="./static/Quantitative Trading-2.jpeg" style="width:510px;">
       </a>
     </td>
     <td>
@@ -853,7 +1559,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0470284889/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470284889&linkId=7121da8f65a34315d15f3f8d4e09da15">
-        <img src="./static/Quantitative Trading.jpeg" style="width:450px;">
+        <img src="./static/Quantitative Trading.jpeg" style="width:510px;">
       </a>
     </td>
     <td>
@@ -872,7 +1578,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0857194453/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857194453&linkId=32d8bffc32c01041cde066bacab76c04">
-        <img src="./static/Systematic Trading.jpeg" style="width:350px;">
+        <img src="./static/Systematic Trading.jpeg" style="width:370px;">
       </a>
     </td>
     <td>
@@ -894,7 +1600,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1118115120/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118115120&linkId=d5dc1f0e6727b2663d2186a110a31ad0">
-        <img src="./static/The Art and Science of Technical Analysis.jpeg" style="width:900px;">
+        <img src="./static/The Art and Science of Technical Analysis.jpeg" style="width:920px;">
       </a>
     </td>
     <td>
@@ -913,7 +1619,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/B0041842TW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B0041842TW&linkId=d9bc2fec4f3faa41ca4f24aed3c72122">
-        <img src="./static/The Four Pillars of Investing.jpeg" style="width:600px;">
+        <img src="./static/The Four Pillars of Investing.jpeg" style="width:760px;">
       </a>
     </td>
     <td>
@@ -932,7 +1638,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0060555661/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0060555661&linkId=aba73910e4e3873b6cc8364487662bd6">
-        <img src="./static/The Intelligent Investor.jpeg" style="width:400px;">
+        <img src="./static/The Intelligent Investor.jpeg" style="width:390px;">
       </a>
     </td>
     <td>
@@ -954,7 +1660,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/1118467450/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118467450&linkId=67ee502653bc52a5240ced9fc88eb76d">
-        <img src="./static/The New Trading for a Living.jpeg" style="width:350px;">
+        <img src="./static/The New Trading for a Living.jpeg" style="width:335px;">
       </a>
     </td>
     <td>
@@ -977,7 +1683,7 @@ A comprehensive list of books for quantitative traders.
   <tr>
     <td>
       <a href="https://www.amazon.fr/gp/product/0195144708/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0195144708&linkId=e47e596fc0696cbd624726cce05b4500">
-        <img src="./static/Trading and Exchanges.jpeg" style="width:600px;">
+        <img src="./static/Trading and Exchanges.jpeg" style="width:680px;">
       </a>
     </td>
     <td>
@@ -997,7 +1703,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/1905641796/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1905641796&linkId=61e6634242c497498338f73641ce0a80">
         <div style="width:100px">
-          <img src="./static/Trading Systems.jpeg" style="width:500px;">
+          <img src="./static/Trading Systems.jpeg" style="width:565px;">
         </div>
       </a>
     </td>
@@ -1018,7 +1724,7 @@ A comprehensive list of books for quantitative traders.
     <td>
       <a href="https://www.amazon.fr/gp/product/085719755X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=085719755X&linkId=97aa558484a8dc2bf57a5296e7f38cad">
         <div style="width:100px">
-          <img src="./static/Trading Systems 2nd edition.jpeg" style="width:600px;">
+          <img src="./static/Trading Systems 2nd edition.jpeg" style="width:670px;">
         </div>
       </a>
     </td>
