@@ -24,27 +24,9 @@
   - [Machine Learning](#machine-learning)
 
 
-# Academic Papers
+# Strategy Papers
 
 ## Bonds
-
-[Finding Yield in a 2% World](https://drive.google.com/file/d/1qCJDTB6Pu8lvo5VAGUVfFqSBZE3gPm1y/view?usp=sharing)
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.68         | 8.63%      | Monthly               | carry trade, factor investing, smart beta |
-
-[Profitability of Simple Trading Strategies Exploiting the Forward Premium Bias in Foreign Exchange Markets and the Time Premium in Yield Curves](https://drive.google.com/file/d/1QWlJgMX8ebyJjhxK2ga-f5fDcqcXp0pv/view?usp=sharing)
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.62         | 10%        | Monthly               | bond timing, factor investing, market timing, smart beta, term spread |
-
-[Profiting from Mean-Reverting Yield Curve Trading Strategies](https://drive.google.com/file/d/1cmHn7JHr4gTsTzs6BRs8kUes4UiokXvn/view?usp=sharing)
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.65         | 15%        | Monthly               | arbitrage, reversal                       |
 
 [Market Closure and Short-Term Reversal](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2730304)
 
@@ -52,46 +34,47 @@
 |--------------|------------|-----------------------|-------------------------------------------|
 | 0.89         | 7.69%      | Weekly                | reversal                                  |
 
-[Carry investing on the yield curve](https://drive.google.com/file/d/1otwv3iRKGSXUMnTI7WLXZr2p_1hBINB6/view?usp=sharing)
+[Finding Yield in a 2% World](https://drive.google.com/file/d/1qCJDTB6Pu8lvo5VAGUVfFqSBZE3gPm1y/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
-| N/A          | N/A        | Monthly               | carry trade, factor investing, smart beta |
+| 0.68         | 8.63%      | Monthly               | carry trade, factor investing, smart beta |
 
-Cross-Sectional Seasonalities in International Government Bond Returns
-[]()
+[Profiting from Mean-Reverting Yield Curve Trading Strategies](https://drive.google.com/file/d/1cmHn7JHr4gTsTzs6BRs8kUes4UiokXvn/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
-| 0.56         | 13.85%     | Monthly               | bond timing, factor investing, seasonality, smart beta |
+| 0.65         | 15%        | Monthly               | arbitrage, reversal                       |
 
-1 Month Momentum in Bonds
-[]()
+[Profitability of Simple Trading Strategies Exploiting the Forward Premium Bias in Foreign Exchange Markets and the Time Premium in Yield Curves](https://drive.google.com/file/d/1QWlJgMX8ebyJjhxK2ga-f5fDcqcXp0pv/view?usp=sharing)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.62         | 10%        | Monthly               | bond timing, factor investing, market timing, smart beta, term spread |
+
+[Short-Term Momentum (Almost) Everywhere](https://drive.google.com/file/d/1YG88uPLNMLV6j87i5qGxEg11TOV0-zpN/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
 | 0.62         | 9.69%      | Monthly               | factor investing, momentum, rotational system, smart beta |
 
-Unemployment Gap Factor in Fixed Income
-[]()
+[Cross-Sectional Seasonalities in International Government Bond Returns](https://drive.google.com/file/d/1ml4D19LB_iKbsY7A0VtvN0ri7nJ159Uf/view?usp=sharing)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.56         | 13.85%     | Monthly               | bond timing, factor investing, seasonality, smart beta |
+
+[Beyond Carry and Momentum in Government Bonds](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3446653)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
 | 0.13         | 10.1%      | Monthly               | bond timing, factor investing             |
 
-Growth Gap Factor in Fixed Income
-[]()
+[Carry investing on the yield curve](https://drive.google.com/file/d/1otwv3iRKGSXUMnTI7WLXZr2p_1hBINB6/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
-| 0.1          | 9.99%      | Quarterly             | bond timing, factor investing             |
-
-Reversal – Yield Change Factor in Fixed Income
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.17         | 10%        | Monthly               | bond timing, factor investing             |
+| N/A          | N/A        | Monthly               | carry trade, factor investing, smart beta |
 
 ## Bonds, Commodities, Currencies, Equities
 
