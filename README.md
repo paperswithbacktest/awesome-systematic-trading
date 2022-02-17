@@ -46,6 +46,689 @@
 |--------------|------------|-----------------------|-------------------------------------------|
 | 0.65         | 15%        | Monthly               | arbitrage, reversal                       |
 
+[Market Closure and Short-Term Reversal](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2730304)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.89         | 7.69%      | Weekly                | reversal                                  |
+
+[Carry investing on the yield curve](https://drive.google.com/file/d/1otwv3iRKGSXUMnTI7WLXZr2p_1hBINB6/view?usp=sharing)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | carry trade, factor investing, smart beta |
+
+Cross-Sectional Seasonalities in International Government Bond Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.56         | 13.85%     | Monthly               | bond timing, factor investing, seasonality, smart beta |
+
+1 Month Momentum in Bonds
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.62         | 9.69%      | Monthly               | factor investing, momentum, rotational system, smart beta |
+
+Unemployment Gap Factor in Fixed Income
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.13         | 10.1%      | Monthly               | bond timing, factor investing             |
+
+Growth Gap Factor in Fixed Income
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.1          | 9.99%      | Quarterly             | bond timing, factor investing             |
+
+Reversal – Yield Change Factor in Fixed Income
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.17         | 10%        | Monthly               | bond timing, factor investing             |
+
+## Bonds, Commodities, Currencies, Equities
+
+Carry Factor within Asset Classes
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.41         | 4.9%       | Monthly               | asset class picking, carry trade, factor investing, smart beta |
+
+Returns Signal Momentum
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.97         | 12.3%      | Monthly               | factor investing, momentum, smart beta    |
+
+Time Series Reversal of Momentum on Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.17         | 20.9%      | Monthly               | factor investing, momentum, reversal, smart beta, trend-following |
+
+Trading Futures Using Basis Indicator
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.49         | 7.67%      | Monthly               | carry trade, term spread                  |
+
+Time-Series Momentum and Carry
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.92         | 10%        | Monthly               | carry trade, factor investing, momentum, smart beta |
+
+
+## Bonds, Currencies, Equities
+
+Momentum in Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.5          | 12.91%     | 6 Months              | factor investing, momentum, smart beta    |
+
+Trend-Following and Spillover Eﬀect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.67         | 4.8%       | Weekly                | momentum, smart beta, trend-following     |
+
+
+## Bonds, Equities
+
+Seasonality in Government Bond Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | 6 Months              | asset class picking, market timing, seasonality |
+
+Market Timing Using Lumber/Gold Ratio
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.84         | 11.8%      | Weekly                | asset class picking, market timing, small cap |
+
+Global Cross-Asset Time Series Momentum in Bond and Equity Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.65         | 10%        | Monthly               | momentum, smart beta, trend-following     |
+
+Timing S&P500 Using Full vs. Partial Employment
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.72         | 11.05%     | Monthly               | asset class picking, market timing, seasonality |
+
+
+## Commodities
+
+Momentum Effect Combined with Term Structure in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.79         | 27.6%      | Monthly               | factor investing, momentum, rotational system, smart beta, term spread |
+
+Gold Market Timing
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.91         | 29.63%     | Monthly               | market timing                             |
+
+COT Report Predicts Prices of Agricultural Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | alternative data, market timing, sentiment trading |
+
+Open Interest in Futures Predicts Commodity Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | market timing                             |
+
+Speculators’ Effect in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.25         | 17.17%     | Weekly                | alternative data, factor investing, rotational system, smart beta |
+
+Hedgers’ Effect in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.41         | 18.09%     | Weekly                | alternative data, factor investing, rotational system, smart beta |
+
+Dynamic Commodity Timing Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 18%        | Monthly               | market timing                             |
+
+Volatility Effect in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 19.3%      | Weekly                | factor investing, smart beta, volatility effect |
+
+Seasonality in Gold
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | market timing, seasonality                |
+
+Timing Commodity Momentum
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.41         | 11.09%     | Monthly               | market timing, momentum                   |
+
+Trendfollowing Combined with Momentum in Commodity Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.76         | 19.33%     | Monthly               | factor investing, momentum, rotational system, smart beta, trend-following |
+
+Trading Commodity Calendar Spreads
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 3.09         | 2.01%      | Monthly               | pairs trading, spread trading             |
+
+Spread (Basis) Momentum within Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.92         | 19.98%     | Monthly               | factor investing, momentum, smart beta, spread trading |
+
+Combining Momentum, Term Structure, and Idiosyncratic Volatility within Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.68         | 10.79%     | Monthly               | factor investing, momentum, smart beta, term spread, volatility effect |
+
+Seasonality Within Trend-Following Strategy in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.38         | 9.32%      | Monthly               | seasonality, trend-following              |
+
+Commodity Option Implied Volatility Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.69         | 18.48%     | Monthly               | factor investing, rotational system, smart beta, volatility effect |
+
+Idiosyncratic Commodity Momentum
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.59         | 29.42%     | Monthly               | factor investing, momentum, smart beta, trend-following |
+
+Trading the Crude Oil Term Structure
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.76         | 7.1%       | Weekly                | arbitrage, pairs trading, spread trading  |
+
+Political Uncertainty and Commodity Prices
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Quarterly             | market timing, seasonality, sentiment trading |
+
+Long-Run Reversal in Commodity Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.83         | 19.37%     | Yearly                | factor investing, reversal, smart beta    |
+
+1 Month Momentum in Commodities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.01         | 20.86%     | Monthly               | factor investing, momentum, rotational system, smart beta |
+
+Hazard Fear in Commodity Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.89         | 9.26%      | Weekly                | alternative data, factor investing, sentiment trading, smart beta |
+
+## Commodities, Equities
+
+Timing Commodities and S&P500 with COT Report
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.24         | 10.3%      | Weekly                | alternative data, asset class picking, market timing, sentiment trading |
+
+When to Own Stocks and When to Own Gold
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 14%        | Yearly                | asset class picking, fund picking, market timing, rotational system, seasonality |
+
+## Cryptos
+
+Time-Series Momentum Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.78         | 8.1%       | Weekly                | cryptocurrencies, momentum                |
+
+Carry Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.19         | 7.5%       | Weekly                | carry trade, cryptocurrencies             |
+
+Value Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.13         | 7.1%       | Weekly                | cryptocurrencies, value                   |
+
+Blended Factors in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.9          | 13.2%      | Weekly                | carry trade, cryptocurrencies, momentum, value |
+
+Computing Power Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.06         | 9.3%       | Weekly                | cryptocurrencies                          |
+
+Network Size Factor in Cryptocurrencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.25         | 6.63%      | Weekly                | cryptocurrencies                          |
+
+
+## Currencies
+
+Changes in Long Term Rates Predict FX Rates
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.52         | 3.67%      | Monthly               | forex system, FX anomaly                  |
+
+Term Spread Predicts FX Rates
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.68         | 3.94%      | Monthly               | factor investing, forex system, FX anomaly, smart beta |
+
+Combined Mean Reversion and Momentum in Foreign Exchange Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 2.43         | 10%        | Monthly               | factor investing, forex system, FX anomaly, momentum, reversal, smart beta |
+
+FX Carry Trade Combined with PPP (Value) Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.87         | 4.97%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta, value |
+
+Speculators’ Effect in FX
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+Hedgers’ Effect in FX
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+FX Volatility Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.48         | 8.68%      | 6 Months              | factor investing, forex system, FX anomaly, smart beta, volatility effect |
+
+FX Volatility Effect ver. 2
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.33         | 9.56%      | Monthly               | factor investing, forex system, FX anomaly, smart beta, volatility effect |
+
+Optimized Currency Portfolios
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.4          | 23.89%     | Monthly               | carry trade, factor investing, forex system, FX anomaly, momentum, reversal, smart beta |
+
+Timing Carry Trade
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.86         | 10%        | Monthly               | carry trade, factor investing, forex system, FX anomaly, market timing, smart beta |
+
+Timing Carry Trade v2
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.01         | 9.07%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, market timing, smart beta |
+
+Mean Variance Carry Trade Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.99         | 6.97%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+
+FX Value v2 – Real Exchange Rate Changes
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.01         | 9.51%      | Monthly               | factor investing, forex system, FX anomaly, smart beta, value |
+
+FX Value v3 – Real Exchange Rate Levels
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.73         | 9.53%      | Weekly                | factor investing, forex system, FX anomaly, smart beta, value |
+
+Economic Momentum in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.1          | 5.6%       | Monthly               | alternative data, factor investing, forex system, FX anomaly, momentum, smart beta |
+
+Trading based on Higher Moments in Currency Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.38         | 8%         | Monthly               | forex system, FX anomaly                  |
+
+Spread (Basis) Momentum within Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.91         | 9.23%      | Monthly               | factor investing, forex system, FX anomaly, momentum, smart beta, spread trading |
+
+Overnight-Intraday Weekly Reversal in Currency Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.9          | 10.23%     | Weekly                | reversal                                  |
+
+Short-Term (1 Month) Momentum in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.88         | 8.1%       | Weekly                | factor investing, forex system, FX anomaly, momentum, smart beta |
+
+Investor Sentiment and Momentum Effect in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.56         | 10.36%     | Monthly               | factor investing, forex system, FX anomaly, momentum, sentiment trading, smart beta |
+
+Effect of Corruption on FX Markets
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.74         | 8.14%      | Yearly                | factor investing, forex system, FX anomaly, sentiment trading, smart beta |
+
+Curvature Factor in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.39         | 6.7%       | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+
+Carry On – Enhanced Carry Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.82         | 2.47%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+
+Sovereign CDS Predicts FX Market Return
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.82         | 5.92%      | Monthly               | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+A Multi Strategy Approach to Trading Foreign Exchange Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.5          | 13.16%     | Monthly               | carry trade, forex system, FX anomaly, momentum, reversal |
+
+US Equity Tail Risk and Currency Risk Premia
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.75         | 8.12%      | Monthly               | beta factor, factor investing, forex system, FX anomaly, smart beta, volatility effect |
+
+The Equity Differential Factor in Currencies
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.61         | 3.1%       | Monthly               | factor investing, forex system, FX anomaly, smart beta |
+
+Taylor Rule and FX Returns
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.81         | 7.61%      | Monthly               | alternative data, factor investing, forex system, FX anomaly, smart beta |
+
+Machine Learning and Currency Carry Strategy
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.55         | 19.65%     | Monthly               | carry trade, factor investing, forex system, FX anomaly, machine learning, smart beta |
+
+## Equities
+
+Volatility Risk Premium Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.16         | 19%        | Monthly               | factor investing, smart beta, volatility effect, volatility premium |
+
+Market Timing with Aggregate and Idiosyncratic Stock Volatilities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.43         | 37.8%      | Quarterly             | market timing, volatility effect          |
+
+Market Timing S&P 500 with VIX and COT Report
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.52         | 11%        | Weekly                | alternative data, market timing, sentiment trading |
+
+Market Timing with Aggregate Accruals
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.8          | 37.7%      | Yearly                | accruals effect, market timing            |
+
+Election Cycle
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 1.29         | 15.34%     | Yearly                | market timing, seasonality                |
+
+Timing the Small Cap Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.38         | 14.62%     | Monthly               | equity long short, factor investing, market timing, small cap, smart beta |
+
+Consumer Sentiment Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Monthly               | market timing, sentiment trading          |
+
+Short-Term Reversal in Equity Index Futures
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| N/A          | N/A        | Weekly                | country picking, factor investing, reversal, smart beta |
+
+Market Timing Using Sharpe Ratios
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.66         | 15.38%     | Monthly               | market timing                             |
+
+Dividend Announcement Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.78         | 6.74%      | Monthly               | equity long short, factor investing, smart beta, stock picking |
+
+Value Effect within Countries v2
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.3          | 9.21%      | Monthly               | country picking, equity long short, factor investing, rotational system, smart beta, value |
+
+Momentum Combined with Value Effect within Countries
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.82         | 24.53%     | Monthly               | country picking, equity long short, factor investing, momentum, rotational system, smart beta, value |
+
+The FOMC Cycle Effect
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.83         | 13.92%     | Weekly                | market timing, seasonality                |
+
+Halloween Effect During the Pre-Election Year
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.47         | 24.47%     | 6 Months              | market timing, seasonality                |
+
+Timing S&P500 Using a Large Set of Forecasting Variables
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.76         | 16.6%      | Monthly               | market timing                             |
+
+Alpha Momentum in Country and Industry Equity Indexes
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.31         | 20.02%     | Monthly               | country picking, equity long short, factor investing, momentum, rotational system, smart beta |
+
+Halloween Effect during Low and High CAPE Months
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.46         | 17.78%     | 6 Months              | market timing, seasonality                |
+
+1 Month Momentum in International Equities
+[]()
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.8          | 20.38%     | Monthly               | country picking, factor investing, momentum, rotational system, smart beta |
+
 
 # Educational Books
 
