@@ -284,15 +284,13 @@
 | N/A          | N/A        | Monthly               |
 ## Commodities, Equities
 
-Timing Commodities and S&P500 with COT Report
-[]()
+[How to Time the Commodity Market](https://drive.google.com/file/d/196yRsQ2Ifw3BiXfJX0kLtyItYGds__TI/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.24         | 10.3%      | Weekly                |
 
-When to Own Stocks and When to Own Gold
-[]()
+[When to Own Stocks and When to Own Gold](https://drive.google.com/file/d/1eytDbqUx9JRCVPB1PProwpJ60uTmGppl/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -300,48 +298,17 @@ When to Own Stocks and When to Own Gold
 
 ## Cryptos
 
-Time-Series Momentum Factor in Cryptocurrencies
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing |
-|--------------|------------|-----------------------|
-| 0.78         | 8.1%       | Weekly                |
-
-Carry Factor in Cryptocurrencies
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing |
-|--------------|------------|-----------------------|
-| 2.19         | 7.5%       | Weekly                |
-
-Value Factor in Cryptocurrencies
-[]()
+["Know when to hodl them, know when to fodl them": An Investigation of Factor Based Investing in the Cryptocurrency Space](https://drive.google.com/file/d/1r8Q5iDSmU5WdhqaDjR6iiFovFf5vwCmo/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.13         | 7.1%       | Weekly                |
 
-Blended Factors in Cryptocurrencies
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing |
-|--------------|------------|-----------------------|
-| 2.9          | 13.2%      | Weekly                |
-
-Computing Power Factor in Cryptocurrencies
-[]()
+[Do Fundamentals Drive Cryptocurrency Prices](https://drive.google.com/file/d/1u-P9nXJDTZnjLpJTo08s3P2xrmKTHwdT/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.06         | 9.3%       | Weekly                |
-
-Network Size Factor in Cryptocurrencies
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing |
-|--------------|------------|-----------------------|
-| 1.25         | 6.63%      | Weekly                |
-
 
 ## Currencies
 
