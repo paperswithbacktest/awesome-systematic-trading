@@ -312,208 +312,161 @@
 
 ## Currencies
 
-Changes in Long Term Rates Predict FX Rates
-[]()
+[Combining Mean Reversion and Momentum Trading Strategies in Foreign Exchange Markets](https://drive.google.com/file/d/1EjyleRt3Q1gG91Qn-btSuRNcSbSzt59S/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.52         | 3.67%      | Monthly               | forex system, FX anomaly                  |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 2.43         | 10%        | Monthly               |
 
-Term Spread Predicts FX Rates
-[]()
+[Beyond the Carry Trade: Optimal Currency Portfolios](https://drive.google.com/file/d/1vt9JxdP0YTw9N8u5fHVHCg3Olj0Y5UtR/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.68         | 3.94%      | Monthly               | factor investing, forex system, FX anomaly, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.4          | 23.89%     | Monthly               |
 
-Combined Mean Reversion and Momentum in Foreign Exchange Markets
-[]()
+[A Low-Risk Strategy based on Higher Moments in Currency Markets](https://drive.google.com/file/d/18rlYyF110I3_8exdzhF_AdvrwEKB--Qf/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 2.43         | 10%        | Monthly               | factor investing, forex system, FX anomaly, momentum, reversal, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.38         | 8%         | Monthly               |
 
-FX Carry Trade Combined with PPP (Value) Strategy
-[]()
+[Economic Momentum and Currency Returns](https://drive.google.com/file/d/1xi6LXQOijz7K-qQYxLSJsdWBcseKf7Vr/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.87         | 4.97%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta, value |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.1          | 5.6%       | Monthly               |
 
-Speculators’ Effect in FX
-[]()
+[Are Value Strategies Profitable in the Foreign Exchange Market?](https://drive.google.com/file/d/1gq38ZlQuWki4l8JnDjCGhhLDTVA6iqPC/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| N/A          | N/A        | Weekly                | alternative data, factor investing, forex system, FX anomaly, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.01         | 9.51%      | Monthly               |
 
-Hedgers’ Effect in FX
-[]()
+[Predictability in the Short and Long Legs of Carry Trades](https://drive.google.com/file/d/1__d30hQc7Fe9NCFYLYCtyX49qTfh3JJP/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| N/A          | N/A        | Weekly                | alternative data, factor investing, forex system, FX anomaly, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.01         | 9.07%      | Monthly               |
 
-FX Volatility Effect
-[]()
+[Optimal and Naive Diversification in Currency Markets](https://drive.google.com/file/d/12aA56oX3zHC-WfEGyvZD72NAZgu-6YlW/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.48         | 8.68%      | 6 Months              | factor investing, forex system, FX anomaly, smart beta, volatility effect |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.99         | 6.97%      | Monthly               |
 
-FX Volatility Effect ver. 2
-[]()
+[Basis-momentum](https://drive.google.com/file/d/1Uidq96C7pcLU1jHtq_B51SsMabPaIIKh/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.33         | 9.56%      | Monthly               | factor investing, forex system, FX anomaly, smart beta, volatility effect |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.91         | 9.23%      | Monthly               |
 
-Optimized Currency Portfolios
-[]()
+[Market Closure and Short-Term Reversal](https://drive.google.com/file/d/1_3PUsE09FPQK_Ge_yI1KywnJSfQSbuZn/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.4          | 23.89%     | Monthly               | carry trade, factor investing, forex system, FX anomaly, momentum, reversal, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.9          | 10.23%     | Weekly                |
 
-Timing Carry Trade
-[]()
+[Is There Momentum or Reversal in Weekly Currency Returns?](https://drive.google.com/file/d/1gXZ1XGYW7DHyWV96SkHzPkNsJIN2cmPl/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.86         | 10%        | Monthly               | carry trade, factor investing, forex system, FX anomaly, market timing, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.88         | 8.1%       | Weekly                |
 
-Timing Carry Trade v2
-[]()
+[The Revenge of Purchasing Power Parity on Carry Trades during Crises](https://drive.google.com/file/d/1j_nc-Jhs5l75FnKZ83KhB_JHzALLd9rV/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.01         | 9.07%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, market timing, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.87         | 4.97%      | Monthly               |
 
-Mean Variance Carry Trade Strategy
-[]()
+[Predictability of Currency Carry Trades and Asset Pricing Implications](https://drive.google.com/file/d/1fTwNOPYnCYCPEOi0oLq9U_s3nkf1bJ0I/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.99         | 6.97%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.86         | 10%        | Monthly               |
 
-FX Value v2 – Real Exchange Rate Changes
-[]()
+[Carry On](https://drive.google.com/file/d/1u9GIUpBPbe2CQOf1RGTPD2sSz-LReaHj/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.01         | 9.51%      | Monthly               | factor investing, forex system, FX anomaly, smart beta, value |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.82         | 2.47%      | Monthly               |
 
-FX Value v3 – Real Exchange Rate Levels
-[]()
+[The Term Structure of Sovereign CDS and the Cross-Section Exchange Rate Predictability](https://drive.google.com/file/d/1P_yNcMGIEQzSM-Dpr5HjWDr2PwvK9G6P/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.73         | 9.53%      | Weekly                | factor investing, forex system, FX anomaly, smart beta, value |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.82         | 5.92%      | Monthly               |
 
-Economic Momentum in Currencies
-[]()
+[Forward-Looking Policy Rules and Currency Premia](https://drive.google.com/file/d/1SRmRK4Gncj6GQsVJzt6o_dBCQ6Aco5Uw/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.1          | 5.6%       | Monthly               | alternative data, factor investing, forex system, FX anomaly, momentum, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.81         | 7.61%      | Monthly               |
 
-Trading based on Higher Moments in Currency Markets
-[]()
+[U.S. Equity Tail Risk and Currency Risk Premia](https://drive.google.com/file/d/10dS6zSiNECqkj5g-lS55lcLfsHWHK7ux/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.38         | 8%         | Monthly               | forex system, FX anomaly                  |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.75         | 8.12%      | Monthly               |
 
-Spread (Basis) Momentum within Currencies
-[]()
+[Perceived corruption, carry trades, and the cross section of currency returns](https://drive.google.com/file/d/1m1e7lbUbjWFNmeko0lG1VlkR4TBUmesW/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.91         | 9.23%      | Monthly               | factor investing, forex system, FX anomaly, momentum, smart beta, spread trading |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.74         | 8.14%      | Yearly                |
 
-Overnight-Intraday Weekly Reversal in Currency Futures
-[]()
+[The Equity Differential Factor in Currency Markets](https://drive.google.com/file/d/1Ih6cd721kMays9OmlOugx-9b7evc97jY/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.9          | 10.23%     | Weekly                | reversal                                  |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.61         | 3.1%       | Monthly               |
 
-Short-Term (1 Month) Momentum in Currencies
-[]()
+[Investor sentiment, attention and profitability of currency momentum strategies](https://drive.google.com/file/d/10Nd6A4Y-PC1BnJUhxKmymn0LFZ1KweRI/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.88         | 8.1%       | Weekly                | factor investing, forex system, FX anomaly, momentum, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.56         | 10.36%     | Monthly               |
 
-Investor Sentiment and Momentum Effect in Currencies
-[]()
+[The Rise and Fall of the Carry Trade: Links to Exchange Rate Predictability](https://drive.google.com/file/d/1Zzp585eSDVwUIu-TCkm5ZBTGyQGDRJQ3/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.56         | 10.36%     | Monthly               | factor investing, forex system, FX anomaly, momentum, sentiment trading, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.55         | 19.65%     | Monthly               |
 
-Effect of Corruption on FX Markets
-[]()
+[Yield Curve Predictors of Foreign Exchange Returns](https://drive.google.com/file/d/18_b3iwuniLSVtNgDXtj3EnXakwtUvHh3/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.74         | 8.14%      | Yearly                | factor investing, forex system, FX anomaly, sentiment trading, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.52         | 3.67%      | Monthly               |
 
-Curvature Factor in Currencies
-[]()
+[A Multi Strategy Approach to Trading Foreign Exchange Futures](https://drive.google.com/file/d/1pqr4bIa69HJsUbjdMcwwYSHG-k5oLDC7/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.39         | 6.7%       | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.5          | 13.16%     | Monthly               |
 
-Carry On – Enhanced Carry Strategy
-[]()
+[Carry Trades and Global Foreign Exchange Volatility](https://drive.google.com/file/d/1VakVdYQRI9s4vqiAlgnIO2EoQ1yU3RVk/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.82         | 2.47%      | Monthly               | carry trade, factor investing, forex system, FX anomaly, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.48         | 8.68%      | 6 Months              |
 
-Sovereign CDS Predicts FX Market Return
-[]()
+[From Carry Trades to Curvy Trades](https://drive.google.com/file/d/189FcdyBuRswIJZ2oLcjrkPRceKtJZtcn/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.82         | 5.92%      | Monthly               | alternative data, factor investing, forex system, FX anomaly, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.39         | 6.7%       | Monthly               |
 
-A Multi Strategy Approach to Trading Foreign Exchange Futures
-[]()
+[International Diversification Benefits with Foreign Exchange Investment Styles](https://drive.google.com/file/d/1fSl5abLNaIULRpPAFxzY_Z0-giCRGtxJ/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.5          | 13.16%     | Monthly               | carry trade, forex system, FX anomaly, momentum, reversal |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.33         | 9.56%      | Monthly               |
 
-US Equity Tail Risk and Currency Risk Premia
-[]()
+[Speculation and Hedging in the Currency Futures Markets: Are They Informative to the Spot Exchange Rates](https://drive.google.com/file/d/1udQMc53XZlDxt15ysNk-cX4oNCZ7y2YI/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.75         | 8.12%      | Monthly               | beta factor, factor investing, forex system, FX anomaly, smart beta, volatility effect |
-
-The Equity Differential Factor in Currencies
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.61         | 3.1%       | Monthly               | factor investing, forex system, FX anomaly, smart beta |
-
-Taylor Rule and FX Returns
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.81         | 7.61%      | Monthly               | alternative data, factor investing, forex system, FX anomaly, smart beta |
-
-Machine Learning and Currency Carry Strategy
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.55         | 19.65%     | Monthly               | carry trade, factor investing, forex system, FX anomaly, machine learning, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| N/A          | N/A        | Weekly                |
 
 ## Equities
 
