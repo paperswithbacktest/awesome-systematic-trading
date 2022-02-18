@@ -78,57 +78,49 @@
 
 ## Bonds, Commodities, Currencies, Equities
 
-Carry Factor within Asset Classes
-[]()
+[Carry](https://drive.google.com/file/d/1d4xoaGk2hnIK1SrydXPfAVXr0RP7sIbe/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
 | 1.41         | 4.9%       | Monthly               | asset class picking, carry trade, factor investing, smart beta |
 
-Returns Signal Momentum
-[]()
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.97         | 12.3%      | Monthly               | factor investing, momentum, smart beta    |
-
-Time Series Reversal of Momentum on Futures
-[]()
+[Time Series Reversal in Trend Following Strategies](https://drive.google.com/file/d/1xDuLWAlNe738_b24pQ05c8QDc1YrvHiR/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
 | 1.17         | 20.9%      | Monthly               | factor investing, momentum, reversal, smart beta, trend-following |
 
-Trading Futures Using Basis Indicator
-[]()
+[Return Signal Momentum](https://drive.google.com/file/d/18XBCLKq02w82-1bbuxRW9U0tUWeJH9nA/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
-| 0.49         | 7.67%      | Monthly               | carry trade, term spread                  |
+| 0.97         | 12.3%      | Monthly               | factor investing, momentum, smart beta    |
 
-Time-Series Momentum and Carry
-[]()
+[Carry and time‐series momentum: a match made in](https://drive.google.com/file/d/117gxv2VmxvF3CGkSWX7ieKURSw9LwWPh/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
 | 0.92         | 10%        | Monthly               | carry trade, factor investing, momentum, smart beta |
 
-
-## Bonds, Currencies, Equities
-
-Momentum in Futures
-[]()
+[Predicting Out-of-Sample Returns: Using Basis to Beat the Historical Average](https://www.researchgate.net/publication/324670834_Predicting_Out-of-Sample_Returns_Using_Basis_to_Beat_the_Historical_Average)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
-| 0.5          | 12.91%     | 6 Months              | factor investing, momentum, smart beta    |
+| 0.49         | 7.67%      | Monthly               | carry trade, term spread                  |
 
-Trend-Following and Spillover Eﬀect
-[]()
+## Bonds, Currencies, Equities
+
+[Trend-Following and Spillover Effects](https://drive.google.com/file/d/1sH5PFPMwMklc9O9PPr_RLC-IjaQ9VRcC/view?usp=sharing)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
 |--------------|------------|-----------------------|-------------------------------------------|
 | 0.67         | 4.8%       | Weekly                | momentum, smart beta, trend-following     |
+
+[Cross-Sectional and Time-Series Tests of Return Predictability: What is the Difference?](https://drive.google.com/file/d/1-8XCfYCiOzV7GgUhp3kPobhfvcmsJXH9/view?usp=sharing)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
+|--------------|------------|-----------------------|-------------------------------------------|
+| 0.5          | 12.91%     | 6 Months              | factor investing, momentum, smart beta    |
 
 
 ## Bonds, Equities
