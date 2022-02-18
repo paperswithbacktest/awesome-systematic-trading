@@ -470,132 +470,113 @@
 
 ## Equities
 
-Volatility Risk Premium Effect
-[]()
+[The Presidential Term: Is the Third Year the Charm?](https://drive.google.com/file/d/18NfQKyn0C_Esmdgttd3xBvCrY5ipE4EL/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.16         | 19%        | Monthly               | factor investing, smart beta, volatility effect, volatility premium |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.29         | 15.34%     | Yearly                |
 
-Market Timing with Aggregate and Idiosyncratic Stock Volatilities
-[]()
+[Expected Option Returns](https://drive.google.com/file/d/1fgUKWsKJctk8Q81ZYwGI1d87_aQ4clS2/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.43         | 37.8%      | Quarterly             | market timing, volatility effect          |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.16         | 19%        | Monthly               |
 
-Market Timing S&P 500 with VIX and COT Report
-[]()
+[Stock Returns over the FOMC Cycle](https://drive.google.com/file/d/1sxWTNlJIepixy7IL9NOHOyzKYa_d1ONR/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.52         | 11%        | Weekly                | alternative data, market timing, sentiment trading |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.83         | 13.92%     | Weekly                |
 
-Market Timing with Aggregate Accruals
-[]()
+[Combining equity country selection strategies](https://drive.google.com/file/d/1N6ZOS2cBdoFf8R5LKLNUtqeQEYjDeL2Z/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.8          | 37.7%      | Yearly                | accruals effect, market timing            |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.82         | 24.53%     | Monthly               |
 
-Election Cycle
-[]()
+[Market Timing with Aggregate Accruals](https://drive.google.com/file/d/1dwuPaMQH1heh9dE2rtLQO_al_iCOyqN5/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.29         | 15.34%     | Yearly                | market timing, seasonality                |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.8          | 37.7%      | Yearly                |
 
-Timing the Small Cap Effect
-[]()
+[Short-Term Momentum (Almost) Everywhere](https://drive.google.com/file/d/1lFiTPFLdB_VQoAt7a_DgFrCmzpblePm5/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.38         | 14.62%     | Monthly               | equity long short, factor investing, market timing, small cap, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.8          | 20.38%     | Monthly               |
 
-Consumer Sentiment Effect
-[]()
+[Seven Decades of Long Term Abnormal Return Persistence: The Case of Dividend Initiations and Resumptions](https://drive.google.com/file/d/1UbA2uJcRJiPiwJi-xj93NIb1OdfFbHUw/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| N/A          | N/A        | Monthly               | market timing, sentiment trading          |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.78         | 6.74%      | Monthly               |
 
-Short-Term Reversal in Equity Index Futures
-[]()
+[Return Predictability and Market-Timing: A One-Month Model](https://drive.google.com/file/d/1NaM0xfc-Tve6iyP4MCHRSLEd0XR9opq2/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| N/A          | N/A        | Weekly                | country picking, factor investing, reversal, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.76         | 16.6%      | Monthly               |
 
-Market Timing Using Sharpe Ratios
-[]()
+[Time-Varying Sharpe Ratios and Market Timing](https://drive.google.com/file/d/1u0EGH_dhVfYEjyrtG_qVnelXpZ69f8P9/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.66         | 15.38%     | Monthly               | market timing                             |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.66         | 15.38%     | Monthly               |
 
-Dividend Announcement Effect
-[]()
+[Exploiting the Informational Content of Hedging Pressure: Timing the Market by "Learning" from Derivatives Traders](https://drive.google.com/file/d/1Z7A3srE5Vv-qMw9PiBLTYIfJQbEBw7-o/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.78         | 6.74%      | Monthly               | equity long short, factor investing, smart beta, stock picking |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.52         | 11%        | Weekly                |
 
-Value Effect within Countries v2
-[]()
+[Stock Return Predictability and Seasonality](https://drive.google.com/file/d/1JXObgr7mYUxKElJsyLRL2akTCNkpM4p0/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.3          | 9.21%      | Monthly               | country picking, equity long short, factor investing, rotational system, smart beta, value |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.46         | 17.78%     | 6 Months              |
 
-Momentum Combined with Value Effect within Countries
-[]()
+[Equity premiums in the Presidential cycle: The midterm election resolution of uncertainty](https://drive.google.com/file/d/1EvKJxZP2h1ZkDdQg1pYpHZCFohcv8D_N/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.82         | 24.53%     | Monthly               | country picking, equity long short, factor investing, momentum, rotational system, smart beta, value |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.47         | 24.47%     | 6 Months              |
 
-The FOMC Cycle Effect
-[]()
+[Market Timing with Aggregate and Idiosyncratic Stock Volatilities](https://drive.google.com/file/d/1_Ys2iPdH0jDhPlBS2kX3fwcRqKlS5j98/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.83         | 13.92%     | Weekly                | market timing, seasonality                |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.43         | 37.8%      | Quarterly             |
 
-Halloween Effect During the Pre-Election Year
-[]()
+[Forecasting the size premium over different time horizons](https://drive.google.com/file/d/102s9rEZZmv4Z2eFLIHsN77ljl9iYVIgi/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.47         | 24.47%     | 6 Months              | market timing, seasonality                |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.38         | 14.62%     | Monthly               |
 
-Timing S&P500 Using a Large Set of Forecasting Variables
-[]()
+[Alpha Momentum and Alpha Reversal in Country and Industry Equity](https://drive.google.com/file/d/1PQ2c5PCBzJ6uONnX68naNG1DUJp8pmit/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.76         | 16.6%      | Monthly               | market timing                             |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.31         | 20.02%     | Monthly               |
 
-Alpha Momentum in Country and Industry Equity Indexes
-[]()
+[A Performance Evaluation Model for Global Macro Funds](https://drive.google.com/file/d/1fbg9AMKpY7unADgBAEcVC7Mdieijyc5B/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.31         | 20.02%     | Monthly               | country picking, equity long short, factor investing, momentum, rotational system, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.3          | 9.21%      | Monthly               |
 
-Halloween Effect during Low and High CAPE Months
-[]()
+[Contrarian Long-Short Futures Arbitrages and Market Efficiency: Evidence in the Index Futures Markets around the Globe](https://drive.google.com/file/d/1DqdoACAOmpocDsIHxsnbF9fMvKW-ueuo/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.46         | 17.78%     | 6 Months              | market timing, seasonality                |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| N/A          | N/A        | Weekly                |
 
-1 Month Momentum in International Equities
-[]()
+[Does Sentiment Matter?](https://drive.google.com/file/d/1TLk3WT9-T_u2FfFYR9Vntc-YagVftyhV/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.8          | 20.38%     | Monthly               | country picking, factor investing, momentum, rotational system, smart beta |
-
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| N/A          | N/A        | Monthly               |
 
 # Educational Books
 
