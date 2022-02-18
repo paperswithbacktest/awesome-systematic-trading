@@ -54,105 +54,100 @@
 
 [Short-Term Momentum (Almost) Everywhere](https://drive.google.com/file/d/1YG88uPLNMLV6j87i5qGxEg11TOV0-zpN/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.62         | 9.69%      | Monthly               | factor investing, momentum, rotational system, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.62         | 9.69%      | Monthly               |
 
 [Cross-Sectional Seasonalities in International Government Bond Returns](https://drive.google.com/file/d/1ml4D19LB_iKbsY7A0VtvN0ri7nJ159Uf/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.56         | 13.85%     | Monthly               | bond timing, factor investing, seasonality, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.56         | 13.85%     | Monthly               |
 
 [Beyond Carry and Momentum in Government Bonds](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3446653)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.13         | 10.1%      | Monthly               | bond timing, factor investing             |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.13         | 10.1%      | Monthly               |
 
 [Carry investing on the yield curve](https://drive.google.com/file/d/1otwv3iRKGSXUMnTI7WLXZr2p_1hBINB6/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| N/A          | N/A        | Monthly               | carry trade, factor investing, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| N/A          | N/A        | Monthly               |
 
 ## Bonds, Commodities, Currencies, Equities
 
 [Carry](https://drive.google.com/file/d/1d4xoaGk2hnIK1SrydXPfAVXr0RP7sIbe/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.41         | 4.9%       | Monthly               | asset class picking, carry trade, factor investing, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.41         | 4.9%       | Monthly               |
 
 [Time Series Reversal in Trend Following Strategies](https://drive.google.com/file/d/1xDuLWAlNe738_b24pQ05c8QDc1YrvHiR/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 1.17         | 20.9%      | Monthly               | factor investing, momentum, reversal, smart beta, trend-following |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 1.17         | 20.9%      | Monthly               |
 
 [Return Signal Momentum](https://drive.google.com/file/d/18XBCLKq02w82-1bbuxRW9U0tUWeJH9nA/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.97         | 12.3%      | Monthly               | factor investing, momentum, smart beta    |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.97         | 12.3%      | Monthly               |
 
 [Carry and time‐series momentum: a match made in](https://drive.google.com/file/d/117gxv2VmxvF3CGkSWX7ieKURSw9LwWPh/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.92         | 10%        | Monthly               | carry trade, factor investing, momentum, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.92         | 10%        | Monthly               |
 
 [Predicting Out-of-Sample Returns: Using Basis to Beat the Historical Average](https://www.researchgate.net/publication/324670834_Predicting_Out-of-Sample_Returns_Using_Basis_to_Beat_the_Historical_Average)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.49         | 7.67%      | Monthly               | carry trade, term spread                  |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.49         | 7.67%      | Monthly               |
 
 ## Bonds, Currencies, Equities
 
 [Trend-Following and Spillover Effects](https://drive.google.com/file/d/1sH5PFPMwMklc9O9PPr_RLC-IjaQ9VRcC/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.67         | 4.8%       | Weekly                | momentum, smart beta, trend-following     |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.67         | 4.8%       | Weekly                |
 
 [Cross-Sectional and Time-Series Tests of Return Predictability: What is the Difference?](https://drive.google.com/file/d/1-8XCfYCiOzV7GgUhp3kPobhfvcmsJXH9/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.5          | 12.91%     | 6 Months              | factor investing, momentum, smart beta    |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.5          | 12.91%     | 6 Months              |
 
 
 ## Bonds, Equities
 
-Seasonality in Government Bond Returns
-[]()
+[Worth It’s Weight in Gold Offense and Defense in Active Portfolio Management](https://drive.google.com/file/d/1_3CdwGpqM9JGDz0c7XkZzbmw0NHKxEqt/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| N/A          | N/A        | 6 Months              | asset class picking, market timing, seasonality |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.84         | 11.8%      | Weekly                |
 
-Market Timing Using Lumber/Gold Ratio
-[]()
+[Return Predictability and Market-Timing: A One-Month Model](https://drive.google.com/file/d/1stMF2nQg3DQQba1Bgp4qI6Z6zMjnJKI2/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.84         | 11.8%      | Weekly                | asset class picking, market timing, small cap |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.72         | 11.05%     | Monthly               |
 
-Global Cross-Asset Time Series Momentum in Bond and Equity Markets
-[]()
+[Cross-Asset Signals and Time Series Momentum](https://drive.google.com/file/d/1kYjJkpyTT1TkhncclnVq1Rq5PdP8pPOV/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.65         | 10%        | Monthly               | momentum, smart beta, trend-following     |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.65         | 10%        | Monthly               |
 
-Timing S&P500 Using Full vs. Partial Employment
-[]()
+[Opposing Seasonalities in Treasury versus Equity Returns](https://drive.google.com/file/d/1q9yt3FgPDT7T4mfTcdfvDpb-XWM19nR1/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.72         | 11.05%     | Monthly               | asset class picking, market timing, seasonality |
-
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| N/A          | N/A        | 6 Months              |
 
 ## Commodities
 
