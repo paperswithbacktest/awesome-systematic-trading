@@ -30,27 +30,27 @@
 
 [Market Closure and Short-Term Reversal](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2730304)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.89         | 7.69%      | Weekly                | reversal                                  |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.89         | 7.69%      | Weekly                |
 
 [Finding Yield in a 2% World](https://drive.google.com/file/d/1qCJDTB6Pu8lvo5VAGUVfFqSBZE3gPm1y/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.68         | 8.63%      | Monthly               | carry trade, factor investing, smart beta |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.68         | 8.63%      | Monthly               |
 
 [Profiting from Mean-Reverting Yield Curve Trading Strategies](https://drive.google.com/file/d/1cmHn7JHr4gTsTzs6BRs8kUes4UiokXvn/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.65         | 15%        | Monthly               | arbitrage, reversal                       |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.65         | 15%        | Monthly               |
 
 [Profitability of Simple Trading Strategies Exploiting the Forward Premium Bias in Foreign Exchange Markets and the Time Premium in Yield Curves](https://drive.google.com/file/d/1QWlJgMX8ebyJjhxK2ga-f5fDcqcXp0pv/view?usp=sharing)
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Keywords                                  |
-|--------------|------------|-----------------------|-------------------------------------------|
-| 0.62         | 10%        | Monthly               | bond timing, factor investing, market timing, smart beta, term spread |
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.62         | 10%        | Monthly               |
 
 [Short-Term Momentum (Almost) Everywhere](https://drive.google.com/file/d/1YG88uPLNMLV6j87i5qGxEg11TOV0-zpN/view?usp=sharing)
 
