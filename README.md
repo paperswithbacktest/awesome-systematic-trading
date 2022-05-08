@@ -4,7 +4,8 @@
 
 # Table of Contents
 
-- [Strategy Papers](#academic-papers)
+- [Table of Contents](#table-of-contents)
+- [Strategy Papers](#strategy-papers)
   - [Bonds](#bonds)
   - [Bonds, Commodities, Currencies, Equities](#bonds-commodities-currencies-equities)
   - [Bonds, Currencies, Equities](#bonds-currencies-equities)
@@ -34,31 +35,31 @@
 |--------------|------------|-----------------------|
 | 0.89         | 7.69%      | Weekly                |
 
-[Finding Yield in a 2% World](https://drive.google.com/file/d/1qCJDTB6Pu8lvo5VAGUVfFqSBZE3gPm1y/view?usp=sharing)
+[Finding Yield in a 2% World](https://mebfaber.com/wp-content/uploads/2016/05/SSRN-id2724737.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.68         | 8.63%      | Monthly               |
 
-[Profiting from Mean-Reverting Yield Curve Trading Strategies](https://drive.google.com/file/d/1cmHn7JHr4gTsTzs6BRs8kUes4UiokXvn/view?usp=sharing)
+[Profiting from Mean-Reverting Yield Curve Trading Strategies](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3488&context=lkcsb_research)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.65         | 15%        | Monthly               |
 
-[Profitability of Simple Trading Strategies Exploiting the Forward Premium Bias in Foreign Exchange Markets and the Time Premium in Yield Curves](https://drive.google.com/file/d/1QWlJgMX8ebyJjhxK2ga-f5fDcqcXp0pv/view?usp=sharing)
+[Profitability of Simple Trading Strategies Exploiting the Forward Premium Bias in Foreign Exchange Markets and the Time Premium in Yield Curves](https://haldus.eestipank.ee/sites/default/files/publication/en/WorkingPapers/2006/_wp_406.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.62         | 10%        | Monthly               |
 
-[Short-Term Momentum (Almost) Everywhere](https://drive.google.com/file/d/1YG88uPLNMLV6j87i5qGxEg11TOV0-zpN/view?usp=sharing)
+[Short-Term Momentum (Almost) Everywhere](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340085)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.62         | 9.69%      | Monthly               |
 
-[Cross-Sectional Seasonalities in International Government Bond Returns](https://drive.google.com/file/d/1ml4D19LB_iKbsY7A0VtvN0ri7nJ159Uf/view?usp=sharing)
+[Cross-Sectional Seasonalities in International Government Bond Returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3212995)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -70,7 +71,7 @@
 |--------------|------------|-----------------------|
 | 0.13         | 10.1%      | Monthly               |
 
-[Carry investing on the yield curve](https://drive.google.com/file/d/1otwv3iRKGSXUMnTI7WLXZr2p_1hBINB6/view?usp=sharing)
+[Carry investing on the yield curve](https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2017-Athens/papers/EFMA2017_0407_fullpaper.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -78,25 +79,25 @@
 
 ## Bonds, Commodities, Currencies, Equities
 
-[Carry](https://drive.google.com/file/d/1d4xoaGk2hnIK1SrydXPfAVXr0RP7sIbe/view?usp=sharing)
+[Carry](https://pages.stern.nyu.edu/~lpederse/papers/Carry.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.41         | 4.9%       | Monthly               |
 
-[Time Series Reversal in Trend Following Strategies](https://drive.google.com/file/d/1xDuLWAlNe738_b24pQ05c8QDc1YrvHiR/view?usp=sharing)
+[Time Series Reversal in Trend Following Strategies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2971875)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.17         | 20.9%      | Monthly               |
 
-[Return Signal Momentum](https://drive.google.com/file/d/18XBCLKq02w82-1bbuxRW9U0tUWeJH9nA/view?usp=sharing)
+[Return Signal Momentum](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2971444)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.97         | 12.3%      | Monthly               |
 
-[Carry and time‐series momentum: a match made in](https://drive.google.com/file/d/117gxv2VmxvF3CGkSWX7ieKURSw9LwWPh/view?usp=sharing)
+[Carry and time‐series momentum: a match made in Heaven](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3470864)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -110,13 +111,13 @@
 
 ## Bonds, Currencies, Equities
 
-[Trend-Following and Spillover Effects](https://drive.google.com/file/d/1sH5PFPMwMklc9O9PPr_RLC-IjaQ9VRcC/view?usp=sharing)
+[Trend-Following and Spillover Effects](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3473657)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.67         | 4.8%       | Weekly                |
 
-[Cross-Sectional and Time-Series Tests of Return Predictability: What is the Difference?](https://drive.google.com/file/d/1-8XCfYCiOzV7GgUhp3kPobhfvcmsJXH9/view?usp=sharing)
+[Cross-Sectional and Time-Series Tests of Return Predictability: What is the Difference?](http://www.smallake.kr/wp-content/uploads/2016/03/581.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -125,25 +126,25 @@
 
 ## Bonds, Equities
 
-[Worth It’s Weight in Gold Offense and Defense in Active Portfolio Management](https://drive.google.com/file/d/1_3CdwGpqM9JGDz0c7XkZzbmw0NHKxEqt/view?usp=sharing)
+[Worth It’s Weight in Gold Offense and Defense in Active Portfolio Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2604248)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.84         | 11.8%      | Weekly                |
 
-[Return Predictability and Market-Timing: A One-Month Model](https://drive.google.com/file/d/1stMF2nQg3DQQba1Bgp4qI6Z6zMjnJKI2/view?usp=sharing)
+[Return Predictability and Market-Timing: A One-Month Model](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3050254)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.72         | 11.05%     | Monthly               |
 
-[Cross-Asset Signals and Time Series Momentum](https://drive.google.com/file/d/1kYjJkpyTT1TkhncclnVq1Rq5PdP8pPOV/view?usp=sharing)
+[Cross-Asset Signals and Time Series Momentum](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2891434)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.65         | 10%        | Monthly               |
 
-[Opposing Seasonalities in Treasury versus Equity Returns](https://drive.google.com/file/d/1q9yt3FgPDT7T4mfTcdfvDpb-XWM19nR1/view?usp=sharing)
+[Opposing Seasonalities in Treasury versus Equity Returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=891215)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -151,146 +152,147 @@
 
 ## Commodities
 
-[Pairs Trading the Commodity Futures Curve](https://drive.google.com/file/d/1McgQJ7K5IosZf20RkXtKEzADquYhvR5n/view?usp=sharing)
+[Pairs Trading the Commodity Futures Curve](http://jultika.oulu.fi/files/nbnfioulu-201211141056.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 3.09         | 2.01%      | Monthly               |
 
-[Timing Commodity Momentum](https://drive.google.com/file/d/1ytMx9HEgCWXSaIwbS8rSXcRIKrFgJoza/view?usp=sharing)
+[Timing Commodity Momentum](https://risk.edhec.edu/sites/risk/files/EDHEC_Working_Paper_Timing_Commodity_Momentum.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 2.41         | 11.09%     | Monthly               |
 
-[Short-Term Momentum (Almost) Everywhere](https://drive.google.com/file/d/1BPyjRW1e3rpNHKY7rkmt_ywuN8Yzq2ie/view?usp=sharing)
+[Short-Term Momentum (Almost) Everywhere](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340085)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.01         | 20.86%     | Monthly               |
 
-[Basis-momentum](https://drive.google.com/file/d/1JltLbPGn22wc7giNDtYyTchKfdwC7ZrA/view?usp=sharing)
+[Basis-momentum](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2587784)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.92         | 19.98%     | Monthly               |
 
-[Is Gold a Zero-Beta Asset? Analysis of the Investment Potential of Precious Metals](https://drive.google.com/file/d/1wZn8wA_g7UXYiVYoIR433XiL84lJvv_B/view?usp=sharing)
+[Is Gold a Zero-Beta Asset? Analysis of the Investment Potential of Precious Metals](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=920496)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.91         | 29.63%     | Monthly               |
 
-[Fear of Hazards in Commodity Futures Markets](https://drive.google.com/file/d/1XOjRRyjK1VMcDFdEivHuPhRIx-5fOLgB/view?usp=sharing)
+[Fear of Hazards in Commodity Futures Markets](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3411117)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.89         | 9.26%      | Weekly                |
 
-[Long-Run Reversal in Commodity Returns: Insights from Seven Centuries of Evidence](https://drive.google.com/file/d/1fpoyxbzqRCK0pHiaxihMTnkAb2_RTnFk/view?usp=sharing)
+[Long-Run Reversal in Commodity Returns: Insights from Seven Centuries of Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3314834)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.83         | 19.37%     | Yearly                |
 
-[Tactical allocation in commodity futures markets: Combining momentum and term structure signals](https://drive.google.com/file/d/1j7DXxwv3Q463OrGFYg0Theb4f3Mm4ViC/view?usp=sharing)
+[Tactical allocation in commodity futures markets: Combining momentum and term structure signals](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1127213)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.79         | 27.6%      | Monthly               |
 
-[Modeling, Forecasting and Trading the Crude Oil Term Structure](https://drive.google.com/file/d/1PuPLRmOSu-9GYVt_ceagdoKG2zwZ2WNR/view?usp=sharing)
+[Modeling, Forecasting and Trading the Crude Oil Term Structure](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874869)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.76         | 7.1%       | Weekly                |
 
-[Trend Following, Risk Parity and Momentum in Commodity Futures](https://drive.google.com/file/d/1WY8TuDvPhnfKj8VpWjnzd1hinZcQN0Sx/view?usp=sharing)
+[Trend Following, Risk Parity and Momentum in Commodity Futures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2126813)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.76         | 19.33%     | Monthly               |
 
-[Commodity Option Implied Volatilities and the Expected Futures Returns](https://drive.google.com/file/d/1HM__8aerLOEPIbiCvwYefYL0lw92z7zB/view?usp=sharing)
+[Commodity Option Implied Volatilities and the Expected Futures Returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939649)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.69         | 18.48%     | Monthly               |
 
-[Commodity Strategies Based on Momentum, Term Structure and Idiosyncratic Volatility](https://drive.google.com/file/d/144qccqCyeY2hJBYHkhfpPmr3nGuL8gIP/view?usp=sharing)
+[Commodity Strategies Based on Momentum, Term Structure and Idiosyncratic Volatility](https://risk.edhec.edu/sites/risk/files/edhec-working-paper-commodity-strategies-based-on-momentum_1368521019664_0.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.68         | 10.79%     | Monthly               |
 
-[Idiosyncratic momentum in commodity futures](https://drive.google.com/file/d/1IUf58a69zSIZPQXKe-B1xeOoLm6ui5Jn/view?usp=sharing)
+[Idiosyncratic momentum in commodity futures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3035397)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.59         | 29.42%     | Monthly               |
 
-[Commodity Strategies Based on Momentum, Term Structure and Idiosyncratic Volatility](https://drive.google.com/file/d/1Kd6GcO1JhzoW67fcJJHrvWp3_FuWpcHj/view?usp=sharing)
+[Commodity Strategies Based on Momentum, Term Structure and Idiosyncratic Volatility](https://risk.edhec.edu/sites/risk/files/edhec-working-paper-commodity-strategies-based-on-momentum_1368521019664_0.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.43         | 19.3%      | Weekly                |
 
-[Dynamic Commodity Timing Strategies](https://drive.google.com/file/d/1SwrNnEq_FiDWM2EDVP1RxQSnT16wOGKy/view?usp=sharing)
+[Dynamic Commodity Timing Strategies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=581423)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.43         | 18%        | Monthly               |
 
-[Long-Short Commodity Investing: Implications for Portfolio Risk and Market Regulation](https://drive.google.com/file/d/1NKGlPblTXRhogYpE77gfAKQgqdksUQ6W/view?usp=sharing)
+[Long-Short Commodity Investing: Implications for Portfolio Risk and Market Regulation](https://risk.edhec.edu/sites/risk/files/edhec_working_paper_long-short_commodity_investing.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.41         | 18.09%     | Weekly                |
 
-[Multi-Asset Seasonality and Trend-Following Strategies](https://drive.google.com/file/d/17lK6GbrvePaua6dvSnik-cAl5UfT0inj/view?usp=sharing)
+[Multi-Asset Seasonality and Trend-Following Strategies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2710334)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.38         | 9.32%      | Monthly               |
 
-[The Case for Long-Short Commodity Investing](https://drive.google.com/file/d/1wkb4hgtfy-y8jGA2DESxSNUKHUEd2dyC/view?usp=sharing)
+[The Case for Long-Short Commodity Investing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1920454)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.25         | 17.17%     | Weekly                |
 
-[Investor Sentiment And Return Predictability in Agricultural Futures Market](https://drive.google.com/file/d/1ETcudgT4B-LlUAcqUOuhPmHmMXSbv4EG/view?usp=sharing)
+[Investor Sentiment And Return Predictability in Agricultural Futures Market](https://mpra.ub.uni-muenchen.de/36425/1/MPRA_paper_36425.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | N/A          | N/A        | Weekly                |
 
-[Political Uncertainty and Commodity Prices](https://drive.google.com/file/d/1whJshGIIJyMn_m3ZcZfjbMr0dnqSkzDE/view?usp=sharing)
+[Political Uncertainty and Commodity Prices](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3064295)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | N/A          | N/A        | Quarterly             |
 
-[The Autumn Effect of Gold](https://drive.google.com/file/d/1ysj-rubAgBwJj_wumQi9yvXf40LR_GND/view?usp=sharing)
+[The Autumn Effect of Gold](https://ideas.repec.org/a/eee/riibaf/v27y2013i1p1-11.html)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | N/A          | N/A        | Monthly               |
 
-[What does futures market interest tell us about the macroeconomy and asset prices?](https://drive.google.com/file/d/1Dj0ByhaMY8GlcOiM23CJGjA1vvqoMYAD/view?usp=sharing)
+[What does futures market interest tell us about the macroeconomy and asset prices?](https://www.nber.org/system/files/working_papers/w16712/w16712.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | N/A          | N/A        | Monthly               |
+
 ## Commodities, Equities
 
-[How to Time the Commodity Market](https://drive.google.com/file/d/196yRsQ2Ifw3BiXfJX0kLtyItYGds__TI/view?usp=sharing)
+[How to Time the Commodity Market](https://www.edhec.edu/sites/www.edhec-portail.pprod.net/files/publications/pdf/com.univ.collaboratif.utils.LectureFichiergw%3FID_FICHIER%3D1328885972050jpg)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.24         | 10.3%      | Weekly                |
 
-[When to Own Stocks and When to Own Gold](https://drive.google.com/file/d/1eytDbqUx9JRCVPB1PProwpJ60uTmGppl/view?usp=sharing)
+[When to Own Stocks and When to Own Gold](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3535152)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -298,13 +300,13 @@
 
 ## Cryptos
 
-["Know when to hodl them, know when to fodl them": An Investigation of Factor Based Investing in the Cryptocurrency Space](https://drive.google.com/file/d/1r8Q5iDSmU5WdhqaDjR6iiFovFf5vwCmo/view?usp=sharing)
+["Know when to hodl them, know when to fodl them": An Investigation of Factor Based Investing in the Cryptocurrency Space](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3055498)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.13         | 7.1%       | Weekly                |
 
-[Do Fundamentals Drive Cryptocurrency Prices](https://drive.google.com/file/d/1u-P9nXJDTZnjLpJTo08s3P2xrmKTHwdT/view?usp=sharing)
+[Do Fundamentals Drive Cryptocurrency Prices](https://wpcarey.asu.edu/sites/default/files/2021-11/george_korniotis_seminar_paper_november_8_2019.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
