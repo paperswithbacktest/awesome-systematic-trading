@@ -314,157 +314,157 @@
 
 ## Currencies
 
-[Combining Mean Reversion and Momentum Trading Strategies in Foreign Exchange Markets](https://drive.google.com/file/d/1EjyleRt3Q1gG91Qn-btSuRNcSbSzt59S/view?usp=sharing)
+[Combining Mean Reversion and Momentum Trading Strategies in Foreign Exchange Markets](http://www.forexmentoronline.com/wp-content/uploads/2015/11/09-14.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 2.43         | 10%        | Monthly               |
 
-[Beyond the Carry Trade: Optimal Currency Portfolios](https://drive.google.com/file/d/1vt9JxdP0YTw9N8u5fHVHCg3Olj0Y5UtR/view?usp=sharing)
+[Beyond the Carry Trade: Optimal Currency Portfolios](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2041460)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.4          | 23.89%     | Monthly               |
 
-[A Low-Risk Strategy based on Higher Moments in Currency Markets](https://drive.google.com/file/d/18rlYyF110I3_8exdzhF_AdvrwEKB--Qf/view?usp=sharing)
+[A Low-Risk Strategy based on Higher Moments in Currency Markets](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2666223)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.38         | 8%         | Monthly               |
 
-[Economic Momentum and Currency Returns](https://drive.google.com/file/d/1xi6LXQOijz7K-qQYxLSJsdWBcseKf7Vr/view?usp=sharing)
+[Economic Momentum and Currency Returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2579666)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.1          | 5.6%       | Monthly               |
 
-[Are Value Strategies Profitable in the Foreign Exchange Market?](https://drive.google.com/file/d/1gq38ZlQuWki4l8JnDjCGhhLDTVA6iqPC/view?usp=sharing)
+[Are Value Strategies Profitable in the Foreign Exchange Market?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2559375)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.01         | 9.51%      | Monthly               |
 
-[Predictability in the Short and Long Legs of Carry Trades](https://drive.google.com/file/d/1__d30hQc7Fe9NCFYLYCtyX49qTfh3JJP/view?usp=sharing)
+[Cross-Asset Return Predictability: Carry Trades, Stocks and Commodities](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2399282)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.01         | 9.07%      | Monthly               |
 
-[Optimal and Naive Diversification in Currency Markets](https://drive.google.com/file/d/12aA56oX3zHC-WfEGyvZD72NAZgu-6YlW/view?usp=sharing)
+[Optimal and Naive Diversification in Currency Markets](https://www.researchgate.net/publication/306128512_Optimal_and_Naive_Diversification_in_Currency_Markets)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.99         | 6.97%      | Monthly               |
 
-[Basis-momentum](https://drive.google.com/file/d/1Uidq96C7pcLU1jHtq_B51SsMabPaIIKh/view?usp=sharing)
+[Basis-momentum](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2587784)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.91         | 9.23%      | Monthly               |
 
-[Market Closure and Short-Term Reversal](https://drive.google.com/file/d/1_3PUsE09FPQK_Ge_yI1KywnJSfQSbuZn/view?usp=sharing)
+[Market Closure and Short-Term Reversal](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2730304)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.9          | 10.23%     | Weekly                |
 
-[Is There Momentum or Reversal in Weekly Currency Returns?](https://drive.google.com/file/d/1gXZ1XGYW7DHyWV96SkHzPkNsJIN2cmPl/view?usp=sharing)
+[Is There Momentum or Reversal in Weekly Currency Returns?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2258253)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.88         | 8.1%       | Weekly                |
 
-[The Revenge of Purchasing Power Parity on Carry Trades during Crises](https://drive.google.com/file/d/1j_nc-Jhs5l75FnKZ83KhB_JHzALLd9rV/view?usp=sharing)
+[The Revenge of Purchasing Power Parity on Carry Trades during Crises](https://ideas.repec.org/p/sol/wpaper/09-013.html)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.87         | 4.97%      | Monthly               |
 
-[Predictability of Currency Carry Trades and Asset Pricing Implications](https://drive.google.com/file/d/1fTwNOPYnCYCPEOi0oLq9U_s3nkf1bJ0I/view?usp=sharing)
+[Predictability of Currency Carry Trades and Asset Pricing Implications](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1977642)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.86         | 10%        | Monthly               |
 
-[Carry On](https://drive.google.com/file/d/1u9GIUpBPbe2CQOf1RGTPD2sSz-LReaHj/view?usp=sharing)
+[Carry On](https://jai.pm-research.com/content/22/2/100.short)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.82         | 2.47%      | Monthly               |
 
-[The Term Structure of Sovereign CDS and the Cross-Section Exchange Rate Predictability](https://drive.google.com/file/d/1P_yNcMGIEQzSM-Dpr5HjWDr2PwvK9G6P/view?usp=sharing)
+[The Term Structure of Sovereign CDS and the Cross-Section Exchange Rate Predictability](http://wp.lancs.ac.uk/fofi2018/files/2018/03/FoFI-2018-0071-Giovanni-Calice.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.82         | 5.92%      | Monthly               |
 
-[Forward-Looking Policy Rules and Currency Premia](https://drive.google.com/file/d/1SRmRK4Gncj6GQsVJzt6o_dBCQ6Aco5Uw/view?usp=sharing)
+[Forward-Looking Policy Rules and Currency Premia](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3412612)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.81         | 7.61%      | Monthly               |
 
-[U.S. Equity Tail Risk and Currency Risk Premia](https://drive.google.com/file/d/10dS6zSiNECqkj5g-lS55lcLfsHWHK7ux/view?usp=sharing)
+[U.S. Equity Tail Risk and Currency Risk Premia](https://www.federalreserve.gov/econres/ifdp/files/ifdp1253.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.75         | 8.12%      | Monthly               |
 
-[Perceived corruption, carry trades, and the cross section of currency returns](https://drive.google.com/file/d/1m1e7lbUbjWFNmeko0lG1VlkR4TBUmesW/view?usp=sharing)
+[Perceived corruption, carry trades, and the cross section of currency returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2961743)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.74         | 8.14%      | Yearly                |
 
-[The Equity Differential Factor in Currency Markets](https://drive.google.com/file/d/1Ih6cd721kMays9OmlOugx-9b7evc97jY/view?usp=sharing)
+[The Equity Differential Factor in Currency Markets](https://www.tandfonline.com/doi/epub/10.1080/0015198X.2020.1712924?needAccess=true)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.61         | 3.1%       | Monthly               |
 
-[Investor sentiment, attention and profitability of currency momentum strategies](https://drive.google.com/file/d/10Nd6A4Y-PC1BnJUhxKmymn0LFZ1KweRI/view?usp=sharing)
+[Investor sentiment, attention and profitability of currency momentum strategies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2862161)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.56         | 10.36%     | Monthly               |
 
-[The Rise and Fall of the Carry Trade: Links to Exchange Rate Predictability](https://drive.google.com/file/d/1Zzp585eSDVwUIu-TCkm5ZBTGyQGDRJQ3/view?usp=sharing)
+[The Rise and Fall of the Carry Trade: Links to Exchange Rate Predictability](https://www.researchgate.net/publication/336206761_The_Rise_and_Fall_of_the_Carry_Trade_Links_to_Exchange_Rate_Predictability)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.55         | 19.65%     | Monthly               |
 
-[Yield Curve Predictors of Foreign Exchange Returns](https://drive.google.com/file/d/18_b3iwuniLSVtNgDXtj3EnXakwtUvHh3/view?usp=sharing)
+[Yield Curve Predictors of Foreign Exchange Returns](https://www0.gsb.columbia.edu/faculty/aang/papers/FXrets.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.52         | 3.67%      | Monthly               |
 
-[A Multi Strategy Approach to Trading Foreign Exchange Futures](https://drive.google.com/file/d/1pqr4bIa69HJsUbjdMcwwYSHG-k5oLDC7/view?usp=sharing)
+[A Multi Strategy Approach to Trading Foreign Exchange Futures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3322717)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.5          | 13.16%     | Monthly               |
 
-[Carry Trades and Global Foreign Exchange Volatility](https://drive.google.com/file/d/1VakVdYQRI9s4vqiAlgnIO2EoQ1yU3RVk/view?usp=sharing)
+[Carry Trades and Global Foreign Exchange Volatility](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1342968)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.48         | 8.68%      | 6 Months              |
 
-[From Carry Trades to Curvy Trades](https://drive.google.com/file/d/189FcdyBuRswIJZ2oLcjrkPRceKtJZtcn/view?usp=sharing)
+[From Carry Trades to Curvy Trades](https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2149.en.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.39         | 6.7%       | Monthly               |
 
-[International Diversification Benefits with Foreign Exchange Investment Styles](https://drive.google.com/file/d/1fSl5abLNaIULRpPAFxzY_Z0-giCRGtxJ/view?usp=sharing)
+[International Diversification Benefits with Foreign Exchange Investment Styles](https://academic.oup.com/rof/article/18/5/1847/1575295)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.33         | 9.56%      | Monthly               |
 
-[Speculation and Hedging in the Currency Futures Markets: Are They Informative to the Spot Exchange Rates](https://drive.google.com/file/d/1udQMc53XZlDxt15ysNk-cX4oNCZ7y2YI/view?usp=sharing)
+[Speculation and Hedging in the Currency Futures Markets: Are They Informative to the Spot Exchange Rates](https://economics.umbc.edu/files/2014/09/wp_09_116.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
@@ -472,109 +472,109 @@
 
 ## Equities
 
-[The Presidential Term: Is the Third Year the Charm?](https://drive.google.com/file/d/18NfQKyn0C_Esmdgttd3xBvCrY5ipE4EL/view?usp=sharing)
+[The Presidential Term: Is the Third Year the Charm?](http://www.uwosh.edu/faculty_staff/beyers/workingpapers/Presidential%20Cycle%20JPM%20forthcoming.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.29         | 15.34%     | Yearly                |
 
-[Expected Option Returns](https://drive.google.com/file/d/1fgUKWsKJctk8Q81ZYwGI1d87_aQ4clS2/view?usp=sharing)
+[Expected Option Returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=189840)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 1.16         | 19%        | Monthly               |
 
-[Stock Returns over the FOMC Cycle](https://drive.google.com/file/d/1sxWTNlJIepixy7IL9NOHOyzKYa_d1ONR/view?usp=sharing)
+[Stock Returns over the FOMC Cycle](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2687614)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.83         | 13.92%     | Weekly                |
 
-[Combining equity country selection strategies](https://drive.google.com/file/d/1N6ZOS2cBdoFf8R5LKLNUtqeQEYjDeL2Z/view?usp=sharing)
+[Combining equity country selection strategies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2616056)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.82         | 24.53%     | Monthly               |
 
-[Market Timing with Aggregate Accruals](https://drive.google.com/file/d/1dwuPaMQH1heh9dE2rtLQO_al_iCOyqN5/view?usp=sharing)
+[Market Timing with Aggregate Accruals](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.7502&rep=rep1&type=pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.8          | 37.7%      | Yearly                |
 
-[Short-Term Momentum (Almost) Everywhere](https://drive.google.com/file/d/1lFiTPFLdB_VQoAt7a_DgFrCmzpblePm5/view?usp=sharing)
+[Short-Term Momentum (Almost) Everywhere](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340085)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.8          | 20.38%     | Monthly               |
 
-[Seven Decades of Long Term Abnormal Return Persistence: The Case of Dividend Initiations and Resumptions](https://drive.google.com/file/d/1UbA2uJcRJiPiwJi-xj93NIb1OdfFbHUw/view?usp=sharing)
+[Seven Decades of Long Term Abnormal Return Persistence: The Case of Dividend Initiations and Resumptions](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=204437)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.78         | 6.74%      | Monthly               |
 
-[Return Predictability and Market-Timing: A One-Month Model](https://drive.google.com/file/d/1NaM0xfc-Tve6iyP4MCHRSLEd0XR9opq2/view?usp=sharing)
+[Return Predictability and Market-Timing: A One-Month Model](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3050254)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.76         | 16.6%      | Monthly               |
 
-[Time-Varying Sharpe Ratios and Market Timing](https://drive.google.com/file/d/1u0EGH_dhVfYEjyrtG_qVnelXpZ69f8P9/view?usp=sharing)
+[Time-Varying Sharpe Ratios and Market Timing](https://pages.stern.nyu.edu/~rwhitela/papers/tvsharpe.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.66         | 15.38%     | Monthly               |
 
-[Exploiting the Informational Content of Hedging Pressure: Timing the Market by "Learning" from Derivatives Traders](https://drive.google.com/file/d/1Z7A3srE5Vv-qMw9PiBLTYIfJQbEBw7-o/view?usp=sharing)
+[Exploiting the Informational Content of Hedging Pressure: Timing the Market by "Learning" from Derivatives Traders](https://www.edhec.edu/sites/www.edhec-portail.pprod.net/files/publications/pdf/com.univ.collaboratif.utils.LectureFichiergw%3FID_FICHIER%3D1328885972665jpg)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.52         | 11%        | Weekly                |
 
-[Stock Return Predictability and Seasonality](https://drive.google.com/file/d/1JXObgr7mYUxKElJsyLRL2akTCNkpM4p0/view?usp=sharing)
+[Stock Return Predictability and Seasonality](http://www.apjfs.org/resource/global/cafm/2018-5-1.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.46         | 17.78%     | 6 Months              |
 
-[Equity premiums in the Presidential cycle: The midterm election resolution of uncertainty](https://drive.google.com/file/d/1EvKJxZP2h1ZkDdQg1pYpHZCFohcv8D_N/view?usp=sharing)
+[Equity premiums in the Presidential cycle: The midterm election resolution of uncertainty](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2903067)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.47         | 24.47%     | 6 Months              |
 
-[Market Timing with Aggregate and Idiosyncratic Stock Volatilities](https://drive.google.com/file/d/1_Ys2iPdH0jDhPlBS2kX3fwcRqKlS5j98/view?usp=sharing)
+[Market Timing with Aggregate and Idiosyncratic Stock Volatilities](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=869447)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.43         | 37.8%      | Quarterly             |
 
-[Forecasting the size premium over different time horizons](https://drive.google.com/file/d/102s9rEZZmv4Z2eFLIHsN77ljl9iYVIgi/view?usp=sharing)
+[Forecasting the size premium over different time horizons](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1951931)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.38         | 14.62%     | Monthly               |
 
-[Alpha Momentum and Alpha Reversal in Country and Industry Equity](https://drive.google.com/file/d/1PQ2c5PCBzJ6uONnX68naNG1DUJp8pmit/view?usp=sharing)
+[Alpha Momentum and Alpha Reversal in Country and Industry Equity](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3235350)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.31         | 20.02%     | Monthly               |
 
-[A Performance Evaluation Model for Global Macro Funds](https://drive.google.com/file/d/1fbg9AMKpY7unADgBAEcVC7Mdieijyc5B/view?usp=sharing)
+[A Performance Evaluation Model for Global Macro Funds](https://www.researchgate.net/publication/334653500_A_Performance_Evaluation_Model_for_Global_Macro_Funds)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.3          | 9.21%      | Monthly               |
 
-[Contrarian Long-Short Futures Arbitrages and Market Efficiency: Evidence in the Index Futures Markets around the Globe](https://drive.google.com/file/d/1DqdoACAOmpocDsIHxsnbF9fMvKW-ueuo/view?usp=sharing)
+[Contrarian Long-Short Futures Arbitrages and Market Efficiency: Evidence in the Index Futures Markets around the Globe](http://centerforpbbefr.rutgers.edu/2006/Paper%202006/12AS01-046-INT_Index_Futures.pdf)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | N/A          | N/A        | Weekly                |
 
-[Does Sentiment Matter?](https://drive.google.com/file/d/1TLk3WT9-T_u2FfFYR9Vntc-YagVftyhV/view?usp=sharing)
+[Does Sentiment Matter?](https://www.researchgate.net/publication/228760482_Does_sentiment_matter)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
