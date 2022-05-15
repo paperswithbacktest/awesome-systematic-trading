@@ -2,9 +2,10 @@
     <h1>Awesome Systematic Trading</h1>
 </div>
 
-# Table of Contents
 
-- [Table of Contents](#table-of-contents)
+A set of resources for systematic futures trading.
+
+
 - [Strategy Papers](#strategy-papers)
   - [Bonds](#bonds)
   - [Bonds, Commodities, Currencies, Equities](#bonds-commodities-currencies-equities)
@@ -15,6 +16,8 @@
   - [Cryptos](#cryptos)
   - [Currencies](#currencies)
   - [Equities](#equities)
+- [Datasets (coming soon)](#datasets-coming-soon)
+  - [Currencies](#currencies-1)
 - [Educational Books](#educational-books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -579,6 +582,17 @@
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | N/A          | N/A        | Monthly               |
+
+
+# Datasets (coming soon)
+
+## Currencies
+
+| Ticker | Name              | Exchange | Link         |
+|--------|-------------------|----------|--------------|
+| AD     | Australian dollar | CME      | [Download](#) |
+| BP     | British pound     | CME      | [Download](#) |
+
 
 # Educational Books
 
