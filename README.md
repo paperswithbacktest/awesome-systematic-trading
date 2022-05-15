@@ -18,8 +18,13 @@ A set of resources for systematic futures trading.
   - [Equities](#equities)
 - [Datasets (coming soon)](#datasets-coming-soon)
   - [Commodities](#commodities-1)
+    - [Agriculturals](#agriculturals)
+    - [Non Agriculturals](#non-agriculturals)
+  - [Cryptocurrencies](#cryptocurrencies)
   - [Currencies](#currencies-1)
   - [Equities](#equities-1)
+  - [Rates](#rates)
+- [Methodology (coming soon)](#methodology-coming-soon)
 - [Educational Books](#educational-books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -590,6 +595,12 @@ A set of resources for systematic futures trading.
 
 ## Commodities
 
+### Agriculturals
+
+### Non Agriculturals
+
+## Cryptocurrencies
+
 ## Currencies
 
 | Ticker | Name                    | Exchange | Link          |
@@ -609,6 +620,18 @@ A set of resources for systematic futures trading.
 | SF     | Swiss Franc             | CME      | [Download](#) |
 
 ## Equities
+
+## Rates
+
+# Methodology (coming soon)
+
+This section outlines a methodology for identifying systematic training signals.
+
+A distinction must be made between two main types of variables: the variables to be explained (which correspond to market characteristics that can be exploited in terms of trading) <img src="https://render.githubusercontent.com/render/math?math=Y"> and the potentially explanatory variables <img src="https://render.githubusercontent.com/render/math?math=X">.
+
+A multi-scale view of the variables must always be maintained.
+The more independent scales the multiscale analysis will reveal, the more easily it will be recombined. Nevertheless, one must be wary of the sensitivity of the usual methods (such as wavelet decomposition) which often have problems of stationarity (and more specifically of sensitivity to initial conditions).
+
 
 
 
