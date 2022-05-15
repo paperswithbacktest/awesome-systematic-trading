@@ -17,7 +17,9 @@ A set of resources for systematic futures trading.
   - [Currencies](#currencies)
   - [Equities](#equities)
 - [Datasets (coming soon)](#datasets-coming-soon)
+  - [Commodities](#commodities-1)
   - [Currencies](#currencies-1)
+  - [Equities](#equities-1)
 - [Educational Books](#educational-books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -586,12 +588,28 @@ A set of resources for systematic futures trading.
 
 # Datasets (coming soon)
 
+## Commodities
+
 ## Currencies
 
-| Ticker | Name              | Exchange | Link         |
-|--------|-------------------|----------|--------------|
-| AD     | Australian dollar | CME      | [Download](#) |
-| BP     | British pound     | CME      | [Download](#) |
+| Ticker | Name                    | Exchange | Link          |
+|--------|-------------------------|----------|---------------|
+| AD     | Australian dollar       | CME      | [Download](#) |
+| BP     | British pound           | CME      | [Download](#) |
+| CD     | Canadian Dollar         | CME      | [Download](#) |
+| ED1    | Eurodollar              | GLOBEX   | [Download](#) |
+| JY     | Japanese yen            | CME      | [Download](#) |
+| NE     | New Zealand dollar      | CME      | [Download](#) |
+| NOKA   | Norwegian krone         | CME      | [Download](#) |
+| RA2    | South African Rand      | CME      | [Download](#) |
+| RF     | Euro in Swiss Franc     | CME      | [Download](#) |
+| RP     | Euro/British Pound      | CME      | [Download](#) |
+| RY     | Euro/Japanese Yen       | CME      | [Download](#) |
+| SEK    | Swedish Krona/US Dollar | CME      | [Download](#) |
+| SF     | Swiss Franc             | CME      | [Download](#) |
+
+## Equities
+
 
 
 # Educational Books
