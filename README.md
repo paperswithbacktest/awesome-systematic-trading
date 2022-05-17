@@ -1,9 +1,16 @@
 <div align="center">
-    <h1>Awesome Systematic Trading</h1>
+    <h1>Awesome Systematic (Futures) Trading</h1>
 </div>
 
+A curated list of awesome papers, datasets and books for Systematic Trading (Quantitative Trading) on Futures.
 
-A set of resources for systematic futures trading.
+How do I pick the resources?
+
+- Fit in Systematic Futures Trading domain
+- Mid/low frequency strategies for tradability
+- Reasonable probability to bring above market performances
+
+Please raise a PR if you found some good fit assets for this repo or remove some outdated assets. Thanks!
 
 
 - [Strategy Papers](#strategy-papers)
@@ -24,7 +31,8 @@ A set of resources for systematic futures trading.
   - [Currencies](#currencies-1)
   - [Equities](#equities-1)
   - [Rates](#rates)
-- [Methodology (coming soon)](#methodology-coming-soon)
+  - [Real Estate](#real-estate)
+- [Modeling Methodology (coming soon)](#modeling-methodology-coming-soon)
 - [Educational Books](#educational-books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -597,9 +605,53 @@ A set of resources for systematic futures trading.
 
 ### Agriculturals
 
+| Ticker | Name                    | Exchange | Link          |
+|--------|-------------------------|----------|---------------|
+| BO     | Soybean Oil             | CME      | [Download](#) |
+| C      | Corn                    | CME      | [Download](#) |
+| CC     | Cocoa                   | NYBOT    | [Download](#) |
+| CT     | Cotton #2               | NYCE     | [Download](#) |
+| FC     | Feeder Cattle           | CME      | [Download](#) |
+| JRB    | Azuki Beans-Red         | TGE      | [Download](#) |
+| KC     | Coffee                  | CSCE     | [Download](#) |
+| LB     | Random Length Lumber    | CME      | [Download](#) |
+| LC     | Live Cattle             | CME      | [Download](#) |
+| LH     | Lean Hogs               | CME      | [Download](#) |
+| O      | Oats                    | CME      | [Download](#) |
+| OJ     | Orange Juice A          | NYCE     | [Download](#) |
+| RR     | Rough Rice              | CME      | [Download](#) |
+| RS     | Rapeseed (Canola)       | WCE      | [Download](#) |
+| S      | Soybean                 | CME      | [Download](#) |
+| SB     | Sugar No. 11            | CSCE     | [Download](#) |
+| SM     | Soybean Meal            | CME      | [Download](#) |
+| SRS    | Rubber RSS1             | TCE      | [Download](#) |
+| W      | Wheat                   | CME      | [Download](#) |
+
+
 ### Non Agriculturals
 
+| Ticker | Name                    | Exchange | Link          |
+|--------|-------------------------|----------|---------------|
+| CL    | Light Sweet Crude Oil    | CME      | [Download](#) |
+| GC    | Gold                     | NYMEX    | [Download](#) |
+| HG    | Copper                   | NYMEX    | [Download](#) |
+| HO    | Heating Oil              | CME      | [Download](#) |
+| LGO   | Gasoil                   | ICE      | [Download](#) |
+| NG    | Henry Hub Natural Gas    | CME      | [Download](#) |
+| PA    | Palladium                | CME      | [Download](#) |
+| PL    | Platinum                 | CME      | [Download](#) |
+| RB    | RBOB Gasoline            | NYMEX    | [Download](#) |
+| SI    | Silver                   | CME      | [Download](#) |
+
+
 ## Cryptocurrencies
+
+| Ticker | Name                    | Exchange | Link          |
+|--------|-------------------------|----------|---------------|
+| BTC    | Bitcoin                 | CME      | [Download](#) |
+| HTE    | Ethereum                | CME      | [Download](#) |
+| MBT    | Micro Bitcoin           | CME      | [Download](#) |
+
 
 ## Currencies
 
@@ -621,13 +673,68 @@ A set of resources for systematic futures trading.
 
 ## Equities
 
+| Ticker | Name                          | Exchange | Link          |
+|--------|-------------------------------|----------|---------------|
+| AEX    | EOE Index (Amsterdam)         | EOE      | [Download](#) |
+| ES     | E Mini S&P 500                | GLOBEX   | [Download](#) |
+| FCE    | CAC 40                        | EURONEXT | [Download](#) |
+| FDX    | Dax Index                     | EUREX    | [Download](#) |
+| FFI    | FTSE 100                      | EURONEXT | [Download](#) |
+| FSMI   | Switzerland (SMI)             | EUREX    | [Download](#) |
+| HCE    | Hang Seng Chine Enterprise    | HKEX     | [Download](#) |
+| HSI    | Hang Seng Stock Index         | HKEX     | [Download](#) |
+| IFS    | Italy (FTSE MIB)              | EURONEXT | [Download](#) |
+| MFX    | IBEX 35                       | MEFF     | [Download](#) |
+| NK     | Nikkei 225                    | CME      | [Download](#) |
+| NQ     | E-mini NASDAQ 100             | GLOBEX   | [Download](#) |
+| OMXS30 | Sweden                        | OMX      | [Download](#) |
+| STW    | MSCI Taiwan                   | SGX      | [Download](#) |
+| SXF    | S&P Canada 60                 | ME       | [Download](#) |
+| SXE    | Euro STOXX 50                 | EUREX    | [Download](#) |
+| SXX    | Dow Jones STOXX50             | EUREX    | [Download](#) |
+| YAP    | S&P/ASX 200 Index (Australia) | SFE      | [Download](#) |
+
+
 ## Rates
 
-# Methodology (coming soon)
+| Ticker | Name                                | Exchange | Link          |
+|--------|-------------------------------------|----------|---------------|
+| BAX    | 3 Month Canadian Bankers Acceptance | ME       | [Download](#) |
+| CGB    | Canada 10 Yr Govt Bond              | ME       | [Download](#) |
+| CTF    | Chine Financial Future Bonds        | CFFEX    | [Download](#) |
+| EBL    | Euro German Bund                    | EUREX    | [Download](#) |
+| EBM    | Euro German Bobl                    | EUREX    | [Download](#) |
+| EBS    | Euro German Schatz                  | EUREX    | [Download](#) |
+| FEI    | EURIBOR-3 Mth                       | EURONEXT | [Download](#) |
+| FES    | Euro Swiss Franc                    | EURONEXT | [Download](#) |
+| FLG    | Gilt-Long (8.75-13 yr)              | EURONEXT | [Download](#) |
+| FSS    | Sterling Rate 3 mth                 | EURONEXT | [Download](#) |
+| FYG    | Gilt-Short 5 yr                     | EURONEXT | [Download](#) |
+| JGB    | Japanese 10yr Govt Bond             | TSE      | [Download](#) |
+| YBA    | Australian Bank Bills (90 day)      | SNFE     | [Download](#) |
+| YTC    | Australian Govt Bond 6% (10Yr)      | SNFE     | [Download](#) |
+| YTT    | Australian Govt Bond 6% (3Yr)       | SNFE     | [Download](#) |
+| ZF     | T-Note-US 5 yr                      | CME      | [Download](#) |
+| ZN     | 10 Year US Treasury Note            | CME      | [Download](#) |
+| ZT     | 2 Year US Treasury Note             | CME      | [Download](#) |
+
+
+## Real Estate
+
+| Ticker | Name                    | Exchange | Link          |
+|--------|-------------------------|----------|---------------|
+| CUS    | Housing Index Composite | GLOBEX   | [Download](#) |
+
+
+# Modeling Methodology (coming soon)
 
 This section outlines a methodology for identifying systematic training signals.
 
-A distinction must be made between two main types of variables: the variables to be explained (which correspond to market characteristics that can be exploited in terms of trading) <img src="https://render.githubusercontent.com/render/math?math=Y"> and the potentially explanatory variables <img src="https://render.githubusercontent.com/render/math?math=X">.
+To start, a distinction must be made between two main types of variables:
+
+- the variables to be explained (which correspond to market characteristics that can be exploited in terms of trading) <!-- $Y$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=Y">
+- and the potentially explanatory variables <!-- $X$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=X">.
+
 
 A multi-scale view of the variables must always be maintained.
 The more independent scales the multiscale analysis will reveal, the more easily it will be recombined. Nevertheless, one must be wary of the sensitivity of the usual methods (such as wavelet decomposition) which often have problems of stationarity (and more specifically of sensitivity to initial conditions).
