@@ -32,8 +32,8 @@ We want this resource to grow with contributions from readers and data enthusias
 
 - [Strategy Papers](#strategy-papers)
 - [Datasets (coming soon)](#datasets-coming-soon)
-- [Books](#books)
 - [Modeling Methodology (coming soon)](#modeling-methodology-coming-soon)
+- [Books](#books)
 - [Blogs](#blogs)
 - [Basic Libraries](#basic-libraries)
 
@@ -67,17 +67,18 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 | BO     | Soybean Oil             | CME      | [Download](#) |
 
 
-# Books
-
-[Books Area Page](books.md)
-
-A comprehensive list of books for quantitative traders.
-
 # Modeling Methodology (coming soon)
 
 [Modeling Methodology Area Page](modeling-methodology.md)
 
 This section outlines a methodology for identifying systematic training signals.
+
+
+# Books
+
+[Books Area Page](books.md)
+
+A comprehensive list of books for quantitative traders.
 
 
 # Blogs
