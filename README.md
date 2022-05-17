@@ -4,9 +4,9 @@
 
 We're collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
 
-How do I pick the resources?
+How do we pick the resources?
 
-- Fit in Systematic Futures Trading domain
+- Fit in systematic futures trading domain
 - Focus on mid/low frequency strategies for tradability
 - Rational giving reasonable probability to bring above market performances
 
@@ -35,7 +35,7 @@ We want this resource to grow with contributions from readers and data enthusias
 - [Books](#books)
 - [Modeling Methodology (coming soon)](#modeling-methodology-coming-soon)
 - [Blogs](#blogs)
-- [Basic libraries](#basic-libraries)
+- [Basic Libraries](#basic-libraries)
 
 # Strategy Papers
 
@@ -86,7 +86,7 @@ This section outlines a methodology for identifying systematic training signals.
 - [Max Dama on Automated Trading](http://isomorphisms.sdf.org/maxdama.pdf)
 
 
-# Basic libraries
+# Basic Libraries
 
 Machine learning:
 
