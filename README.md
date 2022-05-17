@@ -32,6 +32,11 @@ Please raise a PR if you found some good fit assets for this repo or remove some
   - [Equities](#equities-1)
   - [Rates](#rates)
   - [Real Estate](#real-estate)
+- [Blogs](#blogs)
+- [Basic libraries](#basic-libraries)
+  - [Backtest + live trading](#backtest--live-trading)
+  - [Data source](#data-source)
+  - [Machine learning](#machine-learning)
 - [Modeling Methodology (coming soon)](#modeling-methodology-coming-soon)
 - [Educational Books](#educational-books)
   - [Beginner](#beginner)
@@ -40,7 +45,7 @@ Please raise a PR if you found some good fit assets for this repo or remove some
   - [Crypto](#crypto)
   - [General](#general)
   - [High Frequency Trading](#high-frequency-trading)
-  - [Machine Learning](#machine-learning)
+  - [Machine Learning](#machine-learning-1)
 
 
 # Strategy Papers
@@ -725,6 +730,33 @@ Please raise a PR if you found some good fit assets for this repo or remove some
 |--------|-------------------------|----------|---------------|
 | CUS    | Housing Index Composite | GLOBEX   | [Download](#) |
 
+# Blogs
+
+| Name  |
+|--------|
+| [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d) |
+| [Max Dama on Automated Trading](http://isomorphisms.sdf.org/maxdama.pdf) |
+
+[Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
+
+[Max Dama on Automated Trading](http://isomorphisms.sdf.org/maxdama.pdf)
+
+
+# Basic libraries
+
+## Backtest + live trading
+
+
+
+## Data source
+
+
+
+## Machine learning
+
+- [MlFinLab (Hudson & Thames)](https://github.com/edarchimbaud/mlfinlab) - MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools.
+- [QLib (Microsoft)](https://github.com/microsoft/qlib) - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
+
 
 # Modeling Methodology (coming soon)
 
@@ -738,8 +770,6 @@ To start, a distinction must be made between two main types of variables:
 
 A multi-scale view of the variables must always be maintained.
 The more independent scales the multiscale analysis will reveal, the more easily it will be recombined. Nevertheless, one must be wary of the sensitivity of the usual methods (such as wavelet decomposition) which often have problems of stationarity (and more specifically of sensitivity to initial conditions).
-
-
 
 
 # Educational Books
