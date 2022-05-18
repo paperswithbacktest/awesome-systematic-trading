@@ -23,7 +23,7 @@ How do we pick the resources?
 <!-- omit in toc -->
 ## How Can I Help?
 
-If you're interested in this area and would like to hear more, join our [mailing list](#)! We'd also appreciate if you could fill out this short [form](#) to help us better understand what your interests might be.
+If you're interested in this area and would like to hear more, join our [mailing list (coming soon)](#)! We'd also appreciate if you could fill out this short [form (coming soon)](#) to help us better understand what your interests might be.
 
 <!-- omit in toc -->
 ### Feedback
@@ -40,7 +40,7 @@ We want this resource to grow with contributions from readers and data enthusias
 
 - [Strategy Papers](#strategy-papers)
 - [Datasets (coming soon)](#datasets-coming-soon)
-- [Modeling Methodology (coming soon)](#modeling-methodology-coming-soon)
+- [Modeling Methodology](#modeling-methodology)
 - [Books](#books)
 - [Blogs](#blogs)
 - [Basic Libraries](#basic-libraries)
@@ -75,7 +75,7 @@ List of **[82 futures datasets](datasets.md)** covering prices, volumes, COT, an
 | BO     | Soybean Oil             | CME      | [Download](#) |
 
 
-# Modeling Methodology (coming soon)
+# Modeling Methodology
 
 [Modeling Methodology Area Page](modeling-methodology.md)
 
