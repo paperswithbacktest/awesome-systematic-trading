@@ -1,5 +1,6 @@
 <div align="center">
-    <h1>Awesome Systematic (Futures) Trading</h1>
+  <img src="static/future-trading.jpeg" height=200 alt=""/>
+  <h1>Awesome Systematic (Futures) Trading</h1>
 </div>
 
 We're collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
