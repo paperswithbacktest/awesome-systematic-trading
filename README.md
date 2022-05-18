@@ -4,6 +4,14 @@
 
 We're collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
 
+What will you find here?
+
+- 89 scientific papers describing systematic trading strategies
+- 82 futures datasets
+- 55 books for quantitative traders
+- A unique quantitative modeling methodology
+- A more
+
 How do we pick the resources?
 
 - Fit in systematic futures trading domain
