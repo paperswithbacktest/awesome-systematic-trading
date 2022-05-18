@@ -78,7 +78,7 @@ This section outlines a methodology for identifying systematic training signals.
 
 [Books Area Page](books.md)
 
-A comprehensive list of books for quantitative traders.
+A comprehensive list of **55 books** for quantitative traders.
 
 
 # Blogs
