@@ -41,7 +41,7 @@ We want this resource to grow with contributions from readers and data enthusias
 
 [Strategy Papers Area Page](strategy-papers.md)
 
-List of **89 scientific papers** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.
+List of **[89 scientific papers](strategy-papers.md)** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.
 
 <!-- omit in toc -->
 ### Example
@@ -57,7 +57,7 @@ List of **89 scientific papers** describing original systematic futures trading 
 
 [Datasets Area Page](datasets.md)
 
-List of **82 futures datasets** covering prices, volumes, COT, and much more.
+List of **[82 futures datasets](datasets.md)** covering prices, volumes, COT, and much more.
 
 <!-- omit in toc -->
 ### Example
@@ -71,14 +71,14 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 [Modeling Methodology Area Page](modeling-methodology.md)
 
-This section outlines a methodology for identifying systematic training signals.
+This section outlines a **[quantitative methodology](modeling-methodology.md)** for identifying systematic training signals.
 
 
 # Books
 
 [Books Area Page](books.md)
 
-A comprehensive list of **55 books** for quantitative traders.
+A comprehensive list of **[55 books](books.md)** for quantitative traders.
 
 
 # Blogs
