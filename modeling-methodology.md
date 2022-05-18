@@ -6,7 +6,7 @@
 # Table of Content
 
 - [The variables](#the-variables)
-  - [The variables to be explained](#the-variables-to-be-explained)
+  - [Variables to be explained](#variables-to-be-explained)
   - [Potential explanatory variables](#potential-explanatory-variables)
 - [Modeling](#modeling)
   - [Explorations](#explorations)
@@ -31,7 +31,7 @@ You will systematically use descriptive statistics to qualify a variable before 
 
 # The variables
 
-## The variables to be explained
+## Variables to be explained
 
 The two variables that you will look at first are
 - the price reversal (i.e. the alternation)
