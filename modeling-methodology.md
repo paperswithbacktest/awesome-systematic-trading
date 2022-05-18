@@ -134,7 +134,7 @@ In order to model the relationship between *Y(t)* (to be explained) and *X(t)* (
 
 It is often better to use a model like:
 
-*Y(t) = F( X(t-1), X(t-2), …, X(t-K) ) + bruit*
+*Y(t) = F( X(t-1), X(t-2), …, X(t-K) ) + noise*
 
 The choice of K is an integral part of the choice of the model.
 The real danger is that the dimension (i.e. the number of variables) of this kind of model is quickly very high (if X is of dimension 4 and K is 5, this amounts to a model of dimension 20).
