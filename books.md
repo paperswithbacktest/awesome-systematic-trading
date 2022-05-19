@@ -1084,26 +1084,6 @@
   </tr>
 </table>
 
-[High-Frequency Trading: A Practical Guide to Algorithmic Strategies and Trading Systems - Irene Aldridge](https://www.amazon.fr/gp/product/1118343506/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118343506&linkId=f0f6a43557e15e0ee8e6cbbc4beb60ab)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1118343506/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118343506&linkId=f0f6a43557e15e0ee8e6cbbc4beb60ab">
-        <img src="./static/A Practical Guide to Algorithmic Strategies and Trading Systems.jpeg" style="width:390px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          High-frequency trading is a difficult, but profitable, endeavor that can generate stable profits in various market conditions. But solid footing in both the theory and practice of this discipline are essential to success. Whether you’re an institutional investor seeking a better understanding of high-frequency operations or an individual investor looking for a new way to trade, this book has what you need to make the most of your time in today’s dynamic markets.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
 [Inside the Black Box: A Simple Guide to Quantitative and High Frequency Trading - Rishi K. Narang](https://www.amazon.fr/gp/product/1118362411/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118362411&linkId=35e02d4e636350366531a5033597a541)
 
 <table>
@@ -1123,6 +1103,45 @@
   </tr>
 </table>
 
+
+[Market Microstructure in Practice - Charles-Albert Lehalle, Sophie Laruelle](https://www.amazon.fr/Market-Microstructure-Practice-Sophie-Laruelle/dp/9813231122)
+
+<table>
+  <tr>
+    <td>
+      <a href="https://www.amazon.fr/Market-Microstructure-Practice-Sophie-Laruelle/dp/9813231122">
+        <img src="./static/Market Microstructure in Practice.jpg" style="width:470px;">
+      </a>
+    </td>
+    <td>
+      <ul>
+        <li>
+          Using a quantitative viewpoint, this book explains how an attrition of liquidity and regulatory changes can impact the whole microstructure of financial markets. A mathematical Appendix details the quantitative tools and indicators used through the book, allowing the reader to go further independently.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+[The Financial Mathematics of Market Liquidity - Olivier Gueant](https://www.amazon.com/Financial-Mathematics-Market-Liquidity-Execution/dp/1498725473)
+
+<table>
+  <tr>
+    <td>
+      <a href="https://www.amazon.com/Financial-Mathematics-Market-Liquidity-Execution/dp/1498725473">
+        <img src="./static/The Financial Mathematics of Market Liquidity.jpg" style="width:470px;">
+      </a>
+    </td>
+    <td>
+      <ul>
+        <li>
+          This book is among the first to present the mathematical models most commonly used to solve optimal execution problems and market making problems in finance. The Financial Mathematics of Market Liquidity: From Optimal Execution to Market Making presents a general modeling framework for optimal execution problems–inspired from the Almgren-Chriss approach–and then demonstrates the use of that framework across a wide range of areas.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 [The Problem of HFT – Collected Writings on High Frequency Trading & Stock Market Structure Reform - Haim Bodek](https://www.amazon.fr/gp/product/1481978357/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1481978357&linkId=2f3acf998de645990b681e2ac9f0217c)

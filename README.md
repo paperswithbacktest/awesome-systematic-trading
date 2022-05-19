@@ -9,7 +9,7 @@ What will you find here?
 
 - 89 scientific papers describing systematic trading strategies
 - 82 futures datasets
-- 55 books for quantitative traders
+- 56 books for quantitative traders
 - A unique quantitative modeling methodology
 - A more
 
@@ -87,7 +87,7 @@ This section outlines a **[quantitative methodology](modeling-methodology.md)** 
 
 [Books Area Page](books.md)
 
-A comprehensive list of **[55 books](books.md)** for quantitative traders.
+A comprehensive list of **[56 books](books.md)** for quantitative traders.
 
 
 # Blogs

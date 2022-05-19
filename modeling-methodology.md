@@ -11,7 +11,6 @@
 - [Modeling](#modeling)
   - [Explorations](#explorations)
   - [Overfitting measurement](#overfitting-measurement)
-  - [Eigendimension estimation](#eigendimension-estimation)
 
 
 
@@ -59,50 +58,42 @@ It is out of the question to find oneself in a situation where one has gone far 
 
 ## Potential explanatory variables
 
-The first variables you will look at are:
-
-- the trend
-- the reversals
-- the range
-- the volatility
-- oscillations
-- imbalance
-- range movements
+The first variables you will look at are trend, the reversals, the range, the volatility, oscillations, imbalance, and the range movements.
 
 > Contrary to the treatments of the variables to be explained, all the treatments of the explanatory variables must be causal: they must be able to be reproduced in real time on the market data (thus out of the question to use the future).
 
-It is not at all problematic to use the trend and the reversals (which are also variables to be explained, it simply means that we are not forbidden to predict a future trend from a conjunction of reversals and past trends.
+It is not at all problematic to use the trend and the reversals (which are also variables to be explained, it simply means that you are not forbidden to predict a future trend from a conjunction of reversals and past trends.
 
 <!-- omit in toc -->
 ### Monovariate pre-processing
 
 These variables must also undergo a multi-scale decomposition, according to three types of scales (calendar / trade / volumes).
 
-For example, a 60-trade causal trend (at times, prices and quantities *(t(n),S(n),Q(n)))* can be estimated:
-- by the Bayesian slope: *(S(60)-S(1))/60*
-- by the slope of the linear regression of *S(n)* on *t(n)*
-- by the median of the progressive slopes *(S(n)-S(1))/n*
-- by the median of the local slopes *S(n)-S(n+1)*
-- by the barycenter of the progressive slopes: *sum( Q(n) * (S(n)-S(1))/n ) / sum(Q(n))*
+For example, a 60-trade causal trend (at times, prices and quantities *(t(n),S(n),Q(n)))* can be estimated by:
+- *(S(60)-S(1))/60*, ie the Bayesian slope
+- the slope of the linear regression of *S(n)* on *t(n)*
+- *(S(n)-S(1))/n*, ie the median of the progressive slopes
+- *S(n)-S(n+1)*, ie the median of the local slopes
+- *sum( Q(n) * (S(n)-S(1))/n ) / sum(Q(n))*, by the barycenter of the progressive slopes
 - etc
 
-For a single "concept", we will have to choose one or more estimators and not deviate from them before having totally invalidated or validated it.
+For a single "concept", you will have to choose one or more estimators and not deviate from them before having totally invalidated or validated it.
 
-The results of these calculations being only estimators of an underlying value, it will be necessary to keep a quantification of the variability of their values. For each of these estimators we can calculate a "variability". This can be the variance of the estimator under distribution assumptions, or simply a bootstrap scoring.
+The results of these calculations being only estimators of an underlying value, it will be necessary to keep a quantification of the variability of their values. For each of these estimators you can calculate a "variability". This can be the variance of the estimator under distribution assumptions, or simply a bootstrap scoring.
 
 <!-- omit in toc -->
 ### Multivariate pretreatments
 
 As the characteristics of the potentially explanatory variables will be recombined in order to best explain those of the variables to be explained, the more independent they are, the better things will go.
 
-We will use a conditional information measure in a systematic way to quantify the dependencies between variables.
+You will use a conditional information measure in a systematic way to quantify the dependencies between variables.
 
-This phase of the analysis will be increasingly costly, since when we add an Nth potentially explanatory variable, we will have to phase it with the previous N-1. It will therefore be necessary to systematize / automate this phase.
+This phase of the analysis will be increasingly costly, since when you add an Nth potentially explanatory variable, you will have to phase it with the previous N-1. It will therefore be necessary to systematize / automate this phase.
 
 <!-- omit in toc -->
 ### Output
 
-At the end of the study phase of the potentially explanatory variables, we will have for each type of scale (calendar / trade / volume) a characterization of these variables (value, variability), as well as an analysis of their intra (i.e. between the different scales and types of scale) and inter (i.e. cross indicators) dependencies.
+At the end of the study phase of the potentially explanatory variables, you will have for each type of scale (calendar / trade / volume) a characterization of these variables (value, variability), as well as an analysis of their intra (i.e. between the different scales and types of scale) and inter (i.e. cross indicators) dependencies.
 
 # Modeling
 
@@ -112,35 +103,19 @@ The objective of modeling is to capture common joint phenomena.
 
 Any parametric modeling will be preceded by a non-parametric analysis to guide the choice of models.
 
-- **Non-parametric explorations** Non-parametric methods are useful for exploration purposes, but are generally less effective for prediction or anticipation, as they have a strong tendency to over-learn. Before choosing a model, these methods allow us to have an idea of the relationships between the variables. We will typically use informational methods (conditional entropy), which will tell us if a characteristic CX contains information about a characteristic CY to be predicted, but it is possible that the type of relationship is not capturable by any model. We will just know that "there is a link" between the two features without being able to exploit it. These analyses will nevertheless allow us to discard some features since we will have results like "CX contains no information about CY". This is a dimension reduction technique.
+- **Non-parametric explorations** Non-parametric methods are useful for exploration purposes, but are generally less effective for prediction or anticipation, as they have a strong tendency to over-learn. Before choosing a model, these methods allow us to have an idea of the relationships between the variables. You will typically use informational methods (conditional entropy), which will tell us if a characteristic CX contains information about a characteristic CY to be predicted, but it is possible that the type of relationship is not capturable by any model. You will just know that "there is a link" between the two features without being able to exploit it. These analyses will nevertheless allow us to discard some features since you will have results like "CX contains no information about CY". This is a dimension reduction technique.
 
-- **Rare event conjunctions** In a second step (and therefore once the number of potentially explanatory features has been reduced) we will try to measure if there are rare event conjunctions for CY and for CX. To do so, we will score CX and CY with respect to their empirical distributions and thus obtain SX and SY scores that marginally follow a uniform distribution (Poisson lemma). We will then simply look for Baysian thresholds that maximize the probability of rare events between CX and CY.
+- **Rare event conjunctions** In a second step (and therefore once the number of potentially explanatory features has been reduced) you will try to measure if there are rare event conjunctions for CY and for CX. To do so, you will score CX and CY with respect to their empirical distributions and thus obtain SX and SY scores that marginally follow a uniform distribution (Poisson lemma). You will then simply look for Baysian thresholds that maximize the probability of rare events between CX and CY.
 
 ## Overfitting measurement
 
-We will use systematic methods to measure the over-fitting of the estimated parameters.
+You will use systematic methods to measure the over-fitting of the estimated parameters.
 
 - **Cross validation** The most generic way to validate the complexity of a model is cross-validation. It consists in keeping a part (randomly chosen) of the database (about 20%) and calculating the residuals of the model on this validation base.
 
-- **Bootstrap and variability of model parameters** The bootstrap is a method similar to cross validation. It focuses on the variability of the model's parameter values. It consists in calculating the parameters of the model (the coefficients of a linear regression, for example) on a random draw of 80% of the database, several times in a row (a good 100 times). We will then obtain a probable distribution of the model parameters. If the model indeed captures a relationship between X and Y, then its parameters should not be too variable. If they are, we will ask ourselves about the temporal variations of their values. Indeed, if the model is structurally sound (i.e. the nature of the relationship between X and Y is linear), but its parameters evolve over time (following "market phases"), we need to be able to see this.
+- **Bootstrap and variability of model parameters** The bootstrap is a method similar to cross validation. It focuses on the variability of the model's parameter values. It consists in calculating the parameters of the model (the coefficients of a linear regression, for example) on a random draw of 80% of the database, several times in a row (a good 100 times). You will then obtain a probable distribution of the model parameters. If the model indeed captures a relationship between X and Y, then its parameters should not be too variable. If they are, you will ask ourselves about the temporal variations of their values. Indeed, if the model is structurally sound (i.e. the nature of the relationship between X and Y is linear), but its parameters evolve over time (following "market phases"), you need to be able to see this.
 
-## Eigendimension estimation
+- **Eigendimension estimation** Eigendimension estimates will also be discussed in a systematic framework. In order to model the relationship between *Y(t)* (to be explained) and *X(t)* (potentially explanatory), you can exploit values of X in the past. For example, instead of using a formal model like: *Y(t) = F( X(t-1) ) + noise*, it is often better to use a model like: *Y(t) = F( X(t-1), X(t-2), …, X(t-K) ) + noise*. The choice of K is an integral part of the choice of the model. The real danger is that the dimension (i.e. the number of variables) of this kind of model is quickly very high (if X is of dimension 4 and K is 5, this amounts to a model of dimension 20).
 
-Eigendimension estimates will also be discussed in a systematic framework.
-
-In order to model the relationship between *Y(t)* (to be explained) and *X(t)* (potentially explanatory), we can exploit values of X in the past. For example, instead of using a formal model like :
-
-*Y(t) = F( X(t-1) ) + noise*
-
-It is often better to use a model like:
-
-*Y(t) = F( X(t-1), X(t-2), …, X(t-K) ) + noise*
-
-The choice of K is an integral part of the choice of the model.
-The real danger is that the dimension (i.e. the number of variables) of this kind of model is quickly very high (if X is of dimension 4 and K is 5, this amounts to a model of dimension 20).
-
-
-
-In general, in modeling, we can "exchange data for knowledge". The more explicit behavior we have identified (from blind modeling) that we can incorporate into the models, the less we need long histories (and the less we are exposed to the risk of overlearning).
 
 
