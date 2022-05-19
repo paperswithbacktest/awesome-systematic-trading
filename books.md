@@ -1110,7 +1110,7 @@
   <tr>
     <td>
       <a href="https://www.amazon.fr/Market-Microstructure-Practice-Sophie-Laruelle/dp/9813231122">
-        <img src="./static/Market Microstructure in Practice.jpg" style="width:470px;">
+        <img src="./static/Market Microstructure in Practice.jpg" style="width:250px;">
       </a>
     </td>
     <td>
@@ -1130,7 +1130,7 @@
   <tr>
     <td>
       <a href="https://www.amazon.com/Financial-Mathematics-Market-Liquidity-Execution/dp/1498725473">
-        <img src="./static/The Financial Mathematics of Market Liquidity.jpg" style="width:470px;">
+        <img src="./static/The Financial Mathematics of Market Liquidity.jpg" style="width:380px;">
       </a>
     </td>
     <td>
