@@ -48,18 +48,57 @@ We want this resource to grow with contributions from readers and data enthusias
 
 # Strategy Papers
 
-[Strategy Papers Area Page](strategy-papers.md)
-
 List of **[89 scientific papers](strategy-papers.md)** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.
-
-<!-- omit in toc -->
-### Example
 
 [Market Closure and Short-Term Reversal](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2730304)
 
 | Sharpe Ratio | Volatility | Period of Rebalancing |
 |--------------|------------|-----------------------|
 | 0.89         | 7.69%      | Weekly                |
+
+[Finding Yield in a 2% World](https://mebfaber.com/wp-content/uploads/2016/05/SSRN-id2724737.pdf)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.68         | 8.63%      | Monthly               |
+
+[Profiting from Mean-Reverting Yield Curve Trading Strategies](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3488&context=lkcsb_research)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.65         | 15%        | Monthly               |
+
+[Profitability of Simple Trading Strategies Exploiting the Forward Premium Bias in Foreign Exchange Markets and the Time Premium in Yield Curves](https://haldus.eestipank.ee/sites/default/files/publication/en/WorkingPapers/2006/_wp_406.pdf)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.62         | 10%        | Monthly               |
+
+[Short-Term Momentum (Almost) Everywhere](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3340085)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.62         | 9.69%      | Monthly               |
+
+[Cross-Sectional Seasonalities in International Government Bond Returns](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3212995)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.56         | 13.85%     | Monthly               |
+
+[Beyond Carry and Momentum in Government Bonds](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3446653)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| 0.13         | 10.1%      | Monthly               |
+
+[Carry investing on the yield curve](https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2017-Athens/papers/EFMA2017_0407_fullpaper.pdf)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing |
+|--------------|------------|-----------------------|
+| N/A          | N/A        | Monthly               |
+
+👉 [**Continuation of the list here**](strategy-papers.md)
 
 
 # Datasets (coming soon)
