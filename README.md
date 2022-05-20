@@ -98,7 +98,7 @@ List of **[89 scientific papers](strategy-papers.md)** describing original syste
 |--------------|------------|-----------------------|
 | N/A          | N/A        | Monthly               |
 
-👉 [**The rest of the list is here**](strategy-papers.md)
+👉 [**The rest of the list is on its dedicated page.**](strategy-papers.md)
 
 
 # Datasets (coming soon)
@@ -127,7 +127,7 @@ List of **[82 futures datasets](datasets.md)** covering prices, volumes, COT, an
 | SRS    | Rubber RSS1             | TCE      | [Download](#) |
 | W      | Wheat                   | CME      | [Download](#) |
 
-👉 [**The rest of the list is here**](datasets.md)
+👉 [**The rest of the list is on its dedicated page.**](datasets.md)
 
 
 # Modeling Methodology
@@ -150,7 +150,7 @@ In this step, you will have to see the results of the pre-treatments as estimato
 
 You will systematically use descriptive statistics to qualify a variable before including it in any further analysis.
 
-👉 [**The rest of the methodology is here**](modeling-methodology.md)
+👉 [**The rest of the methodology is on its dedicated page.**](modeling-methodology.md)
 
 # Books
 
@@ -331,7 +331,7 @@ A comprehensive list of **[56 books](books.md)** for quantitative traders.
   </tr>
 </table>
 
-👉 [**The rest of the list is here**](books.md)
+👉 [**The rest of the list is on its dedicated page.**](books.md)
 
 # Blogs
 
