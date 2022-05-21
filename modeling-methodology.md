@@ -117,5 +117,11 @@ You will use systematic methods to measure the over-fitting of the estimated par
 
 - **Eigendimension estimation** Eigendimension estimates will also be discussed in a systematic framework. In order to model the relationship between *Y(t)* (to be explained) and *X(t)* (potentially explanatory), you can exploit values of X in the past. For example, instead of using a formal model like: *Y(t) = F( X(t-1) ) + noise*, it is often better to use a model like: *Y(t) = F( X(t-1), X(t-2), …, X(t-K) ) + noise*. The choice of K is an integral part of the choice of the model. The real danger is that the dimension (i.e. the number of variables) of this kind of model is quickly very high (if X is of dimension 4 and K is 5, this amounts to a model of dimension 20).
 
+- **Leave a cluster out**. Instead of creating our cross-validation folds randomly, you first cluster your data before doing any training, and then perform the moral equivalent of cross-validation. Instead of holding a fold, we hold one of these clusters out of the way and thus create a world in which our models explicitly have blind spots. If the model does a good job, we can be reasonably confident that our model is robust enough and not just picking up spurious correlations.
+  
+- **Split the evaluation data according to how close a given test example is to its nearest neighbor in the training data**. If one of the given test examples is an identical copy of an example in the training data, being good at it is nice but not really impressive. If it's a little further away, it gives us a little more confidence. If it's very far away from its nearest neighbor in the training data, then it's probably a pretty hard example to get, and if we do a good job on it, then our model is probably pretty robust.
 
 
+---
+
+Thanks to CA Lehalle, D. Sculley for several of these ideas.
