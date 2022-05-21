@@ -14,7 +14,7 @@
 
 
 
-To start, you need to make a distinction between two main types of variables in your dataset:
+To start, when you develop a systematic trading strategy, you need to make a distinction between two main types of variables in your dataset:
 
 - **the variables to be explained** (which correspond to market characteristics that can be exploited in terms of trading)
 - and **the potentially explanatory variables**.
