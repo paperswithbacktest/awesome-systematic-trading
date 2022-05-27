@@ -688,7 +688,7 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                    | Exchange | Link          |
 |--------|-------------------------|----------|---------------|
-| AD     | Australian dollar       | CME      | [Download](#) |
+| AD     | Australian dollar       | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset/?ticker=AD) |
 | BP     | British pound           | CME      | [Download](#) |
 | CD     | Canadian Dollar         | CME      | [Download](#) |
 | ED1    | Eurodollar              | GLOBEX   | [Download](#) |
