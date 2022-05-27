@@ -638,11 +638,11 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                    | Exchange | Link          |
 |--------|-------------------------|----------|---------------|
-| BO     | Soybean Oil             | CME      | [Download](#) |
-| C      | Corn                    | CME      | [Download](#) |
-| CC     | Cocoa                   | NYBOT    | [Download](#) |
-| CT     | Cotton #2               | NYCE     | [Download](#) |
-| FC     | Feeder Cattle           | CME      | [Download](#) |
+| BO     | Soybean Oil             | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=BO) |
+| C      | Corn                    | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=C) |
+| CC     | Cocoa                   | NYBOT    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CC) |
+| CT     | Cotton #2               | NYCE     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CT) |
+| FC     | Feeder Cattle           | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FC) |
 | JRB    | Azuki Beans-Red         | TGE      | [Download](#) |
 | KC     | Coffee                  | CSCE     | [Download](#) |
 | LB     | Random Length Lumber    | CME      | [Download](#) |
@@ -663,7 +663,7 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                    | Exchange | Link          |
 |--------|-------------------------|----------|---------------|
-| CL    | Light Sweet Crude Oil    | CME      | [Download](#) |
+| CL    | Light Sweet Crude Oil    | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CL) |
 | GC    | Gold                     | NYMEX    | [Download](#) |
 | HG    | Copper                   | NYMEX    | [Download](#) |
 | HO    | Heating Oil              | CME      | [Download](#) |
@@ -679,9 +679,9 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                    | Exchange | Link          |
 |--------|-------------------------|----------|---------------|
-| BTC    | Bitcoin                 | CME      | [Download](#) |
-| HTE    | Ethereum                | CME      | [Download](#) |
-| MBT    | Micro Bitcoin           | CME      | [Download](#) |
+| BTC    | Bitcoin                 | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=BTC) |
+| HTE    | Ethereum                | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=HTE) |
+| MBT    | Micro Bitcoin           | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=MBT) |
 
 
 ## Currencies
@@ -689,9 +689,9 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 | Ticker | Name                    | Exchange | Link          |
 |--------|-------------------------|----------|---------------|
 | AD     | Australian dollar       | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=AD) |
-| BP     | British pound           | CME      | [Download](#) |
-| CD     | Canadian Dollar         | CME      | [Download](#) |
-| ED1    | Eurodollar              | GLOBEX   | [Download](#) |
+| BP     | British pound           | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=BP) |
+| CD     | Canadian Dollar         | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CD) |
+| ED1    | Eurodollar              | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=ED1) |
 | JY     | Japanese yen            | CME      | [Download](#) |
 | NE     | New Zealand dollar      | CME      | [Download](#) |
 | NOKA   | Norwegian krone         | CME      | [Download](#) |
@@ -706,10 +706,10 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                          | Exchange | Link          |
 |--------|-------------------------------|----------|---------------|
-| AEX    | EOE Index (Amsterdam)         | EOE      | [Download](#) |
-| ES     | E Mini S&P 500                | GLOBEX   | [Download](#) |
-| FCE    | CAC 40                        | EURONEXT | [Download](#) |
-| FDX    | Dax Index                     | EUREX    | [Download](#) |
+| AEX    | EOE Index (Amsterdam)         | EOE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=AEX) |
+| ES     | E Mini S&P 500                | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=ES) |
+| FCE    | CAC 40                        | EURONEXT | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FCE) |
+| FDX    | Dax Index                     | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FDX) |
 | FFI    | FTSE 100                      | EURONEXT | [Download](#) |
 | FSMI   | Switzerland (SMI)             | EUREX    | [Download](#) |
 | HCE    | Hang Seng Chine Enterprise    | HKEX     | [Download](#) |
@@ -730,13 +730,13 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                                | Exchange | Link          |
 |--------|-------------------------------------|----------|---------------|
-| BAX    | 3 Month Canadian Bankers Acceptance | ME       | [Download](#) |
-| CGB    | Canada 10 Yr Govt Bond              | ME       | [Download](#) |
+| BAX    | 3 Month Canadian Bankers Acceptance | ME       | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=BAX) |
+| CGB    | Canada 10 Yr Govt Bond              | ME       | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CGB) |
 | CTF    | Chine Financial Future Bonds        | CFFEX    | [Download](#) |
-| EBL    | Euro German Bund                    | EUREX    | [Download](#) |
-| EBM    | Euro German Bobl                    | EUREX    | [Download](#) |
-| EBS    | Euro German Schatz                  | EUREX    | [Download](#) |
-| FEI    | EURIBOR-3 Mth                       | EURONEXT | [Download](#) |
+| EBL    | Euro German Bund                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=EBL) |
+| EBM    | Euro German Bobl                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=EBM) |
+| EBS    | Euro German Schatz                  | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=EBS) |
+| FEI    | EURIBOR-3 Mth                       | EURONEXT | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FEI) |
 | FES    | Euro Swiss Franc                    | EURONEXT | [Download](#) |
 | FLG    | Gilt-Long (8.75-13 yr)              | EURONEXT | [Download](#) |
 | FSS    | Sterling Rate 3 mth                 | EURONEXT | [Download](#) |
@@ -754,7 +754,7 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                    | Exchange | Link          |
 |--------|-------------------------|----------|---------------|
-| CUS    | Housing Index Composite | GLOBEX   | [Download](#) |
+| CUS    | Housing Index Composite | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CUS) |
 
 
 # Books
