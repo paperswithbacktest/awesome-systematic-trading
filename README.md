@@ -638,25 +638,25 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                    | Exchange | Link                               |
 |--------|-------------------------|----------|------------------------------------|
-| BO     | Soybean Oil             | CME      | [Download](https://bit.ly/3a25Cre) |
-| C      | Corn                    | CME      | [Download](https://bit.ly/3z2axmn) |
-| CC     | Cocoa                   | NYBOT    | [Download](https://bit.ly/3lV4Ejm) |
-| CT     | Cotton #2               | NYCE     | [Download](https://bit.ly/3a7VGN2) |
-| FC     | Feeder Cattle           | CME      | [Download](https://bit.ly/3a3WhPE) |
-| JRB    | Azuki Beans-Red         | TGE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=JRB) |
-| KC     | Coffee                  | CSCE     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=KC) |
-| LB     | Random Length Lumber    | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=LB) |
-| LC     | Live Cattle             | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=LC) |
-| LH     | Lean Hogs               | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=LH) |
-| O      | Oats                    | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=O) |
-| OJ     | Orange Juice A          | NYCE     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=OJ) |
-| RR     | Rough Rice              | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=RR) |
-| RS     | Rapeseed (Canola)       | WCE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=RS) |
-| S      | Soybean                 | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=S) |
-| SB     | Sugar No. 11            | CSCE     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SB) |
-| SM     | Soybean Meal            | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SM) |
-| SRS    | Rubber RSS1             | TCE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SRS) |
-| W      | Wheat                   | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=W) |
+| BO     | Soybean Oil             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=BO) |
+| C      | Corn                    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=C) |
+| CC     | Cocoa                   | NYBOT    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CC) |
+| CT     | Cotton #2               | NYCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CT) |
+| FC     | Feeder Cattle           | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FC) |
+| JRB    | Azuki Beans-Red         | TGE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=JRB) |
+| KC     | Coffee                  | CSCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=KC) |
+| LB     | Random Length Lumber    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LB) |
+| LC     | Live Cattle             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LC) |
+| LH     | Lean Hogs               | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LH) |
+| O      | Oats                    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=O) |
+| OJ     | Orange Juice A          | NYCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=OJ) |
+| RR     | Rough Rice              | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RR) |
+| RS     | Rapeseed (Canola)       | WCE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RS) |
+| S      | Soybean                 | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=S) |
+| SB     | Sugar No. 11            | CSCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SB) |
+| SM     | Soybean Meal            | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SM) |
+| SRS    | Rubber RSS1             | TCE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SRS) |
+| W      | Wheat                   | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=W) |
 
 
 ### Non Agriculturals
@@ -664,15 +664,15 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 | Ticker | Name                    | Exchange | Link                               |
 |--------|-------------------------|----------|------------------------------------|
 | CL    | Light Sweet Crude Oil    | CME      | [Download](https://bit.ly/3NGzM1U) |
-| GC    | Gold                     | NYMEX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=GC) |
-| HG    | Copper                   | NYMEX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=HG) |
-| HO    | Heating Oil              | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=HO) |
-| LGO   | Gasoil                   | ICE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=LGO) |
+| GC    | Gold                     | NYMEX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=GC) |
+| HG    | Copper                   | NYMEX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HG) |
+| HO    | Heating Oil              | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HO) |
+| LGO   | Gasoil                   | ICE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LGO) |
 | NG    | Henry Hub Natural Gas    | CME      | N/A |
-| PA    | Palladium                | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=PA) |
-| PL    | Platinum                 | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=PL) |
-| RB    | RBOB Gasoline            | NYMEX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=RB) |
-| SI    | Silver                   | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SI) |
+| PA    | Palladium                | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=PA) |
+| PL    | Platinum                 | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=PL) |
+| RB    | RBOB Gasoline            | NYMEX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RB) |
+| SI    | Silver                   | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SI) |
 
 
 ## Cryptocurrencies
@@ -689,72 +689,72 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 | Ticker | Name                    | Exchange | Link                               |
 |--------|-------------------------|----------|------------------------------------|
 | AD     | Australian dollar       | CME      | [Download](https://bit.ly/3wVZmJl) |
-| BP     | British pound           | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=BP) |
-| CD     | Canadian Dollar         | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CD) |
-| ED1    | Eurodollar              | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=ED1) |
-| JY     | Japanese yen            | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=JY) |
-| NE     | New Zealand dollar      | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=NE) |
-| NOKA   | Norwegian krone         | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=NOKA) |
-| RA2    | South African Rand      | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=RA2) |
-| RF     | Euro in Swiss Franc     | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=RF) |
-| RP     | Euro/British Pound      | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=RP) |
-| RY     | Euro/Japanese Yen       | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=RY) |
-| SEK    | Swedish Krona/US Dollar | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SEK) |
-| SF     | Swiss Franc             | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SF) |
+| BP     | British pound           | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=BP) |
+| CD     | Canadian Dollar         | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CD) |
+| ED1    | Eurodollar              | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ED1) |
+| JY     | Japanese yen            | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=JY) |
+| NE     | New Zealand dollar      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NE) |
+| NOKA   | Norwegian krone         | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NOKA) |
+| RA2    | South African Rand      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RA2) |
+| RF     | Euro in Swiss Franc     | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RF) |
+| RP     | Euro/British Pound      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RP) |
+| RY     | Euro/Japanese Yen       | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RY) |
+| SEK    | Swedish Krona/US Dollar | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SEK) |
+| SF     | Swiss Franc             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SF) |
 
 ## Equities
 
 | Ticker | Name                          | Exchange | Link          |
 |--------|-------------------------------|----------|---------------|
-| AEX    | EOE Index (Amsterdam)         | EOE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=AEX) |
-| ES     | E Mini S&P 500                | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=ES) |
-| FCE    | CAC 40                        | EURONEXT | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FCE) |
-| FDX    | Dax Index                     | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FDX) |
-| FFI    | FTSE 100                      | EURONEXT | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FFI) |
+| AEX    | EOE Index (Amsterdam)         | EOE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=AEX) |
+| ES     | E Mini S&P 500                | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ES) |
+| FCE    | CAC 40                        | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FCE) |
+| FDX    | Dax Index                     | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FDX) |
+| FFI    | FTSE 100                      | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FFI) |
 | FSMI   | Switzerland (SMI)             | EUREX    | N/A |
-| HCE    | Hang Seng Chine Enterprise    | HKEX     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=HCE) |
-| HSI    | Hang Seng Stock Index         | HKEX     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=HSI) |
+| HCE    | Hang Seng Chine Enterprise    | HKEX     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HCE) |
+| HSI    | Hang Seng Stock Index         | HKEX     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HSI) |
 | IFS    | Italy (FTSE MIB)              | EURONEXT | N/A |
-| MFX    | IBEX 35                       | MEFF     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=MFX) |
-| NK     | Nikkei 225                    | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=NK) |
-| NQ     | E-mini NASDAQ 100             | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=NQ) |
+| MFX    | IBEX 35                       | MEFF     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=MFX) |
+| NK     | Nikkei 225                    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NK) |
+| NQ     | E-mini NASDAQ 100             | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NQ) |
 | OMXS30 | Sweden                        | OMX      | N/A |
 | STW    | MSCI Taiwan                   | SGX      | N/A |
-| SXF    | S&P Canada 60                 | ME       | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SXF) |
-| SXE    | Euro STOXX 50                 | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SXE) |
-| SXX    | Dow Jones STOXX50             | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=SXX) |
-| YAP    | S&P/ASX 200 Index (Australia) | SFE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=YAP) |
+| SXF    | S&P Canada 60                 | ME       | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SXF) |
+| SXE    | Euro STOXX 50                 | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SXE) |
+| SXX    | Dow Jones STOXX50             | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SXX) |
+| YAP    | S&P/ASX 200 Index (Australia) | SFE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YAP) |
 
 
 ## Rates
 
 | Ticker | Name                                | Exchange | Link          |
 |--------|-------------------------------------|----------|---------------|
-| BAX    | 3 Month Canadian Bankers Acceptance | ME       | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=BAX) |
-| CGB    | Canada 10 Yr Govt Bond              | ME       | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CGB) |
+| BAX    | 3 Month Canadian Bankers Acceptance | ME       | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=BAX) |
+| CGB    | Canada 10 Yr Govt Bond              | ME       | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CGB) |
 | CTF    | Chine Financial Future Bonds        | CFFEX    | N/A |
-| EBL    | Euro German Bund                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=EBL) |
-| EBM    | Euro German Bobl                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=EBM) |
-| EBS    | Euro German Schatz                  | EUREX    | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=EBS) |
-| FEI    | EURIBOR-3 Mth                       | EURONEXT | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FEI) |
+| EBL    | Euro German Bund                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=EBL) |
+| EBM    | Euro German Bobl                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=EBM) |
+| EBS    | Euro German Schatz                  | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=EBS) |
+| FEI    | EURIBOR-3 Mth                       | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FEI) |
 | FES    | Euro Swiss Franc                    | EURONEXT | N/A |
-| FLG    | Gilt-Long (8.75-13 yr)              | EURONEXT | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FLG) |
+| FLG    | Gilt-Long (8.75-13 yr)              | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FLG) |
 | FSS    | Sterling Rate 3 mth                 | EURONEXT | N/A |
-| FYG    | Gilt-Short 5 yr                     | EURONEXT | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=FYG) |
-| JGB    | Japanese 10yr Govt Bond             | TSE      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=JGB) |
-| YBA    | Australian Bank Bills (90 day)      | SNFE     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=YBA) |
-| YTC    | Australian Govt Bond 6% (10Yr)      | SNFE     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=YTC) |
-| YTT    | Australian Govt Bond 6% (3Yr)       | SNFE     | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=YTT) |
-| ZF     | T-Note-US 5 yr                      | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=ZF) |
-| ZN     | 10 Year US Treasury Note            | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=ZN) |
-| ZT     | 2 Year US Treasury Note             | CME      | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=ZT) |
+| FYG    | Gilt-Short 5 yr                     | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FYG) |
+| JGB    | Japanese 10yr Govt Bond             | TSE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=JGB) |
+| YBA    | Australian Bank Bills (90 day)      | SNFE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YBA) |
+| YTC    | Australian Govt Bond 6% (10Yr)      | SNFE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YTC) |
+| YTT    | Australian Govt Bond 6% (3Yr)       | SNFE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YTT) |
+| ZF     | T-Note-US 5 yr                      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ZF) |
+| ZN     | 10 Year US Treasury Note            | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ZN) |
+| ZT     | 2 Year US Treasury Note             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ZT) |
 
 
 ## Real Estate
 
 | Ticker | Name                    | Exchange | Link          |
 |--------|-------------------------|----------|---------------|
-| CUS    | Housing Index Composite | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/api/public/dataset?ticker=CUS) |
+| CUS    | Housing Index Composite | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CUS) |
 
 
 # Books
