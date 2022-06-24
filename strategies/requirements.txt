@@ -1,0 +1,7 @@
+click
+cryptography
+matplotlib
+empyrical
+pandas
+pyfolio
+systematic-trading

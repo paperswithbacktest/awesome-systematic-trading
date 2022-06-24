@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Current file",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [],
+            "console": "integratedTerminal",
+            "python": "${env:HOME}/bin/miniconda3/bin/python",
+            "justMyCode": false
+        }
+    ]
+}
