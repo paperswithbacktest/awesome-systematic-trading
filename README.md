@@ -638,41 +638,41 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 
 | Ticker | Name                    | Exchange | Link                               |
 |--------|-------------------------|----------|------------------------------------|
-| BO     | Soybean Oil             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=BO) |
-| C      | Corn                    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=C) |
-| CC     | Cocoa                   | NYBOT    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CC) |
-| CT     | Cotton #2               | NYCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CT) |
-| FC     | Feeder Cattle           | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FC) |
-| JRB    | Azuki Beans-Red         | TGE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=JRB) |
-| KC     | Coffee                  | CSCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=KC) |
-| LB     | Random Length Lumber    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LB) |
-| LC     | Live Cattle             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LC) |
-| LH     | Lean Hogs               | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LH) |
-| O      | Oats                    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=O) |
-| OJ     | Orange Juice A          | NYCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=OJ) |
-| RR     | Rough Rice              | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RR) |
-| RS     | Rapeseed (Canola)       | WCE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RS) |
-| S      | Soybean                 | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=S) |
-| SB     | Sugar No. 11            | CSCE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SB) |
-| SM     | Soybean Meal            | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SM) |
-| SRS    | Rubber RSS1             | TCE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SRS) |
-| W      | Wheat                   | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=W) |
+| BO     | Soybean Oil             | CME      | [Download](https://bit.ly/3HT4WRJ) |
+| C      | Corn                    | CME      | [Download](https://bit.ly/3xSIKCM) |
+| CC     | Cocoa                   | NYBOT    | [Download](https://bit.ly/3NnyCYy) |
+| CT     | Cotton #2               | NYCE     | [Download](https://bit.ly/3u1Mwse) |
+| FC     | Feeder Cattle           | CME      | [Download](https://bit.ly/3HQwwiw) |
+| JRB    | Azuki Beans-Red         | TGE      | [Download](https://bit.ly/3xTQMLM) |
+| KC     | Coffee                  | CSCE     | [Download](https://bit.ly/3xN7D2A) |
+| LB     | Random Length Lumber    | CME      | [Download](https://bit.ly/3xUR0lN) |
+| LC     | Live Cattle             | CME      | [Download](https://bit.ly/3OG8yZz) |
+| LH     | Lean Hogs               | CME      | [Download](https://bit.ly/3OlOeNt) |
+| O      | Oats                    | CME      | [Download](https://bit.ly/39NSiap) |
+| OJ     | Orange Juice A          | NYCE     | [Download](https://bit.ly/3OxymXU) |
+| RR     | Rough Rice              | CME      | [Download](https://bit.ly/3OFRdQG) |
+| RS     | Rapeseed (Canola)       | WCE      | [Download](https://bit.ly/3u6oIUf) |
+| S      | Soybean                 | CME      | [Download](https://bit.ly/3NAFjGV) |
+| SB     | Sugar No. 11            | CSCE     | [Download](https://bit.ly/3ykACMV) |
+| SM     | Soybean Meal            | CME      | [Download](https://bit.ly/3ykAHjH) |
+| SRS    | Rubber RSS1             | TCE      | [Download](https://bit.ly/3u1J1lI) |
+| W      | Wheat                   | CME      | [Download](https://bit.ly/3NqL8q6) |
 
 
 ### Non Agriculturals
 
 | Ticker | Name                    | Exchange | Link                               |
 |--------|-------------------------|----------|------------------------------------|
-| CL    | Light Sweet Crude Oil    | CME      | [Download](https://bit.ly/3NGzM1U) |
-| GC    | Gold                     | NYMEX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=GC) |
-| HG    | Copper                   | NYMEX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HG) |
-| HO    | Heating Oil              | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HO) |
-| LGO   | Gasoil                   | ICE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=LGO) |
-| NG    | Henry Hub Natural Gas    | CME      | N/A |
-| PA    | Palladium                | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=PA) |
-| PL    | Platinum                 | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=PL) |
-| RB    | RBOB Gasoline            | NYMEX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RB) |
-| SI    | Silver                   | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SI) |
+| CL    | Light Sweet Crude Oil    | CME      | [Download](https://bit.ly/3yk691i) |
+| GC    | Gold                     | NYMEX    | [Download](https://bit.ly/3A3K9sV) |
+| HG    | Copper                   | NYMEX    | [Download](https://bit.ly/3QQhwpd) |
+| HO    | Heating Oil              | CME      | [Download](https://bit.ly/3QSkgCy) |
+| LGO   | Gasoil                   | ICE      | [Download](https://bit.ly/3yeLI4X) |
+| NG    | Henry Hub Natural Gas    | CME      | N/A                                |
+| PA    | Palladium                | CME      | [Download](https://bit.ly/3HT5JSH) |
+| PL    | Platinum                 | CME      | [Download](https://bit.ly/3HQ51pu) |
+| RB    | RBOB Gasoline            | NYMEX    | [Download](https://bit.ly/3y0WNqa) |
+| SI    | Silver                   | CME      | [Download](https://bit.ly/39NSx5j) |
 
 
 ## Cryptocurrencies
@@ -689,72 +689,72 @@ List of **82 futures datasets** covering prices, volumes, COT, and much more.
 | Ticker | Name                    | Exchange | Link                               |
 |--------|-------------------------|----------|------------------------------------|
 | AD     | Australian dollar       | CME      | [Download](https://bit.ly/3wVZmJl) |
-| BP     | British pound           | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=BP) |
-| CD     | Canadian Dollar         | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CD) |
-| ED1    | Eurodollar              | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ED1) |
-| JY     | Japanese yen            | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=JY) |
-| NE     | New Zealand dollar      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NE) |
-| NOKA   | Norwegian krone         | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NOKA) |
-| RA2    | South African Rand      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RA2) |
-| RF     | Euro in Swiss Franc     | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RF) |
-| RP     | Euro/British Pound      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RP) |
-| RY     | Euro/Japanese Yen       | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=RY) |
-| SEK    | Swedish Krona/US Dollar | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SEK) |
-| SF     | Swiss Franc             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SF) |
+| BP     | British pound           | CME      | [Download](https://bit.ly/3xSKxI0) |
+| CD     | Canadian Dollar         | CME      | [Download](https://bit.ly/3xTDKho) |
+| ED1    | Eurodollar              | GLOBEX   | [Download](https://bit.ly/3y0XqQy) |
+| JY     | Japanese yen            | CME      | [Download](https://bit.ly/3A6qvMW) |
+| NE     | New Zealand dollar      | CME      | [Download](https://bit.ly/3ngcu7A) |
+| NOKA   | Norwegian krone         | CME      | [Download](https://bit.ly/3bhOL4g) |
+| RA2    | South African Rand      | CME      | [Download](https://bit.ly/3btMQJT) |
+| RF     | Euro in Swiss Franc     | CME      | [Download](https://bit.ly/3A3LC2p) |
+| RP     | Euro/British Pound      | CME      | [Download](https://bit.ly/3A6qGb4) |
+| RY     | Euro/Japanese Yen       | CME      | [Download](https://bit.ly/3Olj8W1) |
+| SEK    | Swedish Krona/US Dollar | CME      | [Download](https://bit.ly/3OFSibc) |
+| SF     | Swiss Franc             | CME      | [Download](https://bit.ly/3OMbAvD) |
 
 ## Equities
 
-| Ticker | Name                          | Exchange | Link          |
-|--------|-------------------------------|----------|---------------|
-| AEX    | EOE Index (Amsterdam)         | EOE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=AEX) |
-| ES     | E Mini S&P 500                | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ES) |
-| FCE    | CAC 40                        | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FCE) |
-| FDX    | Dax Index                     | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FDX) |
-| FFI    | FTSE 100                      | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FFI) |
-| FSMI   | Switzerland (SMI)             | EUREX    | N/A |
-| HCE    | Hang Seng Chine Enterprise    | HKEX     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HCE) |
-| HSI    | Hang Seng Stock Index         | HKEX     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=HSI) |
-| IFS    | Italy (FTSE MIB)              | EURONEXT | N/A |
-| MFX    | IBEX 35                       | MEFF     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=MFX) |
-| NK     | Nikkei 225                    | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NK) |
-| NQ     | E-mini NASDAQ 100             | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=NQ) |
-| OMXS30 | Sweden                        | OMX      | N/A |
-| STW    | MSCI Taiwan                   | SGX      | N/A |
-| SXF    | S&P Canada 60                 | ME       | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SXF) |
-| SXE    | Euro STOXX 50                 | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SXE) |
-| SXX    | Dow Jones STOXX50             | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=SXX) |
-| YAP    | S&P/ASX 200 Index (Australia) | SFE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YAP) |
+| Ticker | Name                          | Exchange | Link                               |
+|--------|-------------------------------|----------|------------------------------------|
+| AEX    | EOE Index (Amsterdam)         | EOE      | [Download](https://bit.ly/3yiJum2) |
+| ES     | E Mini S&P 500                | GLOBEX   | [Download](https://bit.ly/3NiITFf) |
+| FCE    | CAC 40                        | EURONEXT | [Download](https://bit.ly/3QKr98K) |
+| FDX    | Dax Index                     | EUREX    | [Download](https://bit.ly/3A54SN6) |
+| FFI    | FTSE 100                      | EURONEXT | [Download](https://bit.ly/3yk7qFC) |
+| FSMI   | Switzerland (SMI)             | EUREX    | N/A                                |
+| HCE    | Hang Seng Chine Enterprise    | HKEX     | [Download](https://bit.ly/3NlpaF1) |
+| HSI    | Hang Seng Stock Index         | HKEX     | [Download](https://bit.ly/3ODjPKR) |
+| IFS    | Italy (FTSE MIB)              | EURONEXT | N/A                                |
+| MFX    | IBEX 35                       | MEFF     | [Download](https://bit.ly/3OIIxZC) |
+| NK     | Nikkei 225                    | CME      | [Download](https://bit.ly/3OEeYse) |
+| NQ     | E-mini NASDAQ 100             | GLOBEX   | [Download](https://bit.ly/3QNghqH) |
+| OMXS30 | Sweden                        | OMX      | N/A                                |
+| STW    | MSCI Taiwan                   | SGX      | N/A                                |
+| SXF    | S&P Canada 60                 | ME       | [Download](https://bit.ly/3yeN53B) |
+| SXE    | Euro STOXX 50                 | EUREX    | [Download](https://bit.ly/3HPP9Dv) |
+| SXX    | Dow Jones STOXX50             | EUREX    | [Download](https://bit.ly/39Wp20T) |
+| YAP    | S&P/ASX 200 Index (Australia) | SFE      | [Download](https://bit.ly/3u3jlVY) |
 
 
 ## Rates
 
-| Ticker | Name                                | Exchange | Link          |
-|--------|-------------------------------------|----------|---------------|
-| BAX    | 3 Month Canadian Bankers Acceptance | ME       | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=BAX) |
-| CGB    | Canada 10 Yr Govt Bond              | ME       | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CGB) |
-| CTF    | Chine Financial Future Bonds        | CFFEX    | N/A |
-| EBL    | Euro German Bund                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=EBL) |
-| EBM    | Euro German Bobl                    | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=EBM) |
-| EBS    | Euro German Schatz                  | EUREX    | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=EBS) |
-| FEI    | EURIBOR-3 Mth                       | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FEI) |
-| FES    | Euro Swiss Franc                    | EURONEXT | N/A |
-| FLG    | Gilt-Long (8.75-13 yr)              | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FLG) |
-| FSS    | Sterling Rate 3 mth                 | EURONEXT | N/A |
-| FYG    | Gilt-Short 5 yr                     | EURONEXT | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=FYG) |
-| JGB    | Japanese 10yr Govt Bond             | TSE      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=JGB) |
-| YBA    | Australian Bank Bills (90 day)      | SNFE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YBA) |
-| YTC    | Australian Govt Bond 6% (10Yr)      | SNFE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YTC) |
-| YTT    | Australian Govt Bond 6% (3Yr)       | SNFE     | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=YTT) |
-| ZF     | T-Note-US 5 yr                      | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ZF) |
-| ZN     | 10 Year US Treasury Note            | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ZN) |
-| ZT     | 2 Year US Treasury Note             | CME      | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=ZT) |
+| Ticker | Name                                | Exchange | Link                               |
+|--------|-------------------------------------|----------|------------------------------------|
+| BAX    | 3 Month Canadian Bankers Acceptance | ME       | [Download](https://bit.ly/3u2tbHu) |
+| CGB    | Canada 10 Yr Govt Bond              | ME       | [Download](https://bit.ly/3uq9UjJ) |
+| CTF    | Chine Financial Future Bonds        | CFFEX    | N/A                                |
+| EBL    | Euro German Bund                    | EUREX    | [Download](https://bit.ly/3u1JMLQ) |
+| EBM    | Euro German Bobl                    | EUREX    | [Download](https://bit.ly/3Osit5l) |
+| EBS    | Euro German Schatz                  | EUREX    | [Download](https://bit.ly/3Opap5j) |
+| FEI    | EURIBOR-3 Mth                       | EURONEXT | [Download](https://bit.ly/3bw5IrG) |
+| FES    | Euro Swiss Franc                    | EURONEXT | N/A                                |
+| FLG    | Gilt-Long (8.75-13 yr)              | EURONEXT | [Download](https://bit.ly/3OmKT0J) |
+| FSS    | Sterling Rate 3 mth                 | EURONEXT | N/A                                |
+| FYG    | Gilt-Short 5 yr                     | EURONEXT | [Download](https://bit.ly/3OzHpI0) |
+| JGB    | Japanese 10yr Govt Bond             | TSE      | [Download](https://bit.ly/3ymZXWB) |
+| YBA    | Australian Bank Bills (90 day)      | SNFE     | [Download](https://bit.ly/39RJLmJ) |
+| YTC    | Australian Govt Bond 6% (10Yr)      | SNFE     | [Download](https://bit.ly/39RJMXP) |
+| YTT    | Australian Govt Bond 6% (3Yr)       | SNFE     | [Download](https://bit.ly/3bueQ0c) |
+| ZF     | T-Note-US 5 yr                      | CME      | [Download](https://bit.ly/3QKrx7c) |
+| ZN     | 10 Year US Treasury Note            | CME      | [Download](https://bit.ly/39TeW0U) |
+| ZT     | 2 Year US Treasury Note             | CME      | [Download](https://bit.ly/3bueTsU) |
 
 
 ## Real Estate
 
-| Ticker | Name                    | Exchange | Link          |
-|--------|-------------------------|----------|---------------|
-| CUS    | Housing Index Composite | GLOBEX   | [Download](https://marketdata.edarchimbaud.com/public/dataset?ticker=CUS) |
+| Ticker | Name                    | Exchange | Link                               |
+|--------|-------------------------|----------|------------------------------------|
+| CUS    | Housing Index Composite | GLOBEX   | [Download](https://bit.ly/3nftZFc) |
 
 
 # Books
@@ -764,12 +764,12 @@ A comprehensive list of **56 books** for quantitative traders.
 
 ## Beginner
 
-[A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://www.amazon.fr/gp/product/1099617200/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1099617200&linkId=f37c16a90429acf48cf52365535c2ff5)
+[A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1099617200/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1099617200&linkId=f37c16a90429acf48cf52365535c2ff5">
+      <a href="https://amzn.to/3QN2VdU">
         <img src="./static/A Beginner’s Guide to the Stock Market.jpeg" style="width:400px;">
       </a>
     </td>
@@ -787,12 +787,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://www.amazon.fr/gp/product/0956399207/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0956399207&linkId=364d559d8591478e25a18aac93974d10)
+[Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://amzn.to/3xYb0UN)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0956399207/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0956399207&linkId=364d559d8591478e25a18aac93974d10">
+      <a href="https://amzn.to/3xYb0UN">
         <img src="./static/Algorithmic Trading and DMA.jpeg" style="width:190px;">
       </a>
     </td>
@@ -818,12 +818,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://www.amazon.fr/gp/product/1945051817/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1945051817&linkId=3990d9fa29d1a002bfed6f6b49ee3d1c)
+[Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://amzn.to/3HPZijw)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1945051817/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1945051817&linkId=3990d9fa29d1a002bfed6f6b49ee3d1c">
+      <a href="https://amzn.to/3HPZijw">
         <img src="./static/Day Trading QuickStart Guide.jpeg" style="width:80px;">
       </a>
     </td>
@@ -869,12 +869,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://www.amazon.fr/gp/product/1981038353/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1981038353&linkId=54da9ef0d2ba8592331e4f48782e8d1d)
+[Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://amzn.to/39Tf7JC)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1981038353/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1981038353&linkId=54da9ef0d2ba8592331e4f48782e8d1d">
+      <a href="https://amzn.to/39Tf7JC">
         <img src="./static/Introduction To Algo Trading.jpeg" style="width:480px;">
       </a>
     </td>
@@ -890,12 +890,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://www.amazon.fr/gp/product/1636100287/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1636100287&linkId=12f78afde6de5b474beb3847edc67990)
+[Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1636100287/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1636100287&linkId=12f78afde6de5b474beb3847edc67990">
+      <a href="https://amzn.to/3A5aRkX">
         <img src="./static/Investing QuickStart Guide.jpeg" style="width:130px;">
       </a>
     </td>
@@ -947,12 +947,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://www.amazon.fr/gp/product/1119404509/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119404509&linkId=5235f3ac643dd2c7aa52203cecf1654d)
+[The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1119404509/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119404509&linkId=5235f3ac643dd2c7aa52203cecf1654d">
+      <a href="https://amzn.to/3A4mgkR">
         <img src="./static/The Little Book of Common Sense Investing.jpeg" style="width:170px;">
       </a>
     </td>
@@ -969,12 +969,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://www.amazon.fr/gp/product/1535585951/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1535585951&linkId=bfd952bf59db1d9ad67d133859b8de68)
+[How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1535585951/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1535585951&linkId=bfd952bf59db1d9ad67d133859b8de68">
+      <a href="https://amzn.to/3bmehFv">
         <img src="./static/How to Day Trade for a Living.jpeg" style="width:330px;">
       </a>
     </td>
@@ -994,12 +994,12 @@ A comprehensive list of **56 books** for quantitative traders.
 ## Biography
 
 
-[How I Became a Quant: Insights from 25 of Wall Street’s Elite: - Barry Schachter](https://www.amazon.fr/gp/product/0470452579/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470452579&linkId=baf3e52c0ea02de22bf45d4df208b96d)
+[How I Became a Quant: Insights from 25 of Wall Street’s Elite: - Barry Schachter](https://amzn.to/3Alf8kz)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0470452579/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470452579&linkId=baf3e52c0ea02de22bf45d4df208b96d">
+      <a href="https://amzn.to/3Alf8kz">
         <img src="./static/How I Became a Quant.jpeg" style="width:390px;">
       </a>
     </td>
@@ -1015,12 +1015,12 @@ A comprehensive list of **56 books** for quantitative traders.
 
 
 
-[My Life as a Quant: Reflections on Physics and Finance - Emanuel Derman](https://www.amazon.fr/gp/product/0470192739/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470192739&linkId=ec657ec224b094a27945b12a03c9856c)
+[My Life as a Quant: Reflections on Physics and Finance - Emanuel Derman](https://amzn.to/3A8KudR)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0470192739/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470192739&linkId=ec657ec224b094a27945b12a03c9856c">
+      <a href="https://amzn.to/3A8KudR">
         <img src="./static/My Life as a Quant.jpeg" style="width:410px;">
       </a>
     </td>
@@ -1036,12 +1036,12 @@ A comprehensive list of **56 books** for quantitative traders.
 
 ## Coding
 
-[Algorithmic Trading with Python: Quantitative Methods and Strategy Development - Chris Conlan](https://www.amazon.fr/gp/product/B086Y6H6YG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B086Y6H6YG&linkId=883c45fc9de3b131eb066191fa3c404a)
+[Algorithmic Trading with Python: Quantitative Methods and Strategy Development - Chris Conlan](https://amzn.to/3u3cxYo)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/B086Y6H6YG/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B086Y6H6YG&linkId=883c45fc9de3b131eb066191fa3c404a">
+      <a href="https://amzn.to/3u3cxYo">
         <div style="width:200px">
           <img src="./static/Algorithmic Trading with Python.jpeg" style="width:700px;">
         </div>
@@ -1058,12 +1058,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Learn Algorithmic Trading: Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis - Sebastien Donadio](https://www.amazon.fr/gp/product/178934834X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178934834X&linkId=bcc743ff86810288ea8d699ce3537e4a)
+[Learn Algorithmic Trading: Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis - Sebastien Donadio](https://amzn.to/3NqNghA)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/178934834X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178934834X&linkId=bcc743ff86810288ea8d699ce3537e4a">
+      <a href="https://amzn.to/3NqNghA">
         <div style="width:200px">
           <img src="./static/Learn Algorithmic Trading.jpeg" style="width:660px;">
         </div>
@@ -1083,12 +1083,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Python for Algorithmic Trading: From Idea to Cloud Deployment - Yves Hilpisch](https://www.amazon.fr/gp/product/149205335X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=149205335X&linkId=c70133e4ef5361176d855b09606a49df)
+[Python for Algorithmic Trading: From Idea to Cloud Deployment - Yves Hilpisch](https://amzn.to/3bpkd0C)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/149205335X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=149205335X&linkId=c70133e4ef5361176d855b09606a49df">
+      <a href="https://amzn.to/3bpkd0C">
         <div style="width:100px">
           <img src="./static/Python for Algorithmic Trading.jpeg" style="width:340px;">
         </div>
@@ -1108,12 +1108,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Python for Finance: Mastering Data-Driven Finance - Yves Hilpisch](https://www.amazon.fr/gp/product/1492024333/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492024333&linkId=f9b3dcd4f18afce3011a6bd4e3da10b9)
+[Python for Finance: Mastering Data-Driven Finance - Yves Hilpisch](https://amzn.to/3NhkTlP)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1492024333/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492024333&linkId=f9b3dcd4f18afce3011a6bd4e3da10b9">
+      <a href="https://amzn.to/3NhkTlP">
         <div style="width:100px">
           <img src="./static/Python for Finance.jpeg" style="width:370px;">
         </div>
@@ -1133,12 +1133,12 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-[Trading Evolved: Anyone can Build Killer Trading Strategies in Python - Andreas F. Clenow](https://www.amazon.fr/gp/product/109198378X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=109198378X&linkId=e8be824c9f01896010b06ac4b54729ee)
+[Trading Evolved: Anyone can Build Killer Trading Strategies in Python - Andreas F. Clenow](https://amzn.to/3A0jcGB)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/109198378X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=109198378X&linkId=e8be824c9f01896010b06ac4b54729ee">
+      <a href="https://amzn.to/3A0jcGB">
         <div style="width:100px">
           <img src="./static/Trading Evolved.jpeg" style="width:375px;">
         </div>
@@ -1157,12 +1157,12 @@ A comprehensive list of **56 books** for quantitative traders.
 
 ## Crypto
 
-[Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption - Ben Mezrich](https://www.amazon.fr/gp/product/B07GN8HWZW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07GN8HWZW&linkId=852c328be797b234bbf69d1d2e9aef08)
+[Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption - Ben Mezrich](https://amzn.to/39SkdWt)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/B07GN8HWZW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07GN8HWZW&linkId=852c328be797b234bbf69d1d2e9aef08">
+      <a href="https://amzn.to/39SkdWt">
         <img src="./static/Bitcoin Billionaires.jpeg" style="width:430px;">
       </a>
     </td>
@@ -1176,12 +1176,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos](https://www.amazon.fr/gp/product/1491954388/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1491954388&linkId=a4bce5f25bb10c171abfb8e4e41c8b1f)
+[Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos](https://amzn.to/3NniZ3p)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1491954388/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1491954388&linkId=a4bce5f25bb10c171abfb8e4e41c8b1f">
+      <a href="https://amzn.to/3NniZ3p">
         <img src="./static/Mastering Bitcoin.jpeg" style="width:350px;">
       </a>
     </td>
@@ -1198,12 +1198,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[The Bitcoin Standard: The Decentralized Alternative to Central Banking - Saifedean Ammous](https://www.amazon.fr/gp/product/1119473861/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119473861&linkId=1c9e3a499ca7f2d2c3b7970aaa1bc575)
+[The Bitcoin Standard: The Decentralized Alternative to Central Banking - Saifedean Ammous](https://amzn.to/3QMJgec)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1119473861/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119473861&linkId=1c9e3a499ca7f2d2c3b7970aaa1bc575">
+      <a href="https://amzn.to/3QMJgec">
         <img src="./static/The Bitcoin Standard.jpeg" style="width:480px;">
       </a>
     </td>
@@ -1217,12 +1217,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Why Buy Bitcoin: Investing Today in the Money of Tomorrow - Andy Edstrom](https://www.amazon.fr/gp/product/B07XG2J3S9/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07XG2J3S9&linkId=5d7f6662ba86f43f0b4ccf6378fecd6d)
+[Why Buy Bitcoin: Investing Today in the Money of Tomorrow - Andy Edstrom](https://amzn.to/3OMcKqZ)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/B07XG2J3S9/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B07XG2J3S9&linkId=5d7f6662ba86f43f0b4ccf6378fecd6d">
+      <a href="https://amzn.to/3OMcKqZ">
         <img src="./static/Why Buy Bitcoin.jpeg" style="width:750px;">
       </a>
     </td>
@@ -1238,12 +1238,12 @@ A comprehensive list of **56 books** for quantitative traders.
 
 ## General
 
-[Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk - Richard Grinold, Ronald Kahn](https://www.amazon.fr/gp/product/0070248826/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0070248826&linkId=a419ec1b0c93b98a5bd207cc4f9d074a)
+[Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk - Richard Grinold, Ronald Kahn](https://amzn.to/3xMKaic)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0070248826/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0070248826&linkId=a419ec1b0c93b98a5bd207cc4f9d074a">
+      <a href="https://amzn.to/3xMKaic">
         <img src="./static/Active Portfolio Management.jpeg" style="width:770px;">
       </a>
     </td>
@@ -1257,12 +1257,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Advances in Active Portfolio Management: New Developments in Quantitative Investing - Richard Grinold, Ronald Kahn](https://www.amazon.fr/gp/product/1260453715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1260453715&linkId=3a83315467b455cd287f05031d8485ff)
+[Advances in Active Portfolio Management: New Developments in Quantitative Investing - Richard Grinold, Ronald Kahn](https://amzn.to/3xUTK2z)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1260453715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1260453715&linkId=3a83315467b455cd287f05031d8485ff">
+      <a href="https://amzn.to/3xUTK2z">
         <img src="./static/Advances in Active Portfolio Management.jpeg" style="width:470px;">
       </a>
     </td>
@@ -1302,12 +1302,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Algorithmic Trading and Quantitative Strategies (Chapman and Hall/CRC Financial Mathematics Series) - Raja Velu, Maxence Hardy, Daniel Nehren](https://www.amazon.fr/gp/product/1498737161/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1498737161&linkId=2414093d8ee0157a60f7c2e4ca73ae2d)
+[Algorithmic Trading and Quantitative Strategies (Chapman and Hall/CRC Financial Mathematics Series) - Raja Velu, Maxence Hardy, Daniel Nehren](https://amzn.to/3xUTQXZ)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1498737161/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1498737161&linkId=2414093d8ee0157a60f7c2e4ca73ae2d">
+      <a href="https://amzn.to/3xUTQXZ">
         <img src="./static/Algorithmic Trading and Quantitative Strategies.jpeg" style="width:690px;">
       </a>
     </td>
@@ -1324,12 +1324,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Algorithmic Trading: Winning Strategies and Their Rationale - Ernest P. Chan](https://www.amazon.fr/gp/product/1118460146/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118460146&linkId=5a70176e74d051596c73b224633c5c73)
+[Algorithmic Trading: Winning Strategies and Their Rationale - Ernest P. Chan](https://amzn.to/3xWi8kd)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1118460146/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118460146&linkId=5a70176e74d051596c73b224633c5c73">
+      <a href="https://amzn.to/3xWi8kd">
         <div style="width:100px">
           <img src="./static/Algorithmic Trading.jpeg" style="width:380px;">
         </div>
@@ -1345,12 +1345,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Building Winning Algorithmic Trading Systems: A Trader’s Journey From Data Mining to Monte Carlo Simulation to Live Trading (Wiley Trading) - Kevin J Davey](https://www.amazon.fr/gp/product/1118778987/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118778987&linkId=dfff171a899dad1923bec571f4f6725f)
+[Building Winning Algorithmic Trading Systems: A Trader’s Journey From Data Mining to Monte Carlo Simulation to Live Trading (Wiley Trading) - Kevin J Davey](https://amzn.to/39QnsxA)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1118778987/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118778987&linkId=dfff171a899dad1923bec571f4f6725f">
+      <a href="https://amzn.to/39QnsxA">
         <div style="width:100px">
           <img src="./static/Building Winning Algorithmic Trading Systems.jpeg" style="width:560px;">
         </div>
@@ -1366,12 +1366,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[How I Invest My Money: Finance experts reveal how they save, spend, and invest - Joshua Brown, Brian Portnoy](https://www.amazon.fr/gp/product/0857198084/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857198084&linkId=18282291517fefad774951181219307d)
+[How I Invest My Money: Finance experts reveal how they save, spend, and invest - Joshua Brown, Brian Portnoy](https://amzn.to/3A4rsoU)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0857198084/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857198084&linkId=18282291517fefad774951181219307d">
+      <a href="https://amzn.to/3A4rsoU">
         <img src="./static/How I Invest My Money.jpeg" style="width:1100px;">
       </a>
     </td>
@@ -1385,12 +1385,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Leveraged Trading: A professional approach to trading FX, stocks on margin, CFDs, spread bets and futures for all traders - Robert Carver](https://www.amazon.fr/gp/product/0857197215/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857197215&linkId=15176ea86c632b8b350323884368d385)
+[Leveraged Trading: A professional approach to trading FX, stocks on margin, CFDs, spread bets and futures for all traders - Robert Carver](https://amzn.to/3Nhl6p7)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0857197215/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857197215&linkId=15176ea86c632b8b350323884368d385">
+      <a href="https://amzn.to/3Nhl6p7">
         <img src="./static/Leveraged Trading.jpeg" style="width:245px;">
       </a>
     </td>
@@ -1410,12 +1410,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Machine Trading: Deploying Computer Algorithms to Conquer the Markets - Ernest P. Chan](https://www.amazon.fr/gp/product/1119219604/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119219604&linkId=de1c1bc3779a9441f81653fa6cfaac03)
+[Machine Trading: Deploying Computer Algorithms to Conquer the Markets - Ernest P. Chan](https://amzn.to/3OIBe4o)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1119219604/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119219604&linkId=de1c1bc3779a9441f81653fa6cfaac03">
+      <a href="https://amzn.to/3OIBe4o">
         <div style="width:100px">
           <img src="./static/Machine Trading.jpeg" style="width:760px;">
         </div>
@@ -1431,12 +1431,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Naked Forex: High-Probability Techniques for Trading Without Indicators - Alex Nekritin](https://www.amazon.fr/gp/product/1118114019/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118114019&linkId=57d43657b79b68e98b9d4fe638529c97)
+[Naked Forex: High-Probability Techniques for Trading Without Indicators - Alex Nekritin](https://amzn.to/3NkrAUj)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1118114019/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118114019&linkId=57d43657b79b68e98b9d4fe638529c97">
+      <a href="https://amzn.to/3NkrAUj">
         <img src="./static/Naked Forex.jpeg" style="width:265px;">
       </a>
     </td>
@@ -1453,12 +1453,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Option Volatility and Pricing: Advanced Trading Strategies and Techniques, 2nd Edition - Sheldon Natenberg](https://www.amazon.fr/gp/product/0071818774/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071818774&linkId=753beb5a763ee583425f07052ef54a59)
+[Option Volatility and Pricing: Advanced Trading Strategies and Techniques, 2nd Edition - Sheldon Natenberg](https://amzn.to/3btOxXL)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0071818774/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071818774&linkId=753beb5a763ee583425f07052ef54a59">
+      <a href="https://amzn.to/3btOxXL">
         <img src="./static/Option Volatility and Pricing.jpeg" style="width:325px;">
       </a>
     </td>
@@ -1475,12 +1475,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Professional Automated Trading: Theory and Practice - Eugene A. Durenard](https://www.amazon.fr/gp/product/1118129857/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118129857&linkId=0cd406ecce7def37d286796f55a647fc)
+[Professional Automated Trading: Theory and Practice - Eugene A. Durenard](https://amzn.to/3yhfOpw)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/1118129857/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118129857&linkId=0cd406ecce7def37d286796f55a647fc">
+      <a href="https://amzn.to/3yhfOpw">
         <div style="width:100px">
           <img src="./static/Professional Automated Trading.jpeg" style="width:465px;">
         </div>
@@ -1499,12 +1499,12 @@ A comprehensive list of **56 books** for quantitative traders.
   </tr>
 </table>
 
-[Quantitative Equity Portfolio Management: An Active Approach to Portfolio Construction and Management (McGraw-Hill Library of Investment and Finance) - Ludwig B Chincarini, Daehwan Kim](https://www.amazon.fr/gp/product/0071459391/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071459391&linkId=f627ac125c9bf5e047f3e8f50b0d3717)
+[Quantitative Equity Portfolio Management: An Active Approach to Portfolio Construction and Management (McGraw-Hill Library of Investment and Finance) - Ludwig B Chincarini, Daehwan Kim](https://amzn.to/3yl9u0c)
 
 <table>
   <tr>
     <td>
-      <a href="https://www.amazon.fr/gp/product/0071459391/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0071459391&linkId=f627ac125c9bf5e047f3e8f50b0d3717">
+      <a href="https://amzn.to/3yl9u0c">
         <img src="./static/Quantitative Equity Portfolio Management.jpeg" style="width:290px;">
       </a>
     </td>
