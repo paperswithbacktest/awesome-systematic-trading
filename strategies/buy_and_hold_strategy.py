@@ -1,101 +1,239 @@
+"""
+Buy and hold strategy
+"""
 from datetime import datetime
-import hashlib
+import multiprocessing
 import os
-import pytz
 
 import click
 import matplotlib.pyplot as plt
-import empyrical as ep
 import pandas as pd
-import pyfolio as pf
-from trading.data.client import Client
-from trading.data.constants import FUTURES
-from trading.v2 import BacktestEngine
-from trading.v2.util import read_data, save_one_run_results
-from trading.v2.strategy import StrategyBase
+import pytz
+from trading.v2 import (
+    BacktestEngine,
+    read_ohlcv_csv,
+    save_one_run_results,
+    StrategyBase,
+    TickEvent,
+)
+import trading.v2.performance.plot as perf_plot
+import trading.v2.performance.metrics as perf_metrics
+
+from .data_loader import load_futures_hist_prices, load_futures_meta
+from .futures_tools import get_futures_chain
 
 
 class BuyAndHoldStrategy(StrategyBase):
     """
-    buy on the first tick then hold to the end
+    Buy and hold strategy.
     """
 
-    def __init__(self):
-        super(BuyAndHoldStrategy, self).__init__()
-        self.invested = False
+    def __init__(
+        self,
+        symbol: str,
+        n_roll_ahead: int = 0,  # 0 is last day roll, 1 is penultimate day, and so on
+        n_rollout: int = 0,  # 0 is front month, 1 is second month, and so on
+    ):
+        super().__init__()
+        self.n_roll_ahead = n_roll_ahead
+        self.n_rollout = n_rollout
+        self.sym = symbol
+        self.current_time = None
+        self.df_meta = load_futures_meta(ticker=self.sym)
+        self.holding_contract = None
 
-    def on_tick(self, event):
-        symbol = self.symbols[0]
-        if not self.invested:
-            df_hist = self._data_board.get_hist_price(symbol, event.timestamp)
-            close = df_hist.iloc[-1].Close
-            target_size = int(self._position_manager.initial_capital / close)
-            self.adjust_position(
-                symbol, size_from=0, size_to=target_size, timestamp=event.timestamp
-            )
-            self.invested = True
+    def on_tick(self, tick_event: TickEvent):
+        """
+        Front_contract decides when to roll
+        if not roll ==> if no holding_contract, buy rollout_contract; else do nothing
+        if roll ==> if no holding_contract, buy rollin contract (rollout+1);
+        else sell rollout, buy rollin contract
+
+        Parameters
+        ----------
+            tick_event: TickEvent
+                Tick event.
+        """
+        super().on_tick(tick_event)
+        self.current_time = tick_event.timestamp
+        df_time_idx = self._data_board.get_hist_time_index()
+
+        df_live_futures = get_futures_chain(
+            ticker=self.sym, asofdate=self.current_time.replace(tzinfo=None)
+        )  # remove tzinfo
+        rollout_contract = df_live_futures.index[self.n_rollout]
+        rollin_contract = df_live_futures.index[self.n_rollout + 1]
+        exp_date = pytz.timezone("US/Eastern").localize(
+            df_live_futures.LTD[0]
+        )  # front contract
+        dte = df_time_idx.searchsorted(exp_date) - df_time_idx.searchsorted(
+            self.current_time
+        )  # 0 is expiry date
+
+        if self.n_roll_ahead < dte:  # not ready to roll
+            if self.holding_contract is None:  # empty
+                print(f"{self.current_time}, dte {dte}, buy {rollout_contract}")
+                self.adjust_position(
+                    rollout_contract,
+                    size_from=0,
+                    size_to=1,
+                    timestamp=self.current_time,
+                )
+                self.holding_contract = rollout_contract
+        else:
+            if self.holding_contract is None:  # empty
+                print(f"{self.current_time}, dte {dte}, buy {rollin_contract}")
+                self.adjust_position(
+                    rollin_contract, size_from=0, size_to=1, timestamp=self.current_time
+                )
+                self.holding_contract = rollin_contract
+            else:
+                if (
+                    self.holding_contract == rollin_contract
+                ):  # already rolled this month
+                    pass
+                else:
+                    print(
+                        f"{self.current_time}, dte {dte}, roll {rollout_contract} {rollin_contract}"
+                    )
+                    self.adjust_position(
+                        rollout_contract,
+                        size_from=1,
+                        size_to=0,
+                        timestamp=self.current_time,
+                    )
+                    self.adjust_position(
+                        rollin_contract,
+                        size_from=0,
+                        size_to=1,
+                        timestamp=self.current_time,
+                    )
+                    self.holding_contract = rollin_contract
+
+
+def parameter_search(
+    symbol: str,
+    init_capital: float,
+    start_date: datetime,
+    end_date: datetime,
+    df_data: pd.DataFrame,
+    params: dict,
+    target_name: str,
+    return_dict: dict,
+):
+    """
+    This function should be the same for all strategies.
+    The only reason not included in systematic-trading is because of
+    its dependency on pyfolio (to get perf_stats)
+
+    Parameters
+    ----------
+        symbol: str
+            Future ticker.
+
+        init_capital: float
+            Initial capital.
+
+        start_date: datetime
+            Start date.
+
+        end_date: datetime
+            End date.
+
+        df_data: pd.DataFrame
+            Dataframe of futures prices.
+
+        params: dict
+            Parameters for the strategy.
+
+        target_name: str
+            Name of the target.
+
+        return_dict: dict
+            Dictionary to store the results.
+    """
+    # pylint: disable=too-many-arguments
+    strategy = BuyAndHoldStrategy(symbol=symbol)
+    strategy.set_capital(init_capital)
+    strategy.set_symbols([symbol])
+    engine = BacktestEngine(start_date, end_date)
+    engine.set_capital(init_capital)  # capital or portfolio >= capital for one strategy
+    engine.add_data(symbol, df_data)
+    strategy.set_params(
+        {"n_roll_ahead": params["n_roll_ahead"], "n_rollout": params["n_rollout"]}
+    )
+    engine.set_strategy(strategy)
+    ds_equity, _, _ = engine.run()
+    try:
+        strat_ret = ds_equity.pct_change().dropna()
+        perf_stats_strat = perf_plot.timeseries.perf_stats(strat_ret)
+        target_value = perf_stats_strat.loc[target_name]  # first table in tuple
+    except KeyError:
+        target_value = 0
+    return_dict[(params["n_roll_ahead"], params["n_rollout"])] = target_value
 
 
 @click.command()
 @click.option("--mode", default=None)
 def main(mode: str) -> None:
+    # pylint: disable=too-many-locals,too-many-statements,undefined-variable
     """
-    cd $HOME/Documents/quanttraders
-    pip install -r requirements.txt
-    cd $HOME/Documents/quanttraders/examples
-    python buy_and_hold_strategy.py --mode download
-    python buy_and_hold_strategy.py --mode backtest
+    Main function.
+
+    Parameters
+    ----------
+        mode: str
+            Either backtest, optimize.
     """
     run_in_jupyter = False
+    ticker = "ES"
+    benchmark = None
+    init_capital = 100_000.0
+    df_future = load_futures_hist_prices(ticker=ticker)
+    df_future.index = pd.to_datetime(df_future.index)
+    df_future.index = df_future.index.tz_localize("US/Eastern")
+    test_start_date = datetime(1990, 1, 1, 0, 0, 0, 0, pytz.timezone("US/Eastern"))
+    test_end_date = datetime(2022, 7, 7, 0, 0, 0, 0, pytz.timezone("US/Eastern"))
+    init_capital = 50.0
     if mode == "backtest":
-        df = read_data(
-            filepath="./test.csv", instrument="37241eecabf1e7223b9db07d2c04fe2c"
-        )
-        print(df)
-        init_capital = 100_000.0
-        test_start_date = datetime(
-            1990, 1, 1, 8, 30, 0, 0, pytz.timezone("America/New_York")
-        )
-        test_end_date = datetime(
-            2022, 6, 24, 6, 0, 0, 0, pytz.timezone("America/New_York")
-        )
-        strategy = BuyAndHoldStrategy()
+        strategy = BuyAndHoldStrategy(symbol=ticker)
         strategy.set_capital(init_capital)
-        strategy.set_symbols(["TTT"])
-        strategy.set_params(None)
+        strategy.set_symbols([ticker])
+        strategy.set_params({"n_roll_ahead": 0, "n_rollout": 0})
 
+        # Create a Data Feed
         backtest_engine = BacktestEngine(test_start_date, test_end_date)
         backtest_engine.set_capital(
             init_capital
         )  # capital or portfolio >= capital for one strategy
-        backtest_engine.add_data("TTT", df)
+        backtest_engine.add_data(ticker, df_future)
         backtest_engine.set_strategy(strategy)
         ds_equity, df_positions, df_trades = backtest_engine.run()
         # save to excel
-        save_one_run_results(".", ds_equity, df_positions, df_trades)
+        save_one_run_results("./output", ds_equity, df_positions, df_trades)
 
         # ------------------------- Evaluation and Plotting -------------------------------------- #
         strat_ret = ds_equity.pct_change().dropna()
         strat_ret.name = "strat"
-        # bm = read_ohlcv_csv(os.path.join('../data/', f'{benchmark}.csv'))
-        # bm_ret = bm['Close'].pct_change().dropna()
-        # bm_ret.index = pd.to_datetime(bm_ret.index)
-        # bm_ret = bm_ret[strat_ret.index]
-        # bm_ret.name = 'benchmark'
-        bm_ret = strat_ret.copy()
-        bm_ret.name = "benchmark"
-        print(strat_ret)
+        if benchmark is not None:
+            benchmark_dfm = read_ohlcv_csv(os.path.join("../data/", f"{benchmark}.csv"))
+            benchmark_ret = benchmark_dfm["Close"].pct_change().dropna()
+            benchmark_ret.index = pd.to_datetime(benchmark_ret.index)
+            benchmark_ret = benchmark_ret[strat_ret.index]
+            benchmark_ret.name = "benchmark"
+        benchmark_ret = strat_ret.copy()
+        benchmark_ret.name = "benchmark"
 
-        perf_stats_strat = pf.timeseries.perf_stats(strat_ret)
+        perf_stats_strat = perf_plot.timeseries.perf_stats(strat_ret)
         perf_stats_all = perf_stats_strat
-        perf_stats_bm = pf.timeseries.perf_stats(bm_ret)
+        perf_stats_bm = perf_plot.timeseries.perf_stats(benchmark_ret)
         perf_stats_all = pd.concat([perf_stats_strat, perf_stats_bm], axis=1)
         perf_stats_all.columns = ["Strategy", "Benchmark"]
 
-        drawdown_table = pf.timeseries.gen_drawdown_table(strat_ret, 5)
-        monthly_ret_table = ep.aggregate_returns(strat_ret, "monthly")
+        drawdown_table = perf_plot.timeseries.gen_drawdown_table(strat_ret, 5)
+        monthly_ret_table = perf_metrics.aggregate_returns(strat_ret, "monthly")
         monthly_ret_table = monthly_ret_table.unstack().round(3)
-        ann_ret_df = pd.DataFrame(ep.aggregate_returns(strat_ret, "yearly"))
+        ann_ret_df = pd.DataFrame(perf_metrics.aggregate_returns(strat_ret, "yearly"))
         ann_ret_df = ann_ret_df.unstack().round(3)
 
         print("-------------- PERFORMANCE ----------------")
@@ -108,65 +246,77 @@ def main(mode: str) -> None:
         print(ann_ret_df)
 
         if run_in_jupyter:
-            pf.create_full_tear_sheet(
+            perf_plot.create_full_tear_sheet(
                 strat_ret,
-                benchmark_rets=bm_ret,
+                benchmark_rets=benchmark_ret,
                 positions=df_positions,
                 transactions=df_trades,
                 round_trips=False,
             )
             plt.show()
         else:
-            f1 = plt.figure(1)
-            pf.plot_rolling_returns(strat_ret, factor_returns=bm_ret)
-            f1.show()
-            f2 = plt.figure(2)
-            pf.plot_rolling_volatility(strat_ret, factor_returns=bm_ret)
-            f2.show()
-            f3 = plt.figure(3)
-            pf.plot_rolling_sharpe(strat_ret)
-            f3.show()
-            f4 = plt.figure(4)
-            pf.plot_drawdown_periods(strat_ret)
-            f4.show()
-            f5 = plt.figure(5)
-            pf.plot_monthly_returns_heatmap(strat_ret)
-            f5.show()
-            f6 = plt.figure(6)
-            pf.plot_annual_returns(strat_ret)
-            f6.show()
-            f7 = plt.figure(7)
-            pf.plot_monthly_returns_dist(strat_ret)
-            plt.show()
-            f8 = plt.figure(8)
-            pf.create_position_tear_sheet(strat_ret, df_positions)
-            plt.show()
-            f9 = plt.figure(9)
-            pf.create_txn_tear_sheet(strat_ret, df_positions, df_trades)
-            plt.show()
-            f10 = plt.figure(10)
-            pf.create_round_trip_tear_sheet(strat_ret, df_positions, df_trades)
-            plt.show()
-    elif mode == "download":
-        hash_key = os.getenv("HASH_KEY")
-        original_columns_to_keep = ["Date", "Close"]
-        frames = []
-        for ticker in FUTURES:
-            dfm, _ = Client().get_public_dataset(ticker=ticker)
-            if len(dfm) == 0:
-                continue
-            original_columns = dfm.columns
-            dfm.loc[:, "Instrument"] = hashlib.md5(
-                (ticker + hash_key).encode()
-            ).hexdigest()
-            dfm.loc[:, "Close"] = dfm.NavLong / 1e9
-            dfm.drop(
-                columns=list(set(original_columns) - set(original_columns_to_keep)),
-                inplace=True,
+            fig_1 = plt.figure(1)
+            perf_plot.plot_rolling_returns(strat_ret, factor_returns=benchmark_ret)
+            fig_1.savefig("./output/rolling_returns.png")
+            fig_2 = plt.figure(2)
+            perf_plot.plot_rolling_volatility(strat_ret, factor_returns=benchmark_ret)
+            fig_2.savefig("./output/rolling_volatility.png")
+            fig_3 = plt.figure(3)
+            perf_plot.plot_rolling_sharpe(strat_ret)
+            fig_3.savefig("./output/rolling_sharpe.png")
+            fig_4 = plt.figure(4)
+            perf_plot.plot_drawdown_periods(strat_ret)
+            fig_4.savefig("./output/drawdown_periods.png")
+            fig_5 = plt.figure(5)
+            perf_plot.plot_monthly_returns_heatmap(strat_ret)
+            fig_5.savefig("./output/monthly_returns_heatmap.png")
+            fig_6 = plt.figure(6)
+            perf_plot.plot_annual_returns(strat_ret)
+            fig_6.savefig("./output/annual_returns.png")
+            fig_7 = plt.figure(7)
+            perf_plot.plot_monthly_returns_dist(strat_ret)
+            fig_7.savefig("./output/monthly_returns_dist.png")
+            fig_8 = plt.figure(8)
+            perf_plot.create_position_tear_sheet(strat_ret, df_positions)
+            fig_8.savefig("./output/position_tear_sheet.png")
+            fig_9 = plt.figure(9)
+            perf_plot.create_txn_tear_sheet(strat_ret, df_positions, df_trades)
+            fig_9.savefig("./output/txn_tear_sheet.png")
+            # fig_10 = plt.figure(10)
+            # perf_plot.create_round_trip_tear_sheet(strat_ret, df_positions, df_trades)
+            # fig_10.savefig("./output/round_trip_tear_sheet.png")
+    elif mode == "optimize":  # parallel parameter search
+        params_list = []
+        for n_roll_ahead in range(20):
+            for n_rollout in range(5):
+                params_list.append(
+                    {"n_roll_ahead": n_roll_ahead, "n_rollout": n_rollout}
+                )
+        target_name = "Sharpe ratio"
+        manager = multiprocessing.Manager()
+        return_dict = manager.dict()
+        jobs = []
+        for params in params_list:
+            job = multiprocessing.Process(
+                target=parameter_search,
+                args=(
+                    ticker,
+                    init_capital,
+                    test_start_date,
+                    test_end_date,
+                    df_future,
+                    params,
+                    target_name,
+                    return_dict,
+                ),
             )
-            frames.append(dfm)
-        dfm = pd.concat(frames)
-        dfm.to_csv("test.csv", index=False, sep=",")
+            jobs.append(job)
+            job.start()
+
+        for proc in jobs:
+            proc.join()
+        for key, value in return_dict.items():
+            print(key, value)
 
 
 if __name__ == "__main__":
