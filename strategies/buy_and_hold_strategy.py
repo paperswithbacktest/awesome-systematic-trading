@@ -245,47 +245,15 @@ def main(mode: str) -> None:
         print("-------------- ANNUAL RETURN ----------------")
         print(ann_ret_df)
 
-        if run_in_jupyter:
-            perf_plot.create_full_tear_sheet(
-                strat_ret,
-                benchmark_rets=benchmark_ret,
-                positions=df_positions,
-                transactions=df_trades,
-                round_trips=False,
-            )
-            plt.show()
-        else:
-            fig_1 = plt.figure(1)
-            perf_plot.plot_rolling_returns(strat_ret, factor_returns=benchmark_ret)
-            fig_1.savefig("./output/rolling_returns.png")
-            fig_2 = plt.figure(2)
-            perf_plot.plot_rolling_volatility(strat_ret, factor_returns=benchmark_ret)
-            fig_2.savefig("./output/rolling_volatility.png")
-            fig_3 = plt.figure(3)
-            perf_plot.plot_rolling_sharpe(strat_ret)
-            fig_3.savefig("./output/rolling_sharpe.png")
-            fig_4 = plt.figure(4)
-            perf_plot.plot_drawdown_periods(strat_ret)
-            fig_4.savefig("./output/drawdown_periods.png")
-            fig_5 = plt.figure(5)
-            perf_plot.plot_monthly_returns_heatmap(strat_ret)
-            fig_5.savefig("./output/monthly_returns_heatmap.png")
-            fig_6 = plt.figure(6)
-            perf_plot.plot_annual_returns(strat_ret)
-            fig_6.savefig("./output/annual_returns.png")
-            fig_7 = plt.figure(7)
-            perf_plot.plot_monthly_returns_dist(strat_ret)
-            fig_7.savefig("./output/monthly_returns_dist.png")
-            fig_8 = plt.figure(8)
-            perf_plot.create_position_tear_sheet(strat_ret, df_positions)
-            fig_8.savefig("./output/position_tear_sheet.png")
-            fig_9 = plt.figure(9)
-            perf_plot.create_txn_tear_sheet(strat_ret, df_positions, df_trades)
-            fig_9.savefig("./output/txn_tear_sheet.png")
-            # fig_10 = plt.figure(10)
-            # perf_plot.create_round_trip_tear_sheet(strat_ret, df_positions, df_trades)
-            # fig_10.savefig("./output/round_trip_tear_sheet.png")
-    elif mode == "optimize":  # parallel parameter search
+        perf_plot.create_full_tear_sheet(
+            strat_ret,
+            benchmark_rets=benchmark_ret,
+            positions=df_positions,
+            transactions=df_trades,
+            round_trips=False,
+        )
+        plt.show()
+    elif mode == "optimize":
         params_list = []
         for n_roll_ahead in range(20):
             for n_rollout in range(5):
