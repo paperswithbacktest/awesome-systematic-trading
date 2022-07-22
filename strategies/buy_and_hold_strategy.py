@@ -3,24 +3,23 @@ Buy and hold strategy
 """
 from datetime import datetime
 import multiprocessing
-import os
 
 import click
 import matplotlib.pyplot as plt
 import pandas as pd
 import pytz
-from trading.v2 import (
+from trading import (
     BacktestEngine,
-    read_ohlcv_csv,
-    save_one_run_results,
     StrategyBase,
     TickEvent,
 )
-import trading.v2.performance.plot as perf_plot
-import trading.v2.performance.metrics as perf_metrics
-
-from .data_loader import load_futures_hist_prices, load_futures_meta
-from .futures_tools import get_futures_chain
+from trading.data_loader import (
+    load_futures_chain,
+    load_futures_hist_prices,
+    load_futures_meta,
+)
+import trading.performance.plot as perf_plot
+import trading.performance.metrics as perf_metrics
 
 
 class BuyAndHoldStrategy(StrategyBase):
@@ -58,7 +57,7 @@ class BuyAndHoldStrategy(StrategyBase):
         self.current_time = tick_event.timestamp
         df_time_idx = self._data_board.get_hist_time_index()
 
-        df_live_futures = get_futures_chain(
+        df_live_futures = load_futures_chain(
             ticker=self.sym, asofdate=self.current_time.replace(tzinfo=None)
         )  # remove tzinfo
         rollout_contract = df_live_futures.index[self.n_rollout]
@@ -185,9 +184,7 @@ def main(mode: str) -> None:
         mode: str
             Either backtest, optimize.
     """
-    run_in_jupyter = False
     ticker = "ES"
-    benchmark = None
     init_capital = 100_000.0
     df_future = load_futures_hist_prices(ticker=ticker)
     df_future.index = pd.to_datetime(df_future.index)
@@ -209,18 +206,10 @@ def main(mode: str) -> None:
         backtest_engine.add_data(ticker, df_future)
         backtest_engine.set_strategy(strategy)
         ds_equity, df_positions, df_trades = backtest_engine.run()
-        # save to excel
-        save_one_run_results("./output", ds_equity, df_positions, df_trades)
 
         # ------------------------- Evaluation and Plotting -------------------------------------- #
         strat_ret = ds_equity.pct_change().dropna()
         strat_ret.name = "strat"
-        if benchmark is not None:
-            benchmark_dfm = read_ohlcv_csv(os.path.join("../data/", f"{benchmark}.csv"))
-            benchmark_ret = benchmark_dfm["Close"].pct_change().dropna()
-            benchmark_ret.index = pd.to_datetime(benchmark_ret.index)
-            benchmark_ret = benchmark_ret[strat_ret.index]
-            benchmark_ret.name = "benchmark"
         benchmark_ret = strat_ret.copy()
         benchmark_ret.name = "benchmark"
 
