@@ -72,7 +72,7 @@ List of **89 scientific papers** describing original systematic futures trading 
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Code |
 |--------------|------------|-----------------------|------|
-| 0.409         | 11.7%      | Monthly                | [here](./relative_strength_strategies_for_investing.py) |
+| 0.409         | 11.7%      | Monthly                | [here](./strategies/relative_strength_strategies_for_investing.py) |
 
 ## Bonds
 
