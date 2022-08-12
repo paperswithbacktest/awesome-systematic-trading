@@ -40,6 +40,7 @@ We want this resource to grow with contributions from readers and data enthusias
 # Table of Content
 
 - [Strategy Papers](#strategy-papers)
+  - [ETFs](#etfs)
   - [Bonds](#bonds)
   - [Bonds, Commodities, Currencies, Equities](#bonds-commodities-currencies-equities)
   - [Bonds, Currencies, Equities](#bonds-currencies-equities)
@@ -63,6 +64,15 @@ We want this resource to grow with contributions from readers and data enthusias
 # Strategy Papers
 
 List of **89 scientific papers** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.
+
+## ETFs
+
+[Relative Strength Strategies for Investing
+](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517)
+
+| Sharpe Ratio | Volatility | Period of Rebalancing | Code |
+|--------------|------------|-----------------------|------|
+| 0.409         | 11.7%      | Monthly                | [here](./relative_strength_strategies_for_investing.py) |
 
 ## Bonds
 
