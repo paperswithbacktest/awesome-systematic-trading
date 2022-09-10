@@ -56,7 +56,7 @@ class MomentumAlphaModel(AlphaModel):
             self.momentum.append(
                 {
                     "symbol": symbol,
-                    "indicator": algorithm.MOM(symbol, self.period, Resolution.Daily),
+                    "indicator": algorithm.MOMP(symbol, self.period, Resolution.Daily),
                 }
             )
 

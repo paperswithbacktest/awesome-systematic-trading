@@ -1,9 +1,9 @@
 <div align="center">
   <img src="static/future-trading.jpeg" height=200 alt=""/>
-  <h1>Awesome Systematic (Futures) Trading</h1>
+  <h1>Awesome Systematic Trading</h1>
 </div>
 
-We're collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
+I am collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
 
 What will you find here?
 
@@ -13,13 +13,13 @@ What will you find here?
 - A unique quantitative modeling methodology
 - A more
 
-How do we pick the resources?
+How do I pick the resources?
 
 - Fit in systematic futures trading domain
 - Focus on mid/low frequency strategies for tradability
 - Rational giving reasonable probability to bring above market performances
 
-*We're only at the beginning, and you can help by contributing to this GitHub!*
+*I'm only at the beginning, and you can help by contributing to this GitHub!*
 
 <!-- omit in toc -->
 ## How Can I Help?
@@ -50,16 +50,40 @@ We want this resource to grow with contributions from readers and data enthusias
   - [Cryptos](#cryptos)
   - [Currencies](#currencies)
   - [Equities](#equities)
+- [Libraries and packages](#libraries-and-packages)
+  - [Alpha Models](#alpha-models)
+  - [Analytics](#analytics)
+    - [Indicators](#indicators)
+    - [Metrics computation](#metrics-computation)
+    - [Optimization](#optimization)
+    - [Pricing](#pricing)
+    - [Risk](#risk)
+  - [Backtesting and Live Trading](#backtesting-and-live-trading)
+    - [General - Event Driven Frameworks](#general---event-driven-frameworks)
+    - [General - Vector Based Frameworks](#general---vector-based-frameworks)
+    - [Cryptocurrencies](#cryptocurrencies)
+  - [Broker APIs](#broker-apis)
+  - [Data Science](#data-science)
+  - [Databases](#databases)
+    - [Graph Computation](#graph-computation)
+    - [Machine Learning](#machine-learning)
+    - [TimeSeries Analysis](#timeseries-analysis)
+    - [Visualization](#visualization)
+  - [Data Sources](#data-sources)
+    - [General](#general)
+    - [Cryptocurrencies](#cryptocurrencies-1)
 - [Books](#books)
   - [Beginner](#beginner)
   - [Biography](#biography)
   - [Coding](#coding)
   - [Crypto](#crypto)
-  - [General](#general)
+  - [General](#general-1)
   - [High Frequency Trading](#high-frequency-trading)
-  - [Machine Learning](#machine-learning)
-- [Basic Libraries](#basic-libraries)
+  - [Machine Learning](#machine-learning-1)
 - [Blogs](#blogs)
+- [Courses and Tutorials](#courses-and-tutorials)
+- [Youtube videos](#youtube-videos)
+  - [Interviews](#interviews)
 
 # Strategy Papers
 
@@ -72,7 +96,7 @@ List of **89 scientific papers** describing original systematic futures trading 
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Implementation |
 |--------------|------------|-----------------------|----------------|
-| 0.409         | 11.7%      | Monthly                | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) |
+| 0.486         | 10.7%      | Monthly                | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) |
 
 ## Bonds
 
@@ -628,6 +652,184 @@ List of **89 scientific papers** describing original systematic futures trading 
 | N/A          | N/A        | Monthly               |
 
 
+# Libraries and packages
+
+## Alpha Models
+
+> Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.
+
+- [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
+- [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector 
+- [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy 
+- [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
+- [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following 
+- [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | `TypeScript` | - R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript.
+- [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money
+
+
+## Analytics
+
+### Indicators
+
+- [finta](https://github.com/peerchemist/finta) | `Python` | - Common financial technical indicators implemented in Pandas
+- [pandas-ta](https://github.com/twopirllc/pandas-ta) | `Python` | - Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns.
+- [TA-Lib](https://ta-lib.org) | `C` | - Perform technical analysis of financial market data
+  - [Python Wrapper](https://github.com/mrjbq7/ta-lib) | `Python` |
+  - [Go Port](https://github.com/markcheno/go-talib) | `Go` |
+  - [Rust Wrapper](https://github.com/CLevasseur/ta-lib-rust) | `Rust` |
+- [ta-rust](https://github.com/greyblake/ta-rs) | `Rust` | - Technical analysis library for Rust language
+
+### Metrics computation
+
+- [ffn](https://github.com/pmorissette/ffn) | `Python` | - A financial function library for Python
+- [quantstats](https://github.com/ranaroussi/quantstats) | `Python` | - Portfolio analytics for quants, written in Python
+
+### Optimization
+
+- [Deepdow](https://github.com/jankrepl/deepdow) | `Python` | - Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass.
+- [empyrial](https://github.com/ssantoshp/Empyrial) | `Python` | - Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021.
+- [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | `Python` | - Financial portfolio optimizations in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity
+- [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | `Python` | - Portfolio Optimization and Quantitative Strategic Asset Allocation in Python
+- [spectre](https://github.com/Heerozh/spectre) | `Python` | - spectre is a GPU-accelerated Parallel quantitative trading library, focused on performance.
+
+### Pricing
+
+- [FinancePy](https://github.com/domokane/FinancePy) | `Python` | - A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives.
+- [Quantlib](https://www.quantlib.org)
+  - [PyQL](https://github.com/enthought/pyql) | `Python`, `Cython` | - Python wrapper of the famous pricing library QuantLib
+  - [QuantLib.jl](https://github.com/pazzo83/QuantLib.jl) | `Julia` | - Quantlib implementation in pure Julia.
+- [tf-quant-finance](https://github.com/google/tf-quant-finance) - High-performance TensorFlow library for quantitative finance from Google
+
+### Risk
+
+- [pyfolio](https://github.com/quantopian/pyfolio) | `Python` | - Portfolio and risk analytics in Python
+
+
+## Backtesting and Live Trading
+
+### General - Event Driven Frameworks
+
+
+Note: the one marked as `Live Trading` has reasonable live trading support for at least 1 broker. Otherwise, backtest function only.
+
+
+- [aat](https://github.com/AsyncAlgoTrading/aat) | `Python`, `C++`, `Live Trading`| - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.
+- [backtesting.py](https://github.com/kernc/backtesting.py) | `Python` | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.
+- :star: [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - Event driven Python Backtesting library for trading strategies
+- [barter-rs](https://gitlab.com/open-source-keir/financial-modelling/trading/barter-rs) | `Rust` | - Open-source Rust framework for building event-driven live-trading & backtesting systems. Algorithmic trade with the peace of mind that comes from knowing your strategies have been backtested with a near-identical trading Engine.
+- [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians)
+- [FlashFunk](https://github.com/HFQR/FlashFunk) | `Rust` | -  High Performance Runtime in Rust
+- [gobacktest](https://github.com/gobacktest/gobacktest) | `Go` | - A Go implementation of event-driven backtesting framework
+- [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...)
+- [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust`, `Live Trading` | - A high-performance algorithmic trading platform and event-driven backtester
+- :star: [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
+- [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python`, `Rust`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
+- [quanttrader](https://github.com/letianzj/quanttrader) | `Python` | - Backtest and live trading in Python. Event based. Similar to backtesting.py.
+- [Rqalpha](https://github.com/ricequant/rqalpha) | `Python` | - A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities
+- [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) | `Python` | - This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter.
+- [vnpy](https://github.com/vnpy/vnpy) | `Python`, `Stock`, `Futures`, `Crypto`, `Live Trading` | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform
+- [WonderTrader](https://github.com/wondertrader/wondertrader) | `C++`, `Python` | - WonderTrader——量化研发交易一站式框架 
+- [zipline](https://github.com/quantopian/zipline) | `Python` | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.
+- [zvt](https://github.com/zvtvz/zvt) | `Python`, `Stock`, `Backtest` | - Modular quant framework
+
+### General - Vector Based Frameworks
+
+Note: Vector based frameworks are not recommended, more error prone.
+
+- [bt](https://github.com/pmorissette/bt) | `Python` | -  Flexible backtesting for Python based on Algo and Strategy Tree
+- [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | `Python`, `Live Trading` | - Systematic Trading in python from book <Systematic Trading> by Rob Carver
+- [vectorbt](https://github.com/polakowo/vectorbt) | `Python`, `numba` | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
+
+### Cryptocurrencies
+
+- [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
+- [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) | `Rust` | - Crawl orderbook and trade messages from crypto exchanges
+- [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) | `Rust` | - Simple to use Crypto Exchange REST API client in rust. 
+- [Freqtrade](https://github.com/freqtrade/freqtrade) | `Python` | - Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+- [Hummingbot](https://github.com/CoinAlpha/hummingbot) | `Python`, `Cython`, `Live Trading` | - A client for crypto market making
+- [Kelp](https://github.com/stellar/kelp) | `Go`, `Live Trading` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+- [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
+- [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`, `Live Trading`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
+- [openlimits](https://github.com/nash-io/openlimits) | `Rust` | - A Rust high performance cryptocurrency trading API with support for multiple exchanges and language wrappers. 
+
+
+## Broker APIs
+
+- [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
+- [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
+- [Ib_insync](https://github.com/erdewit/ib_insync) | `Python` | - Python sync/async framework for 
+- More is coming... (PR welcome)
+
+
+## Data Science
+
+- [Cvxpy](https://github.com/cvxpy/cvxpy) | `Python`, `C++` | - A Python-embedded modeling language for convex optimization problems.
+- [Keras](https://github.com/keras-team/keras) | `Python` | - The most user friendly Deep Learning for humans in Python
+- :star: [Numpy](https://github.com/numpy/numpy) | `Python`, `C` | - The fundamental package for scientific computing with Python
+- :star: [Pandas](https://github.com/pandas-dev/pandas) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
+- [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
+- [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
+- :star: [Scikit-learn](https://github.com/scikit-learn/scikit-learn) | `Python`, `Cython` | - Machine learning in Python
+- :star: [Scipy](https://github.com/scipy/scipy) | `Python`, `C` | - Fundamental algorithms for scientific computing in Python
+- [TensorFlow](https://github.com/tensorflow/tensorflow) | `Python`, `C++` | - More low level Deep Learning framework
+
+## Databases
+
+- [Arctic (Man Group)](https://github.com/man-group/arctic) | `Python` | - High performance datastore for time series and tick data
+- [Marketstore](https://github.com/alpacahq/marketstore) | `Go` | - DataFrame Server for Financial Timeseries Data
+- [Tectonicdb](https://github.com/0b01/tectonicdb) | `Rust` | - Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks.
+
+### Graph Computation
+
+- [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
+- [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
+- [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
+- :star: [Man MDF](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
+- [Ray](https://github.com/ray-project/ray) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
+- [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
+
+### Machine Learning
+
+- [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
+- [MlFinLab (Hudson & Thames)](https://bit.ly/3GxKwNO)  | `Python` | - MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools.
+- [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
+- [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | `Python` | - Stock Trading Bot using Deep Q-Learning 
+- [TradingGym](https://github.com/Yvictor/TradingGym) | `Python`, `Live Trading` | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
+
+### TimeSeries Analysis
+
+- [Facebook Prophet](https://github.com/facebook/prophet) - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
+- [pmdarima](https://github.com/alkaline-ml/pmdarima) - A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.
+- [statsmodels](http://statsmodels.sourceforge.net) - Python module that allows users to explore data, estimate statistical models, and perform statistical tests.
+- [tsfresh](https://github.com/blue-yonder/tsfresh) - Automatic extraction of relevant features from time series.
+
+### Visualization
+
+- [btplotting](https://github.com/happydasch/btplotting) | `Python`, `bokeh` | - btplotting provides plotting for backtests, optimization results and live data from backtrader.
+- :star: [D-Tale (Man Group)](https://github.com/man-group/dtale) | `JavaScript`, `Python` | - D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures.
+- [mplfinance](https://github.com/matplotlib/mplfinance) | `Python` | - Financial Markets Data Visualization using Matplotlib
+
+
+## Data Sources
+
+### General
+
+- [AkShare](https://github.com/akfamily/akshare) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings!
+- [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
+- [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.
+- [Investpy](https://github.com/alvarobartt/investpy) - Financial Data Extraction from Investing.com with Python
+- [OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) | `Python` | - Investment Research for Everyone, Anywhere.
+- [pandas-datareader](https://github.com/pydata/pandas-datareader) |`Python`| - Up to date remote data access for pandas, works for multiple versions of pandas.
+- :star: [Quandl](https://www.quandl.com/tools/api) |`Python`| - Get millions of financial and economic dataset from hundreds of publishers via a single free API.
+- [TuShare](https://github.com/waditu/tushare) |`Python`| - TuShare is a utility for crawling historical data of China stocks
+- [Wallstreet](https://github.com/mcdallas/wallstreet) |`Python`| - Wallstreet: Real time Stock and Option tools
+- :star: [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
+
+### Cryptocurrencies
+
+- [Cryptofeed](https://github.com/bmoscon/cryptofeed) |`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
+- [CryptoInscriber](https://github.com/Optixal/CryptoInscriber) |`Python`| - A live crypto currency historical trade data blotter. Download live historical trade data from any crypto exchange.
+- [Gekko-Datasets](https://github.com/xFFFFF/Gekko-Datasets) |`Python`| - Gekko trading bot dataset dumps. Download and use history files in SQLite format.
 
 # Books
 
@@ -1959,24 +2161,58 @@ A comprehensive list of **56 books** for quantitative traders.
 </table>
 
 
-# Basic Libraries
-
-Machine learning:
-
-- [MlFinLab (Hudson & Thames)](https://bit.ly/3GxKwNO) - MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools.
-- [QLib (Microsoft)](https://bit.ly/3wXCGZm) - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
-
-
-Metrics computation:
-
-- [quantstats](https://bit.ly/3t5qmoB) - Portfolio analytics for quants, written in Python
-
-Visualization:
-
-- [D-Tale (Man Group)](https://bit.ly/38RE4EW) - D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures.
-
-
 # Blogs
 
+* [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/)
+* [Blackarbs blog](http://www.blackarbs.com/blog/)
+* [Hardikp, Hardik Patel blog](https://www.hardikp.com/)
+- :star: [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)
 - [Proof Engineering: The Algorithmic Trading Platform](https://bit.ly/3lX7zYN)
-- [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)
+* [Quantsportal, Jacques Joubert's Blog](http://www.quantsportal.com/blog-page/)
+- :star: [Quantstart - Machine Learning for Trading articles](https://www.quantstart.com/articles)
+* [RobotWealth, Kris Longmore Blog](https://robotwealth.com/blog/)
+- More is coming... (PR welcome)
+
+
+# Courses and Tutorials
+
+- [AI in Finance](https://cfte.education/) - Learn Fintech Online.
+- [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) - A simple yet practical experiment tutorial for cryto trading.
+- Coursera, NYU - Machine Learning and Reinforcement Learning in Finance Specialization (Weakly related to trading)
+  - [Coursera, NYU - Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance)
+  - [Coursera, NYU - Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance)
+  - [Coursera, NYU - Reinforcement Learning in Finance](https://www.coursera.org/learn/reinforcement-learning-in-finance)
+  - [Coursera, NYU - Overview of Advanced Methods for Reinforcement Learning in Finance](https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance)- [Hudson and Thames Quantitative Research](https://github.com/hudson-and-thames) - Our mission is to promote the scientific method within investment management by codifying frameworks, algorithms, and best practices.
+- [NYU: Overview of Advanced Methods of Reinforcement Learning in Finance](https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance/home/welcome)
+- [Udacity: Artificial Intelligence for Trading](https://www.udacity.com/course/ai-for-trading--nd880)
+- [Udacity, Georgia Tech - Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501)
+- More is coming... (PR welcome)
+
+
+# Youtube videos
+
+- [Ernie Chan - Machine Learning for Quantitative Trading Webinar](https://www.youtube.com/watch?v=72aEDjwGMr8&t=1023s)
+- [Hitoshi Harada, CTO at Alpaca - Deep Learning in Finance Talk](https://www.youtube.com/watch?v=FoQKCeDuPiY)
+- :star: [Howard Bandy - Machine Learning Trading System Development Webinar](https://www.youtube.com/watch?v=v729evhMpYk&t=1s)
+- [Krish Naik - Machine learning tutorials and their Application in Stock Prediction](https://www.youtube.com/watch?v=H6du_pfuznE)
+- [Master Thesis presentation, Uni of Essex - Analyzing the Limit Order Book, A Deep Learning Approach](https://www.youtube.com/watch?v=qxSh2VFmRGw)
+- [Prediction Machines - Deep Learning with Python in Finance Talk](https://www.youtube.com/watch?v=xvm-M-R2fZY)
+- [QuantInsti Youtube - webinars about Machine Learning for trading](https://www.youtube.com/user/quantinsti/search?query=machine+learning)
+- [QuantNews - Machine Learning for Algorithmic Trading 3 part series](https://www.youtube.com/playlist?list=PLHJACfjILJ-91qkw5YC83S6COKGscctzz)
+- :star: [Quantopian - Webinars about Machine Learning for trading](https://www.youtube.com/channel/UC606MUq45P3zFLa4VGKbxsg/search?query=machine+learning)
+- [Sentdex - Machine Learning for Forex and Stock analysis and algorithmic trading](https://www.youtube.com/watch?v=v_L9jR8P-54&list=PLQVvvaa0QuDe6ZBtkCNWNUbdaBo2vA4RO)
+- [Sentdex - Python programming for Finance (a few videos including Machine Learning)](https://www.youtube.com/watch?v=Z-5wNWgRJpk&index=9&list=PLQVvvaa0QuDcOdF96TBtRtuQksErCEBYZ)
+- :star: [Siraj Raval - Videos about stock market prediction using Deep Learning](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/search?query=trading)
+- [Tucker Balch - Applying Deep Reinforcement Learning to Trading](https://www.youtube.com/watch?v=Pka0DC_P17k)
+
+## Interviews
+
+- [Better System Trader EP023 - Portfolio manager Michael Himmel talks AI and machine learning in trading](https://www.youtube.com/watch?v=9tZjeyhfG0g)
+- :star: [Better System Trader EP028 - David Aronson shares research into indicators that identify Bull and Bear markets.](https://www.youtube.com/watch?v=Q4rV0Y9NokI)
+- :star: [Chat with Traders EP042 - Machine learning for algorithmic trading with Bert Mouler](https://www.youtube.com/watch?v=i8FNO8r7PaE)
+- :star: [Better System Trader EP064 - Cryptocurrencies and Machine Learning with Bert Mouler](https://www.youtube.com/watch?v=YgRTd4nLJoU)
+- [Better System Trader EP082 - Machine Learning With Kris Longmore](https://www.youtube.com/watch?v=0syNgsd635M)
+- [Better System Trader EP090 - This quants’ approach to designing algo strategies with Michael Halls-Moore](https://chatwithtraders.com/ep-090-michael-halls-moore/)* [Chat With Traders EP131 - Trading strategies, powered by machine learning with Morgan Slade](https://www.youtube.com/watch?v=EbWbeYu8zwg)
+- :star: [Chat with Traders EP142 - Algo trader using automation to bypass human flaws with Bert Mouler](https://www.youtube.com/watch?v=ofL66mh6Tw0)
+- [Chat with Traders EP147 - Detective work leading to viable trading strategies with Tom Starke](https://www.youtube.com/watch?v=JjXw9Mda7eY)
+- :star: [Chat with Traders Quantopian 5 - Good Uses of Machine Learning in Finance with Max Margenot](https://www.youtube.com/watch?v=Zj5sXWv9SDM)
