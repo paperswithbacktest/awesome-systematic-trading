@@ -3,7 +3,7 @@
   <h1>Awesome Systematic Trading</h1>
 </div>
 
-We are collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
+We are collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading).
 
 What will you find here?
 
