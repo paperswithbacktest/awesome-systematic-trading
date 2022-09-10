@@ -24,17 +24,17 @@ How do we pick the resources?
 <!-- omit in toc -->
 ## How Can I Help?
 
-If you're interested in this area and would like to hear more, join our [mailing list (coming soon)](#)! We'd also appreciate if you could fill out this short [form (coming soon)](#) to help us better understand what your interests might be.
-
 <!-- omit in toc -->
-### Feedback
+### Sharing
 
-If you have ideas on how we can make this repository better, feel free to submit an issue with suggestions.
+We want this resource to grow with contributions from readers and data enthusiasts, share it!
+
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20free%20and%20comprehensive%20list%20of%20papers%2C%20libraries%2C%20books%2C%20blogs%2C%20tutorials%20for%20quantitative%20traders.&url=https://github.com/edarchimbaud/awesome-systematic-trading)
 
 <!-- omit in toc -->
 ### Contributing
 
-We want this resource to grow with contributions from readers and data enthusiasts. If you'd like to make contributions to this Github repository, please read our contributing guidelines.
+If you have ideas on how we can make this repository better, feel free to submit an issue with suggestions.
 
 <!-- omit in toc -->
 # Table of Content
