@@ -1,25 +1,25 @@
 <div align="center">
-  <img src="static/future-trading.jpeg" height=200 alt=""/>
+  <img src="static/future-trading.jpeg" height=300 alt=""/>
   <h1>Awesome Systematic Trading</h1>
 </div>
 
-I am collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
+We are collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading) on Futures.
 
 What will you find here?
 
-- 89 scientific papers describing systematic trading strategies
-- 82 futures datasets
-- 56 books for quantitative traders
-- A unique quantitative modeling methodology
-- A more
+- [Academic Papers](#academic-papers) describing systematic trading strategies
+- [Libraries and packages](#libraries-and-packages) for research and live trading
+- [Books](#books) for beginners and professionals
+- [Blogs](#blogs)
+- [Courses and Tutorials](#courses-and-tutorials)
 
-How do I pick the resources?
+How do we pick the resources?
 
-- Fit in systematic futures trading domain
-- Focus on mid/low frequency strategies for tradability
-- Rational giving reasonable probability to bring above market performances
+- Fit in Systematic Trading / Quantitative Trading domain
+- Covering styles, industries and asset classes from around the world
+- Valuable to any financial institution
 
-*I'm only at the beginning, and you can help by contributing to this GitHub!*
+*We are only at the beginning, and you can help by contributing to this GitHub!*
 
 <!-- omit in toc -->
 ## How Can I Help?
@@ -39,7 +39,7 @@ We want this resource to grow with contributions from readers and data enthusias
 <!-- omit in toc -->
 # Table of Content
 
-- [Strategy Papers](#strategy-papers)
+- [Academic Papers](#academic-papers)
   - [ETFs](#etfs)
   - [Bonds](#bonds)
   - [Bonds, Commodities, Currencies, Equities](#bonds-commodities-currencies-equities)
@@ -82,10 +82,10 @@ We want this resource to grow with contributions from readers and data enthusias
   - [Machine Learning](#machine-learning-1)
 - [Blogs](#blogs)
 - [Courses and Tutorials](#courses-and-tutorials)
-- [Youtube videos](#youtube-videos)
   - [Interviews](#interviews)
+  - [Videos](#videos)
 
-# Strategy Papers
+# Academic Papers
 
 List of **89 scientific papers** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.
 
@@ -2163,14 +2163,14 @@ A comprehensive list of **56 books** for quantitative traders.
 
 # Blogs
 
-* [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/)
-* [Blackarbs blog](http://www.blackarbs.com/blog/)
-* [Hardikp, Hardik Patel blog](https://www.hardikp.com/)
+- [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/)
+- [Blackarbs blog](http://www.blackarbs.com/blog/)
+- [Hardikp, Hardik Patel blog](https://www.hardikp.com/)
 - :star: [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)
 - [Proof Engineering: The Algorithmic Trading Platform](https://bit.ly/3lX7zYN)
-* [Quantsportal, Jacques Joubert's Blog](http://www.quantsportal.com/blog-page/)
+- [Quantsportal, Jacques Joubert's Blog](http://www.quantsportal.com/blog-page/)
 - :star: [Quantstart - Machine Learning for Trading articles](https://www.quantstart.com/articles)
-* [RobotWealth, Kris Longmore Blog](https://robotwealth.com/blog/)
+- [RobotWealth, Kris Longmore Blog](https://robotwealth.com/blog/)
 - More is coming... (PR welcome)
 
 
@@ -2188,8 +2188,19 @@ A comprehensive list of **56 books** for quantitative traders.
 - [Udacity, Georgia Tech - Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501)
 - More is coming... (PR welcome)
 
+## Interviews
 
-# Youtube videos
+- [Better System Trader EP023 - Portfolio manager Michael Himmel talks AI and machine learning in trading](https://www.youtube.com/watch?v=9tZjeyhfG0g)
+- :star: [Better System Trader EP028 - David Aronson shares research into indicators that identify Bull and Bear markets.](https://www.youtube.com/watch?v=Q4rV0Y9NokI)
+- :star: [Chat with Traders EP042 - Machine learning for algorithmic trading with Bert Mouler](https://www.youtube.com/watch?v=i8FNO8r7PaE)
+- :star: [Better System Trader EP064 - Cryptocurrencies and Machine Learning with Bert Mouler](https://www.youtube.com/watch?v=YgRTd4nLJoU)
+- [Better System Trader EP082 - Machine Learning With Kris Longmore](https://www.youtube.com/watch?v=0syNgsd635M)
+- [Better System Trader EP090 - This quants’ approach to designing algo strategies with Michael Halls-Moore](https://chatwithtraders.com/ep-090-michael-halls-moore/)* [Chat With Traders EP131 - Trading strategies, powered by machine learning with Morgan Slade](https://www.youtube.com/watch?v=EbWbeYu8zwg)
+- :star: [Chat with Traders EP142 - Algo trader using automation to bypass human flaws with Bert Mouler](https://www.youtube.com/watch?v=ofL66mh6Tw0)
+- [Chat with Traders EP147 - Detective work leading to viable trading strategies with Tom Starke](https://www.youtube.com/watch?v=JjXw9Mda7eY)
+- :star: [Chat with Traders Quantopian 5 - Good Uses of Machine Learning in Finance with Max Margenot](https://www.youtube.com/watch?v=Zj5sXWv9SDM)
+
+## Videos
 
 - [Ernie Chan - Machine Learning for Quantitative Trading Webinar](https://www.youtube.com/watch?v=72aEDjwGMr8&t=1023s)
 - [Hitoshi Harada, CTO at Alpaca - Deep Learning in Finance Talk](https://www.youtube.com/watch?v=FoQKCeDuPiY)
@@ -2205,14 +2216,3 @@ A comprehensive list of **56 books** for quantitative traders.
 - :star: [Siraj Raval - Videos about stock market prediction using Deep Learning](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/search?query=trading)
 - [Tucker Balch - Applying Deep Reinforcement Learning to Trading](https://www.youtube.com/watch?v=Pka0DC_P17k)
 
-## Interviews
-
-- [Better System Trader EP023 - Portfolio manager Michael Himmel talks AI and machine learning in trading](https://www.youtube.com/watch?v=9tZjeyhfG0g)
-- :star: [Better System Trader EP028 - David Aronson shares research into indicators that identify Bull and Bear markets.](https://www.youtube.com/watch?v=Q4rV0Y9NokI)
-- :star: [Chat with Traders EP042 - Machine learning for algorithmic trading with Bert Mouler](https://www.youtube.com/watch?v=i8FNO8r7PaE)
-- :star: [Better System Trader EP064 - Cryptocurrencies and Machine Learning with Bert Mouler](https://www.youtube.com/watch?v=YgRTd4nLJoU)
-- [Better System Trader EP082 - Machine Learning With Kris Longmore](https://www.youtube.com/watch?v=0syNgsd635M)
-- [Better System Trader EP090 - This quants’ approach to designing algo strategies with Michael Halls-Moore](https://chatwithtraders.com/ep-090-michael-halls-moore/)* [Chat With Traders EP131 - Trading strategies, powered by machine learning with Morgan Slade](https://www.youtube.com/watch?v=EbWbeYu8zwg)
-- :star: [Chat with Traders EP142 - Algo trader using automation to bypass human flaws with Bert Mouler](https://www.youtube.com/watch?v=ofL66mh6Tw0)
-- [Chat with Traders EP147 - Detective work leading to viable trading strategies with Tom Starke](https://www.youtube.com/watch?v=JjXw9Mda7eY)
-- :star: [Chat with Traders Quantopian 5 - Good Uses of Machine Learning in Finance with Max Margenot](https://www.youtube.com/watch?v=Zj5sXWv9SDM)
