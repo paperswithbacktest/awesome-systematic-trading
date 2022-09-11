@@ -2,6 +2,7 @@
   <img src="static/future-trading.jpeg" height=300 alt=""/>
   <h1>Awesome Systematic Trading</h1>
 </div>
+<div align=center><img src="https://awesome.re/badge.svg" /></div>
 
 We are collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading).
 
