@@ -77,8 +77,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 ## ETFs
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Implementation | Source | Description |
-|--------------|------------|-----------------------|----------------|-------|-------------|
+| Sharpe Ratio | Volatility | Rebalancing | Implementation | Source | Description |
+|--------------|------------|-------------|----------------|--------|-------------|
 | `0.486` | `10.7%` | `monthly` | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
 
 ## Bonds
