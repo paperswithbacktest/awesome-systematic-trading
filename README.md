@@ -79,7 +79,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Implementation | Source | Description |
 |--------------|------------|-----------------------|----------------|-------|-------------|
-| 0.486         | 10.7%      | Monthly                | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
+| ![](https://badgen.net/badge/sharpe/0.486/blue) | ![](https://badgen.net/badge/volatility/10.7%/blue) | ![](https://badgen.net/badge/period/monthly/blue) | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
 
 ## Bonds
 
@@ -833,7 +833,7 @@ A comprehensive list of **56 books** for quantitative traders.
 
 | Reviews | Rating | Title   |
 |---------|--------|---------|
-| 14 161  |    4.4 | [A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU) |
+| ![](https://badgen.net/badge/reviews/14%20161/blue) | ![](https://badgen.net/badge/rating/4.4/blue) | [A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU) |
 | 12 278  |    4.5 | [How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv) |
 | 6 969   |    4.7 | [The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR) |
 | 2 537   |    4.5 | [Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX) |
