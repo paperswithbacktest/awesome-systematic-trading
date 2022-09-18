@@ -79,7 +79,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 | Sharpe Ratio | Volatility | Period of Rebalancing | Implementation | Source | Description |
 |--------------|------------|-----------------------|----------------|-------|-------------|
-| ![](https://badgen.net/badge/sharpe/0.486/blue) | ![](https://badgen.net/badge/volatility/10.7%25/blue) | ![](https://badgen.net/badge/period/monthly/blue) | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
+| `0.486` | `10.7%` | `monthly` | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
 
 ## Bonds
 
