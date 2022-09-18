@@ -1,44 +1,31 @@
 <div align="center">
-  <img src="static/future-trading.jpeg" height=300 alt=""/>
+  <img src="static/future-trading.jpeg" height=200 alt=""/>
   <h1>Awesome Systematic Trading</h1>
 </div>
 <div align=center><img src="https://awesome.re/badge.svg" /></div>
 
-We are collecting (an admittedly opinionated) list of resources papers, datasets, blogs, libraries, books and methodologies for finding, developing, and running Systematic Trading (Quantitative Trading).
+We are collecting a list of resources papers, softwares, books, articles for finding, developing, and running systematic trading (quantitative trading) strategies.
 
-What will you find here?
+<!-- omit in toc -->
+### What will you find here?
 
-- [Academic Papers](#academic-papers) describing systematic trading strategies
-- [Libraries and packages](#libraries-and-packages) for research and live trading
-- [Books](#books) for beginners and professionals
+- [90 Academic Papers](#academic-papers) describing systematic trading strategies
+- [96 Libraries and packages](#libraries-and-packages) for research and live trading
+- [56 Books](#books) for beginners and professionals
 - [Blogs](#blogs)
 - [Courses and Tutorials](#courses-and-tutorials)
 
-How do we pick the resources?
-
-- Fit in Systematic Trading / Quantitative Trading domain
-- Covering styles, industries and asset classes from around the world
-- Valuable to any financial institution
-
-*We are only at the beginning, and you can help by contributing to this GitHub!*
+<!-- omit in toc -->
+> ### How Can I Help?
+> We are only at the beginning, and you can help by contributing (if you have ideas on how we can make this repository better, feel free to submit an issue with suggestions) and by sharing on Twitter:
+>
+> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20free%20and%20comprehensive%20list%20of%20papers%2C%20libraries%2C%20books%2C%20blogs%2C%20tutorials%20for%20quantitative%20traders.&url=https://github.com/edarchimbaud/awesome-systematic-trading)
 
 <!-- omit in toc -->
-## How Can I Help?
+### Table of Content
 
-<!-- omit in toc -->
-### Sharing
-
-We want this resource to grow with contributions from readers and data enthusiasts, share it!
-
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20free%20and%20comprehensive%20list%20of%20papers%2C%20libraries%2C%20books%2C%20blogs%2C%20tutorials%20for%20quantitative%20traders.&url=https://github.com/edarchimbaud/awesome-systematic-trading)
-
-<!-- omit in toc -->
-### Contributing
-
-If you have ideas on how we can make this repository better, feel free to submit an issue with suggestions.
-
-<!-- omit in toc -->
-# Table of Content
+<details>
+<summary>Click here to see table of content</summary>
 
 - [Academic Papers](#academic-papers)
   - [ETFs](#etfs)
@@ -85,10 +72,13 @@ If you have ideas on how we can make this repository better, feel free to submit
 - [Courses and Tutorials](#courses-and-tutorials)
   - [Interviews](#interviews)
   - [Videos](#videos)
+</details>
+
+
 
 # Academic Papers
 
-List of **89 scientific papers** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.
+*List of **90 academic papers** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.*
 
 ## ETFs
 
@@ -651,6 +641,9 @@ List of **89 scientific papers** describing original systematic futures trading 
 
 
 # Libraries and packages
+
+*List of **96 libraries and packages** implementing alpha models, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+
 
 ## Alpha Models
 
