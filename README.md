@@ -92,12 +92,9 @@ List of **89 scientific papers** describing original systematic futures trading 
 
 ## ETFs
 
-[Relative Strength Strategies for Investing
-](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517)
-
-| Sharpe Ratio | Volatility | Period of Rebalancing | Implementation |
-|--------------|------------|-----------------------|----------------|
-| 0.486         | 10.7%      | Monthly                | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) |
+| Sharpe Ratio | Volatility | Period of Rebalancing | Implementation | Paper | Description |
+|--------------|------------|-----------------------|----------------|-------|-------------|
+| 0.486         | 10.7%      | Monthly                | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
 
 ## Bonds
 
@@ -660,7 +657,8 @@ List of **89 scientific papers** describing original systematic futures trading 
 > Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.
 
 - [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
-- [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector 
+- [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+ | [![GitHub stars](https://badgen.net/github/stars/maxme/bitcoin-arbitrage)](https://gitHub.com/maxme/bitcoin-arbitrage/stargazers/) | Bitcoin arbitrage - opportunity detector 
 - [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy 
 - [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
 - [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following 
