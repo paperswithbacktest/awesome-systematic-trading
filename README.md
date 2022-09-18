@@ -16,7 +16,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 - [Courses and Tutorials](#courses-and-tutorials)
 
 <details>
-<summary>Click here to see table of content</summary>
+<summary>Click here to see the full table of content</summary>
 
 - [Academic Papers](#academic-papers)
   - [ETFs](#etfs)
@@ -66,8 +66,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 </details>
 
 <!-- omit in toc -->
-> ### How Can I Help?
-> We are only at the beginning, and you can help by submitting an issue with suggestions and by sharing on Twitter:
+> ### How can I help?
+> You can help by submitting an issue with suggestions and by sharing on Twitter:
 >
 > [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20free%20and%20comprehensive%20list%20of%20papers%2C%20libraries%2C%20books%2C%20blogs%2C%20tutorials%20for%20quantitative%20traders.&url=https://github.com/edarchimbaud/awesome-systematic-trading)
 
@@ -77,17 +77,18 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 ## ETFs
 
-| Sharpe Ratio | Volatility | Period of Rebalancing | Implementation | Paper | Description |
+| Sharpe Ratio | Volatility | Period of Rebalancing | Implementation | Source | Description |
 |--------------|------------|-----------------------|----------------|-------|-------------|
 | 0.486         | 10.7%      | Monthly                | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
 
 ## Bonds
 
-[Market Closure and Short-Term Reversal](https://bit.ly/38XmXRR)
+| Sharpe Ratio | Volatility | Period of Rebalancing | Implementation | Source | Description |
+|--------------|------------|-----------------------|----------------|-------|-------------|
+| 0.89         | 7.69%      | Weekly                | []() | [Paper](https://bit.ly/38XmXRR) | Overnight-Intraday Daily Reversal in Commodities |
 
-| Sharpe Ratio | Volatility | Period of Rebalancing |
-|--------------|------------|-----------------------|
-| 0.89         | 7.69%      | Weekly                |
+
+
 
 [Finding Yield in a 2% World](https://bit.ly/3M4ZPi8)
 
@@ -830,232 +831,16 @@ A comprehensive list of **56 books** for quantitative traders.
 
 ## Beginner
 
-[A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU)
+| Reviews | Rating | Title   |
+|---------|--------|---------|
+| 14 161  |    4.4 | [A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU) |
+| 12 278  |    4.5 | [How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv) |
+| 6 969   |    4.7 | [The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR) |
+| 2 537   |    4.5 | [Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX) |
+| 1 229   |    4.4 | [Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://amzn.to/3HPZijw) |
+| 131     |      4 | [Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://amzn.to/39Tf7JC) |
+| 69      |    4.4 | [Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://amzn.to/3xYb0UN) |
 
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3QN2VdU">
-        <img src="./static/A Beginner’s Guide to the Stock Market.jpeg" style="width:400px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Learn to make money in the stock market, even if you’ve never traded before. The stock market is the greatest opportunity machine ever created. Are you ready to get your piece of it?
-        </li>
-        <li>
-          This book will teach you everything that you need to know to start making money in the stock market today. Don’t gamble with your hard-earned money. If you are going to make a lot of money, you need to know how the stock market really works. You need to avoid the pitfalls and costly mistakes that beginners make. And you need time-tested trading and investing strategies that actually work. This book gives you everything that you will need. It’s a simple road map that anyone can follow.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://amzn.to/3xYb0UN)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3xYb0UN">
-        <img src="./static/Algorithmic Trading and DMA.jpeg" style="width:190px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Algorithmic trading and Direct Market Access (DMA) are important tools for helping both buy and sell-side traders to achieve the best execution.
-        </li>
-        <li>
-          This book starts from the ground up to provide detailed explanations of both these techniques:
-        </li>
-        <ul>
-          <li>
-            An introduction to the different types of execution is followed by a review of market microstructure theory. Throughout the book, examples from empirical studies bridge the gap between the theory and practice of trading.
-          </li>
-          <li>
-            Orders are the fundamental building blocks for any strategy. Market, limit, stop, hidden, iceberg, peg, routed, and immediate-or-cancel orders are all described with illustrated examples.
-          </li>
-        </ul>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://amzn.to/3HPZijw)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3HPZijw">
-        <img src="./static/Day Trading QuickStart Guide.jpeg" style="width:80px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Day Trading QuickStart Guide Is Perfect For:
-          <ul>
-            <li>
-              Complete beginners – even if you’ve never bought a single stock before!
-            </li>
-            <li>
-              People who tried day trading in the past but didn’t find success because of phony gurus and courses
-            </li>
-            <li>
-              Existing traders who want to hone their skills & increase their earning potential
-            </li>
-            <li>
-              Anyone who wants the freedom of making a full-time income with part-time effort!
-            </li>
-          </ul>
-        </li>
-        <li>
-          Day Trading QuickStart Guide Explains:
-          <ul>
-            <li>
-              The Inner Workings of the Derivatives Market
-            </li>
-            <li>
-              Futures Trading Contracts, How They Work and How to Maximize their Efficiency
-            </li>
-            <li>
-              How to Day Trade Options and Use Options Contracts to Hedge Against Risk
-            </li>
-            <li>
-              The Mechanics of Forex Trading and How to Use Foreign Currency Markets to Your Benefit
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://amzn.to/39Tf7JC)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/39Tf7JC">
-        <img src="./static/Introduction To Algo Trading.jpeg" style="width:480px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Are you interested in algorithmic trading, but unsure how to get started? Join best selling author and champion futures trader Kevin J. Davey as he introduces you to the world of retail algorithmic trading. In this book, you will find out if algo trading is for you while learning the advantages and disadvantages involved. You will also learn how to start algo trading on your own, how to select a trading platform and what is needed to develop simple trading strategies. Finally, you will learn important tips for successful algo trading, along with a roadmap of next steps to take.
-          </li>
-        </ul>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3A5aRkX">
-        <img src="./static/Investing QuickStart Guide.jpeg" style="width:130px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Investing QuickStart Guide is Perfect For:
-          <ul>
-            <li>
-              Companion to The Intelligent Investor
-            </li>
-            <li>
-              Stock Market Education for Teen & Kids
-            </li>
-            <li>
-              Beginners with Zero Prior Experience
-            </li>
-            <li>
-              Experienced Investors who Want to Go to the Next Level
-            </li>
-            <li>
-              Discover the Secrets of Successfully Investing In: Stocks (Including Dividend Paying Stocks), Mutual Funds, ETFs, Bonds, Index Funds, REITs, Commodities
-            </li>
-          </ul>
-        </li>
-        <li>
-          Investing QuickStart Guide Covers:
-          <ul>
-            <li>
-              Everything You Need to Know Before You Make Your First Trade
-            </li>
-            <li>
-              How To Take Advantage Of Opportunities In The Market Without Relying On Guesswork
-            </li>
-            <li>
-              How to Evaluate and Compare Stocks and Other Securities
-            </li>
-            <li>
-              How Disciplined Approaches to Investing Can Lead to Early Retirement and Financial Freedom
-            </li>
-            <li>
-              How National And Global Economic And Geopolitical Factors Can Influence Investment Prospects
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3A4mgkR">
-        <img src="./static/The Little Book of Common Sense Investing.jpeg" style="width:170px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The Little Book of Common Sense Investing is the classic guide to getting smart about the market. Legendary mutual fund pioneer John C. Bogle reveals his key to getting more out of investing: low-cost index funds.
-        </li>
-        <li>
-          Bogle describes the simplest and most effective investment strategy for building wealth over the long term: buy and hold, at very low cost, a mutual fund that tracks a broad stock market Index such as the S&P 500.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3bmehFv">
-        <img src="./static/How to Day Trade for a Living.jpeg" style="width:330px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          In the book, I describe the fundamentals of day trading, explain how day trading is different from other styles of trading and investment, and elaborate on important trading strategies that many traders use every day. I’ve kept the book short, so you can actually finish reading it and not get bored by the middle.
-        </li>
-        <li>
-          For beginner traders, this book gives an understanding of where to start, how to start, what to expect from day trading, and how to develop a strategy. Simply reading this book, however, will not make you a profitable trader. Profit in trading does not come with reading a book or two or browsing online. It comes with practice, the right tools and software and appropriate ongoing education.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 ## Biography
 
