@@ -656,9 +656,14 @@ List of **89 scientific papers** describing original systematic futures trading 
 
 > Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.
 
-- [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
-- [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
- | [![GitHub stars](https://badgen.net/github/stars/maxme/bitcoin-arbitrage)](https://gitHub.com/maxme/bitcoin-arbitrage/stargazers/) | Bitcoin arbitrage - opportunity detector 
+| Repository | Stars | Made with | Description |
+|------------|-------|-----------|-------------|
+| [Blackbird](https://github.com/butor/blackbird) | [![GitHub stars](https://badgen.net/github/stars/butor/blackbird)](https://github.com/maxme/butor/blackbird/) | [![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg)](https://isocpp.org/) | Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy |
+| [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | [![GitHub stars](https://badgen.net/github/stars/maxme/bitcoin-arbitrage)](https://github.com/maxme/bitcoin-arbitrage/stargazers/) | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) | Bitcoin arbitrage - opportunity detector |
+| [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | [![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha)](https://github.com/maxme/leosmigel/analyzingalpha/) | [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) | Implementation of simple strategies |
+
+
+
 - [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy 
 - [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
 - [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following 
