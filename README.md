@@ -15,15 +15,6 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 - [Blogs](#blogs)
 - [Courses and Tutorials](#courses-and-tutorials)
 
-<!-- omit in toc -->
-> ### How Can I Help?
-> We are only at the beginning, and you can help by contributing (if you have ideas on how we can make this repository better, feel free to submit an issue with suggestions) and by sharing on Twitter:
->
-> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20free%20and%20comprehensive%20list%20of%20papers%2C%20libraries%2C%20books%2C%20blogs%2C%20tutorials%20for%20quantitative%20traders.&url=https://github.com/edarchimbaud/awesome-systematic-trading)
-
-<!-- omit in toc -->
-### Table of Content
-
 <details>
 <summary>Click here to see table of content</summary>
 
@@ -74,11 +65,15 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [Videos](#videos)
 </details>
 
-
+<!-- omit in toc -->
+> ### How Can I Help?
+> We are only at the beginning, and you can help by submitting an issue with suggestions and by sharing on Twitter:
+>
+> [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20free%20and%20comprehensive%20list%20of%20papers%2C%20libraries%2C%20books%2C%20blogs%2C%20tutorials%20for%20quantitative%20traders.&url=https://github.com/edarchimbaud/awesome-systematic-trading)
 
 # Academic Papers
 
-*List of **90 academic papers** describing original systematic futures trading strategies. Each strategy is categorized by its asset class (Bonds, Commodities, Cryptos, Currencies, Equities), ordered by descending Sharpe ratio, and described by its Sharpe ratio, volatility and period of rebalancing.*
+*List of **90 academic papers** describing original systematic trading strategies. Each strategy is categorized by its asset class and ordered by descending Sharpe ratio.*
 
 ## ETFs
 
