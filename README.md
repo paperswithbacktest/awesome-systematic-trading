@@ -82,9 +82,6 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 ### General - Event Driven Frameworks
 
 
-Note: the one marked as `Live Trading` has reasonable live trading support for at least 1 broker. Otherwise, backtest function only.
-
-
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [vnpy](https://github.com/vnpy/vnpy) | Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform | ![GitHub stars](https://badgen.net/github/stars/vnpy/vnpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
@@ -230,15 +227,18 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ## Data Science
 
-- [Cvxpy](https://github.com/cvxpy/cvxpy) | `Python`, `C++` | - A Python-embedded modeling language for convex optimization problems.
-- [Keras](https://github.com/keras-team/keras) | `Python` | - The most user friendly Deep Learning for humans in Python
-- :star: [Numpy](https://github.com/numpy/numpy) | `Python`, `C` | - The fundamental package for scientific computing with Python
-- :star: [Pandas](https://github.com/pandas-dev/pandas) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
-- [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
-- [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
-- :star: [Scikit-learn](https://github.com/scikit-learn/scikit-learn) | `Python`, `Cython` | - Machine learning in Python
-- :star: [Scipy](https://github.com/scipy/scipy) | `Python`, `C` | - Fundamental algorithms for scientific computing in Python
-- [TensorFlow](https://github.com/tensorflow/tensorflow) | `Python`, `C++` | - More low level Deep Learning framework
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [TensorFlow](https://github.com/tensorflow/tensorflow) | Fundamental algorithms for scientific computing in Python | ![GitHub stars](https://badgen.net/github/stars/tensorflow/tensorflow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Pytorch](https://github.com/pytorch/pytorch) | Tensors and Dynamic neural networks in Python with strong GPU acceleration | ![GitHub stars](https://badgen.net/github/stars/pytorch/pytorch) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Keras](https://github.com/keras-team/keras) | The most user friendly Deep Learning for humans in Python | ![GitHub stars](https://badgen.net/github/stars/keras-team/keras) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Scikit-learn](https://github.com/scikit-learn/scikit-learn) | Machine learning in Python | ![GitHub stars](https://badgen.net/github/stars/scikit-learn/scikit-learn) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Pandas](https://github.com/pandas-dev/pandas) | Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more | ![GitHub stars](https://badgen.net/github/stars/pandas-dev/pandas) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Numpy](https://github.com/numpy/numpy) | The fundamental package for scientific computing with Python | ![GitHub stars](https://badgen.net/github/stars/numpy/numpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Scipy](https://github.com/scipy/scipy) | Fundamental algorithms for scientific computing in Python | ![GitHub stars](https://badgen.net/github/stars/scipy/scipy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [PyMC](https://github.com/pymc-devs/pymc) | Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara | ![GitHub stars](https://badgen.net/github/stars/pymc-devs/pymc) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Cvxpy](https://github.com/cvxpy/cvxpy) | A Python-embedded modeling language for convex optimization problems. | ![GitHub stars](https://badgen.net/github/stars/cvxpy/cvxpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+
 
 ## Databases
 
@@ -857,56 +857,22 @@ A comprehensive list of **56 books** for quantitative traders.
 |  Title   | Reviews | Rating |
 |----------|---------|--------|
 | [A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU) | ![](https://badgen.net/badge/reviews/14%20161/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
-| [How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv) | 12 278  |    4.5 |
-| [The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR) | 6 969   |    4.7 |
-| [Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX) | 2 537   |    4.5 |
-| [Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://amzn.to/3HPZijw) | 1 229   |    4.4 |
-| [Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://amzn.to/39Tf7JC) | 131     |      4 |
-| [Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://amzn.to/3xYb0UN) | 69      |    4.4 |
+| [How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv) | ![](https://badgen.net/badge/reviews/12%20278/blue) | ![](https://badgen.net/badge/rating/4.5/blue) |
+| [The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR) | ![](https://badgen.net/badge/reviews/6%20969/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
+| [Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX) | ![](https://badgen.net/badge/reviews/2%20537/blue) | ![](https://badgen.net/badge/rating/4.5/blue) |
+| [Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://amzn.to/3HPZijw) | ![](https://badgen.net/badge/reviews/1%20229/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
+| [Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://amzn.to/39Tf7JC) | ![](https://badgen.net/badge/reviews/131/blue) | ![](https://badgen.net/badge/rating/4/blue) |
+| [Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://amzn.to/3xYb0UN) | ![](https://badgen.net/badge/reviews/69/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
 
 
 ## Biography
 
-
-[How I Became a Quant: Insights from 25 of Wall Street’s Elite: - Barry Schachter](https://amzn.to/3Alf8kz)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3Alf8kz">
-        <img src="./static/How I Became a Quant.jpeg" style="width:390px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          How I Became a Quant reveals the faces behind the quant revolution, offering you the chance to learn firsthand what it’s like to be a quant today. In this fascinating collection of Wall Street war stories, more than two dozen quants detail their roots, roles, and contributions, explaining what they do and how they do it, as well as outlining the sometimes unexpected paths they have followed from the halls of academia to the front lines of an investment revolution.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+|  Title   | Reviews | Rating |
+|----------|---------|--------|
+| [My Life as a Quant: Reflections on Physics and Finance - Emanuel Derman](https://amzn.to/3A8KudR) | ![](https://badgen.net/badge/reviews/192/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [How I Became a Quant: Insights from 25 of Wall Street’s Elite: - Barry Schachter](https://amzn.to/3Alf8kz) | ![](https://badgen.net/badge/reviews/27/blue) | ![](https://badgen.net/badge/rating/3.7/blue) |
 
 
-
-[My Life as a Quant: Reflections on Physics and Finance - Emanuel Derman](https://amzn.to/3A8KudR)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3A8KudR">
-        <img src="./static/My Life as a Quant.jpeg" style="width:410px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          In My Life as a Quant, Emanuel Derman relives his exciting journey as one of the first high-energy particle physicists to migrate to Wall Street. Page by page, Derman details his adventures in this field―analyzing the incompatible personas of traders and quants, and discussing the dissimilar nature of knowledge in physics and finance. Throughout this tale, he also reflects on the appropriate way to apply the refined methods of physics to the hurly-burly world of markets.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 ## Coding
 
