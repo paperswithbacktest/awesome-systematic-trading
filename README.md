@@ -81,15 +81,15 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 *Trading bots and alpha models. Some of them are old and not maintained.*
 
-| Repository | Stars | Made with | Description |
-|------------|-------|-----------|-------------|
-| [Blackbird](https://github.com/butor/blackbird) | ![GitHub stars](https://badgen.net/github/stars/butor/blackbird) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) | Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy |
-| [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | ![GitHub stars](https://badgen.net/github/stars/maxme/bitcoin-arbitrage) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Bitcoin arbitrage - opportunity detector |
-| [ThetaGang](https://github.com/brndnmtthws/thetagang) | ![GitHub stars](https://badgen.net/github/stars/brndnmtthws/thetagang) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | ThetaGang is an IBKR bot for collecting money |
-| [czsc](https://github.com/waditu/czsc) | ![GitHub stars](https://badgen.net/github/stars/waditu/czsc) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 |
-| [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) | R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript |
-| [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Implementation of simple strategies |
-| [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | PyTrendFollow - systematic futures trading using trend following |
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [Blackbird](https://github.com/butor/blackbird) | Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy | ![GitHub stars](https://badgen.net/github/stars/butor/blackbird) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
+| [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | Bitcoin arbitrage - opportunity detector | ![GitHub stars](https://badgen.net/github/stars/maxme/bitcoin-arbitrage) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [ThetaGang](https://github.com/brndnmtthws/thetagang) | ThetaGang is an IBKR bot for collecting money | ![GitHub stars](https://badgen.net/github/stars/brndnmtthws/thetagang) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [czsc](https://github.com/waditu/czsc) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 | ![GitHub stars](https://badgen.net/github/stars/waditu/czsc) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
+| [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | Implementation of simple strategies | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Analytics
 
@@ -97,45 +97,45 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 *Libraries of indicators to predict future price movements.*
 
-| Repository | Stars | Made with | Description |
-|------------|-------|-----------|-------------|
-| [ta-lib](https://github.com/mrjbq7/ta-lib) | ![GitHub stars](https://badgen.net/github/stars/mrjbq7/ta-lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Perform technical analysis of financial market data |
-| [pandas-ta](https://github.com/twopirllc/pandas-ta) | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns |
-| [finta](https://github.com/peerchemist/finta) | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Common financial technical indicators implemented in Pandas |
-| [ta-rust](https://github.com/greyblake/ta-rs) | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) | Technical analysis library for Rust language |
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [ta-lib](https://github.com/mrjbq7/ta-lib) | Perform technical analysis of financial market data | ![GitHub stars](https://badgen.net/github/stars/mrjbq7/ta-lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [pandas-ta](https://github.com/twopirllc/pandas-ta) | Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [finta](https://github.com/peerchemist/finta) | Common financial technical indicators implemented in Pandas | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [ta-rust](https://github.com/greyblake/ta-rs) | Technical analysis library for Rust language | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ### Metrics computation
 
 *Librairies of financial metrics.*
 
-| Repository | Stars | Made with | Description |
-|------------|-------|-----------|-------------|
-| [quantstats](https://github.com/ranaroussi/quantstats) | ![GitHub stars](https://badgen.net/github/stars/ranaroussi/quantstats) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Portfolio analytics for quants, written in Python |
-| [ffn](https://github.com/pmorissette/ffn) | ![GitHub stars](https://badgen.net/github/stars/pmorissette/ffn) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | A financial function library for Python |
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [quantstats](https://github.com/ranaroussi/quantstats) | Portfolio analytics for quants, written in Python | ![GitHub stars](https://badgen.net/github/stars/ranaroussi/quantstats) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [ffn](https://github.com/pmorissette/ffn) | A financial function library for Python | ![GitHub stars](https://badgen.net/github/stars/pmorissette/ffn) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ### Optimization
 
-| Repository | Stars | Made with | Description |
-|------------|-------|-----------|-------------|
-| [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | ![GitHub stars](https://badgen.net/github/stars/robertmartin8/PyPortfolioOpt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Financial portfolio optimizations in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity |
-| [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | ![GitHub stars](https://badgen.net/github/stars/dcajasn/Riskfolio-Lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Portfolio Optimization and Quantitative Strategic Asset Allocation in Python |
-| [empyrial](https://github.com/ssantoshp/Empyrial) | ![GitHub stars](https://badgen.net/github/stars/ssantoshp/Empyrial) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021 |
-| [Deepdow](https://github.com/jankrepl/deepdow) | ![GitHub stars](https://badgen.net/github/stars/jankrepl/deepdow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass. |
-| [spectre](https://github.com/Heerozh/spectre) | ![GitHub stars](https://badgen.net/github/stars/Heerozh/spectre) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Portfolio Optimization and Quantitative Strategic Asset Allocation in Python |
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | Financial portfolio optimizations in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity | ![GitHub stars](https://badgen.net/github/stars/robertmartin8/PyPortfolioOpt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | Portfolio Optimization and Quantitative Strategic Asset Allocation in Python | ![GitHub stars](https://badgen.net/github/stars/dcajasn/Riskfolio-Lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [empyrial](https://github.com/ssantoshp/Empyrial) | Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021 | ![GitHub stars](https://badgen.net/github/stars/ssantoshp/Empyrial) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Deepdow](https://github.com/jankrepl/deepdow) | Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass. | ![GitHub stars](https://badgen.net/github/stars/jankrepl/deepdow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [spectre](https://github.com/Heerozh/spectre) | Portfolio Optimization and Quantitative Strategic Asset Allocation in Python | ![GitHub stars](https://badgen.net/github/stars/Heerozh/spectre) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ### Pricing
 
-| Repository | Stars | Made with | Description |
-|------------|-------|-----------|-------------|
-| [tf-quant-finance](https://github.com/google/tf-quant-finance) | ![GitHub stars](https://badgen.net/github/stars/google/tf-quant-finance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | High-performance TensorFlow library for quantitative finance from Google |
-| [FinancePy](https://github.com/domokane/FinancePy) | ![GitHub stars](https://badgen.net/github/stars/domokane/FinancePy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives |
-| [PyQL](https://github.com/enthought/pyql) | ![GitHub stars](https://badgen.net/github/stars/enthought/pyql) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Python wrapper of the famous pricing library QuantLib |
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [tf-quant-finance](https://github.com/google/tf-quant-finance) | High-performance TensorFlow library for quantitative finance from Google | ![GitHub stars](https://badgen.net/github/stars/google/tf-quant-finance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [FinancePy](https://github.com/domokane/FinancePy) | A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives | ![GitHub stars](https://badgen.net/github/stars/domokane/FinancePy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [PyQL](https://github.com/enthought/pyql) | Python wrapper of the famous pricing library QuantLib | ![GitHub stars](https://badgen.net/github/stars/enthought/pyql) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ### Risk
 
-| Repository | Stars | Made with | Description |
-|------------|-------|-----------|-------------|
-| [pyfolio](https://github.com/quantopian/pyfolio) | ![GitHub stars](https://badgen.net/github/stars/quantopian/pyfolio) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) | Portfolio and risk analytics in Python |
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [pyfolio](https://github.com/quantopian/pyfolio) | Portfolio and risk analytics in Python | ![GitHub stars](https://badgen.net/github/stars/quantopian/pyfolio) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Backtesting and Live Trading
 
@@ -270,9 +270,9 @@ Note: Vector based frameworks are not recommended, more error prone.
 
 ## ETFs
 
-| Sharpe Ratio | Volatility | Rebalancing | Implementation | Source | Description |
-|--------------|------------|-------------|----------------|--------|-------------|
-| `0.486` | `10.7%` | `monthly` | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) | Asset Class Trend-Following |
+|  Description | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+|  Asset Class Trend-Following | `0.486` | `10.7%` | `monthly` | [QuantConnect](./strategies/relative_strength_strategies_for_investing.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) |
 
 ## Bonds
 
@@ -838,15 +838,15 @@ A comprehensive list of **56 books** for quantitative traders.
 
 ## Beginner
 
-| Reviews | Rating | Title   |
-|---------|--------|---------|
-| ![](https://badgen.net/badge/reviews/14%20161/blue) | ![](https://badgen.net/badge/rating/4.4/blue) | [A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU) |
-| 12 278  |    4.5 | [How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv) |
-| 6 969   |    4.7 | [The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR) |
-| 2 537   |    4.5 | [Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX) |
-| 1 229   |    4.4 | [Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://amzn.to/3HPZijw) |
-| 131     |      4 | [Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://amzn.to/39Tf7JC) |
-| 69      |    4.4 | [Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://amzn.to/3xYb0UN) |
+|  Title   | Reviews | Rating |
+|----------|---------|--------|
+| [A Beginner’s Guide to the Stock Market: Everything You Need to Start Making Money Today - Matthew R. Kratter](https://amzn.to/3QN2VdU) | ![](https://badgen.net/badge/reviews/14%20161/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
+| [How to Day Trade for a Living: A Beginner’s Guide to Trading Tools and Tactics, Money Management, Discipline and Trading Psychology - Andrew Aziz](https://amzn.to/3bmehFv) | 12 278  |    4.5 |
+| [The Little Book of Common Sense Investing: The Only Way to Guarantee Your Fair Share of Stock Market Returns - John C. Bogle](https://amzn.to/3A4mgkR) | 6 969   |    4.7 |
+| [Investing QuickStart Guide: The Simplified Beginner’s Guide to Successfully Navigating the Stock Market, Growing Your Wealth & Creating a Secure Financial Future - Ted D. Snow](https://amzn.to/3A5aRkX) | 2 537   |    4.5 |
+| [Day Trading QuickStart Guide: The Simplified Beginner’s Guide to Winning Trade Plans, Conquering the Markets, and Becoming a Successful Day Trader - Troy Noonan](https://amzn.to/3HPZijw) | 1 229   |    4.4 |
+| [Introduction To Algo Trading: How Retail Traders Can Successfully Compete With Professional Traders - Kevin J Davey](https://amzn.to/39Tf7JC) | 131     |      4 |
+| [Algorithmic Trading and DMA: An introduction to direct access trading strategies - Barry Johnson](https://amzn.to/3xYb0UN) | 69      |    4.4 |
 
 
 ## Biography
