@@ -242,42 +242,52 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 ## Databases
 
-- [Arctic (Man Group)](https://github.com/man-group/arctic) | `Python` | - High performance datastore for time series and tick data
-- [Marketstore](https://github.com/alpacahq/marketstore) | `Go` | - DataFrame Server for Financial Timeseries Data
-- [Tectonicdb](https://github.com/0b01/tectonicdb) | `Rust` | - Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks.
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [Arctic (Man Group)](https://github.com/man-group/arctic) | High performance datastore for time series and tick data | ![GitHub stars](https://badgen.net/github/stars/man-group/arctic) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Marketstore](https://github.com/alpacahq/marketstore) | DataFrame Server for Financial Timeseries Data | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
+| [Tectonicdb](https://github.com/0b01/tectonicdb) | Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks. | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ## Graph Computation
 
-- [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
-- [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
-- [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
-- :star: [Man MDF](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
-- [Ray](https://github.com/ray-project/ray) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
-- [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [Ray](https://github.com/ray-project/ray) | An open source framework that provides a simple, universal API for building distributed applications. | ![GitHub stars](https://badgen.net/github/stars/ray-project/ray) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Dask](https://github.com/dask/dask) | Parallel computing with task scheduling in Python with a Pandas like API | ![GitHub stars](https://badgen.net/github/stars/dask/dask) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications | ![GitHub stars](https://badgen.net/github/stars/janestreet/incremental) | ![made-with-ocaml](https://img.shields.io/badge/Made%20with-Ocaml-1f425f.svg) |
+| [Man MDF](https://github.com/man-group/mdf) | Data-flow programming toolkit for Python | ![GitHub stars](https://badgen.net/github/stars/man-group/mdf) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [GraphKit](https://github.com/yahoo/graphkit) | A lightweight Python module for creating and running ordered graphs of computations. | ![GitHub stars](https://badgen.net/github/stars/yahoo/graphkit) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Tributary](https://github.com/timkpaine/tributary) | Streaming reactive and dataflow graphs in Python | ![GitHub stars](https://badgen.net/github/stars/timkpaine/tributary) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+
 
 ## Machine Learning
 
-- [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
-- [MlFinLab (Hudson & Thames)](https://bit.ly/3GxKwNO)  | `Python` | - MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools.
-- [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
-- [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | `Python` | - Stock Trading Bot using Deep Q-Learning 
-- [TradingGym](https://github.com/Yvictor/TradingGym) | `Python`, `Live Trading` | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [QLib (Microsoft)](https://github.com/microsoft/qlib) | Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib. | ![GitHub stars](https://badgen.net/github/stars/microsoft/qlib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance. | ![GitHub stars](https://badgen.net/github/stars/AI4Finance-Foundation/FinRL) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [MlFinLab (Hudson & Thames)](https://github.com/hudson-and-thames/mlfinlab) | MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools. | ![GitHub stars](https://badgen.net/github/stars/hudson-and-thames/mlfinlab) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TradingGym](https://github.com/Yvictor/TradingGym) | Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo. | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | Stock Trading Bot using Deep Q-Learning | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+
 
 ## TimeSeries Analysis
 
-- [Facebook Prophet](https://github.com/facebook/prophet) - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
-- [pmdarima](https://github.com/alkaline-ml/pmdarima) - A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.
-- [statsmodels](http://statsmodels.sourceforge.net) - Python module that allows users to explore data, estimate statistical models, and perform statistical tests.
-- [tsfresh](https://github.com/blue-yonder/tsfresh) - Automatic extraction of relevant features from time series.
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [Facebook Prophet](https://github.com/facebook/prophet) | Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth. | ![GitHub stars](https://badgen.net/github/stars/facebook/prophet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [statsmodels](https://github.com/statsmodels/statsmodels) | Python module that allows users to explore data, estimate statistical models, and perform statistical tests. | ![GitHub stars](https://badgen.net/github/stars/statsmodels/statsmodels) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [tsfresh](https://github.com/blue-yonder/tsfresh) | Automatic extraction of relevant features from time series. | ![GitHub stars](https://badgen.net/github/stars/blue-yonder/tsfresh) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [pmdarima](https://github.com/alkaline-ml/pmdarima) | A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function. | ![GitHub stars](https://badgen.net/github/stars/alkaline-ml/pmdarima) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+
 
 ## Visualization
 
-- [btplotting](https://github.com/happydasch/btplotting) | `Python`, `bokeh` | - btplotting provides plotting for backtests, optimization results and live data from backtrader.
-- :star: [D-Tale (Man Group)](https://github.com/man-group/dtale) | `JavaScript`, `Python` | - D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures.
-- [mplfinance](https://github.com/matplotlib/mplfinance) | `Python` | - Financial Markets Data Visualization using Matplotlib
-
-
-
+| Repository | Description | Stars | Made with |
+|------------|-------------|-------|-----------|
+| [D-Tale (Man Group)](https://github.com/man-group/dtale) | D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures. | ![GitHub stars](https://badgen.net/github/stars/man-group/dtale) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [mplfinance](https://github.com/matplotlib/mplfinance) | Financial Markets Data Visualization using Matplotlib | ![GitHub stars](https://badgen.net/github/stars/matplotlib/mplfinance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [btplotting](https://github.com/happydasch/btplotting) | btplotting provides plotting for backtests, optimization results and live data from backtrader. | ![GitHub stars](https://badgen.net/github/stars/happydasch/btplotting) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 # Strategies
@@ -876,1055 +886,78 @@ A comprehensive list of **56 books** for quantitative traders.
 
 ## Coding
 
-[Algorithmic Trading with Python: Quantitative Methods and Strategy Development - Chris Conlan](https://amzn.to/3u3cxYo)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3u3cxYo">
-        <div style="width:200px">
-          <img src="./static/Algorithmic Trading with Python.jpeg" style="width:700px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Algorithmic Trading with Python discusses modern quant trading methods in Python with a heavy focus on pandas, numpy, and scikit-learn. After establishing an understanding of technical indicators and performance metrics, readers will walk through the process of developing a trading simulator, strategy optimizer, and financial machine learning pipeline. This book maintains a high standard of reproducibility. All code and data are self-contained in a GitHub repo. The data includes hyper-realistic simulated price data and alternative data based on real securities. Algorithmic Trading with Python (2020) is the spiritual successor to Automated Trading with R (2016). This book covers more content in less time than its predecessor due to advances in open-source technologies for quantitative analysis.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Learn Algorithmic Trading: Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis - Sebastien Donadio](https://amzn.to/3NqNghA)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3NqNghA">
-        <div style="width:200px">
-          <img src="./static/Learn Algorithmic Trading.jpeg" style="width:660px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          It’s now harder than ever to get a significant edge over competitors in terms of speed and efficiency when it comes to algorithmic trading. Relying on sophisticated trading signals, predictive models and strategies can make all the difference. This book will guide you through these aspects, giving you insights into how modern electronic trading markets and participants operate.
-        </li>
-        <li>
-          You’ll start with an introduction to algorithmic trading, along with setting up the environment required to perform the tasks in the book. You’ll explore the key components of an algorithmic trading business and aspects you’ll need to take into account before starting an automated trading project. Next, you’ll focus on designing, building and operating the components required for developing a practical and profitable algorithmic trading business. Later, you’ll learn how quantitative trading signals and strategies are developed, and also implement and analyze sophisticated trading strategies such as volatility strategies, economic release strategies, and statistical arbitrage. Finally, you’ll create a trading bot from scratch using the algorithms built in the previous sections.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Python for Algorithmic Trading: From Idea to Cloud Deployment - Yves Hilpisch](https://amzn.to/3bpkd0C)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3bpkd0C">
-        <div style="width:100px">
-          <img src="./static/Python for Algorithmic Trading.jpeg" style="width:340px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Algorithmic trading, once the exclusive domain of institutional players, is now open to small organizations and individual traders using online platforms. The tool of choice for many traders today is Python and its ecosystem of powerful packages. In this practical book, author Yves Hilpisch shows students, academics, and practitioners how to use Python in the fascinating field of algorithmic trading.
-        </li>
-        <li>
-          You’ll learn several ways to apply Python to different aspects of algorithmic trading, such as backtesting trading strategies and interacting with online trading platforms. Some of the biggest buy- and sell-side institutions make heavy use of Python. By exploring options for systematically building and deploying automated algorithmic trading strategies, this book will help you level the playing field.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Python for Finance: Mastering Data-Driven Finance - Yves Hilpisch](https://amzn.to/3NhkTlP)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3NhkTlP">
-        <div style="width:100px">
-          <img src="./static/Python for Finance.jpeg" style="width:370px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The financial industry has recently adopted Python at a tremendous rate, with some of the largest investment banks and hedge funds using it to build core trading and risk management systems. Updated for Python 3, the second edition of this hands-on book helps you get started with the language, guiding developers and quantitative analysts through Python libraries and tools for building financial applications and interactive financial analytics.
-        </li>
-        <li>
-          Using practical examples throughout the book, author Yves Hilpisch also shows you how to develop a full-fledged framework for Monte Carlo simulation-based derivatives and risk analytics, based on a large, realistic case study. Much of the book uses interactive IPython Notebooks.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Trading Evolved: Anyone can Build Killer Trading Strategies in Python - Andreas F. Clenow](https://amzn.to/3A0jcGB)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3A0jcGB">
-        <div style="width:100px">
-          <img src="./static/Trading Evolved.jpeg" style="width:375px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Systematic trading allows you to test and evaluate your trading ideas before risking your money. By formulating trading ideas as concrete rules, you can evaluate past performance and draw conclusions about the viability of your trading plan. Following systematic rules provides a consistent approach where you will have some degree of predictability of returns, and perhaps more importantly, it takes emotions and second-guessing out of the equation.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+|  Title   | Reviews | Rating |
+|----------|---------|--------|
+| [Python for Finance: Mastering Data-Driven Finance - Yves Hilpisch](https://amzn.to/3NhkTlP) | ![](https://badgen.net/badge/reviews/249/blue) | ![](https://badgen.net/badge/rating/4.6/blue) |
+| [Trading Evolved: Anyone can Build Killer Trading Strategies in Python - Andreas F. Clenow](https://amzn.to/3A0jcGB) | ![](https://badgen.net/badge/reviews/173/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Python for Algorithmic Trading: From Idea to Cloud Deployment - Yves Hilpisch](https://amzn.to/3bpkd0C) | ![](https://badgen.net/badge/reviews/90/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
+| [Algorithmic Trading with Python: Quantitative Methods and Strategy Development - Chris Conlan](https://amzn.to/3u3cxYo) | ![](https://badgen.net/badge/reviews/48/blue) | ![](https://badgen.net/badge/rating/4.2/blue) |
+| [Learn Algorithmic Trading: Build and deploy algorithmic trading systems and strategies using Python and advanced data analysis - Sebastien Donadio](https://amzn.to/3NqNghA) | ![](https://badgen.net/badge/reviews/46/blue) | ![](https://badgen.net/badge/rating/4.1/blue) |
 
 
 ## Crypto
 
-[Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption - Ben Mezrich](https://amzn.to/39SkdWt)
+|  Title   | Reviews | Rating |
+|----------|---------|--------|
+| [The Bitcoin Standard: The Decentralized Alternative to Central Banking - Saifedean Ammous](https://amzn.to/3QMJgec) | ![](https://badgen.net/badge/reviews/5%20136/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
+| [Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption - Ben Mezrich](https://amzn.to/39SkdWt) | ![](https://badgen.net/badge/reviews/1%20787/blue) | ![](https://badgen.net/badge/rating/4.5/blue) |
+| [Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos](https://amzn.to/3NniZ3p) | ![](https://badgen.net/badge/reviews/955/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
+| [Why Buy Bitcoin: Investing Today in the Money of Tomorrow - Andy Edstrom](https://amzn.to/3OMcKqZ) | ![](https://badgen.net/badge/reviews/192/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
 
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/39SkdWt">
-        <img src="./static/Bitcoin Billionaires.jpeg" style="width:430px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Planning to start careers as venture capitalists, the brothers quickly discover that no one will take their money after their fight with Zuckerberg. While nursing their wounds in Ibiza, they accidentally run into an eccentric character who tells them about a brand-new idea: cryptocurrency. Immersing themselves in what is then an obscure and sometimes sinister world, they begin to realize “crypto” is, in their own words, “either the next big thing or total bulls–t.” There’s nothing left to do but make a bet.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Mastering Bitcoin: Programming the Open Blockchain - Andreas M. Antonopoulos](https://amzn.to/3NniZ3p)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3NniZ3p">
-        <img src="./static/Mastering Bitcoin.jpeg" style="width:350px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Join the technological revolution that’s taking the financial world by storm. Mastering Bitcoin is your guide through the seemingly complex world of bitcoin, providing the knowledge you need to participate in the internet of money. Whether you’re building the next killer app, investing in a startup, or simply curious about the technology, this revised and expanded second edition provides essential detail to get you started.
-        </li>
-        <li>
-          Bitcoin, the first successful decentralized digital currency, is still in its early stages and yet it’s already spawned a multi-billion-dollar global economy open to anyone with the knowledge and passion for participating. Mastering Bitcoin provides knowledge. You simply supply the passion.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[The Bitcoin Standard: The Decentralized Alternative to Central Banking - Saifedean Ammous](https://amzn.to/3QMJgec)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3QMJgec">
-        <img src="./static/The Bitcoin Standard.jpeg" style="width:480px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          When a pseudonymous programmer introduced “a new electronic cash system that’s fully peer-to-peer, with no trusted third party” to a small online mailing list in 2008, very few paid attention. Ten years later, and against all odds, this upstart autonomous decentralized software offers an unstoppable and globally-accessible hard money alternative to modern central banks. The Bitcoin Standard analyzes the historical context to the rise of Bitcoin, the economic properties that have allowed it to grow quickly, and its likely economic, political, and social implications.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Why Buy Bitcoin: Investing Today in the Money of Tomorrow - Andy Edstrom](https://amzn.to/3OMcKqZ)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3OMcKqZ">
-        <img src="./static/Why Buy Bitcoin.jpeg" style="width:750px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Some people still view Bitcoin as a startup. But despite being declared dead many times by the mainstream media, Bitcoin grows stronger every year. What’s going on? It’s not too late to learn about Bitcoin and invest. Bitcoin’s value has grown exponentially over multiple booms and bust cycles spanning a decade. Bitcoin is an Internet-native phenomenon like Alibaba, Amazon, Apple, Facebook, Google, Netflix, Microsoft, and Tencent. It, therefore, benefits from the “network effect” which makes it dramatically more valuable as the network grows. But its potential value is much larger than the giant Internet companies we know so well. If Bitcoin reaches that potential, its value could rise by 50 times its current price in the coming decade. This book will help you understand the role of money in our society, the current state of debt in our economy, and how Bitcoin provides a better solution.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 ## General
 
-[Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk - Richard Grinold, Ronald Kahn](https://amzn.to/3xMKaic)
+|  Title   | Reviews | Rating |
+|----------|---------|--------|
+| [The Intelligent Investor: The Definitive Book on Value Investing - Benjamin Graham, Jason Zweig](https://www.amazon.fr/gp/product/0060555661/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0060555661&linkId=aba73910e4e3873b6cc8364487662bd6) | ![](https://badgen.net/badge/reviews/38%20087/blue) | ![](https://badgen.net/badge/rating/4.6/blue) |
+| [How I Invest My Money: Finance experts reveal how they save, spend, and invest - Joshua Brown, Brian Portnoy](https://amzn.to/3A4rsoU) | ![](https://badgen.net/badge/reviews/892/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Naked Forex: High-Probability Techniques for Trading Without Indicators - Alex Nekritin](https://amzn.to/3NkrAUj) | ![](https://badgen.net/badge/reviews/720/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
+| [The Four Pillars of Investing: Lessons for Building a Winning Portfolio - William J. Bernstein](https://www.amazon.fr/gp/product/B0041842TW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B0041842TW&linkId=d9bc2fec4f3faa41ca4f24aed3c72122) | ![](https://badgen.net/badge/reviews/441/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
+| [Option Volatility and Pricing: Advanced Trading Strategies and Techniques, 2nd Edition - Sheldon Natenberg](https://amzn.to/3btOxXL) | ![](https://badgen.net/badge/reviews/388/blue) | ![](https://badgen.net/badge/rating/4.6/blue) |
+| [The Art and Science of Technical Analysis: Market Structure, Price Action, and Trading Strategies - Adam Grimes](https://www.amazon.fr/gp/product/1118115120/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118115120&linkId=d5dc1f0e6727b2663d2186a110a31ad0) | ![](https://badgen.net/badge/reviews/305/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
+| [The New Trading for a Living: Psychology, Discipline, Trading Tools and Systems, Risk Control, Trade Management (Wiley Trading) - Alexander Elder](https://www.amazon.fr/gp/product/1118467450/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118467450&linkId=67ee502653bc52a5240ced9fc88eb76d) | ![](https://badgen.net/badge/reviews/242/blue) | ![](https://badgen.net/badge/rating/4.5/blue) |
+| [Building Winning Algorithmic Trading Systems: A Trader’s Journey From Data Mining to Monte Carlo Simulation to Live Trading (Wiley Trading) - Kevin J Davey](https://amzn.to/39QnsxA) | ![](https://badgen.net/badge/reviews/163/blue) | ![](https://badgen.net/badge/rating/4.2/blue) |
+| [Systematic Trading: A unique new method for designing trading and investing systems - Robert Carver](https://www.amazon.fr/gp/product/0857194453/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857194453&linkId=32d8bffc32c01041cde066bacab76c04) | ![](https://badgen.net/badge/reviews/123/blue) | ![](https://badgen.net/badge/rating/4.2/blue) |
+| [Quantitative Momentum: A Practitioner’s Guide to Building a Momentum-Based Stock Selection System (Wiley Finance) - Wesley R. Gray, Jack R. Vogel](https://www.amazon.fr/gp/product/111923719X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=111923719X&linkId=b825cb65462a4a9254af3b7dc5328131) | ![](https://badgen.net/badge/reviews/105/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Algorithmic Trading: Winning Strategies and Their Rationale - Ernest P. Chan](https://amzn.to/3xWi8kd) | ![](https://badgen.net/badge/reviews/100/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Leveraged Trading: A professional approach to trading FX, stocks on margin, CFDs, spread bets and futures for all traders - Robert Carver](https://amzn.to/3Nhl6p7) | ![](https://badgen.net/badge/reviews/98/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
+| [Trading Systems: A New Approach to System Development and Portfolio Optimisation - Emilio Tomasini, Urban Jaekle](https://www.amazon.fr/gp/product/1905641796/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1905641796&linkId=61e6634242c497498338f73641ce0a80) | ![](https://badgen.net/badge/reviews/67/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Trading and Exchanges: Market Microstructure for Practitioners - Larry Harris](https://www.amazon.fr/gp/product/0195144708/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0195144708&linkId=e47e596fc0696cbd624726cce05b4500) | ![](https://badgen.net/badge/reviews/61/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Trading Systems 2nd edition: A new approach to system development and portfolio optimisation - Emilio Tomasini, Urban Jaekle](https://www.amazon.fr/gp/product/085719755X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=085719755X&linkId=97aa558484a8dc2bf57a5296e7f38cad) | ![](https://badgen.net/badge/reviews/42/blue) | ![](https://badgen.net/badge/rating/4/blue) |
+| [Machine Trading: Deploying Computer Algorithms to Conquer the Markets - Ernest P. Chan](https://amzn.to/3OIBe4o) | ![](https://badgen.net/badge/reviews/53/blue) | ![](https://badgen.net/badge/rating/4/blue) |
+| [Quantitative Equity Portfolio Management: An Active Approach to Portfolio Construction and Management (McGraw-Hill Library of Investment and Finance) - Ludwig B Chincarini, Daehwan Kim](https://amzn.to/3yl9u0c) | ![](https://badgen.net/badge/reviews/51/blue) | ![](https://badgen.net/badge/rating/4.5/blue) |
+| [Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk - Richard Grinold, Ronald Kahn](https://amzn.to/3xMKaic) | ![](https://badgen.net/badge/reviews/46/blue) | ![](https://badgen.net/badge/rating/4/blue) |
+| [Quantitative Technical Analysis: An integrated approach to trading system development and trading management - Dr Howard B Bandy](https://www.amazon.fr/gp/product/0979183855/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0979183855&linkId=8ef7bda69477bdccf90f5ac02ee495b0) | ![](https://badgen.net/badge/reviews/37/blue) | ![](https://badgen.net/badge/rating/3.8/blue) |
+| [Advances in Active Portfolio Management: New Developments in Quantitative Investing - Richard Grinold, Ronald Kahn](https://amzn.to/3xUTK2z) | ![](https://badgen.net/badge/reviews/19/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
+| [Professional Automated Trading: Theory and Practice - Eugene A. Durenard](https://amzn.to/3yhfOpw) | ![](https://badgen.net/badge/reviews/15/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Algorithmic Trading and Quantitative Strategies (Chapman and Hall/CRC Financial Mathematics Series) - Raja Velu, Maxence Hardy, Daniel Nehren](https://amzn.to/3xUTQXZ) | ![](https://badgen.net/badge/reviews/11/blue) | ![](https://badgen.net/badge/rating/4.2/blue) |
+| [Quantitative Trading: Algorithms, Analytics, Data, Models, Optimization - Xin Guo, Tze Leung Lai, Howard Shek, Samuel Po-Shing Wong](https://www.amazon.fr/gp/product/0367871815/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0367871815&linkId=3f2ba1cbc0e1fe02e255da740423b2fb) | ![](https://badgen.net/badge/reviews/2/blue) | ![](https://badgen.net/badge/rating/3/blue) |
 
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3xMKaic">
-        <img src="./static/Active Portfolio Management.jpeg" style="width:770px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Mathematically rigorous and meticulously organized, Active Portfolio Management broke new ground when it first became available to investment managers in 1994. By outlining an innovative process to uncover raw signals of asset returns, develop them into refined forecasts, then use those forecasts to construct portfolios of exceptional return and minimal risk, i.e., portfolios that consistently beat the market, this hallmark book helped thousands of investment managers. Active Portfolio Management, Second Edition, now sets the bar even higher. Like its predecessor, this volume details how to apply economics, econometrics, and operations research to solving practical investment problems, and uncovering superior profit opportunities. It outlines an active management framework that begins with a benchmark portfolio, then defines exceptional returns as they relate to that benchmark.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Advances in Active Portfolio Management: New Developments in Quantitative Investing - Richard Grinold, Ronald Kahn](https://amzn.to/3xUTK2z)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3xUTK2z">
-        <img src="./static/Advances in Active Portfolio Management.jpeg" style="width:470px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Advances in Active Portfolio Management gets you fully up to date on the issues, trends, and challenges in the world of active management―and shows how to apply advances in the Grinold and Kahn’s legendary approach to meet current challenges. Composed of articles published in today’s leading management publications―including several that won Journal of Portfolio Management’s prestigious Bernstein Fabozzi/Jacobs Levy Award―this comprehensive guide is filled with new insights into:
-          <ul>
-            <li>
-              Dynamic Portfolio Management
-            </li>
-            <li>
-              Signal Weighting
-            </li>
-            <li>
-              Implementation Efficiency
-            </li>
-            <li>
-              Holdings-based attribution
-            </li>
-            <li>
-              Expected returns
-            </li>
-            <li>
-              Risk management
-            </li>
-            <li>
-              Portfolio construction
-            </li>
-            <li>
-              Fees
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Algorithmic Trading and Quantitative Strategies (Chapman and Hall/CRC Financial Mathematics Series) - Raja Velu, Maxence Hardy, Daniel Nehren](https://amzn.to/3xUTQXZ)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3xUTQXZ">
-        <img src="./static/Algorithmic Trading and Quantitative Strategies.jpeg" style="width:690px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Algorithmic Trading and Quantitative Strategies provides an in-depth overview of this growing field with a unique mix of quantitative rigor and practitioner’s hands-on experience. The focus on empirical modelling and practical know-how makes this book a valuable resource for students and professionals.
-        </li>
-        <li>
-          The book starts with the often overlooked context of why and how we trade via a detailed introduction to market structure and quantitative microstructure models. The authors then present the necessary quantitative toolbox, including more advanced machine learning models needed to successfully operate in the field. They next discuss the subject of quantitative trading, alpha generation, active portfolio management and more recent topics like news and sentiment analytics. The last main topic of execution algorithms is covered in detail with emphasis on the state of the field and critical topics, including the elusive concept of market impact. The book concludes with a discussion of the technology infrastructure necessary to implement algorithmic strategies in large-scale production settings.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Algorithmic Trading: Winning Strategies and Their Rationale - Ernest P. Chan](https://amzn.to/3xWi8kd)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3xWi8kd">
-        <div style="width:100px">
-          <img src="./static/Algorithmic Trading.jpeg" style="width:380px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Engaging and informative, Algorithmic Trading skillfully covers a wide array of strategies. Broadly divided into the mean-reverting and momentum camps, it lays out standard techniques for trading each category of strategies and, equally important, the fundamental reasons why a strategy should work. The emphasis throughout is on simple and linear strategies, as an antidote to the over-fitting and data-snooping biases that often plague complex strategies.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Building Winning Algorithmic Trading Systems: A Trader’s Journey From Data Mining to Monte Carlo Simulation to Live Trading (Wiley Trading) - Kevin J Davey](https://amzn.to/39QnsxA)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/39QnsxA">
-        <div style="width:100px">
-          <img src="./static/Building Winning Algorithmic Trading Systems.jpeg" style="width:560px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Develop your own trading system with practical guidance and expert advice In Building Algorithmic Trading Systems: A Trader’s Journey From Data Mining to Monte Carlo Simulation to Live Training, award-winning trader Kevin Davey shares his secrets for developing trading systems that generate triple-digit returns. With both explanation and demonstration, Davey guides you step-by-step through the entire process of generating and validating an idea, setting entry and exit points, testing systems, and implementing them in live trading. You’ll find concrete rules for increasing or decreasing allocation to a system, and rules for when to abandon one.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[How I Invest My Money: Finance experts reveal how they save, spend, and invest - Joshua Brown, Brian Portnoy](https://amzn.to/3A4rsoU)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3A4rsoU">
-        <img src="./static/How I Invest My Money.jpeg" style="width:1100px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The world of investing normally sees experts telling us the “right” way to manage our money. How often do these experts pull back the curtain and tell us how they invest their own money? Never. How I Invest My Money changes that. In this unprecedented collection, 25 financial experts share how they navigate markets with their own capital. In this honest rendering of how they invest, save, spend, give, and borrow, this group of portfolio managers, financial advisors, venture capitalists and other experts detail the “how” and the “why” of their investments. They share stories about their childhood, their families, the struggles they face and the aspirations they hold. Sometimes raw, always revealing, these stories detail the indelible relationship between our money and our values. Taken as a whole, these essays powerfully demonstrate that there is no single “right” way to save, spend, and invest. We see a kaleidoscope of perspectives on stocks, bonds, real assets, funds, charity, and other means of achieving the life one desires. With engaging illustrations throughout by Carl Richards, How I Invest My Money inspires readers to think creatively about their financial decisions and how money figures in the broader quest for a contented life.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Leveraged Trading: A professional approach to trading FX, stocks on margin, CFDs, spread bets and futures for all traders - Robert Carver](https://amzn.to/3Nhl6p7)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3Nhl6p7">
-        <img src="./static/Leveraged Trading.jpeg" style="width:245px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          With the right broker, and just a few hundred dollars or pounds, anyone can become a leveraged trader. The products and tools needed are accessible to all: FX, a margin account, CFDs, spread-bets and futures.
-        </li>
-        <li>
-          But this level playing field comes with great risks. Trading with leverage is inherently dangerous. With leverage, losses and costs – the two great killers for traders – are magnified.
-        </li>
-        <li>
-          This does not mean leverage must be avoided altogether, but it does mean that it needs to be used safely. In Leveraged Trading, Robert Carver shows you how to do exactly that, by using a trading system. A trading system can be employed to tackle those twin dangers of serious losses and high costs.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Machine Trading: Deploying Computer Algorithms to Conquer the Markets - Ernest P. Chan](https://amzn.to/3OIBe4o)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3OIBe4o">
-        <div style="width:100px">
-          <img src="./static/Machine Trading.jpeg" style="width:760px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Machine Trading is a practical guide to building your algorithmic trading business. Written by a recognized trader with major institution expertise, this book provides step-by-step instruction on quantitative trading and the latest technologies available even outside the Wall Street sphere. You’ll discover the latest platforms that are becoming increasingly easy to use, gain access to new markets, and learn new quantitative strategies that are applicable to stocks, options, futures, currencies, and even bitcoins. The companion website provides downloadable software codes, and you’ll learn to design your own proprietary tools using MATLAB. The author’s experiences provide deep insight into both the business and human side of systematic trading and money management, and his evolution from a proprietary trader to fund manager contains valuable lessons for investors at any level.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Naked Forex: High-Probability Techniques for Trading Without Indicators - Alex Nekritin](https://amzn.to/3NkrAUj)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3NkrAUj">
-        <img src="./static/Naked Forex.jpeg" style="width:265px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Most forex traders rely on technical analysis books written for stock, futures, and options traders. However, long before computers and calculators, traders were trading naked. Naked trading is the simplest (and oldest) trading method. It’s simply trading without technical indicators, and that is exactly what this book is about.
-        </li>
-        <li>
-          Traders who use standard technical indicators focus on the indicators. Traders using naked trading techniques focus on the price chart. Naked trading is a simple and superior way to trade and is suited to those traders looking to quickly achieve expertise with a trading method.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Option Volatility and Pricing: Advanced Trading Strategies and Techniques, 2nd Edition - Sheldon Natenberg](https://amzn.to/3btOxXL)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3btOxXL">
-        <img src="./static/Option Volatility and Pricing.jpeg" style="width:325px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The bestselling Option Volatility & Pricing has made Sheldon Natenberg a widely-recognized authority in the options industry. At firms around the world, the text is often the first book that new professional traders are given to learn the trading strategies and risk management techniques required for success in option markets.
-        </li>
-        <li>
-          Now, in this revised, updated, and expanded second edition, this thirty-year trading professional presents the most comprehensive guide to advanced trading strategies and techniques now in print. Covering a wide range of topics as diverse and exciting as the market itself, this text enables both new and experienced traders to delve in detail into the many aspects of option markets.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Professional Automated Trading: Theory and Practice - Eugene A. Durenard](https://amzn.to/3yhfOpw)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3yhfOpw">
-        <div style="width:100px">
-          <img src="./static/Professional Automated Trading.jpeg" style="width:465px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          An insider’s view of how to develop and operate an automated proprietary trading network
-        </li>
-        <li>
-          Reflecting author Eugene Durenard’s extensive experience in this field, Professional Automated Trading offers valuable insights you won’t find anywhere else. It reveals how a series of concepts and techniques coming from current research in artificial life and modern control theory can be applied to the design of effective trading systems that outperform the majority of published trading systems. It also skillfully provides you with essential information on the practical coding and implementation of a scalable systematic trading architecture.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Quantitative Equity Portfolio Management: An Active Approach to Portfolio Construction and Management (McGraw-Hill Library of Investment and Finance) - Ludwig B Chincarini, Daehwan Kim](https://amzn.to/3yl9u0c)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://amzn.to/3yl9u0c">
-        <img src="./static/Quantitative Equity Portfolio Management.jpeg" style="width:290px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Capitalize on Today’s Most Powerful Quantitative Methods to Construct and Manage a High-Performance Equity Portfolio
-        </li>
-        <li>
-          Quantitative Equity Portfolio Management is a comprehensive guide to the entire process of constructing and managing a high-yield quantitative equity portfolio. This detailed handbook begins with the basic principles of quantitative active management and then clearly outlines how to build an equity portfolio using those powerful concepts.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Quantitative Momentum: A Practitioner’s Guide to Building a Momentum-Based Stock Selection System (Wiley Finance) - Wesley R. Gray, Jack R. Vogel](https://www.amazon.fr/gp/product/111923719X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=111923719X&linkId=b825cb65462a4a9254af3b7dc5328131)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/111923719X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=111923719X&linkId=b825cb65462a4a9254af3b7dc5328131">
-        <img src="./static/Quantitative Momentum.jpeg" style="width:790px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Quantitative Momentum brings momentum investing out of Wall Street and into the hands of individual investors. In his last book, Quantitative Value, author Wes Gray brought systematic value strategy from the hedge funds to the masses; in this book, he does the same for momentum investing, the system that has been shown to beat the market and regularly enriches the coffers of Wall Street’s most sophisticated investors. First, you’ll learn what momentum investing is not: it’s not ‘growth’ investing, nor is it an esoteric academic concept. You may have seen it used for asset allocation, but this book details the ways in which momentum stands on its own as a stock selection strategy, and gives you the expert insight you need to make it work for you. You’ll dig into its behavioral psychology roots, and discover the key tactics that are bringing both institutional and individual investors flocking into the momentum fold.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Quantitative Technical Analysis: An integrated approach to trading system development and trading management - Dr Howard B Bandy](https://www.amazon.fr/gp/product/0979183855/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0979183855&linkId=8ef7bda69477bdccf90f5ac02ee495b0)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0979183855/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0979183855&linkId=8ef7bda69477bdccf90f5ac02ee495b0">
-        <img src="./static/Quantitative Technical Analysis.jpeg" style="width:68px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          An integrated approach to trading system development and trading management
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Quantitative Trading: Algorithms, Analytics, Data, Models, Optimization - Xin Guo, Tze Leung Lai, Howard Shek, Samuel Po-Shing Wong](https://www.amazon.fr/gp/product/0367871815/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0367871815&linkId=3f2ba1cbc0e1fe02e255da740423b2fb)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0367871815/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0367871815&linkId=3f2ba1cbc0e1fe02e255da740423b2fb">
-        <img src="./static/Quantitative Trading-2.jpeg" style="width:510px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The first part of this book discusses institutions and mechanisms of algorithmic trading, market microstructure, high-frequency data and stylized facts, time and event aggregation, order book dynamics, trading strategies and algorithms, transaction costs, market impact and execution strategies, risk analysis, and management. The second part covers market impact models, network models, multi-asset trading, machine learning techniques, and nonlinear filtering. The third part discusses electronic market making, liquidity, systemic risk, recent developments and debates on the subject.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Quantitative Trading: How to Build Your Own Algorithmic Trading Business - Ernest P. Chan](https://www.amazon.fr/gp/product/0470284889/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470284889&linkId=7121da8f65a34315d15f3f8d4e09da15)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0470284889/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0470284889&linkId=7121da8f65a34315d15f3f8d4e09da15">
-        <img src="./static/Quantitative Trading.jpeg" style="width:510px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          While institutional traders continue to implement quantitative (or algorithmic) trading, many independent traders have wondered if they can still challenge powerful industry professionals at their own game? The answer is “yes,” and in Quantitative Trading, Dr. Ernest Chan, a respected independent trader and consultant, will show you how. Whether you’re an independent “retail” trader looking to start your own quantitative trading business or an individual who aspires to work as a quantitative trader at a major financial institution, this practical guide contains the information you need to succeed.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Systematic Trading: A unique new method for designing trading and investing systems - Robert Carver](https://www.amazon.fr/gp/product/0857194453/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857194453&linkId=32d8bffc32c01041cde066bacab76c04)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0857194453/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0857194453&linkId=32d8bffc32c01041cde066bacab76c04">
-        <img src="./static/Systematic Trading.jpeg" style="width:370px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          This is not just another book with yet another trading system. This is a complete guide to developing your own systems to help you make and execute trading and investing decisions. It is intended for everyone who wishes to systematize their financial decision making, either completely or to some degree.
-        </li>
-        <li>
-          Author Robert Carver draws on financial theory, his experience managing systematic hedge fund strategies and his own in-depth research to explain why systematic trading makes sense and demonstrates how it can be done safely and profitably. Every aspect, from creating trading rules to position sizing, is thoroughly explained. The framework described here can be used with all assets, including equities, bonds, forex and commodities.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[The Art and Science of Technical Analysis: Market Structure, Price Action, and Trading Strategies - Adam Grimes](https://www.amazon.fr/gp/product/1118115120/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118115120&linkId=d5dc1f0e6727b2663d2186a110a31ad0)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1118115120/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118115120&linkId=d5dc1f0e6727b2663d2186a110a31ad0">
-        <img src="./static/The Art and Science of Technical Analysis.jpeg" style="width:920px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          A breakthrough trading book that provides powerful insights on profitable technical patterns and strategies The Art and Science of Technical Analysis is a groundbreaking work that bridges the gaps between the academic view of markets, technical analysis, and profitable trading. The book explores why randomness prevails in markets most, but not all, of the time and how technical analysis can be used to capture statistically validated patterns in certain types of market conditions. The belief of the book is that buying and selling pressure causes patterns in prices, but that these technical patterns are only effective in the presence of true buying/selling imbalance. The Art and Science of Technical Analysis is supported by extensive statistical analysis of the markets, which will debunk some tools and patterns such as Fibonacci analysis, and endorse other tools and trade setups. In addition, this reliable resource discusses trader psychology and trader learning curves based on the author’s extensive experience as a trader and trainer of traders.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[The Four Pillars of Investing: Lessons for Building a Winning Portfolio - William J. Bernstein](https://www.amazon.fr/gp/product/B0041842TW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B0041842TW&linkId=d9bc2fec4f3faa41ca4f24aed3c72122)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/B0041842TW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=B0041842TW&linkId=d9bc2fec4f3faa41ca4f24aed3c72122">
-        <img src="./static/The Four Pillars of Investing.jpeg" style="width:760px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The classic guide to constructing a solid portfolio—without a financial advisor! “With relatively little effort, you can design and assemble an investment portfolio that, because of its wide diversification and minimal expenses, will prove superior to the most professionally managed accounts. Great intelligence and good luck are not required.“ William Bernstein‘s commonsense approach to portfolio construction has served investors well during the past turbulent decade—and it‘s what made The Four Pillars of Investing an instant classic when it was first published nearly a decade ago. This down-to-earth book lays out in easy-to-understand prose the four essential topics that every investor must master: the relationship of risk and reward, the history of the market, the psychology of the investor and the market, and the folly of taking financial advice from investment salespeople.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[The Intelligent Investor: The Definitive Book on Value Investing - Benjamin Graham, Jason Zweig](https://www.amazon.fr/gp/product/0060555661/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0060555661&linkId=aba73910e4e3873b6cc8364487662bd6)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0060555661/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0060555661&linkId=aba73910e4e3873b6cc8364487662bd6">
-        <img src="./static/The Intelligent Investor.jpeg" style="width:390px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The greatest investment advisor of the twentieth century, Benjamin Graham, taught and inspired people worldwide. Graham’s philosophy of “value investing” which shields investors from substantial error and teaches them to develop long-term strategies has made The Intelligent Investor the stock market bible ever since its original publication in 1949.
-        </li>
-        <li>
-          Over the years, market developments have proven the wisdom of Graham’s strategies. While preserving the integrity of Graham’s original text, this revised edition includes updated commentary by noted financial journalist Jason Zweig. His perspective incorporates the realities of today’s market, draws parallels between Graham’s examples and today’s financial headlines, and gives readers a more thorough understanding of how to apply Graham’s principles.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[The New Trading for a Living: Psychology, Discipline, Trading Tools and Systems, Risk Control, Trade Management (Wiley Trading) - Alexander Elder](https://www.amazon.fr/gp/product/1118467450/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118467450&linkId=67ee502653bc52a5240ced9fc88eb76d)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1118467450/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118467450&linkId=67ee502653bc52a5240ced9fc88eb76d">
-        <img src="./static/The New Trading for a Living.jpeg" style="width:335px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The New Trading for Living updates a modern classic, popular worldwide among both private and institutional traders. This revised and expanded edition brings time-tested concepts in gear with today’s fast-moving markets, adding new studies and techniques for the modern trader.
-        </li>
-        <li>
-          This classic guide teaches a calm and disciplined approach to the markets. It emphasizes risk management along with self-management and provides clear rules for both. The New Trading for a Living includes templates for rating stock picks, creating trade plans, and rating your own readiness to trade. It provides the knowledge, perspective, and tools for developing your own effective trading system.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Trading and Exchanges: Market Microstructure for Practitioners - Larry Harris](https://www.amazon.fr/gp/product/0195144708/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0195144708&linkId=e47e596fc0696cbd624726cce05b4500)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0195144708/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0195144708&linkId=e47e596fc0696cbd624726cce05b4500">
-        <img src="./static/Trading and Exchanges.jpeg" style="width:680px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          This book is about trading, the people who trade securities and contracts, the marketplaces where they trade, and the rules that govern it. Readers will learn about investors, brokers, dealers, arbitrageurs, retail traders, day traders, rogue traders, and gamblers; exchanges, boards of trade, dealer networks, ECNs (electronic communications networks), crossing markets, and pink sheets. Also covered in this text are single price auctions, open outcry auctions, and brokered markets limit orders, market orders, and stop orders. Finally, the author covers the areas of program trades, block trades, and short trades, price priority, time precedence, public order precedence, and display precedence, insider trading, scalping, and bluffing, and investing, speculating, and gambling.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Trading Systems: A New Approach to System Development and Portfolio Optimisation - Emilio Tomasini, Urban Jaekle](https://www.amazon.fr/gp/product/1905641796/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1905641796&linkId=61e6634242c497498338f73641ce0a80)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1905641796/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1905641796&linkId=61e6634242c497498338f73641ce0a80">
-        <div style="width:100px">
-          <img src="./static/Trading Systems.jpeg" style="width:565px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The key is how to adapt existing codes to the current market conditions, how to build a portfolio and how to know when the moment has come to a stop one system and start another one’. Every day there are traders who make a fortune. It may seem that it seldom happens, but it does – as William Eckhardt, Ed Seykota, Jim Simons, and many others remind us. You can join them by using systems to manage your trading. This book explains exactly how you can build a winning trading system. It is an insight into what a trader should know and do in order to achieve success in the markets, and it will show you why you don’t need to be a rocket scientist to build a winning trading system.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Trading Systems 2nd edition: A new approach to system development and portfolio optimisation - Emilio Tomasini, Urban Jaekle](https://www.amazon.fr/gp/product/085719755X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=085719755X&linkId=97aa558484a8dc2bf57a5296e7f38cad)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/085719755X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=085719755X&linkId=97aa558484a8dc2bf57a5296e7f38cad">
-        <div style="width:100px">
-          <img src="./static/Trading Systems 2nd edition.jpeg" style="width:670px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Completely revised and updated second edition, with new AmiBroker codes and new complete portfolio tests. The focus of this book is how to adapt existing codes to the current market conditions, how to build a portfolio, and how to know when the moment has come to a stop one system and use another one. Every day, there are traders who make a fortune. It may seem that it seldom happens, but it does – as William Eckhardt, Ed Seykota, Jim Simons, and many others remind us. You can join them by using systems to manage your trading. This book explains exactly how you can build a winning trading system. It is an insight into what a trader should know and do in order to achieve success in the markets, and it will show you why you don’t need to be a rocket scientist to build a winning trading system.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 ## High Frequency Trading
 
-[Algorithmic and High-Frequency Trading (Mathematics, Finance and Risk) - Álvaro Cartea, Sebastian Jaimungal, José Penalva](https://www.amazon.fr/gp/product/1107091144/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1107091144&linkId=64e3ceb66482d8db6827830964b85613)
+|  Title   | Reviews | Rating |
+|----------|---------|--------|
+| [Inside the Black Box: A Simple Guide to Quantitative and High Frequency Trading - Rishi K. Narang](https://www.amazon.fr/gp/product/1118362411/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118362411&linkId=35e02d4e636350366531a5033597a541) | ![](https://badgen.net/badge/reviews/76/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Algorithmic and High-Frequency Trading (Mathematics, Finance and Risk) - Álvaro Cartea, Sebastian Jaimungal, José Penalva](https://www.amazon.fr/gp/product/1107091144/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1107091144&linkId=64e3ceb66482d8db6827830964b85613) | ![](https://badgen.net/badge/reviews/52/blue) | ![](https://badgen.net/badge/rating/4.1/blue) |
+| [The Problem of HFT – Collected Writings on High Frequency Trading & Stock Market Structure Reform - Haim Bodek](https://www.amazon.fr/gp/product/1481978357/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1481978357&linkId=2f3acf998de645990b681e2ac9f0217c) | ![](https://badgen.net/badge/reviews/38/blue) | ![](https://badgen.net/badge/rating/4/blue) |
+| [An Introduction to High-Frequency Finance - Ramazan Gençay, Michel Dacorogna, Ulrich A. Muller, Olivier Pictet, Richard Olsen](https://www.amazon.fr/gp/product/0122796713/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0122796713&linkId=7e6c098026204f399e45d7fbb803dcca) | ![](https://badgen.net/badge/reviews/11/blue) | ![](https://badgen.net/badge/rating/4.6/blue) |
+| [Market Microstructure in Practice - Charles-Albert Lehalle, Sophie Laruelle](https://www.amazon.fr/Market-Microstructure-Practice-Sophie-Laruelle/dp/9813231122) | ![](https://badgen.net/badge/reviews/8/blue) | ![](https://badgen.net/badge/rating/3.9/blue) |
+| [The Financial Mathematics of Market Liquidity - Olivier Gueant](https://www.amazon.com/Financial-Mathematics-Market-Liquidity-Execution/dp/1498725473) | ![](https://badgen.net/badge/reviews/6/blue) | ![](https://badgen.net/badge/rating/4.6/blue) |
+| [High-Frequency Trading - Maureen O’Hara, David Easley, Marcos M López de Prado](https://www.amazon.fr/gp/product/178272009X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178272009X&linkId=082f861ff6bbe4cca4ef7ccbe620a2c4) | ![](https://badgen.net/badge/reviews/1/blue) | ![](https://badgen.net/badge/rating/3/blue) |
 
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1107091144/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1107091144&linkId=64e3ceb66482d8db6827830964b85613">
-        <img src="./static/Algorithmic and High-Frequency Trading.jpeg" style="width:870px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The design of trading algorithms requires sophisticated mathematical models backed up by reliable data. In this textbook, the authors develop models for algorithmic trading in contexts such as executing large orders, market making, targeting VWAP and other schedules, trading pairs or collection of assets, and executing in dark pools. These models are grounded on how the exchanges work, whether the algorithm is trading with better-informed traders (adverse selection), and the type of information available to market participants at both ultra-high and low frequency. Algorithmic and High-Frequency Trading is the first book that combines sophisticated mathematical modelling, empirical facts and financial economics, taking the reader from basic ideas to cutting-edge research and practice. If you need to understand how modern electronic markets operate, what information provides a trading edge, and how other market participants may affect the profitability of the algorithms, then this is the book for you.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[An Introduction to High-Frequency Finance - Ramazan Gençay, Michel Dacorogna, Ulrich A. Muller, Olivier Pictet, Richard Olsen](https://www.amazon.fr/gp/product/0122796713/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0122796713&linkId=7e6c098026204f399e45d7fbb803dcca)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0122796713/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0122796713&linkId=7e6c098026204f399e45d7fbb803dcca">
-        <img src="./static/An Introduction to High-Frequency Finance.jpeg" style="width:620px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Liquid markets generate hundreds or thousands of ticks (the minimum change in price a security can have, either up or down) every business day. Data vendors such as Reuters transmit more than 275,000 prices per day for foreign exchange spot rates alone. Thus, high-frequency data can be a fundamental object of study, as traders make decisions by observing high-frequency or tick-by-tick data. Yet most studies published in financial literature deal with low frequency, regularly spaced data. For a variety of reasons, high-frequency data are becoming a way of understanding market microstructure. This book discusses the best mathematical models and tools for dealing with such vast amounts of data.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-
-[High-Frequency Trading - Maureen O’Hara, David Easley, Marcos M López de Prado](https://www.amazon.fr/gp/product/178272009X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178272009X&linkId=082f861ff6bbe4cca4ef7ccbe620a2c4)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/178272009X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=178272009X&linkId=082f861ff6bbe4cca4ef7ccbe620a2c4">
-        <img src="./static/High-Frequency Trading.jpeg" style="width:160px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          This is the survival guide for trading in a world where high-frequency trading predominates in markets, accounting for upwards of 60% of trading in equities and futures, and 40% in foreign exchange.
-        </li>
-        <li>
-          High-frequency trading is the subject of extensive debate, particularly as to whether it is beneficial for traders and markets or instead allows some traders to benefit at others expense.
-        </li>
-        <li>
-          This book provides you with an important overview and perspective on this area, with a particular focus on how low-frequency traders and asset managers can survive in the high-frequency world.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Inside the Black Box: A Simple Guide to Quantitative and High Frequency Trading - Rishi K. Narang](https://www.amazon.fr/gp/product/1118362411/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118362411&linkId=35e02d4e636350366531a5033597a541)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1118362411/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1118362411&linkId=35e02d4e636350366531a5033597a541">
-        <img src="./static/Inside the Black Box.jpeg" style="width:470px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          In this updated edition of his bestselling book, Rishi K Narang offers in a straightforward, nontechnical style―supplemented by real-world examples and informative anecdotes―a reliable resource takes you on a detailed tour through the black box. He skillfully sheds light upon the work that quants do, lifting the veil of mystery around quantitative trading and allowing anyone interested in doing so to understand quants and their strategies. This new edition includes information on High-Frequency Trading.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Market Microstructure in Practice - Charles-Albert Lehalle, Sophie Laruelle](https://www.amazon.fr/Market-Microstructure-Practice-Sophie-Laruelle/dp/9813231122)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/Market-Microstructure-Practice-Sophie-Laruelle/dp/9813231122">
-        <img src="./static/Market Microstructure in Practice.jpg" style="width:250px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Using a quantitative viewpoint, this book explains how an attrition of liquidity and regulatory changes can impact the whole microstructure of financial markets. A mathematical Appendix details the quantitative tools and indicators used through the book, allowing the reader to go further independently.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[The Financial Mathematics of Market Liquidity - Olivier Gueant](https://www.amazon.com/Financial-Mathematics-Market-Liquidity-Execution/dp/1498725473)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.com/Financial-Mathematics-Market-Liquidity-Execution/dp/1498725473">
-        <img src="./static/The Financial Mathematics of Market Liquidity.jpg" style="width:380px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          This book is among the first to present the mathematical models most commonly used to solve optimal execution problems and market making problems in finance. The Financial Mathematics of Market Liquidity: From Optimal Execution to Market Making presents a general modeling framework for optimal execution problems–inspired from the Almgren-Chriss approach–and then demonstrates the use of that framework across a wide range of areas.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[The Problem of HFT – Collected Writings on High Frequency Trading & Stock Market Structure Reform - Haim Bodek](https://www.amazon.fr/gp/product/1481978357/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1481978357&linkId=2f3acf998de645990b681e2ac9f0217c)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1481978357/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1481978357&linkId=2f3acf998de645990b681e2ac9f0217c">
-        <img src="./static/The Problem of HFT.jpeg" style="width:660px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          This book explores the problem of high-frequency trading (HFT) as well as the need for US stock market reform. This collection of previously published and unpublished materials includes the following articles and white papers: The Problem of HFT HFT Scalping Strategies Why HFTs Have an Advantage Electronic Liquidity Strategy HFT – A Systemic Issue Reforming the National Market System NZZ Interview with Haim Bodek TradeTech Interview with Haim Bodek Modern HFT wasn’t a paradigm shift because its innovations brought new efficiencies into the marketplace. HFT was a paradigm shift because its innovations proved that anti-competitive barriers to entry could be erected in the market structure itself to preference one class of market participant above all others.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 ## Machine Learning
 
-[Advances in Financial Machine Learning - Marcos Lopez de Prado](https://www.amazon.fr/gp/product/1119482089/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119482089&linkId=7eff4d3f3d9f2d00d05032f726386e53)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1119482089/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119482089&linkId=7eff4d3f3d9f2d00d05032f726386e53">
-        <img src="./static/Advances in Financial Machine Learning.jpeg" style="width:365px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Machine learning (ML) is changing virtually every aspect of our lives. Today ML algorithms accomplish tasks that until recently, only expert humans could perform. As it relates to finance, this is the most exciting time to adopt a disruptive technology that will transform how everyone invests for generations.
-        </li>
-        <li>
-          Readers will learn how to structure Big data in a way that is amenable to ML algorithms; how to conduct research with ML algorithms on that data; how to use supercomputing methods; how to backtest your discoveries while avoiding false positives.
-        </li>
-        <li>
-          The book addresses real-life problems faced by practitioners daily and explains scientifically sound solutions using math, supported by code and examples. Readers become active users who can test the proposed solutions in their particular setting. Written by a recognized expert and portfolio manager, this book will equip investment professionals with the groundbreaking tools needed to succeed in modern finance.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Algorithmic Trading Methods: Applications Using Advanced Statistics, Optimization, and Machine Learning Techniques - Robert Kissell](https://www.amazon.fr/gp/product/0128156309/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0128156309&linkId=0a197c0b547a0ee63ccd19389bb42edd)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0128156309/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0128156309&linkId=0a197c0b547a0ee63ccd19389bb42edd">
-        <img src="./static/Algorithmic Trading Methods.jpeg" style="width:990px;">
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Algorithmic Trading Methods: Applications using Advanced Statistics, Optimization, and Machine Learning Techniques, Second Edition, is a sequel to The Science of Algorithmic Trading and Portfolio Management. This edition includes new chapters on algorithmic trading, advanced trading analytics, regression analysis, optimization, and advanced statistical methods. Increasing its focus on trading strategies and models, this edition includes new insights into the ever-changing financial environment, pre-trade and post-trade analysis, liquidation cost & risk analysis, and compliance and regulatory reporting requirements. Highlighting new investment techniques, this book includes material to assist in the best execution process, model validation, quality and assurance testing, limit order modelling, and smart order routing analysis. Includes advanced modeling techniques using machine learning, predictive analytics, and neural networks. The text provides readers with a suite of transaction cost analysis functions packaged as a TCA library. These programming tools are accessible via numerous software applications and programming languages.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Artificial Intelligence in Finance: A Python-Based Guide - Yves Hilpisch](https://www.amazon.fr/gp/product/1492055433/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492055433&linkId=7c20249be4d35badb127d6a5423fc495)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1492055433/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492055433&linkId=7c20249be4d35badb127d6a5423fc495">
-        <div style="width:100px">
-          <img src="./static/Artificial Intelligence in Finance.jpeg" style="width:410px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The application of AI to financial trading is still a nascent field, although at the time of writing there are a number of other books available that cover this topic to some extent. Many of these publications, however, fail to show what it means to economically exploit statistical inefficiencies.
-        </li>
-        <li>
-          Some hedge funds already claim to exclusively rely on machine learning to manage their investors’ capital. A prominent example is The Voleon Group, a hedge fund that reported more than six billion dollars (USD) in assets under management at the end of 2019 (see Lee and Karsh 2020). The difficulty of relying on machine learning to outsmart the financial markets is reflected in the fund’s performance of 7% for 2019, a year during which the S&P 500 stock index rose by almost 30%.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-[Dark Pools: The rise of A.I. trading machines and the looming threat to Wall Street - Scott Patterson](https://www.amazon.fr/gp/product/0307887189/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0307887189&linkId=2572cae24ed7de0b279580312daf0f03)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/0307887189/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0307887189&linkId=2572cae24ed7de0b279580312daf0f03">
-        <div style="width:100px">
-          <img src="./static/Dark Pools.jpeg" style="width:340px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Dark Pools is pacy, revealing, and profoundly chilling tale of how global markets have been hijacked by trading robots – many so self-directed that humans can’t predict what they’ll do next. It’s the story of the blisteringly intelligent computer programmers behind the rise of these ‘bots’. And it’s a timely warning that as artificial intelligence gradually takes over, we could be on the verge of global meltdown.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-
-[Machine Learning for Asset Managers (Elements in Quantitative Finance) - Marcos M López de Prado](https://www.amazon.fr/gp/product/1108792898/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1108792898&linkId=8eb7e3c369d38b36df8dfecf05a622db)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1108792898/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1108792898&linkId=8eb7e3c369d38b36df8dfecf05a622db">
-        <div style="width:100px">
-          <img src="./static/Machine Learning for Asset Managers.jpeg" style="width:275px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          Successful investment strategies are specific implementations of general theories. An investment strategy that lacks a theoretical justification is likely to be false. Hence, an asset manager should concentrate her efforts on developing a theory rather than on backtesting potential trading rules.
-        </li>
-        <li>
-          The purpose of this Element is to introduce machine learning (ML) tools that can help asset managers discover economical and financial theories. ML is not a black box, and it does not necessarily overfit. ML tools complement rather than replace the classical statistical methods. Some of ML’s strengths include:
-          <ol>
-            <li>
-              a focus on out-of-sample predictability over variance adjudication
-            </li>
-            <li>
-              the use of computational methods to avoid relying on (potentially unrealistic) assumptions
-            </li>
-            <li>
-              the ability to “”learn”” complex specifications, including nonlinear, hierarchical, and noncontinuous interaction effects in a high-dimensional space
-            </li>
-            <li>
-              the ability to disentangle the variable search from the specification search, robust to multicollinearity and other substitution effects.
-            </li>
-          </ol>
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python, 2nd Edition - Stefan Jansen](https://www.amazon.fr/gp/product/1839217715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1839217715&linkId=80e3e93e1b6027596858ed0f1fbf10c2)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/1839217715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1839217715&linkId=80e3e93e1b6027596858ed0f1fbf10c2">
-        <div style="width:100px">
-          <img src="./static/Machine Learning for Algorithmic Trading.jpeg" style="width:265px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          The explosive growth of digital data has boosted the demand for expertise in trading strategies that use machine learning (ML). This revised and expanded second edition enables you to build and evaluate sophisticated supervised, unsupervised, and reinforcement learning models.
-        </li>
-        <li>
-          This book introduces end-to-end machine learning for the trading workflow, from the idea and feature engineering to model optimization, strategy design, and backtesting. It illustrates this by using examples ranging from linear models and tree-based ensembles to deep-learning techniques from cutting edge research.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-[Machine Learning in Finance: From Theory to Practice - Matthew F. Dixon, Igor Halperin, Paul Bilokon](https://www.amazon.fr/gp/product/3030410676/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=3030410676&linkId=5f5f1df6be62ae96ef7a0c536c3ecdb4)
-
-<table>
-  <tr>
-    <td>
-      <a href="https://www.amazon.fr/gp/product/3030410676/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=3030410676&linkId=5f5f1df6be62ae96ef7a0c536c3ecdb4">
-        <div style="width:100px">
-          <img src="./static/Machine Learning in Finance.jpeg" style="width:650px;">
-        </div>
-      </a>
-    </td>
-    <td>
-      <ul>
-        <li>
-          This book introduces machine learning methods in finance. It presents a unified treatment of machine learning and various statistical and computational disciplines in quantitative finance, such as financial econometrics and discrete-time stochastic control, with an emphasis on how theory and hypothesis tests inform the choice of algorithm for financial data modelling and decision making. With the trend towards increasing computational resources and larger datasets, machine learning has grown into an important skillset for the finance industry. This book is written for advanced graduate students and academics in financial econometrics, mathematical finance and applied statistics, in addition to quants and data scientists in the field of quantitative finance.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+|  Title   | Reviews | Rating |
+|----------|---------|--------|
+| [Dark Pools: The rise of A.I. trading machines and the looming threat to Wall Street - Scott Patterson](https://www.amazon.fr/gp/product/0307887189/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0307887189&linkId=2572cae24ed7de0b279580312daf0f03) | ![](https://badgen.net/badge/reviews/532/blue) | ![](https://badgen.net/badge/rating/4.5/blue) |
+| [Advances in Financial Machine Learning - Marcos Lopez de Prado](https://www.amazon.fr/gp/product/1119482089/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1119482089&linkId=7eff4d3f3d9f2d00d05032f726386e53) | ![](https://badgen.net/badge/reviews/446/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
+| [Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python, 2nd Edition - Stefan Jansen](https://www.amazon.fr/gp/product/1839217715/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1839217715&linkId=80e3e93e1b6027596858ed0f1fbf10c2) | ![](https://badgen.net/badge/reviews/229/blue) | ![](https://badgen.net/badge/rating/4.4/blue) |
+| [Machine Learning for Asset Managers (Elements in Quantitative Finance) - Marcos M López de Prado](https://www.amazon.fr/gp/product/1108792898/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1108792898&linkId=8eb7e3c369d38b36df8dfecf05a622db) | ![](https://badgen.net/badge/reviews/96/blue) | ![](https://badgen.net/badge/rating/4.6/blue) |
+| [Machine Learning in Finance: From Theory to Practice - Matthew F. Dixon, Igor Halperin, Paul Bilokon](https://www.amazon.fr/gp/product/3030410676/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=3030410676&linkId=5f5f1df6be62ae96ef7a0c536c3ecdb4) | ![](https://badgen.net/badge/reviews/76/blue) | ![](https://badgen.net/badge/rating/4.6/blue) |
+| [Artificial Intelligence in Finance: A Python-Based Guide - Yves Hilpisch](https://www.amazon.fr/gp/product/1492055433/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=1492055433&linkId=7c20249be4d35badb127d6a5423fc495) | ![](https://badgen.net/badge/reviews/38/blue) | ![](https://badgen.net/badge/rating/4.3/blue) |
+| [Algorithmic Trading Methods: Applications Using Advanced Statistics, Optimization, and Machine Learning Techniques - Robert Kissell](https://www.amazon.fr/gp/product/0128156309/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0128156309&linkId=0a197c0b547a0ee63ccd19389bb42edd) | ![](https://badgen.net/badge/reviews/15/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
 
 
 # Blogs
