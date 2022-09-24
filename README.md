@@ -9,11 +9,11 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 <!-- omit in toc -->
 ### What will you find here?
 
-- [97 Libraries and packages](#libraries-and-packages) for research and live trading
-- [61 Strategies](#strategies) described by institutionals and academics
-- [55 Books](#books) for beginners and professionals
-- [Blogs](#blogs)
-- [Courses and Tutorials](#courses-and-tutorials)
+- [97 libraries and packages](#libraries-and-packages) for research and live trading
+- [61 strategies](#strategies) described by institutionals and academics
+- [55 books](#books) for beginners and professionals
+- [23 videos](#videos) and interviews
+- And also some [blogs](#blogs) and [courses](#courses)
 
 <details>
 <summary>Click here to see the full table of content</summary>
@@ -42,6 +42,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [Visualization](#visualization)
 - [Strategies](#strategies)
   - [Bonds, commodities, currencies, equities](#bonds-commodities-currencies-equities)
+  - [Bonds, commodities, equities, REITs](#bonds-commodities-equities-reits)
+  - [Bonds, equities](#bonds-equities)
 - [Books](#books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -50,10 +52,9 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [General](#general-1)
   - [High Frequency Trading](#high-frequency-trading)
   - [Machine Learning](#machine-learning-1)
+- [Videos](#videos)
 - [Blogs](#blogs)
-- [Courses and Tutorials](#courses-and-tutorials)
-  - [Interviews](#interviews)
-  - [Videos](#videos)
+- [Courses](#courses)
 </details>
 
 <!-- omit in toc -->
@@ -287,11 +288,19 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 ## Bonds, commodities, currencies, equities
 
-|  Description | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-|  Time Series Momentum Effect | `0.576` | `20.5%` | `Monthly` | [QuantConnect](./static/strategies/time-series-momentum-effect.py) | [Paper](http://pages.stern.nyu.edu/~lpederse/papers/TimeSeriesMomentum.pdf) |
-|  Short Term Reversal with Futures | `-0.05` | `12.3%` | `Weekly` | [QuantConnect](./static/strategies/short-term-reversal-with-futures.py) | [Paper](https://ideas.repec.org/a/eee/jbfina/v28y2004i6p1337-1361.html) |
+| Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|-------------|--------------|------------|-------------|----------------|--------|
+| Time Series Momentum Effect | `0.576` | `20.5%` | `Monthly` | [QuantConnect](./static/strategies/time-series-momentum-effect.py) | [Paper](https://pages.stern.nyu.edu/~lpederse/papers/TimeSeriesMomentum.pdf) |
+| Short Term Reversal with Futures | `-0.05` | `12.3%` | `Weekly` | [QuantConnect](./static/strategies/asset-class-momentum-rotational-system.py) | [Paper](https://ideas.repec.org/a/eee/jbfina/v28y2004i6p1337-1361.html) |
 
+## Bonds, commodities, equities, REITs
+
+|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+| Asset Class Trend-Following | `0.502` | `10.4%` | `Monthly` | [QuantConnect](./static/strategies/asset-class-trend-following.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461) |
+| Momentum Asset Allocation Strategy | `0.321` | `11%` | `Monthly` | [QuantConnect](./static/strategies/asset-class-trend-following.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) |
+
+## Bonds, equities
 
 # Books
 
@@ -396,58 +405,60 @@ A comprehensive list of **55 books** for quantitative traders.
 | [Algorithmic Trading Methods: Applications Using Advanced Statistics, Optimization, and Machine Learning Techniques - Robert Kissell](https://www.amazon.fr/gp/product/0128156309/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=darchimbaud-21&creative=6746&linkCode=as2&creativeASIN=0128156309&linkId=0a197c0b547a0ee63ccd19389bb42edd) | ![](https://badgen.net/badge/reviews/15/blue) | ![](https://badgen.net/badge/rating/4.7/blue) |
 
 
+# Videos
+
+| Title                                                              | Likes |
+|--------------------------------------------------------------------|-------|
+| [Krish Naik - Machine learning tutorials and their Application in Stock Prediction](https://www.youtube.com/watch?v=H6du_pfuznE) | ![](https://badgen.net/badge/likes/6.3k/blue) |
+| [QuantInsti Youtube - webinars about Machine Learning for trading](https://www.youtube.com/user/quantinsti/search?query=machine+learning) | ![](https://badgen.net/badge/likes/6.1k/blue) |
+| [Siraj Raval - Videos about stock market prediction using Deep Learning](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/search?query=trading) | ![](https://badgen.net/badge/likes/1.7k/blue) |
+| [Quantopian - Webinars about Machine Learning for trading](https://www.youtube.com/channel/UC606MUq45P3zFLa4VGKbxsg/search?query=machine+learning) | ![](https://badgen.net/badge/likes/1.5k/blue) |
+| [Sentdex - Machine Learning for Forex and Stock analysis and algorithmic trading](https://www.youtube.com/watch?v=v_L9jR8P-54&list=PLQVvvaa0QuDe6ZBtkCNWNUbdaBo2vA4RO) | ![](https://badgen.net/badge/likes/1.5k/blue) |
+| [QuantNews - Machine Learning for Algorithmic Trading 3 part series](https://www.youtube.com/playlist?list=PLHJACfjILJ-91qkw5YC83S6COKGscctzz) | ![](https://badgen.net/badge/likes/806/blue) |
+| [Sentdex - Python programming for Finance (a few videos including Machine Learning)](https://www.youtube.com/watch?v=Z-5wNWgRJpk&index=9&list=PLQVvvaa0QuDcOdF96TBtRtuQksErCEBYZ) | ![](https://badgen.net/badge/likes/735/blue) |
+| [Chat with Traders EP042 - Machine learning for algorithmic trading with Bert Mouler](https://www.youtube.com/watch?v=i8FNO8r7PaE) | ![](https://badgen.net/badge/likes/687/blue) |
+| [Tucker Balch - Applying Deep Reinforcement Learning to Trading](https://www.youtube.com/watch?v=Pka0DC_P17k) | ![](https://badgen.net/badge/likes/487/blue) |
+| [Ernie Chan - Machine Learning for Quantitative Trading Webinar](https://www.youtube.com/watch?v=72aEDjwGMr8&t=1023s) | ![](https://badgen.net/badge/likes/436/blue) |
+| [Chat with Traders EP147 - Detective work leading to viable trading strategies with Tom Starke](https://www.youtube.com/watch?v=JjXw9Mda7eY) | ![](https://badgen.net/badge/likes/407/blue) |
+| [Chat with Traders EP142 - Algo trader using automation to bypass human flaws with Bert Mouler](https://www.youtube.com/watch?v=ofL66mh6Tw0) | ![](https://badgen.net/badge/likes/316/blue) |
+| [Master Thesis presentation, Uni of Essex - Analyzing the Limit Order Book, A Deep Learning Approach](https://www.youtube.com/watch?v=qxSh2VFmRGw) | ![](https://badgen.net/badge/likes/264/blue) |
+| [Howard Bandy - Machine Learning Trading System Development Webinar](https://www.youtube.com/watch?v=v729evhMpYk&t=1s) | ![](https://badgen.net/badge/likes/253/blue) |
+| [Chat With Traders EP131 - Trading strategies, powered by machine learning with Morgan Slade](https://www.youtube.com/watch?v=EbWbeYu8zwg) | ![](https://badgen.net/badge/likes/229/blue) |
+| [Chat with Traders Quantopian 5 - Good Uses of Machine Learning in Finance with Max Margenot](https://www.youtube.com/watch?v=Zj5sXWv9SDM) | ![](https://badgen.net/badge/likes/198/blue) |
+| [Hitoshi Harada, CTO at Alpaca - Deep Learning in Finance Talk](https://www.youtube.com/watch?v=FoQKCeDuPiY) | ![](https://badgen.net/badge/likes/147/blue) |
+| [Better System Trader EP028 - David Aronson shares research into indicators that identify Bull and Bear markets.](https://www.youtube.com/watch?v=Q4rV0Y9NokI) | ![](https://badgen.net/badge/likes/97/blue) |
+| [Prediction Machines - Deep Learning with Python in Finance Talk](https://www.youtube.com/watch?v=xvm-M-R2fZY) | ![](https://badgen.net/badge/likes/87/blue) |
+| [Better System Trader EP064 - Cryptocurrencies and Machine Learning with Bert Mouler](https://www.youtube.com/watch?v=YgRTd4nLJoU) | ![](https://badgen.net/badge/likes/35/blue) |
+| [Better System Trader EP023 - Portfolio manager Michael Himmel talks AI and machine learning in trading](https://www.youtube.com/watch?v=9tZjeyhfG0g) | ![](https://badgen.net/badge/likes/29/blue) |
+| [Better System Trader EP082 - Machine Learning With Kris Longmore](https://www.youtube.com/watch?v=0syNgsd635M) | ![](https://badgen.net/badge/likes/18/blue) |
+
+
+
 # Blogs
 
-- [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/)
-- [Blackarbs blog](http://www.blackarbs.com/blog/)
-- [Hardikp, Hardik Patel blog](https://www.hardikp.com/)
-- :star: [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)
-- [Proof Engineering: The Algorithmic Trading Platform](https://bit.ly/3lX7zYN)
-- [Quantsportal, Jacques Joubert's Blog](http://www.quantsportal.com/blog-page/)
-- :star: [Quantstart - Machine Learning for Trading articles](https://www.quantstart.com/articles)
-- [RobotWealth, Kris Longmore Blog](https://robotwealth.com/blog/)
-- More is coming... (PR welcome)
+| Title                                                              |
+|--------------------------------------------------------------------|
+| [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/) |
+| [Blackarbs blog](http://www.blackarbs.com/blog/)                   |
+| [Hardikp, Hardik Patel blog](https://www.hardikp.com/)             |
+| [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)            |
+| [Proof Engineering: The Algorithmic Trading Platform](https://bit.ly/3lX7zYN) |
+| [Quantsportal, Jacques Joubert's Blog](http://www.quantsportal.com/blog-page/) |
+| [Quantstart - Machine Learning for Trading articles](https://www.quantstart.com/articles) |
+| [RobotWealth, Kris Longmore Blog](https://robotwealth.com/blog/) |
 
 
-# Courses and Tutorials
+# Courses
 
-- [AI in Finance](https://cfte.education/) - Learn Fintech Online.
-- [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) - A simple yet practical experiment tutorial for cryto trading.
-- Coursera, NYU - Machine Learning and Reinforcement Learning in Finance Specialization (Weakly related to trading)
-  - [Coursera, NYU - Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance)
-  - [Coursera, NYU - Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance)
-  - [Coursera, NYU - Reinforcement Learning in Finance](https://www.coursera.org/learn/reinforcement-learning-in-finance)
-  - [Coursera, NYU - Overview of Advanced Methods for Reinforcement Learning in Finance](https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance)- [Hudson and Thames Quantitative Research](https://github.com/hudson-and-thames) - Our mission is to promote the scientific method within investment management by codifying frameworks, algorithms, and best practices.
-- [NYU: Overview of Advanced Methods of Reinforcement Learning in Finance](https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance/home/welcome)
-- [Udacity: Artificial Intelligence for Trading](https://www.udacity.com/course/ai-for-trading--nd880)
-- [Udacity, Georgia Tech - Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501)
-- More is coming... (PR welcome)
-
-## Interviews
-
-- [Better System Trader EP023 - Portfolio manager Michael Himmel talks AI and machine learning in trading](https://www.youtube.com/watch?v=9tZjeyhfG0g)
-- :star: [Better System Trader EP028 - David Aronson shares research into indicators that identify Bull and Bear markets.](https://www.youtube.com/watch?v=Q4rV0Y9NokI)
-- :star: [Chat with Traders EP042 - Machine learning for algorithmic trading with Bert Mouler](https://www.youtube.com/watch?v=i8FNO8r7PaE)
-- :star: [Better System Trader EP064 - Cryptocurrencies and Machine Learning with Bert Mouler](https://www.youtube.com/watch?v=YgRTd4nLJoU)
-- [Better System Trader EP082 - Machine Learning With Kris Longmore](https://www.youtube.com/watch?v=0syNgsd635M)
-- [Better System Trader EP090 - This quants’ approach to designing algo strategies with Michael Halls-Moore](https://chatwithtraders.com/ep-090-michael-halls-moore/)* [Chat With Traders EP131 - Trading strategies, powered by machine learning with Morgan Slade](https://www.youtube.com/watch?v=EbWbeYu8zwg)
-- :star: [Chat with Traders EP142 - Algo trader using automation to bypass human flaws with Bert Mouler](https://www.youtube.com/watch?v=ofL66mh6Tw0)
-- [Chat with Traders EP147 - Detective work leading to viable trading strategies with Tom Starke](https://www.youtube.com/watch?v=JjXw9Mda7eY)
-- :star: [Chat with Traders Quantopian 5 - Good Uses of Machine Learning in Finance with Max Margenot](https://www.youtube.com/watch?v=Zj5sXWv9SDM)
-
-## Videos
-
-- [Ernie Chan - Machine Learning for Quantitative Trading Webinar](https://www.youtube.com/watch?v=72aEDjwGMr8&t=1023s)
-- [Hitoshi Harada, CTO at Alpaca - Deep Learning in Finance Talk](https://www.youtube.com/watch?v=FoQKCeDuPiY)
-- :star: [Howard Bandy - Machine Learning Trading System Development Webinar](https://www.youtube.com/watch?v=v729evhMpYk&t=1s)
-- [Krish Naik - Machine learning tutorials and their Application in Stock Prediction](https://www.youtube.com/watch?v=H6du_pfuznE)
-- [Master Thesis presentation, Uni of Essex - Analyzing the Limit Order Book, A Deep Learning Approach](https://www.youtube.com/watch?v=qxSh2VFmRGw)
-- [Prediction Machines - Deep Learning with Python in Finance Talk](https://www.youtube.com/watch?v=xvm-M-R2fZY)
-- [QuantInsti Youtube - webinars about Machine Learning for trading](https://www.youtube.com/user/quantinsti/search?query=machine+learning)
-- [QuantNews - Machine Learning for Algorithmic Trading 3 part series](https://www.youtube.com/playlist?list=PLHJACfjILJ-91qkw5YC83S6COKGscctzz)
-- :star: [Quantopian - Webinars about Machine Learning for trading](https://www.youtube.com/channel/UC606MUq45P3zFLa4VGKbxsg/search?query=machine+learning)
-- [Sentdex - Machine Learning for Forex and Stock analysis and algorithmic trading](https://www.youtube.com/watch?v=v_L9jR8P-54&list=PLQVvvaa0QuDe6ZBtkCNWNUbdaBo2vA4RO)
-- [Sentdex - Python programming for Finance (a few videos including Machine Learning)](https://www.youtube.com/watch?v=Z-5wNWgRJpk&index=9&list=PLQVvvaa0QuDcOdF96TBtRtuQksErCEBYZ)
-- :star: [Siraj Raval - Videos about stock market prediction using Deep Learning](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/search?query=trading)
-- [Tucker Balch - Applying Deep Reinforcement Learning to Trading](https://www.youtube.com/watch?v=Pka0DC_P17k)
-
+| Title                                                              |
+|--------------------------------------------------------------------|
+| [AI in Finance](https://cfte.education/)                           |
+| [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) |
+| [Coursera, NYU - Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance) |
+| [Coursera, NYU - Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance) |
+| [Coursera, NYU - Reinforcement Learning in Finance](https://www.coursera.org/learn/reinforcement-learning-in-finance) |
+| [Coursera, NYU - Overview of Advanced Methods for Reinforcement Learning in Finance](https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance) |
+| [Hudson and Thames Quantitative Research](https://github.com/hudson-and-thames) |
+| [NYU: Overview of Advanced Methods of Reinforcement Learning in Finance](https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance/home/welcome) |
+| [Udacity: Artificial Intelligence for Trading](https://www.udacity.com/course/ai-for-trading--nd880) |
+| [Udacity, Georgia Tech - Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) |
