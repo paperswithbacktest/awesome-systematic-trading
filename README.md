@@ -44,6 +44,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [Bonds, commodities, currencies, equities](#bonds-commodities-currencies-equities)
   - [Bonds, commodities, equities, REITs](#bonds-commodities-equities-reits)
   - [Bonds, equities](#bonds-equities)
+  - [Bonds, equities, REITs](#bonds-equities-reits)
+- [Commodities](#commodities)
 - [Books](#books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -301,6 +303,22 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | Momentum Asset Allocation Strategy | `0.321` | `11%` | `Monthly` | [QuantConnect](./static/strategies/asset-class-trend-following.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) |
 
 ## Bonds, equities
+
+|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+| Paired Switching | `0.691` | `9.5%` | `Quarterly` | [QuantConnect](./static/strategies/paired-switching.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1917044) |
+| FED Model | `0.369` | `14.3%` | `Monthly` | [QuantConnect](./static/strategies/fed-model.py) | [Paper](https://www.researchgate.net/publication/228267011_The_FED_Model_and_Expected_Asset_Returns) |
+
+## Bonds, equities, REITs
+
+|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+| Value and Momentum Factors across Asset Classes | `0.155` | `9.8%` | `Monthly` | [QuantConnect](./static/strategies/value-and-momentum-factors-across-asset-classes.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1079975) |
+
+# Commodities
+
+Coming soon
+
 
 # Books
 
