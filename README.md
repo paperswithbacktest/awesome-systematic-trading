@@ -45,7 +45,10 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [Bonds, commodities, equities, REITs](#bonds-commodities-equities-reits)
   - [Bonds, equities](#bonds-equities)
   - [Bonds, equities, REITs](#bonds-equities-reits)
-- [Commodities](#commodities)
+  - [Commodities](#commodities)
+  - [Cryptos](#cryptos)
+  - [Currencies](#currencies)
+  - [Equities](#equities)
 - [Books](#books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -315,10 +318,81 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 |--------------|--------------|------------|-------------|----------------|--------|
 | Value and Momentum Factors across Asset Classes | `0.155` | `9.8%` | `Monthly` | [QuantConnect](./static/strategies/value-and-momentum-factors-across-asset-classes.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1079975) |
 
-# Commodities
+## Commodities
 
-Coming soon
+|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+| Skewness Effect in Commodities | `0.482` | `17.7%` | `Monthly` | [QuantConnect](./static/strategies/skewness-effect-in-commodities.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2671165) |
+| Return Asymmetry Effect in Commodity Futures | `0.239` | `13.4%` | `Monthly` | [QuantConnect](./static/strategies/return-asymmetry-effect-in-commodity-futures.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3918896) |
+| Momentum Effect in Commodities | `0.14` | `20.3%` | `Monthly` | [QuantConnect](./static/strategies/momentum-effect-in-commodities.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=702281) |
+| Term Structure Effect in Commodities | `0.128` | `23.1%` | `Monthly` | [QuantConnect](./static/strategies/term-structure-effect-in-commodities.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1127213) |
+| Trading WTI/BRENT Spread | `-0.199` | `11.6%` | `Daily` | [QuantConnect](./static/strategies/trading-wti-brent-spread.py) | [Paper](https://link.springer.com/article/10.1057/jdhf.2009.24) |
 
+## Cryptos
+
+|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+| Overnight Seasonality in Bitcoin | `0.892` | `20.8%` | `Intraday` | [QuantConnect](./static/strategies/intraday-seasonality-in-bitcoin.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4081000) |
+| Rebalancing Premium in Cryptocurrencies | `0.698` | `27.5%` | `Daily` | [QuantConnect](./static/strategies/rebalancing-premium-in-cryptocurrencies.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3982120) |
+
+## Currencies
+
+|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+| FX Carry Trade | `0.254` | `7.8%` | `Monthly` | [QuantConnect](./static/strategies/fx-carry-trade.py) | [Paper](http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf) |
+| Dollar Carry Trade | `0.113` | `5.8%` | `Monthly` | [QuantConnect](./static/strategies/dollar-carry-trade.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1541230) |
+| Currency Momentum Factor | `-0.01` | `6.7%` | `Monthly` | [QuantConnect](./static/strategies/currency-momentum-factor.py) | [Paper](http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf) |
+| Currency Value Factor – PPP Strategy | `-0.103` | `5%` | `Quarterly` | [QuantConnect](./static/strategies/currency-value-factor-ppp-strategy.py) | [Paper](http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf) |
+
+## Equities
+
+|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
+|--------------|--------------|------------|-------------|----------------|--------|
+| Asset Growth Effect | `0.835` | `10.2%` | `Yearly` | [QuantConnect](./static/strategies/asset-growth-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1335524) |
+| Short Term Reversal Effect in Stocks | `0.816` | `21.4%` | `Weekly` | [QuantConnect](./static/strategies/short-term-reversal-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1605049) |
+| Reversal During Earnings-Announcements | `0.785` | `25.7%` | `Daily` | [QuantConnect](./static/strategies/reversal-during-earnings-announcements.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2275982) |
+| Size Factor – Small Capitalization Stocks Premium | `0.747` | `11.1%` | `Yearly` | [QuantConnect](./static/strategies/small-capitalization-stocks-premium-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3177539) |
+| Low Volatility Factor Effect in Stocks | `0.717` | `11.5%` | `Monthly` | [QuantConnect](./static/strategies/low-volatility-factor-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=980865) |
+| How to Use Lexical Density of Company Filings | `0.688` | `10.4%` | `Monthly` | [QuantConnect](./static/strategies/how-to-use-lexical-density-of-company-filings.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3921091) |
+| Volatility Risk Premium Effect | `0.637` | `13.2%` | `Monthly` | [QuantConnect](./static/strategies/volatility-risk-premium-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=189840) |
+| Pairs Trading with Stocks | `0.634` | `8.5%` | `Daily` | [QuantConnect](./static/strategies/pairs-trading-with-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=141615) |
+| Crude Oil Predicts Equity Returns | `0.599` | `11.5%` | `Monthly` | [QuantConnect](./static/strategies/crude-oil-predicts-equity-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=460500) |
+| Betting Against Beta Factor in Stocks | `0.594` | `18.9%` | `Monthly` | [QuantConnect](./static/strategies/betting-against-beta-factor-in-stocks.py) | [Paper](https://pages.stern.nyu.edu/~lpederse/papers/BettingAgainstBeta.pdf) |
+| Trend-following Effect in Stocks | `0.569` | `15.2%` | `Daily` | [QuantConnect](./static/strategies/trend-following-effect-in-stocks.py) | [Paper](https://www.cis.upenn.edu/~mkearns/finread/trend.pdf) |
+| ESG Factor Momentum Strategy | `0.559` | `21.8%` | `Monthly` | [QuantConnect](./static/strategies/esg-factor-momentum-strategy.py) | [Paper](https://www.semanticscholar.org/paper/Can-ESG-Add-Alpha-An-Analysis-of-ESG-Tilt-and-Nagy-Kassam/64f77da4f8ce5906a73ffe4e9eec7c49c0960acc) |
+| Value (Book-to-Market) Factor | `0.526` | `11.9%` | `Monthly` | [QuantConnect](./static/strategies/value-book-to-market-factor.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2595747) |
+| Soccer Clubs’ Stocks Arbitrage | `0.515` | `14.2%` | `Daily` | [QuantConnect](./static/strategies/soccer-clubs-stocks-arbitrage.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1343685) |
+| Synthetic Lending Rates Predict Subsequent Market Return | `0.494` | `13.7%` | `Daily` | [QuantConnect](./static/strategies/synthetic-lending-rates-predict-subsequent-market-return.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3976307) |
+| Option-Expiration Week Effect | `0.452` | `5%` | `Weekly` | [QuantConnect](./static/strategies/option-expiration-week-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1571786) |
+| Dispersion Trading | `0.432` | `8.1%` | `Monthly` | [QuantConnect](./static/strategies/dispersion-trading.py) | [Paper](https://www.academia.edu/16327015/EQUILIBRIUM_INDEX_AND_SINGLE_STOCK_VOLATILITY_RISK_PREMIA) |
+| Momentum in Mutual Fund Returns | `0.414` | `13.6%` | `Quarterly` | [QuantConnect](./static/strategies/momentum-in-mutual-fund-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1462408) |
+| Sector Momentum – Rotational System | `0.401` | `14.1%` | `Monthly` | [QuantConnect](./static/strategies/sector-momentum-rotational-system.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) |
+| Combining Smart Factors Momentum and Market Portfolio | `0.388` | `8.2%` | `Monthly` | [QuantConnect](./static/strategies/combining-smart-factors-momentum-and-market-portfolio.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3745517) |
+| Momentum and Reversal Combined with Volatility Effect in Stocks | `0.375` | `17%` | `Monthly` | [QuantConnect](./static/strategies/momentum-and-reversal-combined-with-volatility-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1679464) |
+| Market Sentiment and an Overnight Anomaly | `0.369` | `3.6%` | `Daily` | [QuantConnect](./static/strategies/market-sentiment-and-an-overnight-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3829582) |
+| January Barometer | `0.365` | `7.4%` | `Monthly` | [QuantConnect](./static/strategies/january-barometer.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1436516) |
+| R&D Expenditures and Stock Returns | `0.354` | `8.1%` | `Yearly` | [QuantConnect](./static/strategies/rd-expenditures-and-stock-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=227564) |
+| Value Factor – CAPE Effect within Countries | `0.351` | `20.2%` | `Yearly` | [QuantConnect](./static/strategies/value-factor-effect-within-countries.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2129474) |
+| 12 Month Cycle in Cross-Section of Stocks Returns | `0.34` | `43.7%` | `Monthly` | [QuantConnect](./static/strategies/12-month-cycle-in-cross-section-of-stocks-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=687022) |
+| Turn of the Month in Equity Indexes | `0.305` | `7.2%` | `Daily` | [QuantConnect](./static/strategies/turn-of-the-month-in-equity-indexes.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=917884) |
+| Payday Anomaly | `0.269` | `3.8%` | `Daily` | [QuantConnect](./static/strategies/payday-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257064) |
+| Pairs Trading with Country ETFs | `0.257` | `5.7%` | `Daily` | [QuantConnect](./static/strategies/pairs-trading-with-country-etfs.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1958546) |
+| Residual Momentum Factor | `0.24` | `9.7%` | `Monthly` | [QuantConnect](./static/strategies/residual-momentum-factor.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2319861) |
+| Earnings Announcement Premium | `0.192` | `3.7%` | `Monthly` | [QuantConnect](./static/strategies/earnings-announcement-premium.py) | [Paper](https://www.nber.org/system/files/working_papers/w13090/w13090.pdf) |
+| ROA Effect within Stocks | `0.155` | `8.7%` | `Monthly` | [QuantConnect](./static/strategies/roa-effect-within-stocks.py) | [Paper](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f61583e88f43b7d5b7196b5/1600215105801/Chen_Zhang_JF.pdf) |
+| 52-Weeks High Effect in Stocks | `0.153` | `19%` | `Monthly` | [QuantConnect](./static/strategies/52-weeks-high-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1787378) |
+| Combining Fundamental FSCORE and Equity Short-Term Reversals | `0.153` | `17.6%` | `Monthly` | [QuantConnect](./static/strategies/combining-fundamental-fscore-and-equity-short-term-reversals.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3097420) |
+| Betting Against Beta Factor in International Equities | `0.142` | `9.1%` | `Monthly` | [QuantConnect](./static/strategies/betting-against-beta-factor-in-country-equity-indexes.py) | [Paper](https://pages.stern.nyu.edu/~lpederse/papers/BettingAgainstBeta.pdf) |
+| Consistent Momentum Strategy | `0.128` | `28.8%` | `6 Months` | [QuantConnect](./static/strategies/consistent-momentum-strategy.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2652592) |
+| Short Interest Effect – Long-Short Version | `0.079` | `6.6%` | `Monthly` | [QuantConnect](./static/strategies/short-interest-effect-long-short-version.py) | [Paper](https://www.semanticscholar.org/paper/Why-Do-Short-Interest-Levels-Predict-Stock-Returns-Boehmer-Erturk/06418ef437dc7156229532a97d0f8392373eb297?p2df) |
+| Momentum Factor Combined with Asset Growth Effect | `0.058` | `25.1%` | `Monthly` | [QuantConnect](./static/strategies/momentum-factor-combined-with-asset-growth-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1684767) |
+| Momentum Factor Effect in Stocks | `-0.008` | `21.8%` | `Monthly` | [QuantConnect](./static/strategies/momentum-factor-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2435323) |
+| Momentum Factor and Style Rotation Effect | `-0.056` | `10%` | `Monthly` | [QuantConnect](./static/strategies/momentum-factor-and-style-rotation-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1276815) |
+| Earnings Announcements Combined with Stock Repurchases | `-0.16` | `0.1%` | `Daily` | [QuantConnect](./static/strategies/earnings-announcements-combined-with-stock-repurchases.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2589966) |
+| Earnings Quality Factor | `-0.18` | `28.7%` | `Yearly` | [QuantConnect](./static/strategies/earnings-quality-factor.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2179247) |
+| Accrual Anomaly | `-0.272` | `13.7%` | `Yearly` | [QuantConnect](./static/strategies/accrual-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=546108) |
+| ESG, Price Momentum and Stochastic Optimization | `N/A` | `N/A` | `Monthly` |  | [Paper](https://quantpedia.com/strategies/esg-price-momentum-and-stochastic-optimization/) |
+| The Positive Similarity of Company Filings and Stock Returns | `N/A` | `N/A` | `Monthly` |  | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690461) |
 
 # Books
 
