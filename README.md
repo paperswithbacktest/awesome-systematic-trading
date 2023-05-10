@@ -245,7 +245,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
-| [Arctic (Man Group)](https://github.com/man-group/arctic) | High performance datastore for time series and tick data | ![GitHub stars](https://badgen.net/github/stars/man-group/arctic) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | High performance datastore for time series and tick data | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Marketstore](https://github.com/alpacahq/marketstore) | DataFrame Server for Financial Timeseries Data | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [Tectonicdb](https://github.com/0b01/tectonicdb) | Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks. | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
