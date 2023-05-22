@@ -242,9 +242,9 @@
 
 | 存储库 | 描述 | 明星 | 使用方法 |
 |------------|-------------|-------|-----------|
-| [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | 用于时间序列和tick数据的高性能数据存储 | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Marketstore](https://github.com/alpacahq/marketstore) | 金融时序数据的DataFrame服务器 | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [Tectonicdb](https://github.com/0b01/tectonicdb) | Tectonicdb是一个快速、高度压缩的独立数据库和流媒体协议，用于订单簿上的点子。 | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | 用于时间序列和tick数据的高性能数据存储 | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## 图形计算
 
