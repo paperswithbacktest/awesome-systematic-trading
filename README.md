@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="static/images/future-trading.jpeg" height=200 alt=""/>
+  <img src="static/images/awesome-systematic-trading.jpeg" height=200 alt=""/>
   <h1>Awesome Systematic Trading</h1>
 </div>
 <div align=center><img src="https://awesome.re/badge.svg" /></div>
@@ -12,7 +12,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 ### What will you find here?
 
 - [97 libraries and packages](#libraries-and-packages) for research and live trading
-- [61 strategies](#strategies) described by institutionals and academics
+- [696 strategies](#strategies) described by institutionals and academics
 - [55 books](#books) for beginners and professionals
 - [23 videos](#videos) and interviews
 - And also some [blogs](#blogs) and [courses](#courses)
@@ -293,7 +293,26 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 # Strategies
 
-*List of **61 academic papers** describing original systematic trading strategies. Each strategy is categorized by its asset class and ordered by descending Sharpe ratio.*
+*List of **696 academic papers** describing original systematic trading strategies. Each strategy is categorized by its asset class and ordered by descending Sharpe ratio.*
+
+👉 Strategies are now hosted [here](https://edarchimbaud.com):
+
+- [Bonds strategies (7)](https://edarchimbaud.com/bonds)
+- [Commodities strategies (50)](https://edarchimbaud.com/commodities)
+- [Cryptocurrencies strategies (12)](https://edarchimbaud.com/cryptocurrencies)
+- [Currencies strategies (67)](https://edarchimbaud.com/currencies)
+- [Equities strategies (471)](https://edarchimbaud.com/equities)
+- [Options strategies (8)](https://edarchimbaud.com/options)
+- [Bonds / Commodities / Currencies / Equities strategies (22)](https://edarchimbaud.com/bonds-commodities-currencies-equities)
+- [Bonds / Commodities / Equities strategies (6)](https://edarchimbaud.com/bonds-commodities-equities)
+- [Bonds / Commodities / Equities / REITs strategies (6)](https://edarchimbaud.com/bonds-commodities-equities-reits)
+- [Bonds / Equities strategies (13)](https://edarchimbaud.com/bonds-equities)
+- [Bonds / Equities / REITs strategies (6)](https://edarchimbaud.com/bonds-equities-reits)
+- [Commodities / Equities strategies (3)](https://edarchimbaud.com/commodities-equities)
+- [Equities / Options strategies (24)](https://edarchimbaud.com/equities-options)
+- [Equities / REITs strategies (1)](https://edarchimbaud.com/equities-reits)
+
+Previous list of strategies:
 
 ## Bonds, commodities, currencies, equities
 
@@ -535,6 +554,7 @@ A comprehensive list of **55 books** for quantitative traders.
 | Title                                                              |
 |--------------------------------------------------------------------|
 | [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/) |
+| [AI & Systematic Trading](https://blog.edarchimbaud.com/)          |
 | [Blackarbs blog](http://www.blackarbs.com/blog/)                   |
 | [Hardikp, Hardik Patel blog](https://www.hardikp.com/)             |
 | [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)            |
@@ -550,6 +570,7 @@ A comprehensive list of **55 books** for quantitative traders.
 | Title                                                              |
 |--------------------------------------------------------------------|
 | [AI in Finance](https://cfte.education/)                           |
+| [AI & Systematic Trading](https://edarchimbaud.com/)               |
 | [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) |
 | [Coursera, NYU - Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance) |
 | [Coursera, NYU - Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance) |
