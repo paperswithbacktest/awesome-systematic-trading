@@ -70,7 +70,7 @@ class ValueFactorCAPEEffectwithinCountries(QCAlgorithm):
         price = {}
         for country, etf_symbol in self.symbols.items():
             if etf_symbol in data and data[etf_symbol]:
-                # cape data is still comming in
+                # cape data is still coming in
                 if self.Securities[self.cape_data].GetLastData() and (self.Time.date() - self.Securities[self.cape_data].GetLastData().Time.date()).days <= self.max_missing_days:
                     country_cape = self.Securities['CAPE'].GetLastData().GetProperty(country)
                     if country_cape < 15:

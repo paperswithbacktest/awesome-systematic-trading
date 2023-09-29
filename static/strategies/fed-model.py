@@ -55,7 +55,7 @@ class FEDModel(QCAlgorithm):
                 rebalance_flag = True
 
         if not rebalance_flag:
-            # earnings yield data is no longer comming in
+            # earnings yield data is no longer coming in
             if self.Securities[self.sp_earnings_yield].GetLastData():
                 if (
                     self.Time.date()
