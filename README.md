@@ -17,6 +17,14 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 - [23 videos](#videos) and interviews
 - And also some [blogs](#blogs) and [courses](#courses)
 
+<div align="center">
+  <div style="border: 2px solid #007bff; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+    <h2>📈 Interested in Python Code for Trading Strategies?</h2>
+    <p>Visit our comprehensive collection at <a href="https://edarchimbaud.com/database-of-trading-strategies" target="_blank">edarchimbaud.com/database-of-trading-strategies</a> for exclusive content!</p>
+  </div>
+</div>
+
+
 <details>
 <summary>Click here to see the full table of content</summary>
 
