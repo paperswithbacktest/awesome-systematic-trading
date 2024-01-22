@@ -292,22 +292,22 @@
 
 *696篇描述原始系统交易策略的学术论文列表。每种策略按其资产类别分类，并按夏普比率降序排列。*
 
-👉策略现在托管在 [这里](https://edarchimbaud.com)：
+👉策略现在托管在 [这里](https://paperswithbacktest.com)：
 
-- 债券策略 (7)](https://edarchimbaud.com/bonds)
-- 商品策略 (50)](https://edarchimbaud.com/commodities)
-- 加密货币策略 (12)](https://edarchimbaud.com/cryptocurrencies)
-- [货币策略 (67)](https://edarchimbaud.com/currencies)
-- 股票策略 (471)](https://edarchimbaud.com/equities)
-- 期权策略 (8)](https://edarchimbaud.com/options)
-- 债券/商品/货币/股票策略 (22)](https://edarchimbaud.com/bonds-commodities-currencies-equities)
-- [债券/商品/股票策略 (6)](https://edarchimbaud.com/bonds-commodities-equities)
-- [债券/商品/股票/房地产投资信托策略 (6)](https://edarchimbaud.com/bonds-commodities-equities-reits)
-- [债券/股票策略 (13)](https://edarchimbaud.com/bonds-equities)
-- 债券/股票/房地产投资信托策略 (6)](https://edarchimbaud.com/bonds-equities-reits)
-- 商品/股票策略 (3)](https://edarchimbaud.com/commodities-equities)
-- 股票/期权策略 (24)](https://edarchimbaud.com/equities-options)
-- 股票/房地产投资信托策略 (1)](https://edarchimbaud.com/equities-reits)
+- 债券策略 (7)](https://paperswithbacktest.com/bonds)
+- 商品策略 (50)](https://paperswithbacktest.com/commodities)
+- 加密货币策略 (12)](https://paperswithbacktest.com/cryptocurrencies)
+- [货币策略 (67)](https://paperswithbacktest.com/currencies)
+- 股票策略 (471)](https://paperswithbacktest.com/equities)
+- 期权策略 (8)](https://paperswithbacktest.com/options)
+- 债券/商品/货币/股票策略 (22)](https://paperswithbacktest.com/bonds-commodities-currencies-equities)
+- [债券/商品/股票策略 (6)](https://paperswithbacktest.com/bonds-commodities-equities)
+- [债券/商品/股票/房地产投资信托策略 (6)](https://paperswithbacktest.com/bonds-commodities-equities-reits)
+- [债券/股票策略 (13)](https://paperswithbacktest.com/bonds-equities)
+- 债券/股票/房地产投资信托策略 (6)](https://paperswithbacktest.com/bonds-equities-reits)
+- 商品/股票策略 (3)](https://paperswithbacktest.com/commodities-equities)
+- 股票/期权策略 (24)](https://paperswithbacktest.com/equities-options)
+- 股票/房地产投资信托策略 (1)](https://paperswithbacktest.com/equities-reits)
 
 上一个策略列表：
 
@@ -551,7 +551,7 @@
 | 标题                                                              |
 |--------------------------------------------------------------------|
 | [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/) |
-| [AI & Systematic Trading](https://blog.edarchimbaud.com/)          |
+| [AI & Systematic Trading](https://blog.paperswithbacktest.com/)          |
 | [Blackarbs blog](http://www.blackarbs.com/blog/)                   |
 | [Hardikp, Hardik Patel blog](https://www.hardikp.com/)             |
 | [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)            |
@@ -567,7 +567,7 @@
 | 标题                                                              |
 |--------------------------------------------------------------------|
 | [AI in Finance](https://cfte.education/)                           |
-| [AI & Systematic Trading](https://edarchimbaud.com/)               |
+| [AI & Systematic Trading](https://paperswithbacktest.com/)               |
 | [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) |
 | [Coursera, NYU - Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance) |
 | [Coursera, NYU - Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance) |
