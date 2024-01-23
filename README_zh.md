@@ -147,6 +147,7 @@
 | 存储库 | 描述 | 明星 | 使用方法 |
 |------------|-------------|-------|-----------|
 | [ta-lib](https://github.com/mrjbq7/ta-lib) | 对金融市场数据进行技术分析 | ![GitHub stars](https://badgen.net/github/stars/mrjbq7/ta-lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [go-tart](https://github.com/iamjinlei/go-tart) | 用Go实现的[ta-lib]((https://github.com/mrjbq7/ta-lib)，支持增量更新 | ![GitHub stars](https://badgen.net/github/stars/iamjinlei/go-tart) | ![made-with-go](https://img.shields.io/badge/Made%20with-go-1f425f.svg) |
 | [pandas-ta](https://github.com/twopirllc/pandas-ta) | 潘达斯技术分析（Pandas TA）是一个易于使用的库，它利用潘达斯软件包的130多个指标和实用功能以及60多个TA Lib蜡烛图。 | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [finta](https://github.com/peerchemist/finta) | 在Pandas中实施的共同财务技术指标 | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ta-rust](https://github.com/greyblake/ta-rs) | Rust语言的技术分析库 | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
