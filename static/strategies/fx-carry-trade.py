@@ -93,7 +93,7 @@ class ForexCarryTrade(QCAlgorithm):
                     rebalance_flag = True
                     self.recent_month = self.Time.month
 
-                # IR data is still comming in
+                # IR data is still coming in
                 if (
                     self.Securities[int_rate].GetLastData()
                     and (

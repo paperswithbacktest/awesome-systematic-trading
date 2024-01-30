@@ -186,8 +186,8 @@ class CombiningFSCOREShortTermReversals(QCAlgorithm):
 
         # BM sorting
         sorted_by_market_cap = sorted(fine, key=lambda x: x.MarketCap, reverse=True)
-        lenght = int((len(sorted_by_market_cap) / 100) * 40)
-        top_by_market_cap = [x for x in sorted_by_market_cap[:lenght]]
+        length = int((len(sorted_by_market_cap) / 100) * 40)
+        top_by_market_cap = [x for x in sorted_by_market_cap[:length]]
 
         fine_symbols = [x.Symbol for x in top_by_market_cap]
 
