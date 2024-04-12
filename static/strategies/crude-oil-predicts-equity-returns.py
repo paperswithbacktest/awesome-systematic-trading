@@ -361,7 +361,7 @@ class CrudeOilPredictsEquityReturns(QCAlgorithm):
         if len(market_prices) < 13 or len(oil_prices) < 13:
             return
         
-        # Trim price series lenghts.
+        # Trim price series lengths.
         min_size = min(len(market_prices), len(oil_prices))
         market_prices = market_prices[-min_size:]
         oil_prices = oil_prices[-min_size:]
