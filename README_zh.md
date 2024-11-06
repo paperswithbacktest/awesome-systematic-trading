@@ -556,7 +556,7 @@
 | 标题                                                              |
 |--------------------------------------------------------------------|
 | [AI in Finance](https://cfte.education/)                           |
-| [AI & Systematic Trading](https://paperswithbacktest.com/)               |
+| [AI & Systematic Trading](https://paperswithbacktest.com/course)               |
 | [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) |
 | [Coursera, NYU - Guided Tour of Machine Learning in Finance](https://www.coursera.org/learn/guided-tour-machine-learning-finance) |
 | [Coursera, NYU - Fundamentals of Machine Learning in Finance](https://www.coursera.org/learn/fundamentals-machine-learning-in-finance) |
