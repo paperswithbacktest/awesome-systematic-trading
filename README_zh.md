@@ -295,22 +295,8 @@
 
 *696篇描述原始系统交易策略的学术论文列表。每种策略按其资产类别分类，并按夏普比率降序排列。*
 
-👉策略现在托管在 [这里](https://paperswithbacktest.com)：
+👉策略现在托管在 [这里](https://paperswithbacktest.com).
 
-- 债券策略 (7)](https://paperswithbacktest.com/bonds)
-- 商品策略 (50)](https://paperswithbacktest.com/commodities)
-- 加密货币策略 (12)](https://paperswithbacktest.com/cryptocurrencies)
-- [货币策略 (67)](https://paperswithbacktest.com/currencies)
-- 股票策略 (471)](https://paperswithbacktest.com/equities)
-- 期权策略 (8)](https://paperswithbacktest.com/options)
-- 债券/商品/货币/股票策略 (22)](https://paperswithbacktest.com/bonds-commodities-currencies-equities)
-- [债券/商品/股票策略 (6)](https://paperswithbacktest.com/bonds-commodities-equities)
-- [债券/商品/股票/房地产投资信托策略 (6)](https://paperswithbacktest.com/bonds-commodities-equities-reits)
-- [债券/股票策略 (13)](https://paperswithbacktest.com/bonds-equities)
-- 债券/股票/房地产投资信托策略 (6)](https://paperswithbacktest.com/bonds-equities-reits)
-- 商品/股票策略 (3)](https://paperswithbacktest.com/commodities-equities)
-- 股票/期权策略 (24)](https://paperswithbacktest.com/equities-options)
-- 股票/房地产投资信托策略 (1)](https://paperswithbacktest.com/equities-reits)
 
 上一个策略列表：
 

@@ -305,22 +305,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 *List of **696 academic papers** describing original systematic trading strategies. Each strategy is categorized by its asset class and ordered by descending Sharpe ratio.*
 
-👉 Strategies are now hosted [here](https://paperswithbacktest.com):
+👉 Strategies are now hosted [here](https://paperswithbacktest.com).
 
-- [Bonds strategies (7)](https://paperswithbacktest.com/bonds)
-- [Commodities strategies (50)](https://paperswithbacktest.com/commodities)
-- [Cryptocurrencies strategies (12)](https://paperswithbacktest.com/cryptocurrencies)
-- [Currencies strategies (67)](https://paperswithbacktest.com/currencies)
-- [Equities strategies (471)](https://paperswithbacktest.com/equities)
-- [Options strategies (8)](https://paperswithbacktest.com/options)
-- [Bonds / Commodities / Currencies / Equities strategies (22)](https://paperswithbacktest.com/bonds-commodities-currencies-equities)
-- [Bonds / Commodities / Equities strategies (6)](https://paperswithbacktest.com/bonds-commodities-equities)
-- [Bonds / Commodities / Equities / REITs strategies (6)](https://paperswithbacktest.com/bonds-commodities-equities-reits)
-- [Bonds / Equities strategies (13)](https://paperswithbacktest.com/bonds-equities)
-- [Bonds / Equities / REITs strategies (6)](https://paperswithbacktest.com/bonds-equities-reits)
-- [Commodities / Equities strategies (3)](https://paperswithbacktest.com/commodities-equities)
-- [Equities / Options strategies (24)](https://paperswithbacktest.com/equities-options)
-- [Equities / REITs strategies (1)](https://paperswithbacktest.com/equities-reits)
 
 Previous list of strategies:
 
