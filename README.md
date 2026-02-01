@@ -166,6 +166,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) `dormant since 2023-04` | R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 | [analyzingalpha](https://github.com/leosmigel/analyzingalpha) `dormant since 2023-08` | Implementation of simple strategies | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) `dormant since 2018-04` | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [PRISM-INSIGHT](https://github.com/dragon1086/prism-insight) | AI-powered stock analysis with 13 specialized agents, automated trading via KIS API (Korean & US markets) | ![GitHub stars](https://badgen.net/github/stars/dragon1086/prism-insight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Analytics
 
