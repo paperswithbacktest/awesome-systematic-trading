@@ -234,6 +234,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [Gekko-Datasets](https://github.com/xFFFFF/Gekko-Datasets) | Gekko trading bot dataset dumps. Download and use history files in SQLite format. | ![GitHub stars](https://badgen.net/github/stars/xFFFFF/Gekko-Datasets) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [CryptoInscriber](https://github.com/Optixal/CryptoInscriber) | A live crypto currency historical trade data blotter. Download live historical trade data from any crypto exchange. | ![GitHub stars](https://badgen.net/github/stars/Optixal/CryptoInscriber) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Crypto Lake](https://github.com/crypto-lake/lake-api) | High frequency order book & trade data for crypto | ![GitHub stars](https://badgen.net/github/stars/crypto-lake/lake-api) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Frostbyte API](https://frostbyte-landing.vercel.app) | Free REST API for real-time crypto prices (BTC, ETH, SOL + 20 more), DeFi trading data, and wallet management across 9 chains. No signup required. | - | ![rest-api](https://img.shields.io/badge/REST-API-1f425f.svg) |
 
 
 ## Data Science
