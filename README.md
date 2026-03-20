@@ -124,6 +124,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 ### Cryptocurrencies
 
 | Repository | Description | Stars | Made with |
+- [polymarket-whales](https://github.com/al1enjesus/polymarket-whales) - Real-time whale trade tracker for Polymarket prediction markets — monitors large orders and fires terminal + Telegram alerts.
 |------------|-------------|-------|-----------|
 | [Freqtrade](https://github.com/freqtrade/freqtrade) | Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning. | ![GitHub stars](https://badgen.net/github/stars/freqtrade/freqtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Jesse](https://github.com/jesse-ai/jesse) | Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies. | ![GitHub stars](https://badgen.net/github/stars/jesse-ai/jesse) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
