@@ -559,6 +559,7 @@ A comprehensive list of **55 books** for quantitative traders.
 | [Quantsportal, Jacques Joubert's Blog](http://www.quantsportal.com/blog-page/) |
 | [Quantstart - Machine Learning for Trading articles](https://www.quantstart.com/articles) |
 | [RobotWealth, Kris Longmore Blog](https://robotwealth.com/blog/) |
+| [KeepRule - Investment Principles Knowledge Base](https://keeprule.com) |
 
 
 # Courses
