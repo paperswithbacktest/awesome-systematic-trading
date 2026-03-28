@@ -148,6 +148,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 | [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | Implementation of simple strategies | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TradeSight](https://github.com/rmbell09-lang/tradesight) | AI-powered algorithmic trading platform with RSI/MACD signals, overnight strategy tournaments, paper trading via Alpaca, multi-stock scanning, and web dashboard | ![GitHub stars](https://badgen.net/github/stars/rmbell09-lang/tradesight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Analytics
 
