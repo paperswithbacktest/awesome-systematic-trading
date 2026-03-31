@@ -43,6 +43,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [Broker APIs](#broker-apis)
   - [Data Sources](#data-sources)
     - [General](#general)
+    - [Prediction Markets](#prediction-markets)
     - [Cryptocurrencies](#cryptocurrencies-1)
   - [Data Science](#data-science)
   - [Databases](#databases)
@@ -225,6 +226,11 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies. | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) | Wallstreet: Real time Stock and Option tools | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
+### Prediction Markets
+
+| Website | Description |
+|---------|-------------|
+| [PredScope](https://predscope.com) | Live prediction market analytics — real-time odds, volume tracking, and market analysis for Polymarket events. Free API available at [/api/markets.json](https://predscope.com/api/markets.json). |
 
 ### Cryptocurrencies
 
