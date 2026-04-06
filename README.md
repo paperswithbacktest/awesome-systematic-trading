@@ -86,6 +86,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 ## Backtesting and Live Trading
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for systematic trading workflow orchestration, automated strategy management, and multi-agent coordination. MIT licensed.
 ### General - Event Driven Frameworks
 
 
