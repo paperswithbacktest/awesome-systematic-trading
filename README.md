@@ -79,6 +79,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 > [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20free%20and%20comprehensive%20list%20of%20papers%2C%20libraries%2C%20books%2C%20blogs%2C%20tutorials%20for%20quantitative%20traders.&url=https://github.com/paperswithbacktest/awesome-systematic-trading)
 
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=paperswithbacktest_awesome-systematic-trading) - Follow experienced devs on GitHub and see what repos they find worth starring. Great for learning.
 # Libraries and packages
 
 *List of **97 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
