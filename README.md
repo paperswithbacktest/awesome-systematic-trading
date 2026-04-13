@@ -11,7 +11,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 <!-- omit in toc -->
 ### What will you find here?
 
-- [97 libraries and packages](#libraries-and-packages) for research and live trading
+- [98 libraries and packages](#libraries-and-packages) for research and live trading
 - [40+ strategies](#strategies) described by institutionals and academics
 - [55 books](#books) for beginners and professionals
 - [23 videos](#videos) and interviews
@@ -81,7 +81,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 # Libraries and packages
 
-*List of **97 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+*List of **98 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
 
 
 ## Backtesting and Live Trading
@@ -224,6 +224,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [Investpy](https://github.com/alvarobartt/investpy) | Financial Data Extraction from Investing.com with Python | ![GitHub stars](https://badgen.net/github/stars/alvarobartt/investpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies. | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) | Wallstreet: Real time Stock and Option tools | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Adanos Market Sentiment API](https://api.adanos.org/docs/) | Market sentiment API for stock tickers, combining Reddit, X/Twitter, and Polymarket signals with buzz scores and trend analytics. | N/A | API |
 
 
 ### Cryptocurrencies

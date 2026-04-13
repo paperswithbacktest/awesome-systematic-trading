@@ -9,7 +9,7 @@
 <!-- omit in toc -->
 ### 你在这里会发现什么？
 
-- [97个](#库和包)用于研究和实际交易的[库和包](#库和包)
+- [98个](#库和包)用于研究和实际交易的[库和包](#库和包)
 - 机构和学术界描述的[40+项战略](#战略)
 - [55本](#书籍)适合初学者和专业人士的[书籍](#书籍)
 - [23个视频](#视频)和采访
@@ -71,7 +71,7 @@
 
 # 库和包
 
-*97个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
+*98个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
 
 
 ## 回溯测试和真实交易
@@ -213,6 +213,7 @@
 | [Investpy](https://github.com/alvarobartt/investpy) | 用Python从Investing.com提取金融数据 | ![GitHub stars](https://badgen.net/github/stars/alvarobartt/investpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | 完整的基本面分析软件包能够收集20年的公司简介、财务报表、比率和20,000多家公司的股票数据。 | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) | 华尔街。实时股票和期权工具 | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Adanos Market Sentiment API](https://api.adanos.org/docs/) | 股票代码市场情绪 API，结合 Reddit、X/Twitter 和 Polymarket 信号，提供 buzz scores 和趋势分析。 | N/A | API |
 
 
 
