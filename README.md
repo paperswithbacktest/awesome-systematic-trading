@@ -552,6 +552,7 @@ A comprehensive list of **55 books** for quantitative traders.
 | [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/) |
 | [AI & Systematic Trading](https://blog.paperswithbacktest.com/)          |
 | [Blackarbs blog](http://www.blackarbs.com/blog/)                   |
+| [Crypto Motifs - Solo Solana Signal Engine + Playbook](https://cryptomotifs.github.io/cipher-starter/) |
 | [Hardikp, Hardik Patel blog](https://www.hardikp.com/)             |
 | [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)            |
 | [Medallion.Club on Systematic Trading (FR)](https://medallion.club/trading-algorithmique-quantitatif-systematique/)            |
