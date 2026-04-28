@@ -133,6 +133,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [bTrader](https://github.com/gabriel-milan/btrader) | Triangle arbitrage trading bot for Binance | ![GitHub stars](https://badgen.net/github/stars/gabriel-milan/btrader) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) | Crawl orderbook and trade messages from crypto exchanges | ![GitHub stars](https://badgen.net/github/stars/crypto-crawler/crypto-crawler-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [Hummingbot](https://github.com/CoinAlpha/hummingbot) | A client for crypto market making | ![GitHub stars](https://badgen.net/github/stars/CoinAlpha/hummingbot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [DeepAlpha](https://github.com/stefanoviana/deepalpha) | AI crypto trading bot with 3-model ML ensemble (XGBoost, HMM, Transformer), 70.9% walk-forward accuracy, supporting 12 exchanges including Bybit, Binance, OKX | ![GitHub stars](https://badgen.net/github/stars/stefanoviana/deepalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) | Simple to use Crypto Exchange REST API client in rust. | ![GitHub stars](https://badgen.net/github/stars/monomadic/cryptotrader-core) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ## Trading bots
