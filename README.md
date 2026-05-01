@@ -150,6 +150,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Analytics
+- [Vigil](https://runvigil.app) - AI trade journal with multi-agent audit, prop firm rule library, and trailing drawdown simulator. Free tier.
 
 ### Indicators
 
