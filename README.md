@@ -87,6 +87,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 ## Backtesting and Live Trading
 
 ### General - Event Driven Frameworks
+- [FilingFirehose](https://github.com/jaablon/filingfirehose-python) - SEC EDGAR JSON API with body-text-classified 8-Ks (flags items the filer didn't report — 7.3% of Item 8.01 filings have buried events), Schedule 13D/G with 21+ activist filers tagged automatically, S-3/424B5 ATM offering detection. Free public tier covers past 72h, no API key. Also exposed as MCP server, ChatGPT GPT, Python SDK, GitHub Action.
 
 
 | Repository | Description | Stars | Made with |
