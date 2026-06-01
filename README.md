@@ -148,6 +148,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 | [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | Implementation of simple strategies | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TradeClaw](https://github.com/naimkatiman/tradeclaw) | Self-hosted AI trading signal platform generating BUY/SELL/HOLD signals from RSI, MACD, Bollinger Bands and EMA confluence across forex, crypto and metals; backtesting engine, REST API and Telegram/Discord alerts | ![GitHub stars](https://badgen.net/github/stars/naimkatiman/tradeclaw) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 
 ## Analytics
 
