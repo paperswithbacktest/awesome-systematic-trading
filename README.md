@@ -180,6 +180,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [pandas-ta](https://github.com/twopirllc/pandas-ta) `no longer available` | Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [finta](https://github.com/peerchemist/finta) `archived` | Common financial technical indicators implemented in Pandas | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ta-rust](https://github.com/greyblake/ta-rs) `dormant since 2024-07` | Technical analysis library for Rust language | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [wickra](https://github.com/wickra-lib/wickra) | Streaming-first technical-analysis library with a Rust core and native Python/Node/WASM bindings plus a C ABI (C, C++, C#/.NET, Go, Java, R); 514 O(1)-per-tick indicators across 24 families, bit-exact batch and streaming | ![GitHub stars](https://badgen.net/github/stars/wickra-lib/wickra) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ### Metrics computation
 
