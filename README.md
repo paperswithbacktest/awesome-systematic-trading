@@ -576,3 +576,4 @@ A comprehensive list of **55 books** for quantitative traders.
 | [NYU: Overview of Advanced Methods of Reinforcement Learning in Finance](https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance/home/welcome) |
 | [Udacity: Artificial Intelligence for Trading](https://www.udacity.com/course/ai-for-trading--nd880) |
 | [Udacity, Georgia Tech - Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) |
+| [Wyckoff Method Course](https://arapov.trade/en/freestudying/wyckoff-method) |
