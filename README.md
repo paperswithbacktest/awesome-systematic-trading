@@ -6,7 +6,7 @@
 
 [希望阅读中文版？点我](./README_zh.md)
 
-We are collecting a list of resources papers, softwares, books, articles for finding, developing, and running systematic trading (quantitative trading) strategies.
+We are collecting a list of resources papers, softwares, books, articles for finding, developing, and running systematic trading (quantitative trading) strategies..
 
 <!-- omit in toc -->
 ### What will you find here?
