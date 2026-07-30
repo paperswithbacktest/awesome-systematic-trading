@@ -213,6 +213,7 @@
 | [Investpy](https://github.com/alvarobartt/investpy) | 用Python从Investing.com提取金融数据 | ![GitHub stars](https://badgen.net/github/stars/alvarobartt/investpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | 完整的基本面分析软件包能够收集20年的公司简介、财务报表、比率和20,000多家公司的股票数据。 | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) | 华尔街。实时股票和期权工具 | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [investment_data](https://github.com/xu-duqing/investment_data) | 自动更新的 Qlib 格式 A 股行情、复权因子、交易日历、指数成分和基本面指标数据。 | ![GitHub stars](https://badgen.net/github/stars/xu-duqing/investment_data) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 
