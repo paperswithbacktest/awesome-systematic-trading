@@ -1,0 +1,45 @@
+experiment_id: EXP-2026-08-ASSET-TREND-MONTHLY-001
+strategy_id: STRAT-MULTI-ASSET-TREND
+strategy_title: Asset Class Trend-Following
+experiment_class: proxy
+hypothesis: "A monthly trend filter that holds each asset-class sleeve only when price is above its 10-month moving average improves risk-adjusted returns versus a monthly equal-weight buy-and-hold benchmark. The paper-style fixed 20% sleeve (cash residual) differs materially from the repo-style 1/N among active sleeves."
+source_paper_url: "https://quantpedia.com/strategies/asset-class-trend-following/"
+source_repo_path: "static/strategies/asset-class-trend-following.py"
+source_repo_commit: "1ce1eb2"
+code_commit: "35e0ac0a96da66cec194eeaf3eda4016554d8748"
+run_timestamp_utc: "2026-08-02T14:00:00Z"
+data:
+  provider: "yfinance"
+  instruments: ["SPY", "EFA", "IEF", "VNQ", "GSG"]
+  frequency: "monthly"
+  timezone: "America/New_York"
+  start: "2000-01-01"
+  end: "2025-12-31"
+  adjusted: true
+universe:
+  requested: ["SPY", "EFA", "IEF", "VNQ", "GSG"]
+  actual: ["SPY", "EFA", "IEF", "VNQ", "GSG"]
+  eligibility_rule: "common_inception after SMA warmup (10 monthly observations)"
+signal:
+  description: "Month-end close > 10-month SMA of month-end closes; signal at T applies to returns of next month T->T+1"
+  formation_timestamp: "month-end close T"
+  execution_timestamp: "month-start T+1"
+costs:
+  turnover_definition: "risky_traded_notional"
+  fee_unit: "bps_per_traded_notional"
+  fee_bps_per_traded_notional: [0, 5, 10]
+  cash_labels: ["CASH"]
+  spread_bps: [0]
+  slippage_bps: [0]
+  cash_return: "0"
+  borrow_mode: "not_applicable"
+metrics:
+  annualization_factor: 252
+  risk_free_rate: 0.0
+known_limitations:
+  - "Proxy implementation using ETF proxies, not original Faber GTAA assets"
+  - "GSG used for commodities; DBC substitution would be noted if GSG history inadequate"
+  - "Cash return assumed 0% in primary variant; no T-bill proxy used"
+  - "yfinance adjusted closes may differ from vendor data used in original paper"
+  - "Monthly rebalancing at month-end close with next-month execution assumes perfect liquidity"
+  - "No explicit slippage or spread costs beyond fee_bps grid"

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "no_lookahead": {
+      "passed": true,
+      "detail": "Signal formation (22:00 bar timestamp) equals execution timestamp; no future data used"
+    },
+    "timezone_explicit": {
+      "passed": true,
+      "detail": "All timestamps in UTC; yfinance data normalized to UTC"
+    },
+    "data_hash_verified": {
+      "passed": true,
+      "detail": "SHA256 of raw data file matches manifest: 417e6b4a96c0b2c3..."
+    },
+    "cost_units_verified": {
+      "passed": true,
+      "detail": "Fee unit: bps_per_fill; 2 fills per round trip (entry + exit); charged only on active trade days"
+    },
+    "annualization_verified": {
+      "passed": true,
+      "detail": "Annualization factor = 365 (daily trade observations, not 8760)"
+    },
+    "incomplete_bar_excluded": {
+      "passed": true,
+      "detail": "Current/incomplete hourly bar excluded via timestamp filtering against now_utc"
+    }
+  }
+}

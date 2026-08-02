@@ -17,10 +17,13 @@ research/**/*.parquet
 research/**/*.h5
 research/**/*.feather
 
-# Round-1 archive: keep scripts/metrics/reports/hashes; drop raw bars & plots
+# Archive: keep scripts/metrics/reports/hashes; drop raw bars & plots
+research/archive/**/data/
+research/archive/**/cache/
 research/archive/**/data_*.csv
 research/archive/**/prices.csv
 research/archive/**/btc_usd_daily.csv
+research/archive/**/btc_usd_hourly*.csv
 research/archive/**/*.png
 
 # Keep small metrics/verdicts/configs

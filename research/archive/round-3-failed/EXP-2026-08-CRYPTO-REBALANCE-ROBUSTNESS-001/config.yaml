@@ -1,0 +1,103 @@
+experiment_id: EXP-2026-08-CRYPTO-REBALANCE-ROBUSTNESS-001
+strategy_id: STRAT-CRYPTO-REBALANCE-PREMIUM
+strategy_title: Rebalancing Premium in Cryptocurrencies
+experiment_class: robustness
+hypothesis: "In a declared crypto universe, a periodically rebalanced equal-weight long portfolio outperforms a drifting buy-and-hold equal-weight portfolio on a risk-adjusted and/or return basis after costs. Frequency (daily/weekly/monthly) and universe eligibility materially change the result."
+source_paper_url: "https://quantpedia.com/strategies/rebalancing-premium-in-cryptocurrencies/"
+source_repo_path: "static/strategies/rebalancing-premium-in-cryptocurrencies.py"
+source_repo_commit: "1ce1eb2"
+code_commit: "35e0ac0a96da66cec194eeaf3eda4016554d8748"
+run_timestamp_utc: "2026-08-02T15:00:00Z"
+data:
+  provider: "yfinance"
+  instruments:
+    - "BTC-USD"
+    - "ETH-USD"
+    - "LTC-USD"
+    - "XRP-USD"
+    - "XMR-USD"
+    - "XLM-USD"
+    - "EOS-USD"
+    - "NEO-USD"
+    - "TRX-USD"
+    - "OMG-USD"
+    - "ZEC-USD"
+    - "ZRX-USD"
+    - "LRC-USD"
+    - "REQ-USD"
+    - "SAN-USD"
+    - "SNT-USD"
+    - "WAX-USD"
+    - "ZIL-USD"
+    - "IOTA-USD"
+    - "MANA-USD"
+    - "DATA-USD"
+    - "BAT-USD"
+    - "DGB-USD"
+    - "FUN-USD"
+    - "XVG-USD"
+    - "DAI-USD"
+  frequency: "daily"
+  timezone: "UTC"
+  start: "2015-01-01"
+  end: "2026-07-31"
+  adjusted: true
+universe:
+  policy: "static_survivor_proxy"
+  requested:
+    - "BTC-USD"
+    - "ETH-USD"
+    - "LTC-USD"
+    - "XRP-USD"
+    - "XMR-USD"
+    - "XLM-USD"
+    - "EOS-USD"
+    - "NEO-USD"
+    - "TRX-USD"
+    - "OMG-USD"
+    - "ZEC-USD"
+    - "ZRX-USD"
+    - "LRC-USD"
+    - "REQ-USD"
+    - "SAN-USD"
+    - "SNT-USD"
+    - "WAX-USD"
+    - "ZIL-USD"
+    - "IOTA-USD"
+    - "MANA-USD"
+    - "DATA-USD"
+    - "BAT-USD"
+    - "DGB-USD"
+    - "FUN-USD"
+    - "XVG-USD"
+    - "DAI-USD"
+  actual: []
+  eligibility_rule: "Asset enters on first date with valid price and remains only while continuous history exists; no backfill before first observation. No forward-fill of missing prices across gaps."
+signal:
+  description: "Equal-weight portfolio rebalanced at specified frequency. Decision at close T; weights earn T->T+1. Initial establishment turnover charged on first invest day."
+  formation_timestamp: "close T"
+  execution_timestamp: "close T (same bar, next period returns)"
+costs:
+  turnover_definition: "risky_traded_notional"
+  fee_unit: "bps_per_traded_notional"
+  fee_bps_per_traded_notional: [0, 5, 10, 20, 50]
+  cash_labels: ["CASH"]
+  spread_bps: [0]
+  slippage_bps: [0]
+  funding_mode: "excluded"
+  borrow_mode: "excluded"
+metrics:
+  annualization_factor: 365
+  risk_free_rate: 0.0
+known_limitations:
+  - "Static survivor proxy: universe frozen at 2026 available tickers, not true PIT Bitfinex 27-coin universe from paper"
+  - "yfinance data is venue proxy (Yahoo aggregate), not Bitfinex; adjusted close may differ from paper's raw prices"
+  - "No explicit slippage/spread beyond fee_bps grid"
+  - "Daily/weekly/monthly rebalance timing assumes perfect execution at close"
+  - "Weekly rebalance uses Monday UTC (first trading day of week); monthly uses month-start"
+  - "Long-only primary; short-drifting 70% leg blocked by borrow/funding/tradability requirements"
+  - "DAI-USD is a stablecoin; may distort rebalancing premium signal"
+  - "Several requested tickers may have limited or no yfinance history (e.g., BTG, DATA, SAN, WAX, ZIL, IOTA, REQ, FUN, XVG, NEO)"
+  - "Survivorship bias: only assets with data available today are included; delisted/merged assets excluded"
+  - "No forward-fill across price gaps; assets drop out when data missing"
+  - "Annualization factor 365 for crypto 24/7 daily bars"

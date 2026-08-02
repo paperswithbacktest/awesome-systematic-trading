@@ -1,0 +1,51 @@
+experiment_id: EXP-2026-08-BTC-OVERNIGHT-HOURLY-002
+strategy_id: STRAT-CRYPTO-BTC-OVERNIGHT
+strategy_title: Overnight Seasonality in Bitcoin
+experiment_class: diagnostic
+hypothesis: "A fixed long BTC position held only from 22:00 UTC to 00:00 UTC each day has positive expected return after the stated per-fill fee grid, relative to buy-and-hold and to other non-overlapping two-hour UTC windows."
+source_paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4081000"
+source_landing_url: "https://quantpedia.com/strategies/intraday-seasonality-in-bitcoin/"
+source_repo_path: "static/strategies/intraday-seasonality-in-bitcoin.py"
+source_repo_commit: "1ce1eb2"
+code_commit: "PENDING_SOURCE_COMMIT"
+harness_baseline_commit: "35e0ac0a96da66cec194eeaf3eda4016554d8748"
+run_timestamp_utc: "2026-08-02T00:00:00Z"
+supersedes: EXP-2026-08-BTC-OVERNIGHT-HOURLY-001
+data:
+  provider: "yfinance"
+  instruments: ["BTC-USD"]
+  frequency: "hourly"
+  timezone: "UTC"
+  start: "2024-08-30"
+  end: "2026-07-30"
+  adjusted: false
+  candle_label: "open-time"
+  source_cache: "research/archive/round-3-failed/EXP-2026-08-BTC-OVERNIGHT-HOURLY-001/data/btc_usd_hourly_yfinance.csv"
+universe:
+  requested: ["BTC-USD"]
+  actual: ["BTC-USD"]
+  eligibility_rule: "offline Yahoo hourly cache only; exact 22:00 open and entry+2h open required"
+signal:
+  description: "Enter long at exact 22:00 UTC open; exit at exact entry+2h open (00:00 next day). Skip days missing either bar. One completed trade day = one return observation."
+  formation_timestamp: "22:00 UTC bar open (exact hour)"
+  execution_timestamp: "22:00 UTC bar open; exit at entry+2h open"
+costs:
+  fee_unit: bps_per_fill
+  fee_bps_per_fill: [0, 1, 5, 10, 20]
+  n_fills_per_round_trip: 2
+  spread_bps: [0]
+  slippage_bps: [0]
+  cash_return: "none"
+  buyhold_cost_policy: "gross_only"
+metrics:
+  annualization_factor: 365
+  risk_free_rate: 0.0
+  return_observation_frequency: daily
+known_limitations:
+  - "Yahoo/yfinance hourly venue proxy, not Gemini/Bitfinex"
+  - "Sample is wholly post-paper (2024-08-30 to 2026-07-30); cannot reproduce 2015-2021 study window"
+  - "Exact open-time labels assumed; exchange clock and print quality unknown"
+  - "No spread/slippage/funding modeled beyond fee_bps_per_fill grid"
+  - "Placebo windows are descriptive context only; primary window is pre-specified"
+  - "B&H comparison is full-day 00:00 open-to-open exposure, not a matched two-hour hold"
+  - "Offline cache only; no live download in this experiment"

@@ -1,0 +1,39 @@
+{
+  "retrieved_at_utc": "2026-08-02T15:55:08+00:00",
+  "provider": "yfinance",
+  "instruments": [
+    "BTC-USD"
+  ],
+  "frequency": "hourly",
+  "timezone": "UTC",
+  "start": "2016-01-01",
+  "end": "2026-07-31",
+  "query": {
+    "ticker": "BTC-USD",
+    "interval": "1h",
+    "start": "2016-01-01",
+    "end": "2026-07-31",
+    "auto_adjust": false
+  },
+  "files": {
+    "data/btc_usd_hourly_yfinance.csv": {
+      "sha256": "417e6b4a96c0b2c31daca1905eeae56b5789a11e90f55b57df8284d0bfd4ce72",
+      "bytes": 1453992,
+      "not_cached": true,
+      "local_path": "data/btc_usd_hourly_yfinance.csv",
+      "note": "Vendor hourly CSV is gitignored; hash is provenance for local machines that retain the file."
+    }
+  },
+  "notes": [
+    "Candle timestamp convention: open-time (yfinance open-time labels)",
+    "Entry at 22:00 bar open, exit at 00:00 bar open next day",
+    "Incomplete current bar excluded",
+    "Venue proxy: yfinance (not Gemini/Bitfinex); limited history from ~2014",
+    "REVIEWER NOTE 2026-08-02: actual sample is ~2024-08-30 to 2026-07-30, not the requested 2016-2026 range.",
+    "Artifact reviewer-rejected; see research/reviews/REV-2026-08-BTC-HOURLY-001.md"
+  ],
+  "requested_start": "2016-01-01",
+  "requested_end": "2026-07-31",
+  "actual_start": "2024-08-30",
+  "actual_end": "2026-07-30"
+}

@@ -1,0 +1,45 @@
+experiment_id: EXP-2026-08-BTC-OVERNIGHT-HOURLY-001
+strategy_id: STRAT-CRYPTO-BTC-OVERNIGHT
+strategy_title: Overnight Seasonality in Bitcoin
+experiment_class: diagnostic
+hypothesis: "A fixed long BTC position held only from 22:00 UTC to 00:00 UTC each day has positive expected return after realistic all-in trading costs, relative to buy-and-hold and to other non-overlapping two-hour UTC windows."
+source_paper_url: "https://quantpedia.com/strategies/intraday-seasonality-in-bitcoin/"
+source_repo_path: "static/strategies/intraday-seasonality-in-bitcoin.py"
+source_repo_commit: "1ce1eb2"
+code_commit: "35e0ac0a96da66cec194eeaf3eda4016554d8748"
+run_timestamp_utc: "2026-08-02T00:00:00Z"
+data:
+  provider: "yfinance"
+  instruments: ["BTC-USD"]
+  frequency: "hourly"
+  timezone: "UTC"
+  start: "2016-01-01"
+  end: "2026-07-31"
+  adjusted: false
+universe:
+  requested: ["BTC-USD"]
+  actual: ["BTC-USD"]
+  eligibility_rule: "yfinance hourly bars available; incomplete current bar excluded"
+signal:
+  description: "Entry on first bar at/after 22:00 UTC, exit on first bar at/after 00:00 UTC next day. One trade per calendar day when both legs exist."
+  formation_timestamp: "22:00 UTC (bar timestamp = open time)"
+  execution_timestamp: "22:00 UTC (same bar)"
+costs:
+  fee_bps_per_fill: [0, 1, 5, 10, 20]
+  spread_bps: [0]
+  slippage_bps: [0]
+  cash_return: "none"
+  n_fills_per_round_trip: 2
+  fee_unit: "bps_per_fill"
+  turnover_definition: "risky_traded_notional"
+metrics:
+  annualization_factor: 365
+  risk_free_rate: 0.0
+known_limitations:
+  - "yfinance hourly data is a venue proxy (not Gemini/Bitfinex); limited history from ~2014; no spread/slippage data"
+  - "Candle timestamp convention: yfinance uses open-time labels; entry at 22:00 bar open, exit at 00:00 bar open"
+  - "Incomplete current bar excluded via timestamp filtering"
+  - "Annualization factor = 365 (daily trade observations) not 8760"
+  - "Only fee_bps_per_fill costs modeled; no spread, slippage, funding, or borrow costs"
+  - "Buy & hold benchmark uses same calendar days"
+  - "Placebo grid: 12 non-overlapping 2-hour UTC windows tested"

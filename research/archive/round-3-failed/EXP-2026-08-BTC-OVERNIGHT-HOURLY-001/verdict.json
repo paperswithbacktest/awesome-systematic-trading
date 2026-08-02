@@ -1,0 +1,29 @@
+{
+  "experiment_id": "EXP-2026-08-BTC-OVERNIGHT-HOURLY-001",
+  "strategy_id": "STRAT-CRYPTO-BTC-OVERNIGHT",
+  "hypothesis": "A fixed long BTC position held only from 22:00 UTC to 00:00 UTC each day has positive expected return after realistic all-in trading costs, relative to buy-and-hold and to other non-overlapping two-hour UTC windows.",
+  "experiment_class": "diagnostic",
+  "evidence_level": "E2",
+  "result_verdict": "inconclusive",
+  "reproduction_status": "partial",
+  "summary": "Primary 22-00 window: Sharpe=-0.107, CAGR=-0.019, TotalReturn=-0.037 at 0bps fees. Tested fee grid [0,1,5,10,20]bps, buy&hold benchmark, 11 placebo 2h UTC windows. yfinance venue proxy; limited history; evidence level E2.",
+  "key_metrics": {
+    "primary_sharpe_0bps": -0.10721804355422505,
+    "primary_cagr_0bps": -0.019471127324450332,
+    "primary_total_return_0bps": -0.03695616565257209,
+    "n_trade_days": 699,
+    "data_start": "2024-08-30",
+    "data_end": "2026-07-30"
+  },
+  "promotion_blockers": [
+    "Venue proxy (yfinance) not source venue (Gemini/Bitfinex)",
+    "Limited history (yfinance hourly from ~2014)",
+    "No spread/slippage data available",
+    "Multiple testing across 12 placebo windows not corrected",
+    "Cost model only includes fee_bps_per_fill; no funding, borrow, or impact",
+    "Sample period may not match paper period (paper ~2015-2021)"
+  ],
+  "reviewer_status": "rejected",
+  "reproduction_command": ".venv/Scripts/python.exe research/experiments/EXP-2026-08-BTC-OVERNIGHT-HOURLY-001/run.py",
+  "reviewer_note": "Rejected 2026-08-02: daily B&H cost model invalid; declared dates false; source URL wrong. See REV-2026-08-BTC-HOURLY-001.md. Do not promote. Corrections require new experiment ID."
+}

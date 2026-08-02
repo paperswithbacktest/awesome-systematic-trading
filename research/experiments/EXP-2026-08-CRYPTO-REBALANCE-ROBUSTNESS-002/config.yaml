@@ -1,0 +1,97 @@
+experiment_id: EXP-2026-08-CRYPTO-REBALANCE-ROBUSTNESS-002
+strategy_id: STRAT-CRYPTO-REBALANCE-PREMIUM
+strategy_title: Rebalancing Premium in Cryptocurrencies
+experiment_class: proxy
+hypothesis: "In a frozen 12-asset static-survivor Yahoo crypto basket, periodically rebalanced equal-weight long-only portfolios differ from a drifting equal-weight buy-and-hold portfolio after costs; rebalance frequency (daily/weekly/monthly) materially changes net performance."
+source_paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3982120"
+source_landing_url: "https://quantpedia.com/strategies/rebalancing-premium-in-cryptocurrencies/"
+source_repo_path: "static/strategies/rebalancing-premium-in-cryptocurrencies.py"
+source_repo_commit: "1ce1eb2"
+code_commit: "PENDING_SOURCE_COMMIT"
+harness_baseline_commit: "35e0ac0a96da66cec194eeaf3eda4016554d8748"
+run_timestamp_utc: "2026-08-02T00:00:00Z"
+supersedes: EXP-2026-08-CRYPTO-REBALANCE-ROBUSTNESS-001
+data:
+  provider: "yfinance"
+  instruments:
+    - BTC-USD
+    - ETH-USD
+    - XRP-USD
+    - LTC-USD
+    - BCH-USD
+    - ADA-USD
+    - DOGE-USD
+    - DOT-USD
+    - LINK-USD
+    - XLM-USD
+    - TRX-USD
+    - ETC-USD
+  frequency: daily
+  timezone: UTC
+  start: "2018-01-01"
+  end: "2026-08-01"
+  adjusted: true
+  adjusted_note: "Round-1 yfinance download used auto_adjust=True (adjusted closes)."
+  source_cache: research/archive/round-1/crypto-rebalance/prices.csv
+universe:
+  policy: static_survivor_proxy
+  requested:
+    - BTC-USD
+    - ETH-USD
+    - XRP-USD
+    - LTC-USD
+    - BCH-USD
+    - ADA-USD
+    - DOGE-USD
+    - DOT-USD
+    - LINK-USD
+    - XLM-USD
+    - TRX-USD
+    - ETC-USD
+  actual:
+    - BTC-USD
+    - ETH-USD
+    - XRP-USD
+    - LTC-USD
+    - BCH-USD
+    - ADA-USD
+    - DOGE-USD
+    - DOT-USD
+    - LINK-USD
+    - XLM-USD
+    - TRX-USD
+    - ETC-USD
+  eligibility_rule: >
+    Offline Round-1 Yahoo static-survivor cache only. Asset usable from first
+    non-null price. No forward-fill. No backfill before first observation.
+    Cohorts freeze membership before metrics. Analysis end fixed at 2026-08-01
+    (exclude potentially partial 2026-08-02 cache row).
+signal:
+  description: >
+    Long-only equal-weight. Return row t = close[t]/close[t-1]-1.
+    Weights that earn return t are decided at t-1 close (prior-close execution).
+    Drift between rebalances. Initial cash->EW establishment charged once before
+    the first return.
+  formation_timestamp: prior close (t-1)
+  execution_timestamp: prior close (t-1); earn close-to-close return t
+costs:
+  turnover_definition: risky_traded_notional
+  fee_unit: bps_per_traded_notional
+  fee_bps_per_traded_notional: [0, 5, 10, 20, 50]
+  cash_labels: [CASH]
+  spread_bps: [0]
+  slippage_bps: [0]
+  funding_mode: excluded
+  borrow_mode: excluded
+  initial_establishment: true
+  terminal_liquidation: false
+metrics:
+  annualization_factor: 365
+  risk_free_rate: 0.0
+  return_observation_frequency: daily
+known_limitations:
+  - "Static survivor proxy from Round-1 Yahoo cache; not paper 27-coin PIT Bitfinex universe"
+  - "Long-only only; paper 70% short drifting leg not tested"
+  - "Yahoo composite closes; no venue-specific execution/spread model beyond fee grid"
+  - "No forward-fill; longest contiguous daily segment used per cohort when gaps exist"
+  - "E2 ceiling; not a source-faithful reproduction"
