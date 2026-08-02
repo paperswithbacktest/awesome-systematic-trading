@@ -1,0 +1,7 @@
+Variant,Cost(bps),Sharpe,CAGR,MaxDD,Vol
+(a) Paper 20% sleeves,0,0.779,5.57%,-16.61%,7.32%
+(a) Paper 20% sleeves,5,0.766,5.46%,-16.63%,7.32%
+(b) Repo 1/N split,0,0.67,7.29%,-33.21%,11.53%
+(b) Repo 1/N split,5,0.649,7.04%,-33.28%,11.53%
+(c) EW buy&hold,0,0.637,7.10%,-36.72%,11.92%
+(c) EW buy&hold,5,0.635,7.09%,-36.74%,11.92%

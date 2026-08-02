@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "no_lookahead": {
+      "passed": false,
+      "detail": "look-ahead"
+    },
+    "timezone_explicit": {
+      "passed": true,
+      "detail": "UTC"
+    },
+    "data_hash_verified": {
+      "passed": true,
+      "detail": "x"
+    },
+    "cost_units_verified": {
+      "passed": true,
+      "detail": "x"
+    },
+    "annualization_verified": {
+      "passed": true,
+      "detail": "x"
+    },
+    "incomplete_bar_excluded": {
+      "passed": true,
+      "detail": "x"
+    }
+  }
+}

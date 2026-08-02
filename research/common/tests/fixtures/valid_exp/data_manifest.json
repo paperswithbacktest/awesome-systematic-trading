@@ -1,0 +1,20 @@
+{
+  "retrieved_at_utc": "2026-08-02T00:00:00+00:00",
+  "provider": "synthetic",
+  "instruments": [
+    "FAKE"
+  ],
+  "frequency": "daily",
+  "timezone": "UTC",
+  "start": "2020-01-01",
+  "end": "2020-01-02",
+  "files": {
+    "prices.csv": {
+      "sha256": "a4e449c67f226e994c6dcaaa020920fee095c8b6d1d57a24305bb6718682a3a6",
+      "bytes": 44
+    }
+  },
+  "notes": [
+    "fixture"
+  ]
+}

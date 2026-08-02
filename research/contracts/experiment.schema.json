@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raaptech.local/research/experiment.schema.json",
+  "title": "ExperimentVerdict",
+  "type": "object",
+  "required": [
+    "experiment_id",
+    "strategy_id",
+    "hypothesis",
+    "experiment_class",
+    "evidence_level",
+    "result_verdict",
+    "reproduction_status",
+    "summary",
+    "promotion_blockers",
+    "reviewer_status",
+    "reproduction_command"
+  ],
+  "properties": {
+    "experiment_id": { "type": "string", "pattern": "^EXP-" },
+    "strategy_id": { "type": "string" },
+    "hypothesis": { "type": "string", "minLength": 8 },
+    "experiment_class": {
+      "type": "string",
+      "enum": ["replication", "proxy", "diagnostic", "robustness"]
+    },
+    "evidence_level": {
+      "type": "string",
+      "enum": ["E0", "E1", "E2", "E3", "E4", "E5"]
+    },
+    "result_verdict": {
+      "type": "string",
+      "enum": ["supported", "unsupported", "inconclusive"]
+    },
+    "reproduction_status": {
+      "type": "string",
+      "enum": ["not-attempted", "partial", "faithful", "failed"]
+    },
+    "summary": { "type": "string", "minLength": 20 },
+    "key_metrics": { "type": "object" },
+    "promotion_blockers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "reviewer_status": {
+      "type": "string",
+      "enum": ["pending", "approved", "rejected"]
+    },
+    "reproduction_command": { "type": "string" },
+    "sample_start": { "type": ["string", "null"] },
+    "sample_end": { "type": ["string", "null"] },
+    "data_frequency": { "type": ["string", "null"] },
+    "code_commit": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

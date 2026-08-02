@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-FIXTURE-VALID-001",
+  "strategy_id": "STRAT-FIXTURE",
+  "hypothesis": "Synthetic fixture for validator tests",
+  "experiment_class": "proxy",
+  "evidence_level": "E2",
+  "result_verdict": "inconclusive",
+  "reproduction_status": "not-attempted",
+  "summary": "Synthetic valid fixture used only to exercise the experiment contract validator.",
+  "key_metrics": {
+    "sharpe": 0.5
+  },
+  "promotion_blockers": [
+    "fixture only"
+  ],
+  "reviewer_status": "pending",
+  "reproduction_command": "python -m research.common.validate research/common/tests/fixtures/valid_exp"
+}

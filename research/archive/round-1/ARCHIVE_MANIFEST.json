@@ -1,0 +1,81 @@
+{
+  "archived_at": "2026-08-02T13:55:10.262910Z",
+  "files": {
+    "asset-trend/backtest.py": {
+      "sha256": "19ff56421b06602675ef1b32c34b8a6d2dae729eb63420e428e7ecfff88d37a0",
+      "bytes": 6451
+    },
+    "asset-trend/data_DBC.csv": {
+      "sha256": "5ecd2be0b87af864f8d5c4a509ea694edcd7fb7fd3c65ed92eb608441b073c24",
+      "bytes": 157834
+    },
+    "asset-trend/data_GLD.csv": {
+      "sha256": "5855351079f0e81547a3f5658a445b453097e3df24515abf391cd2e657fb86fa",
+      "bytes": 163567
+    },
+    "asset-trend/data_IEF.csv": {
+      "sha256": "1e3dda3992d63270e72a256e4b015024f2c01e49f73e35960e77c76bf2293f21",
+      "bytes": 180821
+    },
+    "asset-trend/data_SPY.csv": {
+      "sha256": "2fd9a46bc56f0778a19a8be25b3cf30164d4ad2ca641fef580908e18acad93cd",
+      "bytes": 253753
+    },
+    "asset-trend/data_VNQ.csv": {
+      "sha256": "4499da178a2e5a68dca60fb115c7f81d3d67d86d7f30bcafc317c5f8b8dfb2a3",
+      "bytes": 165719
+    },
+    "asset-trend/equity.png": {
+      "sha256": "34988783b03f1abffab8b0443026d463d50e2cfc2bf05fc7809716be5c925732",
+      "bytes": 100969
+    },
+    "asset-trend/metrics.csv": {
+      "sha256": "e5d8ab8e293df88f08867bf857874f9e5daa1a75e44f385016837ba9358caf3f",
+      "bytes": 332
+    },
+    "asset-trend/results.md": {
+      "sha256": "4031fd5f3a615b42636111967b51f0226da36a8cdfba9242f3a8cf5e566b8fcb",
+      "bytes": 2898
+    },
+    "btc-overnight/backtest.py": {
+      "sha256": "29950548ce94f98be8a5491d841a0de6de6cb98ac9495e6e58ed7e9dcef38027",
+      "bytes": 4999
+    },
+    "btc-overnight/btc_usd_daily.csv": {
+      "sha256": "d4cee82584c5f55f2eea88913ef096bbffe2145ca3e4402904ea8c648422f296",
+      "bytes": 320207
+    },
+    "btc-overnight/equity.png": {
+      "sha256": "0e3cc4db7f701d67fecc1cb8c953bb1fadcc91c4ceb9e0cf279147496c1e68b3",
+      "bytes": 95710
+    },
+    "btc-overnight/metrics.csv": {
+      "sha256": "c732943e794aa3a82c288c7efaf8a5a3f0d20eff7e2e2b70fee7b79efcd874e9",
+      "bytes": 644
+    },
+    "btc-overnight/results.md": {
+      "sha256": "413b4ee3532b1f00dc23c98998f0cf20b36aa36b4647a0d3e513fbb7160042ef",
+      "bytes": 3065
+    },
+    "crypto-rebalance/backtest.py": {
+      "sha256": "947236ff8b3a2151546eaf3b1a421d7deb079a166a46bc8d7a9252fb2b7a5081",
+      "bytes": 8246
+    },
+    "crypto-rebalance/equity.png": {
+      "sha256": "5744506cb26186280e96f661fc0a385a1c5d53da670acb23a68adb86f9a64390",
+      "bytes": 110135
+    },
+    "crypto-rebalance/metrics.csv": {
+      "sha256": "d4b61a4f26633c483afe19173cc486ff9abe8ab1508b4d367542c6c7e6798068",
+      "bytes": 609
+    },
+    "crypto-rebalance/prices.csv": {
+      "sha256": "84a1db1b2e703dc4fb12b664d058024e3e440fb7c61296fa5f71686317d68a57",
+      "bytes": 717976
+    },
+    "crypto-rebalance/results.md": {
+      "sha256": "43151cca626bd384f0b237fd72b146917abf54eed927dbad2c70aec1899e9338",
+      "bytes": 4278
+    }
+  }
+}

@@ -1,1 +1,39 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Research data caches (manifests + recipes are committed; raw bars usually are not)
+research/experiments/**/data/
+research/experiments/**/cache/
+research/experiments/**/figures/*.png
+!research/experiments/**/figures/.gitkeep
+research/**/*.parquet
+research/**/*.h5
+research/**/*.feather
+
+# Round-1 archive: keep scripts/metrics/reports/hashes; drop raw bars & plots
+research/archive/**/data_*.csv
+research/archive/**/prices.csv
+research/archive/**/btc_usd_daily.csv
+research/archive/**/*.png
+
+# Keep small metrics/verdicts/configs
+# (explicitly not ignored)
+
+# OS / IDE
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.*
+*.pem

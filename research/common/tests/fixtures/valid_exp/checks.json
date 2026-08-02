@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "no_lookahead": {
+      "passed": true,
+      "detail": "n/a"
+    },
+    "timezone_explicit": {
+      "passed": true,
+      "detail": "UTC"
+    },
+    "data_hash_verified": {
+      "passed": true,
+      "detail": "a4e449c67f22"
+    },
+    "cost_units_verified": {
+      "passed": true,
+      "detail": "bps_per_fill"
+    },
+    "annualization_verified": {
+      "passed": true,
+      "detail": "252"
+    },
+    "incomplete_bar_excluded": {
+      "passed": true,
+      "detail": "n/a"
+    }
+  }
+}

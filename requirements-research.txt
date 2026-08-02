@@ -1,0 +1,12 @@
+# Pinned research harness dependencies (Python 3.11–3.13)
+# Install into the canonical project venv:
+#   python -m venv .venv
+#   .venv/Scripts/python -m pip install -r requirements-research.txt
+
+pandas==2.3.3
+numpy==2.3.4
+yfinance==0.2.66
+matplotlib==3.10.7
+PyYAML==6.0.3
+jsonschema==4.25.1
+pytest==8.4.2

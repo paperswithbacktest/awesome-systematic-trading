@@ -1,0 +1,3 @@
+# Valid fixture experiment
+
+Synthetic.
