@@ -1,0 +1,36 @@
+{
+  "manifest_generated_at_utc": "2026-08-02T22:18:55+00:00",
+  "retrieved_at_utc": null,
+  "retrieval_note": "Original Yahoo retrieval timestamp unknown; offline copy only.",
+  "provider": "yfinance",
+  "instruments": [
+    "BTC-USD"
+  ],
+  "frequency": "hourly",
+  "timezone": "UTC",
+  "start": "2024-08-30",
+  "end": "2026-07-30",
+  "query": {
+    "mode": "offline_copy",
+    "source_cache": "research/archive/round-3-failed/EXP-2026-08-BTC-OVERNIGHT-HOURLY-001/data/btc_usd_hourly_yfinance.csv",
+    "source_cache_sha256": "417e6b4a96c0b2c31daca1905eeae56b5789a11e90f55b57df8284d0bfd4ce72",
+    "interval": "1h",
+    "candle_label": "open-time"
+  },
+  "files": {
+    "data/btc_usd_hourly_yfinance.csv": {
+      "sha256": "417e6b4a96c0b2c31daca1905eeae56b5789a11e90f55b57df8284d0bfd4ce72",
+      "bytes": 1453992,
+      "not_cached": true,
+      "local_path": "data/btc_usd_hourly_yfinance.csv",
+      "source_cache_sha256": "417e6b4a96c0b2c31daca1905eeae56b5789a11e90f55b57df8284d0bfd4ce72"
+    }
+  },
+  "notes": [
+    "Offline recovery from archived worker cache; no live download.",
+    "Exact entry_hour open and entry+2h open only.",
+    "Sample is post-paper; cannot reproduce 2015-2021 window.",
+    "Yahoo venue proxy only.",
+    "B&H is gross open-to-open daily; no recurring fees."
+  ]
+}

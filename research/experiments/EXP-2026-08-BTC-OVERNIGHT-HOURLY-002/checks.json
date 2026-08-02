@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "no_lookahead": {
+      "passed": true,
+      "detail": "entry at exact hour open; exit at entry+2h open; return=exit/entry-1"
+    },
+    "timezone_explicit": {
+      "passed": true,
+      "detail": "UTC open-time labels"
+    },
+    "data_hash_verified": {
+      "passed": true,
+      "detail": "source=417e6b4a96c0b2c3 local=417e6b4a96c0b2c3"
+    },
+    "cost_units_verified": {
+      "passed": true,
+      "detail": "primary/placebo: 2 fills/RT on trade days; B&H gross_only"
+    },
+    "annualization_verified": {
+      "passed": true,
+      "detail": "365 on daily trade observations"
+    },
+    "incomplete_bar_excluded": {
+      "passed": true,
+      "detail": "Frozen cache asserted exactly 2024-08-30 00:00 UTC through 2026-07-30 23:00 UTC; no wall-clock-dependent filtering; no live retrieval"
+    }
+  }
+}
