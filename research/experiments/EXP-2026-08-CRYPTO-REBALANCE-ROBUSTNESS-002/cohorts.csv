@@ -1,0 +1,5 @@
+cohort,assets,n_assets,requested_start,raw_common_rows_after_dropna,actual_start,actual_end,n_return_obs,contiguous_segment_rule,note
+full_common_12,BTC-USD|ETH-USD|XRP-USD|LTC-USD|BCH-USD|ADA-USD|DOGE-USD|DOT-USD|LINK-USD|XLM-USD|TRX-USD|ETC-USD,12,2020-08-20,2173,2020-08-21,2026-08-01,2172,longest_contiguous_daily_after_dropna,all 12 including DOT from common first-valid
+start_2018_no_dot,BTC-USD|ETH-USD|XRP-USD|LTC-USD|BCH-USD|ADA-USD|DOGE-USD|LINK-USD|XLM-USD|TRX-USD|ETC-USD,11,2018-01-01,3135,2018-01-02,2026-08-01,3134,longest_contiguous_daily_after_dropna,11 assets excluding DOT from 2018-01-01
+start_2020_no_dot,BTC-USD|ETH-USD|XRP-USD|LTC-USD|BCH-USD|ADA-USD|DOGE-USD|LINK-USD|XLM-USD|TRX-USD|ETC-USD,11,2020-01-01,2405,2020-01-02,2026-08-01,2404,longest_contiguous_daily_after_dropna,11 assets excluding DOT from 2020-01-01
+exclude_dot_same_window,BTC-USD|ETH-USD|XRP-USD|LTC-USD|BCH-USD|ADA-USD|DOGE-USD|LINK-USD|XLM-USD|TRX-USD|ETC-USD,11,2020-08-20,2173,2020-08-21,2026-08-01,2172,longest_contiguous_daily_after_dropna,same start as full_common_12 but without DOT

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "no_lookahead": {
+      "passed": true,
+      "detail": "weights decided at prior close (t-1); earn close-to-close return t"
+    },
+    "timezone_explicit": {
+      "passed": true,
+      "detail": "UTC daily cache; ANALYSIS_END=2026-08-01 fixed cutoff"
+    },
+    "data_hash_verified": {
+      "passed": true,
+      "detail": "source=84a1db1b2e703dc4 local=84a1db1b2e703dc4"
+    },
+    "cost_units_verified": {
+      "passed": true,
+      "detail": "risky_traded_notional cash-excluded; establishment=1.0; fee grid bps per traded notional"
+    },
+    "annualization_verified": {
+      "passed": true,
+      "detail": "365"
+    },
+    "incomplete_bar_excluded": {
+      "passed": true,
+      "detail": "rows after fixed ANALYSIS_END=2026-08-01 excluded from price panel; no wall-clock-dependent filtering; no live retrieval"
+    }
+  }
+}

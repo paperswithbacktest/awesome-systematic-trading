@@ -1,0 +1,47 @@
+{
+  "manifest_generated_at_utc": "2026-08-02T22:46:04+00:00",
+  "retrieved_at_utc": null,
+  "retrieval_note": "Original Yahoo retrieval timestamp unknown; offline Round-1 cache copy only.",
+  "provider": "yfinance",
+  "instruments": [
+    "BTC-USD",
+    "ETH-USD",
+    "XRP-USD",
+    "LTC-USD",
+    "BCH-USD",
+    "ADA-USD",
+    "DOGE-USD",
+    "DOT-USD",
+    "LINK-USD",
+    "XLM-USD",
+    "TRX-USD",
+    "ETC-USD"
+  ],
+  "frequency": "daily",
+  "timezone": "UTC",
+  "start": "2018-01-01",
+  "end": "2026-08-01",
+  "query": {
+    "mode": "offline_copy",
+    "source_cache": "research/archive/round-1/crypto-rebalance/prices.csv",
+    "source_cache_sha256": "84a1db1b2e703dc4fb12b664d058024e3e440fb7c61296fa5f71686317d68a57",
+    "analysis_end": "2026-08-01"
+  },
+  "files": {
+    "data/prices.csv": {
+      "sha256": "84a1db1b2e703dc4fb12b664d058024e3e440fb7c61296fa5f71686317d68a57",
+      "bytes": 717976,
+      "not_cached": true,
+      "local_path": "data/prices.csv",
+      "source_cache_sha256": "84a1db1b2e703dc4fb12b664d058024e3e440fb7c61296fa5f71686317d68a57"
+    }
+  },
+  "notes": [
+    "Offline Round-1 Yahoo static-survivor cache only; no live download.",
+    "12-asset long-only proxy; not paper 27-coin PIT Bitfinex long/short.",
+    "No forward-fill; frozen cohort membership; drop dates with missing prices.",
+    "Longest contiguous daily segment used per cohort after dropna (disclosed in cohorts.csv).",
+    "Initial cash->EW establishment turnover = 1.0; no terminal liquidation.",
+    "DOT first valid: 2020-08-20"
+  ]
+}
