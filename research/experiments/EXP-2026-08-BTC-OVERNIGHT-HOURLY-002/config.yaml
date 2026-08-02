@@ -7,7 +7,7 @@ source_paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4081000"
 source_landing_url: "https://quantpedia.com/strategies/intraday-seasonality-in-bitcoin/"
 source_repo_path: "static/strategies/intraday-seasonality-in-bitcoin.py"
 source_repo_commit: "1ce1eb2"
-code_commit: "PENDING_SOURCE_COMMIT"
+code_commit: "8104683e74be96f53f2564d7aa24908ea0687dc4"
 harness_baseline_commit: "35e0ac0a96da66cec194eeaf3eda4016554d8748"
 run_timestamp_utc: "2026-08-02T00:00:00Z"
 supersedes: EXP-2026-08-BTC-OVERNIGHT-HOURLY-001
