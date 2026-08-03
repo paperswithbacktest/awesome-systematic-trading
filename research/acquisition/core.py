@@ -16,6 +16,17 @@ class AcquisitionError(RuntimeError):
 class RateLimitError(AcquisitionError):
     """The provider rejected a request because of a rate limit."""
 
+    def __init__(
+        self,
+        message: str,
+        *,
+        attempts: int | None = None,
+        rate_limit_events: int | None = None,
+    ) -> None:
+        super().__init__(message)
+        self.attempts = attempts
+        self.rate_limit_events = rate_limit_events
+
 
 class EmptyDataError(AcquisitionError):
     """The provider returned no usable observations."""
@@ -58,6 +69,15 @@ class AcquisitionRecipe:
         )
         if is_crypto_intraday and self.timezone != "UTC":
             raise AmbiguousTimestampError("intraday crypto acquisition must use UTC")
+
+
+@dataclass(frozen=True)
+class AcquisitionResult:
+    """Validated frames plus bounded-retry provenance."""
+
+    frames: dict[str, pd.DataFrame]
+    attempts: int
+    rate_limit_events: int
 
 
 def _is_intraday(frequency: str) -> bool:
@@ -103,13 +123,35 @@ def acquire_with_retries(
     *,
     sleeper: Callable[[float], None] = time.sleep,
 ) -> dict[str, pd.DataFrame]:
+    return acquire_with_retries_result(
+        provider,
+        recipe,
+        sleeper=sleeper,
+    ).frames
+
+
+def acquire_with_retries_result(
+    provider: Provider,
+    recipe: AcquisitionRecipe,
+    *,
+    sleeper: Callable[[float], None] = time.sleep,
+) -> AcquisitionResult:
+    rate_limit_events = 0
     for attempt in range(1, recipe.max_attempts + 1):
         try:
-            return validate_frames(provider.fetch(recipe), recipe)
+            frames = validate_frames(provider.fetch(recipe), recipe)
+            return AcquisitionResult(
+                frames=frames,
+                attempts=attempt,
+                rate_limit_events=rate_limit_events,
+            )
         except RateLimitError as exc:
+            rate_limit_events += 1
             if attempt == recipe.max_attempts:
                 raise RateLimitError(
-                    f"rate limit exhausted after {recipe.max_attempts} attempts: {exc}"
+                    f"rate limit exhausted after {recipe.max_attempts} attempts: {exc}",
+                    attempts=attempt,
+                    rate_limit_events=rate_limit_events,
                 ) from exc
             sleeper(recipe.backoff_seconds[attempt - 1])
 

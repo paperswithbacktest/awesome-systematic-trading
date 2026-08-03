@@ -14,6 +14,7 @@ from research.acquisition.core import (
     MissingInstrumentError,
     RateLimitError,
     acquire_with_retries,
+    acquire_with_retries_result,
     validate_frames,
 )
 
@@ -101,6 +102,41 @@ def test_rate_limited_provider_can_recover_within_budget() -> None:
     assert set(result) == {"SPY", "EFA"}
     assert provider.calls == 2
     assert sleeps == [1.0]
+
+
+def test_retry_result_reports_first_attempt_success() -> None:
+    provider = SequenceProvider([{"SPY": daily_frame(), "EFA": daily_frame()}])
+
+    result = acquire_with_retries_result(provider, recipe(), sleeper=lambda _: None)
+
+    assert set(result.frames) == {"SPY", "EFA"}
+    assert result.attempts == 1
+    assert result.rate_limit_events == 0
+
+
+def test_retry_result_counts_recovered_rate_limit_events() -> None:
+    sleeps: list[float] = []
+    provider = SequenceProvider(
+        [RateLimitError("429"), {"SPY": daily_frame(), "EFA": daily_frame()}]
+    )
+
+    result = acquire_with_retries_result(provider, recipe(), sleeper=sleeps.append)
+
+    assert result.attempts == 2
+    assert result.rate_limit_events == 1
+    assert sleeps == [1.0]
+
+
+def test_retry_exhaustion_exposes_attempt_and_event_counts() -> None:
+    provider = SequenceProvider(
+        [RateLimitError("429"), RateLimitError("429"), RateLimitError("429")]
+    )
+
+    with pytest.raises(RateLimitError) as caught:
+        acquire_with_retries_result(provider, recipe(), sleeper=lambda _: None)
+
+    assert caught.value.attempts == 3
+    assert caught.value.rate_limit_events == 3
 
 
 def test_crypto_recipe_rejects_ambiguous_candle_label() -> None:
