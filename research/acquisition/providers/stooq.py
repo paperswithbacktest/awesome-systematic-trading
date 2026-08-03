@@ -59,8 +59,11 @@ class StooqDailyCrossCheck:
 
     @staticmethod
     def _normalize(text: str, symbol: str) -> pd.DataFrame:
-        if not text.strip() or text.strip().lower().startswith("no data"):
+        stripped = text.strip()
+        if not stripped or stripped.lower().startswith("no data"):
             raise EmptyDataError(f"Stooq returned zero rows for {symbol}")
+        if stripped.lower().startswith(("<!doctype html", "<html")):
+            raise ValueError(f"Stooq response for {symbol} appears to be HTML, not CSV")
         try:
             raw = pd.read_csv(StringIO(text))
         except Exception as exc:

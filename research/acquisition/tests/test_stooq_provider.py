@@ -61,3 +61,12 @@ def test_stooq_rejects_malformed_csv() -> None:
 
     with pytest.raises(ValueError, match="required columns"):
         provider.fetch(("SPY",))
+
+
+def test_stooq_rejects_html_response_explicitly() -> None:
+    provider = StooqDailyCrossCheck(
+        get_text=lambda _url, _timeout: "<!doctype html><html><body>rate limited</body></html>"
+    )
+
+    with pytest.raises(ValueError, match="HTML"):
+        provider.fetch(("SPY",))
