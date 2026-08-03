@@ -48,6 +48,81 @@ def test_manifest_links_raw_and_normalized_files_by_sha256(tmp_path: Path) -> No
     assert manifest["status"] == "ok"
 
 
+def test_manifest_can_store_privacy_safe_paths_relative_to_root(tmp_path: Path) -> None:
+    raw = tmp_path / "research" / "data" / "raw" / "test.csv"
+    normalized = tmp_path / "research" / "data" / "normalized" / "test.csv"
+    raw.parent.mkdir(parents=True)
+    normalized.parent.mkdir(parents=True)
+    raw.write_text("session_date,close\n2024-01-01,100\n", encoding="utf-8")
+    normalized.write_text("session_date,adjusted_close\n2024-01-01,99\n", encoding="utf-8")
+
+    manifest = build_manifest(
+        dataset_id="DATA-TEST-RELATIVE-001",
+        provider="fixture",
+        instrument="TEST",
+        venue="fixture",
+        frequency="1d",
+        timezone="America/New_York",
+        candle_label="session-close",
+        adjusted="fixture-adjusted",
+        retrieved_at_utc="2026-08-03T00:00:00+00:00",
+        raw_path=raw,
+        normalized_path=normalized,
+        path_root=tmp_path,
+        row_count=1,
+        start="2024-01-01",
+        end="2024-01-01",
+        query_parameters={},
+        rate_limit_events=0,
+        missing_intervals=[],
+        known_limitations=[],
+        license_note="fixture",
+        status="ok",
+    )
+
+    assert manifest["raw_file"] == "research/data/raw/test.csv"
+    assert manifest["normalized_file"] == "research/data/normalized/test.csv"
+    assert str(tmp_path) not in str(manifest)
+
+
+def test_manifest_rejects_files_outside_path_root(tmp_path: Path) -> None:
+    approved = tmp_path / "repo"
+    approved.mkdir()
+    raw = tmp_path / "outside.csv"
+    normalized = approved / "normalized.csv"
+    raw.write_text("session_date,close\n2024-01-01,100\n", encoding="utf-8")
+    normalized.write_text("session_date,adjusted_close\n2024-01-01,99\n", encoding="utf-8")
+
+    try:
+        build_manifest(
+            dataset_id="DATA-TEST-OUTSIDE-001",
+            provider="fixture",
+            instrument="TEST",
+            venue="fixture",
+            frequency="1d",
+            timezone="America/New_York",
+            candle_label="session-close",
+            adjusted=None,
+            retrieved_at_utc="2026-08-03T00:00:00+00:00",
+            raw_path=raw,
+            normalized_path=normalized,
+            path_root=approved,
+            row_count=1,
+            start="2024-01-01",
+            end="2024-01-01",
+            query_parameters={},
+            rate_limit_events=0,
+            missing_intervals=[],
+            known_limitations=[],
+            license_note="fixture",
+            status="ok",
+        )
+    except ValueError as exc:
+        assert "outside path_root" in str(exc)
+    else:
+        raise AssertionError("expected outside-root manifest path to fail")
+
+
 def test_manifest_rejects_ok_status_with_zero_rows(tmp_path: Path) -> None:
     raw = tmp_path / "raw.csv"
     normalized = tmp_path / "normalized.csv"

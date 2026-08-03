@@ -40,12 +40,23 @@ def build_manifest(
     known_limitations: list[str],
     license_note: str,
     status: str,
+    path_root: str | Path | None = None,
 ) -> dict[str, Any]:
     if status == "ok" and row_count == 0:
         raise ValueError("status=ok is invalid for a dataset with zero rows")
 
     raw = Path(raw_path)
     normalized = Path(normalized_path)
+    if path_root is None:
+        raw_file = str(raw)
+        normalized_file = str(normalized)
+    else:
+        root = Path(path_root).resolve()
+        try:
+            raw_file = raw.resolve().relative_to(root).as_posix()
+            normalized_file = normalized.resolve().relative_to(root).as_posix()
+        except ValueError as exc:
+            raise ValueError("manifest file is outside path_root") from exc
     return {
         "dataset_id": dataset_id,
         "provider": provider,
@@ -56,10 +67,10 @@ def build_manifest(
         "candle_label": candle_label,
         "adjusted": adjusted,
         "retrieved_at_utc": retrieved_at_utc,
-        "raw_file": str(raw),
+        "raw_file": raw_file,
         "raw_file_sha256": file_sha256(raw),
         "raw_file_bytes": raw.stat().st_size,
-        "normalized_file": str(normalized),
+        "normalized_file": normalized_file,
         "normalized_file_sha256": file_sha256(normalized),
         "normalized_file_bytes": normalized.stat().st_size,
         "row_count": row_count,
