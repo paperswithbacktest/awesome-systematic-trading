@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import shutil
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -36,11 +38,12 @@ def build_manifest(
     end: str | None,
     query_parameters: dict[str, Any],
     rate_limit_events: int,
-    missing_intervals: list[Any],
+    missing_intervals: list[Any] | None,
     known_limitations: list[str],
     license_note: str,
     status: str,
     path_root: str | Path | None = None,
+    missing_intervals_assessment: str | None = None,
 ) -> dict[str, Any]:
     if status == "ok" and row_count == 0:
         raise ValueError("status=ok is invalid for a dataset with zero rows")
@@ -57,7 +60,7 @@ def build_manifest(
             normalized_file = normalized.resolve().relative_to(root).as_posix()
         except ValueError as exc:
             raise ValueError("manifest file is outside path_root") from exc
-    return {
+    manifest: dict[str, Any] = {
         "dataset_id": dataset_id,
         "provider": provider,
         "instrument": instrument,
@@ -83,15 +86,58 @@ def build_manifest(
         "license_note": license_note,
         "status": status,
     }
+    if missing_intervals_assessment is not None:
+        manifest["missing_intervals_assessment"] = missing_intervals_assessment
+    return manifest
 
 
 def write_manifest_once(path: str | Path, manifest: dict[str, Any]) -> Path:
+    """Atomically publish a manifest exactly once, or fail before any write.
+
+    Contract:
+    - Failure before publication raises with the destination absent (or an
+      existing/foreign destination left byte-identical) and no .tmp left.
+    - Success returns normally with the destination present; callers that
+      track ownership (e.g. _persist_symbol) may rely on "returned without
+      raising" meaning this invocation created the file.
+    - Write-once: publishing onto an existing destination raises
+      FileExistsError without truncating it. Hard-link publication (not
+      os.replace) is what guarantees we never clobber a foreign manifest.
+    """
     destination = Path(path)
+    # Serialize before any filesystem mutation; non-serializable input fails here.
+    payload = json.dumps(manifest, indent=2) + "\n"
+
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with destination.open("x", encoding="utf-8") as handle:
-        json.dump(manifest, handle, indent=2)
-        handle.write("\n")
-    return destination
+    # Unique per-invocation temp: a foreign/in-flight temp file can never be
+    # collided with or deleted by this invocation.
+    fd, temp_name = tempfile.mkstemp(
+        prefix=destination.name + ".",
+        suffix=".tmp",
+        dir=destination.parent,
+    )
+    temporary = Path(temp_name)
+    published = False
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(payload)
+            handle.flush()
+            os.fsync(handle.fileno())
+        # Exclusive publication: FileExistsError if destination already exists.
+        os.link(temporary, destination)
+        published = True
+        return destination
+    finally:
+        if published:
+            # Publish already succeeded; a temp-cleanup failure must not flip
+            # success into an exception (callers key ownership off "returned
+            # without raising").
+            try:
+                temporary.unlink(missing_ok=True)
+            except OSError:
+                pass
+        else:
+            temporary.unlink(missing_ok=True)
 
 
 def quarantine_file(

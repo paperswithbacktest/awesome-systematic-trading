@@ -30,6 +30,31 @@ def _default_downloader(symbol: str, **kwargs: object) -> pd.DataFrame:
     return yf.download(symbol, **kwargs)
 
 
+def yahoo_daily_request_kwargs(
+    *,
+    start: str,
+    end: str,
+    timeout: int = 20,
+) -> dict[str, object]:
+    """Exact kwargs passed to yf.download for daily GTAA bars.
+
+    Single source of truth for the production request contract: the provider
+    builds its downloader call from this dict, and manifests record it
+    verbatim as query_parameters (plus separate end_semantics metadata).
+    """
+    return {
+        "start": start,
+        "end": end,
+        "interval": "1d",
+        "auto_adjust": False,
+        "actions": True,
+        "threads": False,
+        "progress": False,
+        "timeout": timeout,
+        "multi_level_index": False,
+    }
+
+
 def _looks_rate_limited(exc: BaseException) -> bool:
     message = str(exc).lower()
     return "rate limit" in message or "too many requests" in message or "429" in message
@@ -57,15 +82,11 @@ class YahooDailyProvider:
             try:
                 raw = self.downloader(
                     symbol,
-                    start=self.start,
-                    end=self.end,
-                    interval="1d",
-                    auto_adjust=False,
-                    actions=True,
-                    threads=False,
-                    progress=False,
-                    timeout=self.timeout,
-                    multi_level_index=False,
+                    **yahoo_daily_request_kwargs(
+                        start=self.start,
+                        end=self.end,
+                        timeout=self.timeout,
+                    ),
                 )
             except Exception as exc:
                 if _looks_rate_limited(exc):
@@ -86,7 +107,12 @@ class YahooDailyProvider:
 
         frame = raw.loc[:, list(_REQUIRED_COLUMNS)].rename(columns=_RENAMED_COLUMNS).copy()
         frame.index = pd.to_datetime(frame.index, errors="coerce")
-        frame = frame.loc[~frame.index.isna()].sort_index()
+        # Fail closed on unparseable timestamps. Silent NaT-drop would hide
+        # malformed vendor rows and undermine the provider-neutral NaT gate
+        # in validate_frames / GTAA bar validation.
+        if frame.index.hasnans:
+            raise ValueError(f"Yahoo response for {symbol} contains unparseable timestamps (NaT)")
+        frame = frame.sort_index()
         frame.index.name = "session_date"
         if frame.empty:
             raise EmptyDataError(f"Yahoo returned zero usable rows for {symbol}")

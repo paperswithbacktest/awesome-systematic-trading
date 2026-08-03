@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from research.acquisition.manifest import (
     build_manifest,
     file_sha256,
@@ -170,6 +172,55 @@ def test_manifest_is_write_once(tmp_path: Path) -> None:
         raise AssertionError("expected immutable manifest write to fail")
 
     assert json.loads(path.read_text(encoding="utf-8")) == manifest
+
+
+def test_write_manifest_once_is_crash_atomic_on_serialization_failure(tmp_path: Path) -> None:
+    """If json.dumps raises (non-serializable manifest), no final file and no
+    temporary file may remain. The write must be staged and atomic."""
+    path = tmp_path / "manifest.json"
+    bad_manifest = {"dataset_id": "DATA-TEST-001", "bad": object()}
+
+    with pytest.raises((TypeError, ValueError)):
+        write_manifest_once(path, bad_manifest)
+
+    assert not path.exists()
+    assert list(tmp_path.iterdir()) == []
+
+
+def test_write_manifest_once_second_write_preserves_existing(tmp_path: Path) -> None:
+    """A second write must raise FileExistsError and leave the original bytes
+    completely intact (no truncation, no partial overwrite)."""
+    path = tmp_path / "manifest.json"
+    original = {"dataset_id": "DATA-TEST-001", "status": "ok", "n": 1}
+    write_manifest_once(path, original)
+    original_bytes = path.read_bytes()
+
+    with pytest.raises(FileExistsError):
+        write_manifest_once(path, {"dataset_id": "DATA-TEST-001", "status": "different"})
+
+    assert path.read_bytes() == original_bytes
+
+
+def test_write_manifest_once_never_deletes_foreign_temp(tmp_path: Path) -> None:
+    """A pre-existing foreign/in-flight temporary file must never be deleted
+    by another invocation, and this invocation must still publish normally.
+
+    The shared fixed `.tmp` name is the defect: with it, open("x") collides
+    with the foreign file and the unconditional finally deletes it. The fixed
+    behavior uses a unique per-invocation temp: publish succeeds and the
+    foreign file is left byte-identical."""
+    destination = tmp_path / "manifest.json"
+    foreign = tmp_path / "manifest.json.tmp"
+    foreign.write_bytes(b"foreign-in-flight\n")
+    payload = {"dataset_id": "DATA-TEST-001", "status": "ok"}
+
+    write_manifest_once(destination, payload)
+
+    assert json.loads(destination.read_text(encoding="utf-8")) == payload
+    assert foreign.read_bytes() == b"foreign-in-flight\n"
+    # No temporary file owned by this invocation remains.
+    leftovers = [p for p in tmp_path.iterdir() if p != destination and p != foreign]
+    assert leftovers == []
 
 
 def test_partial_file_moves_to_quarantine_with_failure_record(tmp_path: Path) -> None:

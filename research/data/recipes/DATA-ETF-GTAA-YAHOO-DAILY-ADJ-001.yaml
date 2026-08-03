@@ -1,0 +1,56 @@
+dataset_id: DATA-ETF-GTAA-YAHOO-DAILY-ADJ-001
+provider: yahoo-yfinance
+endpoint: yfinance.download
+instruments:
+  - SPY
+  - EFA
+  - IEF
+  - VNQ
+  - GSG
+venue: US ETF consolidated daily
+quote_asset: USD
+frequency: 1d
+timezone: America/New_York
+candle_label: session-close
+adjustment: yahoo-adjusted-close-proxy
+start: '2007-01-01'
+end: '2026-08-02'
+end_semantics: exclusive
+execution_mode: one_symbol_at_a_time
+request_parameters:
+  start: '2007-01-01'
+  end: '2026-08-02'
+  interval: 1d
+  auto_adjust: false
+  actions: true
+  threads: false
+  multi_level_index: false
+  progress: false
+  timeout: 20
+pagination:
+  mode: none
+rate_limit:
+  mode: bounded_serial
+  provider_limit: undocumented
+  concurrent_requests: 1
+max_attempts: 3
+backoff_seconds:
+  - 5
+  - 20
+empty_response_policy: hard_fail
+raw_output_path: research/data/raw/yahoo/etf_gtaa_daily_001/{symbol}.source_snapshot.csv
+normalized_output_path: research/data/normalized/DATA-ETF-GTAA-YAHOO-DAILY-ADJ-001/{symbol}.csv
+manifest_path: research/data/manifests/DATA-ETF-GTAA-YAHOO-DAILY-ADJ-001/{symbol}.json
+cross_check:
+  provider: stooq
+  series: unadjusted_close
+  role: sanity_evidence_only
+  failure_policy: record_runtime_unavailable
+  substitution_allowed: false
+license_note: Verify Yahoo Finance terms before redistribution; local research use only.
+known_limitations:
+  - The source snapshot is after adapter parsing and is not an untouched vendor payload.
+  - Yahoo adjusted close is a provider-adjusted close proxy.
+  - Total return was not independently reconstructed from distributions and split events.
+  - Stooq is an unadjusted-close sanity check only, not a total-return validator.
+  - Stooq may be unavailable at runtime; its unavailability must be recorded as a limitation, never treated as a passed check, and never used to substitute another instrument.

@@ -176,3 +176,15 @@ def test_validate_frames_rejects_duplicate_or_non_monotonic_timestamps() -> None
     reversed_frame = frame.iloc[::-1]
     with pytest.raises(ValueError, match="monotonic"):
         validate_frames({"SPY": reversed_frame, "EFA": frame}, recipe())
+
+
+def test_validate_frames_rejects_nat_timestamps_with_specific_reason() -> None:
+    """A NaT index entry is malformed timestamp evidence, not an ordering
+    problem. It must hard-fail with a NaT-specific reason at the provider-
+    neutral boundary, before duplicate/monotonic checks can mislabel it."""
+    frame = daily_frame()
+    bad = frame.copy()
+    bad.index = pd.DatetimeIndex([pd.Timestamp("2024-01-02"), pd.NaT])
+
+    with pytest.raises(ValueError, match=r"SPY.*NaT"):
+        validate_frames({"SPY": bad, "EFA": frame}, recipe())

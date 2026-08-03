@@ -6,7 +6,7 @@ import pandas as pd
 import pytest
 
 from research.acquisition.core import AcquisitionRecipe, EmptyDataError, RateLimitError, acquire_with_retries
-from research.acquisition.providers.yahoo import YahooDailyProvider
+from research.acquisition.providers.yahoo import YahooDailyProvider, yahoo_daily_request_kwargs
 
 
 SYMBOLS = ("SPY", "EFA", "IEF", "VNQ", "GSG")
@@ -14,7 +14,7 @@ SYMBOLS = ("SPY", "EFA", "IEF", "VNQ", "GSG")
 
 def recipe(*, max_attempts: int = 1) -> AcquisitionRecipe:
     return AcquisitionRecipe(
-        dataset_id="DATA-ETF-GTAA-YAHOO-ADJ-001",
+        dataset_id="DATA-ETF-GTAA-YAHOO-DAILY-ADJ-001",
         provider="yahoo-yfinance",
         required_instruments=SYMBOLS,
         frequency="1d",
@@ -57,14 +57,28 @@ def test_yahoo_fetches_exact_universe_serially_with_explicit_options() -> None:
 
     assert list(frames) == list(SYMBOLS)
     assert [symbol for symbol, _ in calls] == list(SYMBOLS)
-    for _, kwargs in calls:
-        assert kwargs["interval"] == "1d"
-        assert kwargs["auto_adjust"] is False
-        assert kwargs["actions"] is True
-        assert kwargs["threads"] is False
-        assert kwargs["progress"] is False
-        assert kwargs["timeout"] == 20
-        assert kwargs["multi_level_index"] is False
+    # Exact wire kwargs, asserted against an independent literal so this test
+    # fails if the canonical helper drifts from the intended request contract.
+    expected_kwargs = {
+        "start": "2007-01-01",
+        "end": "2026-08-02",
+        "interval": "1d",
+        "auto_adjust": False,
+        "actions": True,
+        "threads": False,
+        "progress": False,
+        "timeout": 20,
+        "multi_level_index": False,
+    }
+    # The canonical helper itself must equal the independent literal.
+    assert yahoo_daily_request_kwargs(
+        start="2007-01-01",
+        end="2026-08-02",
+        timeout=20,
+    ) == expected_kwargs
+    # The provider must issue exactly that dict for every symbol.
+    for _, actual_kwargs in calls:
+        assert actual_kwargs == expected_kwargs
     assert list(frames["SPY"].columns) == [
         "open",
         "high",
@@ -133,4 +147,22 @@ def test_yahoo_rejects_unexpected_multiindex_columns_loudly() -> None:
     provider = YahooDailyProvider(start="2007-01-01", end="2026-08-02", downloader=downloader)
 
     with pytest.raises(ValueError, match="MultiIndex"):
+        provider.fetch(recipe())
+
+
+def test_yahoo_rejects_unparseable_timestamps() -> None:
+    """Malformed vendor timestamps must hard-fail, never silently drop to NaT."""
+
+    def downloader(symbol: str, **_: object) -> pd.DataFrame:
+        frame = yahoo_frame(symbol)
+        frame.index = pd.Index(["2024-01-02", "not-a-date"])
+        return frame
+
+    provider = YahooDailyProvider(
+        start="2007-01-01",
+        end="2026-08-02",
+        downloader=downloader,
+    )
+
+    with pytest.raises(ValueError, match=r"SPY.*(NaT|unparseable)"):
         provider.fetch(recipe())

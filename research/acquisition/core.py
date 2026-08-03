@@ -107,6 +107,8 @@ def validate_frames(
             raise EmptyDataError(f"provider returned zero rows for {symbol}")
         if not isinstance(frame.index, pd.DatetimeIndex):
             raise ValueError(f"{symbol} index must be a DatetimeIndex")
+        if frame.index.hasnans:
+            raise ValueError(f"{symbol} timestamps contain NaT")
         if frame.index.has_duplicates:
             raise ValueError(f"{symbol} has duplicate timestamps")
         if not frame.index.is_monotonic_increasing:

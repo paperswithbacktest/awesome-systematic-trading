@@ -1,0 +1,2 @@
+dataset_id,asset_class,instrument,venue,provider,frequency,timezone,candle_label,adjusted,status,recipe_path,manifest_path
+DATA-ETF-GTAA-YAHOO-DAILY-ADJ-001,etf,SPY|EFA|IEF|VNQ|GSG,US ETF consolidated daily,yahoo-yfinance,1d,America/New_York,session-close,yahoo-adjusted-close-proxy,planned,research/data/recipes/DATA-ETF-GTAA-YAHOO-DAILY-ADJ-001.yaml,research/data/manifests/DATA-ETF-GTAA-YAHOO-DAILY-ADJ-001/{symbol}.json

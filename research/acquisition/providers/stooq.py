@@ -11,6 +11,15 @@ import pandas as pd
 from research.acquisition.core import EmptyDataError, RateLimitError
 
 
+class StooqResponseError(ValueError):
+    """Stooq returned content that cannot satisfy the CSV response contract.
+
+    Genuine source failures only: HTML/JavaScript challenges, invalid CSV,
+    or missing required columns. Subclasses ValueError so existing broad
+    callers stay compatible; workflow code should catch this specific type.
+    """
+
+
 _REQUIRED_COLUMNS = ("Date", "Open", "High", "Low", "Close", "Volume")
 _RENAMED_COLUMNS = {
     "Open": "open",
@@ -63,16 +72,22 @@ class StooqDailyCrossCheck:
         if not stripped or stripped.lower().startswith("no data"):
             raise EmptyDataError(f"Stooq returned zero rows for {symbol}")
         if stripped.lower().startswith(("<!doctype html", "<html")):
-            raise ValueError(f"Stooq response for {symbol} appears to be HTML, not CSV")
+            raise StooqResponseError(
+                f"Stooq response for {symbol} appears to be HTML, not CSV"
+            )
         try:
             raw = pd.read_csv(StringIO(text))
         except Exception as exc:
-            raise ValueError(f"Stooq response for {symbol} is not valid CSV: {exc}") from exc
+            raise StooqResponseError(
+                f"Stooq response for {symbol} is not valid CSV: {exc}"
+            ) from exc
         if raw.empty:
             raise EmptyDataError(f"Stooq returned zero rows for {symbol}")
         missing = [column for column in _REQUIRED_COLUMNS if column not in raw.columns]
         if missing:
-            raise ValueError(f"Stooq response for {symbol} missing required columns: {missing}")
+            raise StooqResponseError(
+                f"Stooq response for {symbol} missing required columns: {missing}"
+            )
 
         frame = raw.loc[:, list(_REQUIRED_COLUMNS)].copy()
         frame["Date"] = pd.to_datetime(frame["Date"], errors="coerce")
