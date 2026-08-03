@@ -9,6 +9,10 @@ __pycache__/
 .ruff_cache/
 
 # Research data caches (manifests + recipes are committed; raw bars usually are not)
+# Round-4 data lake: raw vendor data stays local-only
+research/data/raw/**
+research/data/normalized/**
+research/data/quarantine/**
 research/experiments/**/data/
 research/experiments/**/cache/
 research/experiments/**/figures/*.png
