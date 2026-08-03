@@ -4,8 +4,9 @@ from __future__ import annotations
 
 import json
 import re
+from collections.abc import Iterable, Mapping
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 import pandas as pd
 
@@ -96,34 +97,49 @@ def _csv_metadata(path: Path) -> dict[str, Any]:
 
 
 def inventory_paths(
-    roots: Iterable[str | Path], *, repo_root: str | Path
+    roots: Iterable[str | Path] | Mapping[str, str | Path],
+    *,
+    repo_root: str | Path,
+    redact_absolute_paths: bool = False,
 ) -> dict[str, Any]:
     """Hash and describe files under roots without copying or changing them."""
     repository = Path(repo_root).resolve()
-    root_records: list[dict[str, Any]] = []
-    discovered: dict[Path, None] = {}
+    if isinstance(roots, Mapping):
+        root_items = [(str(alias), Path(path).resolve()) for alias, path in roots.items()]
+    else:
+        root_items = [
+            (f"ROOT_{index}", Path(path).resolve())
+            for index, path in enumerate(roots, start=1)
+        ]
 
-    for configured_root in roots:
-        root = Path(configured_root).resolve()
+    root_records: list[dict[str, Any]] = []
+    discovered: dict[Path, tuple[str, Path]] = {}
+
+    for alias, root in root_items:
         exists = root.exists()
         root_records.append(
             {
-                "path": str(root),
+                "alias": alias,
+                "path": None if redact_absolute_paths else str(root),
                 "exists": exists,
                 "status": "available" if exists else "missing",
             }
         )
         if exists:
             for candidate in _discover_files(root):
-                discovered[candidate.resolve()] = None
+                discovered.setdefault(candidate.resolve(), (alias, root))
 
     files: list[dict[str, Any]] = []
     for path in sorted(discovered, key=lambda item: str(item).lower()):
+        alias, source_root = discovered[path]
         repo_owned = _is_within(path, repository)
         relative_path = path.relative_to(repository).as_posix() if repo_owned else None
+        path_from_root = path.relative_to(source_root).as_posix()
         record: dict[str, Any] = {
-            "absolute_path": str(path),
+            "absolute_path": None if redact_absolute_paths else str(path),
             "relative_path": relative_path,
+            "root_alias": alias,
+            "path_from_root": path_from_root,
             "repo_owned": repo_owned,
             "redistribution_status": (
                 "repository-policy-applies" if repo_owned else "local-only-unverified"
@@ -133,11 +149,20 @@ def inventory_paths(
             "retrieved_at_utc": None,
         }
         record.update(_csv_metadata(path))
+        if redact_absolute_paths and record.get("parse_error"):
+            error = str(record["parse_error"])
+            for private_path, replacement in (
+                (str(path), f"{alias}/{path_from_root}"),
+                (str(source_root), alias),
+                (str(repository), "REPO"),
+            ):
+                error = error.replace(private_path, replacement)
+            record["parse_error"] = error
         files.append(record)
 
     return {
         "inventory_version": 1,
-        "repo_root": str(repository),
+        "repo_root": None if redact_absolute_paths else str(repository),
         "roots": root_records,
         "file_count": len(files),
         "files": files,
@@ -163,7 +188,10 @@ def write_inventory_reports(
         "|------|----------|------|----------|-------|",
     ]
     for entry in report.get("files", []):
-        display_path = entry.get("relative_path") or Path(entry["absolute_path"]).name
+        display_path = entry.get("relative_path")
+        if not display_path and entry.get("root_alias") and entry.get("path_from_root"):
+            display_path = f"{entry['root_alias']}/{entry['path_from_root']}"
+        display_path = display_path or entry.get("path_from_root") or "<redacted>"
         coverage = ""
         if entry.get("index_start") or entry.get("index_end"):
             coverage = f"{entry.get('index_start') or '?'} → {entry.get('index_end') or '?'}"

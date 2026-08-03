@@ -75,3 +75,34 @@ def test_inventory_cli_tolerates_missing_roots(tmp_path: Path) -> None:
     report = json.loads((output / "inventory.json").read_text(encoding="utf-8"))
     assert report["file_count"] == 0
     assert report["roots"][0]["status"] == "missing"
+
+
+def test_inventory_cli_redacts_paths_and_accepts_named_roots(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    vault = tmp_path / "vault"
+    repo.mkdir()
+    vault.mkdir()
+    (vault / "prices.csv").write_text("date,close\n2024-01-01,1\n", encoding="utf-8")
+    output = repo / "reports"
+
+    rc = main(
+        [
+            "inventory",
+            "--repo-root",
+            str(repo),
+            "--named-root",
+            f"OBSIDIAN_VAULT={vault}",
+            "--redact-absolute-paths",
+            "--out-json",
+            str(output / "inventory.json"),
+            "--out-md",
+            str(output / "inventory.md"),
+        ]
+    )
+
+    assert rc == 0
+    text = (output / "inventory.json").read_text(encoding="utf-8")
+    report = json.loads(text)
+    assert report["files"][0]["root_alias"] == "OBSIDIAN_VAULT"
+    assert report["files"][0]["absolute_path"] is None
+    assert str(tmp_path) not in text

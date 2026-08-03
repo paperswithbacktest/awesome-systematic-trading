@@ -103,3 +103,29 @@ def test_inventory_marks_external_paths_as_local_only(tmp_path: Path) -> None:
     assert entry["repo_owned"] is False
     assert entry["redistribution_status"] == "local-only-unverified"
     assert entry["relative_path"] is None
+
+
+def test_redacted_inventory_uses_root_alias_without_absolute_paths(tmp_path: Path) -> None:
+    repo = tmp_path / "repo"
+    external = tmp_path / "vault"
+    repo.mkdir()
+    nested = external / "60-Trading" / "Backtests"
+    nested.mkdir(parents=True)
+    source = nested / "prices.csv"
+    source.write_text("date,close\n2024-01-01,1\n", encoding="utf-8")
+
+    report = inventory_paths(
+        {"OBSIDIAN_VAULT": external},
+        repo_root=repo,
+        redact_absolute_paths=True,
+    )
+    entry = report["files"][0]
+
+    assert report["repo_root"] is None
+    assert report["roots"][0]["path"] is None
+    assert report["roots"][0]["alias"] == "OBSIDIAN_VAULT"
+    assert entry["absolute_path"] is None
+    assert entry["root_alias"] == "OBSIDIAN_VAULT"
+    assert entry["path_from_root"] == "60-Trading/Backtests/prices.csv"
+    serialized = str(report)
+    assert str(tmp_path) not in serialized
