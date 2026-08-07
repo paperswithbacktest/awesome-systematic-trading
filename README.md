@@ -280,6 +280,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [MlFinLab (Hudson & Thames)](https://github.com/hudson-and-thames/mlfinlab) | MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools. | ![GitHub stars](https://badgen.net/github/stars/hudson-and-thames/mlfinlab) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [TradingGym](https://github.com/Yvictor/TradingGym) | Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo. | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | Stock Trading Bot using Deep Q-Learning | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [NoEdge-Bench](https://github.com/nexusfinancial-dev/noedge-bench) | Reproducible negative-result benchmark: no model beats a memoryless synthetic binary-options feed (AUC ≈ 0.50), with permutation-null tests and a look-ahead-leak case study. | ![GitHub stars](https://badgen.net/github/stars/nexusfinancial-dev/noedge-bench) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ## TimeSeries Analysis
