@@ -70,6 +70,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 - [Videos](#videos)
 - [Blogs](#blogs)
 - [Courses](#courses)
+- [SmartQuant](https://smartquanthq.com) - AI quant trading learning hub: 180 pages, 5 languages (ZH/EN/JA/KO/AR), free educational content on AI strategies, backtesting, and risk management.
 </details>
 
 <!-- omit in toc -->
