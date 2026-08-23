@@ -206,6 +206,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [Ib_insync](https://github.com/erdewit/ib_insync) | Python sync/async framework for Interactive Brokers. | ![GitHub stars](https://badgen.net/github/stars/erdewit/ib_insync) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Coinnect](https://github.com/hugues31/coinnect) | Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API. | ![GitHub stars](https://badgen.net/github/stars/hugues31/coinnect) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) | Javascript SDK for Trading, Data, and Websockets for FTX, FTXUS, OKX, Bybit, & More. | ![GitHub stars](https://badgen.net/github/stars/CompendiumFi/PENDAX-SDK) | ![made-with-javascript](https://img.shields.io/badge/Made%20with-Javascript-1f425f.svg) |
+| [TickerAll](https://tickerall.com) | Hosted MetaTrader 5 & MT4 broker API — place trades, stream live ticks, and pull historical candles from your code with no local MetaTrader terminal. Python & TypeScript SDKs, free tier on demo accounts. | — | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ## Data Sources
