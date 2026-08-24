@@ -224,6 +224,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [Investpy](https://github.com/alvarobartt/investpy) | Financial Data Extraction from Investing.com with Python | ![GitHub stars](https://badgen.net/github/stars/alvarobartt/investpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies. | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) | Wallstreet: Real time Stock and Option tools | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [fxnewsbias](https://github.com/EARNOVAGAMING/fxnewsbias-python) | AI-scored forex news sentiment for the 8 major currencies: a 0-100 strength score and Bullish/Bearish bias per currency, refreshed every 3 hours, with pair spread helpers for news filters in backtests and live strategies. | ![GitHub stars](https://badgen.net/github/stars/EARNOVAGAMING/fxnewsbias-python) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ### Cryptocurrencies
