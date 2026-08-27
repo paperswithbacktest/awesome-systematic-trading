@@ -40,7 +40,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue create \
-            --title "Maintenance: dead entries or stale counters ($(date +%Y-%m))" \
-            --body-file report.txt \
-            --label maintenance
+          # The label has to exist before it can be applied. A run that found
+          # something must not fail over the label, so it is created first and
+          # the issue is opened without it if that still goes wrong: the report
+          # is the point, not the taxonomy.
+          title="Maintenance: dead entries or stale counters ($(date +%Y-%m))"
+          gh label create maintenance \
+            --color 0e8a16 \
+            --description "Housekeeping surfaced by the monthly checks" \
+            --force || true
+          gh issue create --title "$title" --body-file report.txt --label maintenance \
+            || gh issue create --title "$title" --body-file report.txt
