@@ -10,7 +10,7 @@
 ### 你在这里会发现什么？
 
 - [103 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
-- 来自已发表论文的[策略](#战略)，附上每一个被编码运行后实测的夏普比率
+- 来自已发表论文的[策略](#策略)，附上每一个被编码运行后实测的夏普比率
 - [55本](#书籍)适合初学者和专业人士的[书籍](#书籍)
 - [23个视频](#视频)和采访
 - 还有一些[博客](#博客)和[课程](#课程)
@@ -56,7 +56,7 @@
   - [机器学习](#机器学习)
   - [时间序列分析](#时间序列分析)
   - [视觉化](#视觉化)
-- [战略](#战略)
+- [策略](#策略)
   - [股票](#股票)
   - [债券](#债券)
   - [大宗商品](#大宗商品)
@@ -151,7 +151,7 @@
 | [ThetaGang](https://github.com/brndnmtthws/thetagang) | ThetaGang是一个用于收集资金的IBKR机器人 | ![GitHub stars](https://badgen.net/github/stars/brndnmtthws/thetagang) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [czsc](https://github.com/waditu/czsc) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 | ![GitHub stars](https://badgen.net/github/stars/waditu/czsc) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | R2 Bitcoin Arbitrager是一个由Node.js + TypeScript驱动的自动套利交易系统。 | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
-| [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | 实施简单的战略 | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | 实施简单的策略 | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - 使用趋势跟踪的系统性期货交易 | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## 分析
@@ -306,7 +306,7 @@
 | [btplotting](https://github.com/happydasch/btplotting) | btplotting为回测、优化结果和backtrader的实时数据提供绘图。 | ![GitHub stars](https://badgen.net/github/stars/happydasch/btplotting) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
-# 战略
+# 策略
 
 *下表中的每一条都是一篇已发表的论文，经过编码并在其完整历史上运行。表格由 [`scripts/build_strategies_table.py`](./scripts/build_strategies_table.py) 从复现目录自动生成。*
 
