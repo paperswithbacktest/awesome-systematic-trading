@@ -171,6 +171,7 @@
 | [pandas-ta](https://github.com/twopirllc/pandas-ta) | 潘达斯技术分析（Pandas TA）是一个易于使用的库，它利用潘达斯软件包的130多个指标和实用功能以及60多个TA Lib蜡烛图。 | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [finta](https://github.com/peerchemist/finta) | 在Pandas中实施的共同财务技术指标 | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ta-rust](https://github.com/greyblake/ta-rs) | Rust语言的技术分析库 | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [wickra](https://github.com/wickra-lib/wickra) | 以流式处理为先的技术分析库，Rust 内核，提供 Python/Node/WASM 原生绑定和 C ABI（C、C++、C#/.NET、Go、Java、R）；涵盖 24 个类别的 514 个每次 tick 为 O(1) 的指标，批处理与流式结果按位一致 | ![GitHub stars](https://badgen.net/github/stars/wickra-lib/wickra) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ### 度量衡计算
 
