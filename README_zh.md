@@ -4,6 +4,9 @@
 </div>
 <div align=center><img src="https://awesome.re/badge.svg" /></div>
 
+[English version here](./README.md)<br>
+[日本語版はこちら](./README_ja.md)
+
 我们正在收集一份关于寻找、开发和运行系统性交易（量化交易）策略的资源论文、软件、书籍、文章清单。
 
 <!-- omit in toc -->
