@@ -54,6 +54,26 @@ LOCALES = {
             "Sharpe ratio without one says very little: half the catalogue does not clear it.*"
         ),
     },
+    "README_ja.md": {
+        "buckets": {
+            "Equities": "株式",
+            "Bonds": "債券",
+            "Commodities": "コモディティ",
+            "Currencies": "通貨",
+            "Cryptocurrencies": "暗号資産",
+            "Derivatives": "デリバティブ",
+            "Multi-asset": "マルチアセット",
+        },
+        "header": "| 戦略 | シャープレシオ | t 値 | ボラティリティ | 検証年数 |",
+        "caveat": (
+            "*少なくとも {years} 年の期間で t 値 1.96 を超えた {pool:,} 件の複製のうち、"
+            "上位 {shown} 件を資産クラスごとに最大 {top} 件まで掲載しています。シャープレシオは"
+            "共通のカレンダーではなく各戦略自身の稼働期間で計測しており、取引コストは差し引いて"
+            "いません。年率ボラティリティが 1% から 100% の範囲外の系列は異常値として除外して"
+            "います。t 値を併記するのは、それを伴わないシャープレシオがほとんど何も語らない"
+            "ためです。カタログの半数はこの水準に届きません。*"
+        ),
+    },
     "README_zh.md": {
         "buckets": {
             "Equities": "股票",

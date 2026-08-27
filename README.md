@@ -4,7 +4,8 @@
 </div>
 <div align=center><img src="https://awesome.re/badge.svg" /></div>
 
-[希望阅读中文版？点我](./README_zh.md)
+[希望阅读中文版？点我](./README_zh.md)<br>
+[日本語版はこちら](./README_ja.md)
 
 We are collecting a list of resources papers, softwares, books, articles for finding, developing, and running systematic trading (quantitative trading) strategies.
 
