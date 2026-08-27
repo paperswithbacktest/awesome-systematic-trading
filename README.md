@@ -11,11 +11,30 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 <!-- omit in toc -->
 ### What will you find here?
 
-- [97 libraries and packages](#libraries-and-packages) for research and live trading
-- [40+ strategies](#strategies) described by institutionals and academics
+- [103 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
+- [Strategies](#strategies) from published papers, with the Sharpe ratio each one produced when it was coded and run
 - [55 books](#books) for beginners and professionals
 - [23 videos](#videos) and interviews
 - And also some [blogs](#blogs) and [courses](#courses)
+
+<!-- omit in toc -->
+### What the replication record looks like
+
+We have coded and run 4,843 of these papers over their own full history. Some numbers worth
+knowing before you pick one to implement:
+
+- The median replication returns a **Sharpe ratio of 0.37**, and **48% clear a t-statistic of 1.96**.
+  Half the published record cannot be distinguished from zero on its own sample.
+- Median test window: **34 years**. A strategy needs roughly `(1.96 / Sharpe)²` years to prove
+  itself, so a Sharpe of 0.4 needs about 24 of them.
+- The median strategy carries a **beta of +0.17** to the S&P 500. Removing it takes the median
+  information ratio down to **0.21**, so a meaningful slice of the published edge is index
+  exposure rather than skill.
+- Across 2,838 papers with a record on both sides of their publication date, we could find **no
+  measurable decay after publication** once the market period is controlled for, to within a fifth
+  of a percentage point a year.
+
+Method and caveats are written up on [the wiki](https://paperswithbacktest.com/wiki).
 
 <div align="center" style="margin-bottom: 50px; margin-top: 50px;">
   <div style="border: 2px solid #007bff; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
@@ -51,14 +70,13 @@ We are collecting a list of resources papers, softwares, books, articles for fin
   - [TimeSeries Analysis](#timeseries-analysis)
   - [Visualization](#visualization)
 - [Strategies](#strategies)
-  - [Bonds, commodities, currencies, equities](#bonds-commodities-currencies-equities)
-  - [Bonds, commodities, equities, REITs](#bonds-commodities-equities-reits)
-  - [Bonds, equities](#bonds-equities)
-  - [Bonds, equities, REITs](#bonds-equities-reits)
-  - [Commodities](#commodities)
-  - [Cryptos](#cryptos)
-  - [Currencies](#currencies)
   - [Equities](#equities)
+  - [Bonds](#bonds)
+  - [Commodities](#commodities)
+  - [Currencies](#currencies)
+  - [Cryptocurrencies](#cryptocurrencies-2)
+  - [Derivatives](#derivatives)
+  - [Multi-asset](#multi-asset)
 - [Books](#books)
   - [Beginner](#beginner)
   - [Biography](#biography)
@@ -92,8 +110,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [vnpy](https://github.com/vnpy/vnpy) | Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform | ![GitHub stars](https://badgen.net/github/stars/vnpy/vnpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [zipline](https://github.com/quantopian/zipline) | Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting. | ![GitHub stars](https://badgen.net/github/stars/quantopian/zipline) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [backtrader](https://github.com/mementum/backtrader) | Event driven Python Backtesting library for trading strategies | ![GitHub stars](https://badgen.net/github/stars/mementum/backtrader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [zipline](https://github.com/quantopian/zipline) `dormant since 2024-02` | Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting. | ![GitHub stars](https://badgen.net/github/stars/quantopian/zipline) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [backtrader](https://github.com/mementum/backtrader) `dormant since 2024-08` | Event driven Python Backtesting library for trading strategies | ![GitHub stars](https://badgen.net/github/stars/mementum/backtrader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案 | ![GitHub stars](https://badgen.net/github/stars/QUANTAXIS/QUANTAXIS) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [QuantConnect](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by QuantConnect (Python, C#) | ![GitHub stars](https://badgen.net/github/stars/QuantConnect/Lean) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Rqalpha](https://github.com/ricequant/rqalpha) | A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities | ![GitHub stars](https://badgen.net/github/stars/ricequant/rqalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
@@ -105,10 +123,10 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) | High-frequency quantitative trading platform based on c++ development, supporting multiple trading APIs and cross-platform | ![GitHub stars](https://badgen.net/github/stars/pegasusTrader/PandoraTrader) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
 | [HFTBacktest](https://github.com/nkaz001/hftbacktest) | Highly precise backtest on HFT data in Python+Numba | ![GitHub stars](https://badgen.net/github/stars/nkaz001/hftbacktest) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [aat](https://github.com/AsyncAlgoTrading/aat) | An asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges. | ![GitHub stars](https://badgen.net/github/stars/AsyncAlgoTrading/aat) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) | This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter. | ![GitHub stars](https://badgen.net/github/stars/sreenivasdoosa/sdoosa-algo-trade-python) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) `dormant since 2023-09` | This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter. | ![GitHub stars](https://badgen.net/github/stars/sreenivasdoosa/sdoosa-algo-trade-python) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [lumibot](https://github.com/Lumiwealth/lumibot) | A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...) | ![GitHub stars](https://badgen.net/github/stars/Lumiwealth/lumibot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [quanttrader](https://github.com/letianzj/quanttrader) | Backtest and live trading in Python. Event based. Similar to backtesting.py. | ![GitHub stars](https://badgen.net/github/stars/letianzj/quanttrader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [gobacktest](https://github.com/gobacktest/gobacktest) | A Go implementation of event-driven backtesting framework | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
+| [quanttrader](https://github.com/letianzj/quanttrader) `dormant since 2024-06` | Backtest and live trading in Python. Event based. Similar to backtesting.py. | ![GitHub stars](https://badgen.net/github/stars/letianzj/quanttrader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [gobacktest](https://github.com/gobacktest/gobacktest) `archived` | A Go implementation of event-driven backtesting framework | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [FlashFunk](https://github.com/HFQR/FlashFunk) | High Performance Runtime in Rust | ![GitHub stars](https://badgen.net/github/stars/HFQR/FlashFunk) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 
@@ -128,12 +146,12 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [Freqtrade](https://github.com/freqtrade/freqtrade) | Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning. | ![GitHub stars](https://badgen.net/github/stars/freqtrade/freqtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Jesse](https://github.com/jesse-ai/jesse) | Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies. | ![GitHub stars](https://badgen.net/github/stars/jesse-ai/jesse) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [OctoBot](https://github.com/Drakkar-Software/OctoBot) | Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface | ![GitHub stars](https://badgen.net/github/stars/Drakkar-Software/OctoBot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Kelp](https://github.com/stellar/kelp) | Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges | ![GitHub stars](https://badgen.net/github/stars/stellar/kelp) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
-| [openlimits](https://github.com/nash-io/openlimits) | A Rust high performance cryptocurrency trading API with support for multiple exchanges and language wrappers. | ![GitHub stars](https://badgen.net/github/stars/nash-io/openlimits) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
-| [bTrader](https://github.com/gabriel-milan/btrader) | Triangle arbitrage trading bot for Binance | ![GitHub stars](https://badgen.net/github/stars/gabriel-milan/btrader) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
-| [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) | Crawl orderbook and trade messages from crypto exchanges | ![GitHub stars](https://badgen.net/github/stars/crypto-crawler/crypto-crawler-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [Kelp](https://github.com/stellar/kelp) `archived` | Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges | ![GitHub stars](https://badgen.net/github/stars/stellar/kelp) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
+| [openlimits](https://github.com/nash-io/openlimits) `dormant since 2022-07` | A Rust high performance cryptocurrency trading API with support for multiple exchanges and language wrappers. | ![GitHub stars](https://badgen.net/github/stars/nash-io/openlimits) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [bTrader](https://github.com/gabriel-milan/btrader) `archived` | Triangle arbitrage trading bot for Binance | ![GitHub stars](https://badgen.net/github/stars/gabriel-milan/btrader) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) `dormant since 2023-03` | Crawl orderbook and trade messages from crypto exchanges | ![GitHub stars](https://badgen.net/github/stars/crypto-crawler/crypto-crawler-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [Hummingbot](https://github.com/CoinAlpha/hummingbot) | A client for crypto market making | ![GitHub stars](https://badgen.net/github/stars/CoinAlpha/hummingbot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) | Simple to use Crypto Exchange REST API client in rust. | ![GitHub stars](https://badgen.net/github/stars/monomadic/cryptotrader-core) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) `dormant since 2019-06` | Simple to use Crypto Exchange REST API client in rust. | ![GitHub stars](https://badgen.net/github/stars/monomadic/cryptotrader-core) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ## Trading bots
 
@@ -141,13 +159,13 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
-| [Blackbird](https://github.com/butor/blackbird) | Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy | ![GitHub stars](https://badgen.net/github/stars/butor/blackbird) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
+| [Blackbird](https://github.com/butor/blackbird) `no longer available` | Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy | ![GitHub stars](https://badgen.net/github/stars/butor/blackbird) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
 | [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | Bitcoin arbitrage - opportunity detector | ![GitHub stars](https://badgen.net/github/stars/maxme/bitcoin-arbitrage) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ThetaGang](https://github.com/brndnmtthws/thetagang) | ThetaGang is an IBKR bot for collecting money | ![GitHub stars](https://badgen.net/github/stars/brndnmtthws/thetagang) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [czsc](https://github.com/waditu/czsc) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 | ![GitHub stars](https://badgen.net/github/stars/waditu/czsc) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
-| [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | Implementation of simple strategies | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) `dormant since 2023-04` | R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
+| [analyzingalpha](https://github.com/leosmigel/analyzingalpha) `dormant since 2023-08` | Implementation of simple strategies | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) `dormant since 2018-04` | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Analytics
 
@@ -158,10 +176,10 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [ta-lib](https://github.com/mrjbq7/ta-lib) | Perform technical analysis of financial market data | ![GitHub stars](https://badgen.net/github/stars/mrjbq7/ta-lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [go-tart](https://github.com/iamjinlei/go-tart) | A Go implementation of the [ta-lib]((https://github.com/mrjbq7/ta-lib) with streaming update support | ![GitHub stars](https://badgen.net/github/stars/iamjinlei/go-tart) | ![made-with-go](https://img.shields.io/badge/Made%20with-go-1f425f.svg) |
-| [pandas-ta](https://github.com/twopirllc/pandas-ta) | Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [finta](https://github.com/peerchemist/finta) | Common financial technical indicators implemented in Pandas | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [ta-rust](https://github.com/greyblake/ta-rs) | Technical analysis library for Rust language | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [go-tart](https://github.com/iamjinlei/go-tart) `dormant since 2021-06` | A Go implementation of the [ta-lib]((https://github.com/mrjbq7/ta-lib) with streaming update support | ![GitHub stars](https://badgen.net/github/stars/iamjinlei/go-tart) | ![made-with-go](https://img.shields.io/badge/Made%20with-go-1f425f.svg) |
+| [pandas-ta](https://github.com/twopirllc/pandas-ta) `no longer available` | Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [finta](https://github.com/peerchemist/finta) `archived` | Common financial technical indicators implemented in Pandas | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [ta-rust](https://github.com/greyblake/ta-rs) `dormant since 2024-07` | Technical analysis library for Rust language | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ### Metrics computation
 
@@ -179,7 +197,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | Financial portfolio optimizations in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity | ![GitHub stars](https://badgen.net/github/stars/robertmartin8/PyPortfolioOpt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | Portfolio Optimization and Quantitative Strategic Asset Allocation in Python | ![GitHub stars](https://badgen.net/github/stars/dcajasn/Riskfolio-Lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [empyrial](https://github.com/ssantoshp/Empyrial) | Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021 | ![GitHub stars](https://badgen.net/github/stars/ssantoshp/Empyrial) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Deepdow](https://github.com/jankrepl/deepdow) | Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass. | ![GitHub stars](https://badgen.net/github/stars/jankrepl/deepdow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Deepdow](https://github.com/jankrepl/deepdow) `dormant since 2024-01` | Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass. | ![GitHub stars](https://badgen.net/github/stars/jankrepl/deepdow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [spectre](https://github.com/Heerozh/spectre) | Portfolio Optimization and Quantitative Strategic Asset Allocation in Python | ![GitHub stars](https://badgen.net/github/stars/Heerozh/spectre) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ### Pricing
@@ -194,7 +212,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
-| [pyfolio](https://github.com/quantopian/pyfolio) | Portfolio and risk analytics in Python | ![GitHub stars](https://badgen.net/github/stars/quantopian/pyfolio) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [pyfolio](https://github.com/quantopian/pyfolio) `dormant since 2023-12` | Portfolio and risk analytics in Python | ![GitHub stars](https://badgen.net/github/stars/quantopian/pyfolio) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 
@@ -203,9 +221,9 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [ccxt](https://github.com/ccxt/ccxt) | A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges | ![GitHub stars](https://badgen.net/github/stars/ccxt/ccxt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Ib_insync](https://github.com/erdewit/ib_insync) | Python sync/async framework for Interactive Brokers. | ![GitHub stars](https://badgen.net/github/stars/erdewit/ib_insync) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Coinnect](https://github.com/hugues31/coinnect) | Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API. | ![GitHub stars](https://badgen.net/github/stars/hugues31/coinnect) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
-| [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) | Javascript SDK for Trading, Data, and Websockets for FTX, FTXUS, OKX, Bybit, & More. | ![GitHub stars](https://badgen.net/github/stars/CompendiumFi/PENDAX-SDK) | ![made-with-javascript](https://img.shields.io/badge/Made%20with-Javascript-1f425f.svg) |
+| [Ib_insync](https://github.com/erdewit/ib_insync) `archived` | Python sync/async framework for Interactive Brokers. | ![GitHub stars](https://badgen.net/github/stars/erdewit/ib_insync) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Coinnect](https://github.com/hugues31/coinnect) `dormant since 2021-11` | Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API. | ![GitHub stars](https://badgen.net/github/stars/hugues31/coinnect) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) `dormant since 2024-05` | Javascript SDK for Trading, Data, and Websockets for FTX, FTXUS, OKX, Bybit, & More. | ![GitHub stars](https://badgen.net/github/stars/CompendiumFi/PENDAX-SDK) | ![made-with-javascript](https://img.shields.io/badge/Made%20with-Javascript-1f425f.svg) |
 
 
 ## Data Sources
@@ -215,15 +233,15 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) | Investment Research for Everyone, Anywhere. | ![GitHub stars](https://badgen.net/github/stars/OpenBB-finance/OpenBBTerminal) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [TuShare](https://github.com/waditu/tushare) | TuShare is a utility for crawling historical data of China stocks | ![GitHub stars](https://badgen.net/github/stars/waditu/tushare) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TuShare](https://github.com/waditu/tushare) `dormant since 2024-03` | TuShare is a utility for crawling historical data of China stocks | ![GitHub stars](https://badgen.net/github/stars/waditu/tushare) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [yfinance](https://github.com/ranaroussi/yfinance) | yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance. | ![GitHub stars](https://badgen.net/github/stars/ranaroussi/yfinance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [AkShare](https://github.com/akfamily/akshare) | AKShare is an elegant and simple financial data interface library for Python, built for human beings! | ![GitHub stars](https://badgen.net/github/stars/akfamily/akshare) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pandas-datareader](https://github.com/pydata/pandas-datareader) | Up to date remote data access for pandas, works for multiple versions of pandas. | ![GitHub stars](https://badgen.net/github/stars/pydata/pandas-datareader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Quandl](https://github.com/quandl/quandl-python) | Get millions of financial and economic dataset from hundreds of publishers via a single free API. | ![GitHub stars](https://badgen.net/github/stars/quandl/quandl-python) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Quandl](https://github.com/quandl/quandl-python) `archived` | Get millions of financial and economic dataset from hundreds of publishers via a single free API. | ![GitHub stars](https://badgen.net/github/stars/quandl/quandl-python) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [findatapy](https://github.com/cuemacro/findatapy) | findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface. | ![GitHub stars](https://badgen.net/github/stars/cuemacro/findatapy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Investpy](https://github.com/alvarobartt/investpy) | Financial Data Extraction from Investing.com with Python | ![GitHub stars](https://badgen.net/github/stars/alvarobartt/investpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies. | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Wallstreet](https://github.com/mcdallas/wallstreet) | Wallstreet: Real time Stock and Option tools | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Wallstreet](https://github.com/mcdallas/wallstreet) `dormant since 2024-07` | Wallstreet: Real time Stock and Option tools | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ### Cryptocurrencies
@@ -231,8 +249,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [Cryptofeed](https://github.com/bmoscon/cryptofeed) | Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio | ![GitHub stars](https://badgen.net/github/stars/bmoscon/cryptofeed) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Gekko-Datasets](https://github.com/xFFFFF/Gekko-Datasets) | Gekko trading bot dataset dumps. Download and use history files in SQLite format. | ![GitHub stars](https://badgen.net/github/stars/xFFFFF/Gekko-Datasets) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [CryptoInscriber](https://github.com/Optixal/CryptoInscriber) | A live crypto currency historical trade data blotter. Download live historical trade data from any crypto exchange. | ![GitHub stars](https://badgen.net/github/stars/Optixal/CryptoInscriber) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Gekko-Datasets](https://github.com/xFFFFF/Gekko-Datasets) `dormant since 2018-05` | Gekko trading bot dataset dumps. Download and use history files in SQLite format. | ![GitHub stars](https://badgen.net/github/stars/xFFFFF/Gekko-Datasets) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [CryptoInscriber](https://github.com/Optixal/CryptoInscriber) `dormant since 2018-03` | A live crypto currency historical trade data blotter. Download live historical trade data from any crypto exchange. | ![GitHub stars](https://badgen.net/github/stars/Optixal/CryptoInscriber) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Crypto Lake](https://github.com/crypto-lake/lake-api) | High frequency order book & trade data for crypto | ![GitHub stars](https://badgen.net/github/stars/crypto-lake/lake-api) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
@@ -255,8 +273,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
-| [Marketstore](https://github.com/alpacahq/marketstore) | DataFrame Server for Financial Timeseries Data | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
-| [Tectonicdb](https://github.com/0b01/tectonicdb) | Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks. | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [Marketstore](https://github.com/alpacahq/marketstore) `no longer available` | DataFrame Server for Financial Timeseries Data | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
+| [Tectonicdb](https://github.com/0b01/tectonicdb) `dormant since 2024-01` | Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks. | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | High performance datastore for time series and tick data | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Graph Computation
@@ -266,8 +284,8 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | [Ray](https://github.com/ray-project/ray) | An open source framework that provides a simple, universal API for building distributed applications. | ![GitHub stars](https://badgen.net/github/stars/ray-project/ray) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Dask](https://github.com/dask/dask) | Parallel computing with task scheduling in Python with a Pandas like API | ![GitHub stars](https://badgen.net/github/stars/dask/dask) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications | ![GitHub stars](https://badgen.net/github/stars/janestreet/incremental) | ![made-with-ocaml](https://img.shields.io/badge/Made%20with-Ocaml-1f425f.svg) |
-| [Man MDF](https://github.com/man-group/mdf) | Data-flow programming toolkit for Python | ![GitHub stars](https://badgen.net/github/stars/man-group/mdf) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [GraphKit](https://github.com/yahoo/graphkit) | A lightweight Python module for creating and running ordered graphs of computations. | ![GitHub stars](https://badgen.net/github/stars/yahoo/graphkit) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Man MDF](https://github.com/man-group/mdf) `dormant since 2016-12` | Data-flow programming toolkit for Python | ![GitHub stars](https://badgen.net/github/stars/man-group/mdf) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [GraphKit](https://github.com/yahoo/graphkit) `dormant since 2023-03` | A lightweight Python module for creating and running ordered graphs of computations. | ![GitHub stars](https://badgen.net/github/stars/yahoo/graphkit) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Tributary](https://github.com/timkpaine/tributary) | Streaming reactive and dataflow graphs in Python | ![GitHub stars](https://badgen.net/github/stars/timkpaine/tributary) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
@@ -277,9 +295,9 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 |------------|-------------|-------|-----------|
 | [QLib (Microsoft)](https://github.com/microsoft/qlib) | Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib. | ![GitHub stars](https://badgen.net/github/stars/microsoft/qlib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance. | ![GitHub stars](https://badgen.net/github/stars/AI4Finance-Foundation/FinRL) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [MlFinLab (Hudson & Thames)](https://github.com/hudson-and-thames/mlfinlab) | MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools. | ![GitHub stars](https://badgen.net/github/stars/hudson-and-thames/mlfinlab) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [TradingGym](https://github.com/Yvictor/TradingGym) | Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo. | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | Stock Trading Bot using Deep Q-Learning | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [MlFinLab (Hudson & Thames)](https://github.com/hudson-and-thames/mlfinlab) `dormant since 2023-10` | MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools. | ![GitHub stars](https://badgen.net/github/stars/hudson-and-thames/mlfinlab) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TradingGym](https://github.com/Yvictor/TradingGym) `dormant since 2024-02` | Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo. | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) `dormant since 2023-12` | Stock Trading Bot using Deep Q-Learning | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ## TimeSeries Analysis
@@ -297,121 +315,118 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [D-Tale (Man Group)](https://github.com/man-group/dtale) | D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures. | ![GitHub stars](https://badgen.net/github/stars/man-group/dtale) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-| [mplfinance](https://github.com/matplotlib/mplfinance) | Financial Markets Data Visualization using Matplotlib | ![GitHub stars](https://badgen.net/github/stars/matplotlib/mplfinance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [mplfinance](https://github.com/matplotlib/mplfinance) `dormant since 2024-08` | Financial Markets Data Visualization using Matplotlib | ![GitHub stars](https://badgen.net/github/stars/matplotlib/mplfinance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [btplotting](https://github.com/happydasch/btplotting) | btplotting provides plotting for backtests, optimization results and live data from backtrader. | ![GitHub stars](https://badgen.net/github/stars/happydasch/btplotting) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 # Strategies
 
-*List of **40+ academic papers** describing original systematic trading strategies. Each strategy is categorized by its asset class and ordered by descending Sharpe ratio.*
+*Every strategy below is a published paper that has been coded and run over its own full history. The table is regenerated from the replication catalogue by [`scripts/build_strategies_table.py`](./scripts/build_strategies_table.py), so the numbers move when the catalogue does.*
 
-👉 Strategies are now hosted [here](https://paperswithbacktest.com).
+<!-- STRATEGIES:START - generated by scripts/build_strategies_table.py -->
 
-
-Previous list of strategies:
-
-## Bonds, commodities, currencies, equities
-
-| Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|-------------|--------------|------------|-------------|----------------|--------|
-| Time Series Momentum Effect | `0.576` | `20.5%` | `Monthly` | [QuantConnect](./static/strategies/time-series-momentum-effect.py) | [Paper](https://pages.stern.nyu.edu/~lpederse/papers/TimeSeriesMomentum.pdf) |
-| Short Term Reversal with Futures | `-0.05` | `12.3%` | `Weekly` | [QuantConnect](./static/strategies/asset-class-momentum-rotational-system.py) | [Paper](https://ideas.repec.org/a/eee/jbfina/v28y2004i6p1337-1361.html) |
-
-## Bonds, commodities, equities, REITs
-
-|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-| Asset Class Trend-Following | `0.502` | `10.4%` | `Monthly` | [QuantConnect](./static/strategies/asset-class-trend-following.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461) |
-| Momentum Asset Allocation Strategy | `0.321` | `11%` | `Monthly` | [QuantConnect](./static/strategies/asset-class-trend-following.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) |
-
-## Bonds, equities
-
-|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-| Paired Switching | `0.691` | `9.5%` | `Quarterly` | [QuantConnect](./static/strategies/paired-switching.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1917044) |
-| FED Model | `0.369` | `14.3%` | `Monthly` | [QuantConnect](./static/strategies/fed-model.py) | [Paper](https://www.researchgate.net/publication/228267011_The_FED_Model_and_Expected_Asset_Returns) |
-
-## Bonds, equities, REITs
-
-|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-| Value and Momentum Factors across Asset Classes | `0.155` | `9.8%` | `Monthly` | [QuantConnect](./static/strategies/value-and-momentum-factors-across-asset-classes.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1079975) |
-
-## Commodities
-
-|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-| Skewness Effect in Commodities | `0.482` | `17.7%` | `Monthly` | [QuantConnect](./static/strategies/skewness-effect-in-commodities.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2671165) |
-| Return Asymmetry Effect in Commodity Futures | `0.239` | `13.4%` | `Monthly` | [QuantConnect](./static/strategies/return-asymmetry-effect-in-commodity-futures.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3918896) |
-| Momentum Effect in Commodities | `0.14` | `20.3%` | `Monthly` | [QuantConnect](./static/strategies/momentum-effect-in-commodities.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=702281) |
-| Term Structure Effect in Commodities | `0.128` | `23.1%` | `Monthly` | [QuantConnect](./static/strategies/term-structure-effect-in-commodities.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1127213) |
-| Trading WTI/BRENT Spread | `-0.199` | `11.6%` | `Daily` | [QuantConnect](./static/strategies/trading-wti-brent-spread.py) | [Paper](https://link.springer.com/article/10.1057/jdhf.2009.24) |
-
-## Cryptos
-
-|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-| Overnight Seasonality in Bitcoin | `0.892` | `20.8%` | `Intraday` | [QuantConnect](./static/strategies/intraday-seasonality-in-bitcoin.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4081000) |
-| Rebalancing Premium in Cryptocurrencies | `0.698` | `27.5%` | `Daily` | [QuantConnect](./static/strategies/rebalancing-premium-in-cryptocurrencies.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3982120) |
-
-## Currencies
-
-|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-| FX Carry Trade | `0.254` | `7.8%` | `Monthly` | [QuantConnect](./static/strategies/fx-carry-trade.py) | [Paper](http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf) |
-| Dollar Carry Trade | `0.113` | `5.8%` | `Monthly` | [QuantConnect](./static/strategies/dollar-carry-trade.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1541230) |
-| Currency Momentum Factor | `-0.01` | `6.7%` | `Monthly` | [QuantConnect](./static/strategies/currency-momentum-factor.py) | [Paper](http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf) |
-| Currency Value Factor – PPP Strategy | `-0.103` | `5%` | `Quarterly` | [QuantConnect](./static/strategies/currency-value-factor-ppp-strategy.py) | [Paper](http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf) |
+*Showing the 61 strongest of 1,687 replications that clear a t-statistic of 1.96 over at least 10 years, up to 12 per asset class. Sharpe ratios are measured on each strategy's own active window, not on a common calendar, and are gross of trading costs. Series with an annualised volatility outside 1% to 100% are treated as degenerate and dropped. The t-statistic is shown because a Sharpe ratio without one says very little: half the catalogue does not clear it.*
 
 ## Equities
 
-|  Title       | Sharpe Ratio | Volatility | Rebalancing | Implementation | Source |
-|--------------|--------------|------------|-------------|----------------|--------|
-| Asset Growth Effect | `0.835` | `10.2%` | `Yearly` | [QuantConnect](./static/strategies/asset-growth-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1335524) |
-| Short Term Reversal Effect in Stocks | `0.816` | `21.4%` | `Weekly` | [QuantConnect](./static/strategies/short-term-reversal-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1605049) |
-| Reversal During Earnings-Announcements | `0.785` | `25.7%` | `Daily` | [QuantConnect](./static/strategies/reversal-during-earnings-announcements.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2275982) |
-| Size Factor – Small Capitalization Stocks Premium | `0.747` | `11.1%` | `Yearly` | [QuantConnect](./static/strategies/small-capitalization-stocks-premium-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3177539) |
-| Low Volatility Factor Effect in Stocks | `0.717` | `11.5%` | `Monthly` | [QuantConnect](./static/strategies/low-volatility-factor-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=980865) |
-| How to Use Lexical Density of Company Filings | `0.688` | `10.4%` | `Monthly` | [QuantConnect](./static/strategies/how-to-use-lexical-density-of-company-filings.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3921091) |
-| Volatility Risk Premium Effect | `0.637` | `13.2%` | `Monthly` | [QuantConnect](./static/strategies/volatility-risk-premium-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=189840) |
-| Pairs Trading with Stocks | `0.634` | `8.5%` | `Daily` | [QuantConnect](./static/strategies/pairs-trading-with-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=141615) |
-| Crude Oil Predicts Equity Returns | `0.599` | `11.5%` | `Monthly` | [QuantConnect](./static/strategies/crude-oil-predicts-equity-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=460500) |
-| Betting Against Beta Factor in Stocks | `0.594` | `18.9%` | `Monthly` | [QuantConnect](./static/strategies/betting-against-beta-factor-in-stocks.py) | [Paper](https://pages.stern.nyu.edu/~lpederse/papers/BettingAgainstBeta.pdf) |
-| Trend-following Effect in Stocks | `0.569` | `15.2%` | `Daily` | [QuantConnect](./static/strategies/trend-following-effect-in-stocks.py) | [Paper](https://www.cis.upenn.edu/~mkearns/finread/trend.pdf) |
-| ESG Factor Momentum Strategy | `0.559` | `21.8%` | `Monthly` | [QuantConnect](./static/strategies/esg-factor-momentum-strategy.py) | [Paper](https://www.semanticscholar.org/paper/Can-ESG-Add-Alpha-An-Analysis-of-ESG-Tilt-and-Nagy-Kassam/64f77da4f8ce5906a73ffe4e9eec7c49c0960acc) |
-| Value (Book-to-Market) Factor | `0.526` | `11.9%` | `Monthly` | [QuantConnect](./static/strategies/value-book-to-market-factor.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2595747) |
-| Soccer Clubs’ Stocks Arbitrage | `0.515` | `14.2%` | `Daily` | [QuantConnect](./static/strategies/soccer-clubs-stocks-arbitrage.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1343685) |
-| Synthetic Lending Rates Predict Subsequent Market Return | `0.494` | `13.7%` | `Daily` | [QuantConnect](./static/strategies/synthetic-lending-rates-predict-subsequent-market-return.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3976307) |
-| Option-Expiration Week Effect | `0.452` | `5%` | `Weekly` | [QuantConnect](./static/strategies/option-expiration-week-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1571786) |
-| Dispersion Trading | `0.432` | `8.1%` | `Monthly` | [QuantConnect](./static/strategies/dispersion-trading.py) | [Paper](https://www.academia.edu/16327015/EQUILIBRIUM_INDEX_AND_SINGLE_STOCK_VOLATILITY_RISK_PREMIA) |
-| Momentum in Mutual Fund Returns | `0.414` | `13.6%` | `Quarterly` | [QuantConnect](./static/strategies/momentum-in-mutual-fund-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1462408) |
-| Sector Momentum – Rotational System | `0.401` | `14.1%` | `Monthly` | [QuantConnect](./static/strategies/sector-momentum-rotational-system.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517) |
-| Combining Smart Factors Momentum and Market Portfolio | `0.388` | `8.2%` | `Monthly` | [QuantConnect](./static/strategies/combining-smart-factors-momentum-and-market-portfolio.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3745517) |
-| Momentum and Reversal Combined with Volatility Effect in Stocks | `0.375` | `17%` | `Monthly` | [QuantConnect](./static/strategies/momentum-and-reversal-combined-with-volatility-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1679464) |
-| Market Sentiment and an Overnight Anomaly | `0.369` | `3.6%` | `Daily` | [QuantConnect](./static/strategies/market-sentiment-and-an-overnight-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3829582) |
-| January Barometer | `0.365` | `7.4%` | `Monthly` | [QuantConnect](./static/strategies/january-barometer.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1436516) |
-| R&D Expenditures and Stock Returns | `0.354` | `8.1%` | `Yearly` | [QuantConnect](./static/strategies/rd-expenditures-and-stock-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=227564) |
-| Value Factor – CAPE Effect within Countries | `0.351` | `20.2%` | `Yearly` | [QuantConnect](./static/strategies/value-factor-effect-within-countries.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2129474) |
-| 12 Month Cycle in Cross-Section of Stocks Returns | `0.34` | `43.7%` | `Monthly` | [QuantConnect](./static/strategies/12-month-cycle-in-cross-section-of-stocks-returns.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=687022) |
-| Turn of the Month in Equity Indexes | `0.305` | `7.2%` | `Daily` | [QuantConnect](./static/strategies/turn-of-the-month-in-equity-indexes.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=917884) |
-| Payday Anomaly | `0.269` | `3.8%` | `Daily` | [QuantConnect](./static/strategies/payday-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3257064) |
-| Pairs Trading with Country ETFs | `0.257` | `5.7%` | `Daily` | [QuantConnect](./static/strategies/pairs-trading-with-country-etfs.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1958546) |
-| Residual Momentum Factor | `0.24` | `9.7%` | `Monthly` | [QuantConnect](./static/strategies/residual-momentum-factor.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2319861) |
-| Earnings Announcement Premium | `0.192` | `3.7%` | `Monthly` | [QuantConnect](./static/strategies/earnings-announcement-premium.py) | [Paper](https://www.nber.org/system/files/working_papers/w13090/w13090.pdf) |
-| ROA Effect within Stocks | `0.155` | `8.7%` | `Monthly` | [QuantConnect](./static/strategies/roa-effect-within-stocks.py) | [Paper](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5f61583e88f43b7d5b7196b5/1600215105801/Chen_Zhang_JF.pdf) |
-| 52-Weeks High Effect in Stocks | `0.153` | `19%` | `Monthly` | [QuantConnect](./static/strategies/52-weeks-high-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1787378) |
-| Combining Fundamental FSCORE and Equity Short-Term Reversals | `0.153` | `17.6%` | `Monthly` | [QuantConnect](./static/strategies/combining-fundamental-fscore-and-equity-short-term-reversals.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3097420) |
-| Betting Against Beta Factor in International Equities | `0.142` | `9.1%` | `Monthly` | [QuantConnect](./static/strategies/betting-against-beta-factor-in-country-equity-indexes.py) | [Paper](https://pages.stern.nyu.edu/~lpederse/papers/BettingAgainstBeta.pdf) |
-| Consistent Momentum Strategy | `0.128` | `28.8%` | `6 Months` | [QuantConnect](./static/strategies/consistent-momentum-strategy.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2652592) |
-| Short Interest Effect – Long-Short Version | `0.079` | `6.6%` | `Monthly` | [QuantConnect](./static/strategies/short-interest-effect-long-short-version.py) | [Paper](https://www.semanticscholar.org/paper/Why-Do-Short-Interest-Levels-Predict-Stock-Returns-Boehmer-Erturk/06418ef437dc7156229532a97d0f8392373eb297?p2df) |
-| Momentum Factor Combined with Asset Growth Effect | `0.058` | `25.1%` | `Monthly` | [QuantConnect](./static/strategies/momentum-factor-combined-with-asset-growth-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1684767) |
-| Momentum Factor Effect in Stocks | `-0.008` | `21.8%` | `Monthly` | [QuantConnect](./static/strategies/momentum-factor-effect-in-stocks.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2435323) |
-| Momentum Factor and Style Rotation Effect | `-0.056` | `10%` | `Monthly` | [QuantConnect](./static/strategies/momentum-factor-and-style-rotation-effect.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1276815) |
-| Earnings Announcements Combined with Stock Repurchases | `-0.16` | `0.1%` | `Daily` | [QuantConnect](./static/strategies/earnings-announcements-combined-with-stock-repurchases.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2589966) |
-| Earnings Quality Factor | `-0.18` | `28.7%` | `Yearly` | [QuantConnect](./static/strategies/earnings-quality-factor.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2179247) |
-| Accrual Anomaly | `-0.272` | `13.7%` | `Yearly` | [QuantConnect](./static/strategies/accrual-anomaly.py) | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=546108) |
-| ESG, Price Momentum and Stochastic Optimization | `N/A` | `N/A` | `Monthly` |  | [Paper](https://quantpedia.com/strategies/esg-price-momentum-and-stochastic-optimization/) |
-| The Positive Similarity of Company Filings and Stock Returns | `N/A` | `N/A` | `Monthly` |  | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690461) |
+| Strategy | Sharpe | t-stat | Volatility | Years tested |
+|---|---|---|---|---|
+| [A Study Of Differences In Returns Between Large And Small Companies In Europe](https://paperswithbacktest.com/strategies/a-study-of-differences-in-returns-between-large-and-small-companies-in-europe) | `1.89` | `11.4` | `6.4%` | `37` |
+| [The Investment CAPM](https://paperswithbacktest.com/strategies/the-investment-capm-1) | `1.80` | `11.0` | `2.9%` | `37` |
+| [Important Characteristics, Weaknesses and Errors in German Equity Data from Thomson](https://paperswithbacktest.com/strategies/important-characteristics-weaknesses-and-errors-in-german-equity-data-from-thomson) | `1.68` | `10.2` | `6.4%` | `37` |
+| [The Role of Beta and Size in the Cross-Section of European Stock Returns](https://paperswithbacktest.com/strategies/the-role-of-beta-and-size-in-the-cross-section-of-european-stock-returns) | `1.63` | `9.6` | `5.3%` | `34` |
+| [Systematic Abnormal Return Variation and Global Market Inefficiencies](https://paperswithbacktest.com/strategies/systematic-abnormal-return-variation-and-global-market-inefficiencies) | `1.57` | `8.2` | `9.5%` | `27` |
+| [Value and Size Effect: Now You See It, Now You Don’t](https://paperswithbacktest.com/strategies/value-and-size-effect-now-you-see-it-now-you-don-t) | `1.52` | `9.3` | `5.9%` | `37` |
+| [Properties of the Most Diversified Portfolio](https://paperswithbacktest.com/strategies/properties-of-the-most-diversified-portfolio) | `1.50` | `9.0` | `14.3%` | `37` |
+| [Understanding Momentum and Reversal?](https://paperswithbacktest.com/strategies/understanding-momentum-and-reversal) | `1.36` | `8.2` | `5.1%` | `36` |
+| [Fact, Fiction, and the Size Effect](https://paperswithbacktest.com/strategies/fact-fiction-and-the-size-effect) | `1.33` | `8.1` | `2.6%` | `37` |
+| [The cross-section of returns in frontier equity markets: Integrated or segmented pricing?](https://paperswithbacktest.com/strategies/the-cross-section-of-returns-in-frontier-equity-markets-integrated-or-segmented-pricing) | `1.32` | `8.0` | `3.9%` | `36` |
+| [Analytical Solution for Kelly’s Criterion for Multiple Outcomes](https://paperswithbacktest.com/strategies/analytical-solution-for-kelly-s-criterion-for-multiple-outcomes) | `1.31` | `7.9` | `13.3%` | `37` |
+| [End-To-End Large Portfolio Optimization For Variance Minimization With Neural Networks Through Covariance Cleaning](https://paperswithbacktest.com/strategies/end-to-end-large-portfolio-optimization-for-variance-minimization-with-neural-networks-through-covariance-cleaning) | `1.28` | `7.3` | `15.4%` | `33` |
+
+## Bonds
+
+| Strategy | Sharpe | t-stat | Volatility | Years tested |
+|---|---|---|---|---|
+| [Statistical and Economic Benefits of Whitening Residuals in Bond Yields](https://paperswithbacktest.com/strategies/statistical-and-economic-benefits-of-whitening-residuals-in-bond-yields) | `0.90` | `5.0` | `18.6%` | `30` |
+| [Dynamic Risk-Aware Yield Search: A Useful Tool for Fixed Income Investors](https://paperswithbacktest.com/strategies/dynamic-risk-aware-yield-search-a-useful-tool-for-fixed-income-investors) | `0.89` | `4.4` | `2.9%` | `25` |
+| [Out-performing corporate bonds indices with factor investing](https://paperswithbacktest.com/strategies/out-performing-corporate-bonds-indices-with-factor-investing) | `0.85` | `5.1` | `12.3%` | `36` |
+| [Priced risk in corporate bonds](https://paperswithbacktest.com/strategies/priced-risk-in-corporate-bonds) | `0.72` | `3.0` | `6.0%` | `17` |
+| [Sitting Bucks: Stale Pricing in Fixed Income Funds](https://paperswithbacktest.com/strategies/sitting-bucks-stale-pricing-in-fixed-income-funds) | `0.64` | `3.9` | `5.7%` | `37` |
+| [Frontier and Emerging Government Bond Markets](https://paperswithbacktest.com/strategies/frontier-and-emerging-government-bond-markets) | `0.62` | `3.7` | `13.7%` | `36` |
+| [Regime-based portfolio optimisation:  A Hidden Markov Model approach for fixed  income portfolios](https://paperswithbacktest.com/strategies/regime-based-portfolio-optimisation-a-hidden-markov-model-approach-for-fixed-income-portfolios) | `0.62` | `3.6` | `6.0%` | `33` |
+| [Price Effects of Sovereign Debt Auctions in the Euro-zone: The Role of the Crisis](https://paperswithbacktest.com/strategies/price-effects-of-sovereign-debt-auctions-in-the-euro-zone-the-role-of-the-crisis) | `0.51` | `3.1` | `13.4%` | `37` |
+| [Are Bond Returns Predictable with Real-Time Macro Data?](https://paperswithbacktest.com/strategies/are-bond-returns-predictable-with-real-time-macro-data) | `0.49` | `2.5` | `5.9%` | `26` |
+| [Trading the Term Premium](https://paperswithbacktest.com/strategies/trading-the-term-premium) | `0.45` | `2.8` | `5.0%` | `37` |
+| [Banks’ exposure to interest rate risk, their earnings from term transformation, and the dynamics of the term structure](https://paperswithbacktest.com/strategies/banks-exposure-to-interest-rate-risk-their-earnings-from-term-transformation-and-the-dynamics-of-the-term-structure) | `0.44` | `2.7` | `7.9%` | `38` |
+| [Predictable End-of-Month Treasury Returns](https://paperswithbacktest.com/strategies/predictable-end-of-month-treasury-returns) | `0.43` | `2.6` | `3.8%` | `37` |
+
+## Commodities
+
+| Strategy | Sharpe | t-stat | Volatility | Years tested |
+|---|---|---|---|---|
+| [How to Improve Commodity Momentum Using Intra-Market Correlation](https://paperswithbacktest.com/strategies/how-to-improve-commodity-momentum-using-intra-market-correlation) | `0.65` | `2.8` | `8.7%` | `19` |
+| [Long-Run Reversal in Commodity Returns: Insights from Seven Centuries of Evidence](https://paperswithbacktest.com/strategies/long-run-reversal-in-commodity-returns-insights-from-seven-centuries-of-evidence) | `0.63` | `3.8` | `20.7%` | `37` |
+| [Rolling vs. Expanding Windows in Mean-Reversion Strategies: Evidence from Gold-Silver and Cross-Asset Validation](https://paperswithbacktest.com/strategies/rolling-vs-expanding-windows-in-mean-reversion-strategies-evidence-from-gold-silver-and-cross-asset-validation) | `0.36` | `2.2` | `98.5%` | `37` |
+
+## Currencies
+
+| Strategy | Sharpe | t-stat | Volatility | Years tested |
+|---|---|---|---|---|
+| [Good Carry, Bad Carry](https://paperswithbacktest.com/strategies/good-carry-bad-carry) | `1.74` | `10.6` | `4.6%` | `37` |
+| [The Time-Varying Systematic Risk of](https://paperswithbacktest.com/strategies/the-time-varying-systematic-risk-of) | `1.53` | `9.3` | `4.1%` | `36` |
+| [Lessons from the Evolution of Foreign Exchange Trading Strategies](https://paperswithbacktest.com/strategies/lessons-from-the-evolution-of-foreign-exchange-trading-strategies) | `1.24` | `7.4` | `12.4%` | `36` |
+| [Optimal Currency Shares In International Reserves The Impact Of The Euro And The Prospects For The Dollar](https://paperswithbacktest.com/strategies/optimal-currency-shares-in-international-reserves-the-impact-of-the-euro-and-the-prospects-for-the-dollar) | `0.68` | `2.9` | `55.3%` | `19` |
+
+## Cryptocurrencies
+
+| Strategy | Sharpe | t-stat | Volatility | Years tested |
+|---|---|---|---|---|
+| [How to Design a Simple Multi-Timeframe Trend Strategy on Bitcoin](https://paperswithbacktest.com/strategies/how-to-design-a-simple-multi-timeframe-trend-strategy-on-bitcoin) | `3.39` | `16.2` | `46.3%` | `23` |
+| [‘Know When to Hodl ‘Em, Know When to Fodl ‘Em’: An Investigation of Factor Based Investing in the Cryptocurrency Space](https://paperswithbacktest.com/strategies/know-when-to-hodl-em-know-when-to-fodl-em-an-investigation-of-factor-based-investing-in-the-cryptocurrency-space) | `1.53` | `6.2` | `9.6%` | `16` |
+| [Seasonality, Trend-following, and Mean reversion in Bitcoin](https://paperswithbacktest.com/strategies/seasonality-trend-following-and-mean-reversion-in-bitcoin) | `1.11` | `4.5` | `49.5%` | `16` |
+| [Do Risk Preferences Drive Momentum in Cryptocurrencies?](https://paperswithbacktest.com/strategies/do-risk-preferences-drive-momentum-in-cryptocurrencies) | `0.68` | `4.0` | `54.9%` | `34` |
+| [The Blockchain Risk Parity Line: Moving From The Efficient Frontier To The Final Frontier Of Investments](https://paperswithbacktest.com/strategies/the-blockchain-risk-parity-line-moving-from-the-efficient-frontier-to-the-final-frontier-of-investments) | `0.58` | `3.4` | `54.1%` | `34` |
+| [Price Overreactions in the Cryptocurrency Market](https://paperswithbacktest.com/strategies/price-overreactions-in-the-cryptocurrency-market) | `0.53` | `3.1` | `32.3%` | `35` |
+| [Proof-of-What? Detecting original consensus algorithms in cryptocurrencies with a four-factor model](https://paperswithbacktest.com/strategies/proof-of-what-detecting-original-consensus-algorithms-in-cryptocurrencies-with-a-four-factor-model) | `0.52` | `2.4` | `85.9%` | `22` |
+| [Cryptocurrency as money: A trading strategy solution](https://paperswithbacktest.com/strategies/cryptocurrency-as-money-a-trading-strategy-solution) | `0.47` | `2.8` | `15.4%` | `35` |
+
+## Derivatives
+
+| Strategy | Sharpe | t-stat | Volatility | Years tested |
+|---|---|---|---|---|
+| [Media Tone Goes Viral: Global Evidence from the Currency Market](https://paperswithbacktest.com/strategies/media-tone-goes-viral-global-evidence-from-the-currency-market) | `1.06` | `6.5` | `1.3%` | `38` |
+| [Robust Portfolio Optimization with Value-At-Risk Adjusted Sharpe Ratios](https://paperswithbacktest.com/strategies/robust-portfolio-optimization-with-value-at-risk-adjusted-sharpe-ratios) | `0.92` | `5.6` | `17.1%` | `37` |
+| [When Factor Timing Makes Sense](https://paperswithbacktest.com/strategies/when-factor-timing-makes-sense) | `0.74` | `4.5` | `10.4%` | `37` |
+| [Rational Decision-Making Under Uncertainty: Observed Betting Patterns on a Biased Coin](https://paperswithbacktest.com/strategies/rational-decision-making-under-uncertainty-observed-betting-patterns-on-a-biased-coin) | `0.60` | `3.7` | `3.6%` | `38` |
+| [Can Financial Innovation Succeed by Catering to Behavioral Preferences? Evidence from a Callable Options Market](https://paperswithbacktest.com/strategies/can-financial-innovation-succeed-by-catering-to-behavioral-preferences-evidence-from-a-callable-options-market) | `0.55` | `3.4` | `17.7%` | `37` |
+| [A Theory of Model Sophistication and Operational Risk](https://paperswithbacktest.com/strategies/a-theory-of-model-sophistication-and-operational-risk) | `0.50` | `3.1` | `9.4%` | `37` |
+| [Tail-Risk Protection Trading Strategies](https://paperswithbacktest.com/strategies/tail-risk-protection-trading-strategies) | `0.49` | `3.0` | `13.6%` | `37` |
+| [Is Media Tone just a Tone? Time-Series and Cross-Sectional Evidence from the Currency Market](https://paperswithbacktest.com/strategies/is-media-tone-just-a-tone-time-series-and-cross-sectional-evidence-from-the-currency-market) | `0.35` | `2.1` | `3.1%` | `36` |
+| [The Temporal Pattern of Trading Rule Returns and Central Bank Intervention: Intervention Does Not Generate Technical Trading Rule Profits](https://paperswithbacktest.com/strategies/the-temporal-pattern-of-trading-rule-returns-and-central-bank-intervention-intervention-does-not-generate-technical-trading-rule-profits) | `0.33` | `2.0` | `9.3%` | `37` |
+| [Arbitrage in the Foreign Exchange Market: Turning on the Microscope](https://paperswithbacktest.com/strategies/arbitrage-in-the-foreign-exchange-market-turning-on-the-microscope) | `0.32` | `2.0` | `8.4%` | `37` |
+
+## Multi-asset
+
+| Strategy | Sharpe | t-stat | Volatility | Years tested |
+|---|---|---|---|---|
+| [Optimal Annuity Risk Management](https://paperswithbacktest.com/strategies/optimal-annuity-risk-management) | `1.62` | `9.9` | `5.4%` | `38` |
+| [Explaining low annuity demand: an optimal portfolio application to Japan](https://paperswithbacktest.com/strategies/explaining-low-annuity-demand-an-optimal-portfolio-application-to-japan) | `1.60` | `9.8` | `4.8%` | `38` |
+| [Diverging roads: Theory-based vs. machine learning-implied stock risk premia](https://paperswithbacktest.com/strategies/diverging-roads-theory-based-vs-machine-learning-implied-stock-risk-premia) | `1.57` | `9.5` | `8.3%` | `37` |
+| [The Anomalous Behavior of the S&P Covered Call Closed End Fund](https://paperswithbacktest.com/strategies/the-anomalous-behavior-of-the-s-p-covered-call-closed-end-fund) | `1.36` | `8.3` | `18.6%` | `37` |
+| [Any role for mean reversion in short term asset](https://paperswithbacktest.com/strategies/any-role-for-mean-reversion-in-short-term-asset) | `1.30` | `7.4` | `8.6%` | `32` |
+| [Inconsistent investment and consumption problems](https://paperswithbacktest.com/strategies/inconsistent-investment-and-consumption-problems) | `1.26` | `7.7` | `2.6%` | `38` |
+| [Heuristic Portfolio Rules with Labor Income](https://paperswithbacktest.com/strategies/heuristic-portfolio-rules-with-labor-income) | `1.21` | `7.4` | `10.5%` | `38` |
+| [Investing for the Long-Run in European Real Estate](https://paperswithbacktest.com/strategies/investing-for-the-long-run-in-european-real-estate) | `1.11` | `4.5` | `5.5%` | `16` |
+| [Regime-Aware Risk Management in Concentrated Equity Portfolios: Evidence from the Magnificent Seven](https://paperswithbacktest.com/strategies/regime-aware-risk-management-in-concentrated-equity-portfolios-evidence-from-the-magnificent-seven) | `1.11` | `6.4` | `1.4%` | `33` |
+| [Are Heuristics Better than Theory if Market Crashes Are](https://paperswithbacktest.com/strategies/are-heuristics-better-than-theory-if-market-crashes-are) | `1.10` | `6.7` | `8.4%` | `37` |
+| [Risk Parity Portfolios with Risk Factors](https://paperswithbacktest.com/strategies/risk-parity-portfolios-with-risk-factors) | `1.08` | `6.3` | `17.3%` | `34` |
+| [A Risk Based Approach to Tactical Asset Allocation](https://paperswithbacktest.com/strategies/a-risk-based-approach-to-tactical-asset-allocation) | `1.06` | `6.4` | `5.0%` | `37` |
+
+<!-- STRATEGIES:END -->
+
+Older QuantConnect implementations of some of these papers are kept in [`static/strategies`](./static/strategies).
+
 
 # Books
 
