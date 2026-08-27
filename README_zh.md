@@ -154,6 +154,7 @@
 | [Intelligent Trading Bot](https://github.com/asavinov/intelligent-trading-bot) | 智能交易机器人：基于机器学习和特征工程自动生成信号并执行交易 | ![GitHub stars](https://badgen.net/github/stars/asavinov/intelligent-trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | 实施简单的策略 | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - 使用趋势跟踪的系统性期货交易 | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TradeSight](https://github.com/rmbell09-lang/tradesight) | AI 驱动的算法交易平台：RSI/MACD 信号、隔夜策略锦标赛、通过 Alpaca 进行模拟交易、多股票扫描和网页看板 | ![GitHub stars](https://badgen.net/github/stars/rmbell09-lang/tradesight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PRISM-INSIGHT](https://github.com/dragon1086/prism-insight) | AI 驱动的股票分析，由 13 个专业智能体协作，并通过 KIS API 自动交易（韩国和美国市场） | ![GitHub stars](https://badgen.net/github/stars/dragon1086/prism-insight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## 分析
