@@ -181,6 +181,7 @@
 
 | 存储库 | 描述 | 明星 | 使用方法 |
 |------------|-------------|-------|-----------|
+| [skfolio](https://github.com/skfolio/skfolio) | 基于scikit-learn构建的投资组合优化。它提供了统一的接口和与sklearn兼容的工具，用于构建、调优和交叉验证投资组合模型。| ![GitHub stars](https://badgen.net/github/stars/skfolio/skfolio) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 在python中进行金融投资组合优化，包括经典的有效边界、Black-Litterman、分级风险平价等。 | ![GitHub stars](https://badgen.net/github/stars/robertmartin8/PyPortfolioOpt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | Python中的投资组合优化和定量战略资产配置 | ![GitHub stars](https://badgen.net/github/stars/dcajasn/Riskfolio-Lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [empyrial](https://github.com/ssantoshp/Empyrial) | Empyrial是一个基于Python的开源量化投资库，专门为金融机构和零售投资者服务，于2021年3月正式发布。 | ![GitHub stars](https://badgen.net/github/stars/ssantoshp/Empyrial) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
