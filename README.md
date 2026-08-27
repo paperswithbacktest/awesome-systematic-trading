@@ -134,6 +134,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
+| [QTradeX](https://github.com/squidKid-deluxe/QTradeX-Algo-Trading-SDK) | A powerful and flexible Python framework for designing, backtesting, optimizing, and deploying algotrading bots | ![GitHub stars](https://badgen.net/github/stars/squidKid-deluxe/QTradeX-Algo-Trading-SDK) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [vectorbt](https://github.com/polakowo/vectorbt) | vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds. | ![GitHub stars](https://badgen.net/github/stars/polakowo/vectorbt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | Systematic Trading in python from book Systematic Trading by Rob Carver | ![GitHub stars](https://badgen.net/github/stars/robcarver17/pysystemtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [bt](https://github.com/pmorissette/bt) | Flexible backtesting for Python based on Algo and Strategy Tree | ![GitHub stars](https://badgen.net/github/stars/pmorissette/bt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
