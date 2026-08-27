@@ -1,4 +1,4 @@
-name: Link check
+name: Link and count check
 
 on:
   schedule:
@@ -26,12 +26,21 @@ jobs:
           python scripts/check_links.py > report.txt 2>&1
           echo "status=$?" >> "$GITHUB_OUTPUT"
           cat report.txt
-      - name: Open an issue when entries are dead
-        if: steps.check.outputs.status == '1'
+      # The counters drift as entries are merged one pull request at a time, so
+      # they are checked on the same schedule and reported in the same issue.
+      - name: Check the section counters
+        id: counts
+        run: |
+          set +e
+          python scripts/update_counts.py --check >> report.txt 2>&1
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+          tail -n 20 report.txt
+      - name: Open an issue when entries are dead or counters are stale
+        if: steps.check.outputs.status == '1' || steps.counts.outputs.status == '1'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
-            --title "Link check: entries need pruning ($(date +%Y-%m))" \
+            --title "Maintenance: dead entries or stale counters ($(date +%Y-%m))" \
             --body-file report.txt \
             --label maintenance
