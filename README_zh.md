@@ -121,6 +121,7 @@
 
 | 存储库 | 描述 | 明星 | 使用方法 |
 |------------|-------------|-------|-----------|
+| [QTradeX](https://github.com/squidKid-deluxe/QTradeX-Algo-Trading-SDK) | 功能强大且灵活的 Python 框架，用于设计、回测、优化和部署算法交易机器人 | ![GitHub stars](https://badgen.net/github/stars/squidKid-deluxe/QTradeX-Algo-Trading-SDK) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [vectorbt](https://github.com/polakowo/vectorbt) | vectorbt采取了一种新颖的回测方法：它完全在pandas和NumPy对象上运行，并由Numba加速，以速度和规模分析任何数据。这允许在几秒钟内对成千上万的策略进行测试。 | ![GitHub stars](https://badgen.net/github/stars/polakowo/vectorbt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | 罗布-卡弗的《系统交易》一书中的python系统交易 | ![GitHub stars](https://badgen.net/github/stars/robcarver17/pysystemtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [bt](https://github.com/pmorissette/bt) | 基于Algo和策略树的Python的灵活回测 | ![GitHub stars](https://badgen.net/github/stars/pmorissette/bt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
