@@ -127,6 +127,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [lumibot](https://github.com/Lumiwealth/lumibot) | A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...) | ![GitHub stars](https://badgen.net/github/stars/Lumiwealth/lumibot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [quanttrader](https://github.com/letianzj/quanttrader) `dormant since 2024-06` | Backtest and live trading in Python. Event based. Similar to backtesting.py. | ![GitHub stars](https://badgen.net/github/stars/letianzj/quanttrader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [gobacktest](https://github.com/gobacktest/gobacktest) `archived` | A Go implementation of event-driven backtesting framework | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
+| [PineForge](https://github.com/pineforge-4pass/pineforge-engine) | Transpiles PineScript v6 strategies to C++ and runs deterministic offline backtests on user-provided OHLCV data. | ![GitHub stars](https://badgen.net/github/stars/pineforge-4pass/pineforge-engine) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
 | [FlashFunk](https://github.com/HFQR/FlashFunk) | High Performance Runtime in Rust | ![GitHub stars](https://badgen.net/github/stars/HFQR/FlashFunk) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 
