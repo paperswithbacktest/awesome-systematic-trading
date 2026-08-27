@@ -131,8 +131,9 @@ class ESGFactorMomentumStrategy(QCAlgorithm):
         if 'ESG' in data and data['ESG']:
             # Store universe tickers.
             if len(self.tickers) == 0:
-                # TODO '_typename' in storage dictionary?
-                self.tickers = [x.Key for x in self.esg_data.GetLastData().GetStorageDictionary()][:-1]
+                # "__typename" is framework metadata, not a ticker symbol.
+                storage_dict = self.esg_data.GetLastData().GetStorageDictionary()
+                self.tickers = [x.Key for x in storage_dict if x.Key != "__typename"]
         
             # Store history for every ticker.
             for ticker in self.tickers:
