@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: read
-  issues: write
 
 jobs:
   check:
@@ -27,7 +26,7 @@ jobs:
           echo "status=$?" >> "$GITHUB_OUTPUT"
           cat report.txt
       # The counters drift as entries are merged one pull request at a time, so
-      # they are checked on the same schedule and reported in the same issue.
+      # they are checked on the same schedule and reported in the same report.
       - name: Check the section counters
         id: counts
         run: |
@@ -35,19 +34,20 @@ jobs:
           python scripts/update_counts.py --check >> report.txt 2>&1
           echo "status=$?" >> "$GITHUB_OUTPUT"
           tail -n 20 report.txt
-      - name: Open an issue when entries are dead or counters are stale
-        if: steps.check.outputs.status == '1' || steps.counts.outputs.status == '1'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # The report goes to the run summary rather than to a new issue every
+      # month: the findings are the same list of dormant projects until someone
+      # prunes them, and a fresh issue per run only buries the human ones.
+      - name: Report dead entries and stale counters
+        if: always()
         run: |
-          # The label has to exist before it can be applied. A run that found
-          # something must not fail over the label, so it is created first and
-          # the issue is opened without it if that still goes wrong: the report
-          # is the point, not the taxonomy.
-          title="Maintenance: dead entries or stale counters ($(date +%Y-%m))"
-          gh label create maintenance \
-            --color 0e8a16 \
-            --description "Housekeeping surfaced by the monthly checks" \
-            --force || true
-          gh issue create --title "$title" --body-file report.txt --label maintenance \
-            || gh issue create --title "$title" --body-file report.txt
+          {
+            echo "## Link and count check"
+            echo
+            echo '```'
+            cat report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.check.outputs.status }}" = '1' ] || [ "${{ steps.counts.outputs.status }}" = '1' ]; then
+            echo "::error::Dead entries or stale counters, see the run summary"
+            exit 1
+          fi
