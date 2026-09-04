@@ -277,6 +277,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [Gekko-Datasets](https://github.com/xFFFFF/Gekko-Datasets) `dormant since 2018-05` | Gekko trading bot dataset dumps. Download and use history files in SQLite format. | ![GitHub stars](https://badgen.net/github/stars/xFFFFF/Gekko-Datasets) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [CryptoInscriber](https://github.com/Optixal/CryptoInscriber) `dormant since 2018-03` | A live crypto currency historical trade data blotter. Download live historical trade data from any crypto exchange. | ![GitHub stars](https://badgen.net/github/stars/Optixal/CryptoInscriber) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Crypto Lake](https://github.com/crypto-lake/lake-api) | High frequency order book & trade data for crypto | ![GitHub stars](https://badgen.net/github/stars/crypto-lake/lake-api) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Convex Lake](https://convexlake.com) | Unified API for crypto derivatives and prediction market order book & trade data: Deribit and Binance options alongside Kalshi and Polymarket, batch and real-time. Free academic-research tier on request. | — | — |
 
 
 ## Data Science
