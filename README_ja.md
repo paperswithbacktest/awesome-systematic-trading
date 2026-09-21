@@ -13,7 +13,7 @@
 
 ### ここで見つかるもの
 
-- リサーチとライブトレーディング向けの [103のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
+- リサーチとライブトレーディング向けの [104のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
 - 公開論文からの [戦略](#戦略)。コード化して実行したときに出たシャープレシオ付き
 - 初心者からプロ向けの [55冊の書籍](#書籍)
 - [22本の動画](#動画) とインタビュー
@@ -100,7 +100,7 @@
 
 # ライブラリとパッケージ
 
-_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **103のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
+_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **104のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
 
 ## バックテストとライブトレーディング
 
@@ -177,6 +177,7 @@ _将来の価格動向を予測するためのインジケーターライブラ�
 | [pandas-ta](https://github.com/twopirllc/pandas-ta) | Pandasを活用した使いやすいテクニカル分析ライブラリ。130以上のインジケーターとユーティリティ、60以上のTA Libローソク足パターンを搭載。 | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [finta](https://github.com/peerchemist/finta)       | Pandasで実装された一般的な金融テクニカル指標。                                                                                        | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta)   | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ta-rust](https://github.com/greyblake/ta-rs)       | Rust言語向けテクニカル分析ライブラリ。                                                                                                | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs)     | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg)     |
+| [technical-indicators](https://github.com/Pinxitu/technical-indicators) | 依存関係のない TypeScript テクニカル指標ライブラリ（RSI、MACD、ボリンジャーバンド、ATR、ADX、一目均衡表、SuperTrend など）。手計算で検証できるテスト、出所を明記したオープンデータ、再現可能な挙動レポート付き | ![GitHub stars](https://badgen.net/github/stars/Pinxitu/technical-indicators) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 
 ### メトリクス計算
 
