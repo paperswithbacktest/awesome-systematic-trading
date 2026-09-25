@@ -12,7 +12,7 @@ We are collecting a list of resources papers, softwares, books, articles for fin
 <!-- omit in toc -->
 ### What will you find here?
 
-- [136 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
+- [137 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
 - [Strategies](#strategies) from published papers, with the Sharpe ratio each one produced when it was coded and run
 - [55 books](#books) for beginners and professionals
 - [22 videos](#videos) and interviews
@@ -100,7 +100,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 # Libraries and packages
 
-*List of **136 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+*List of **137 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
 
 
 ## Backtesting and Live Trading
@@ -137,6 +137,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [gobacktest](https://github.com/gobacktest/gobacktest) `archived` | A Go implementation of event-driven backtesting framework | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [PineForge](https://github.com/pineforge-4pass/pineforge-engine) | Transpiles PineScript v6 strategies to C++ and runs deterministic offline backtests on user-provided OHLCV data. | ![GitHub stars](https://badgen.net/github/stars/pineforge-4pass/pineforge-engine) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
 | [FlashFunk](https://github.com/HFQR/FlashFunk) | High Performance Runtime in Rust | ![GitHub stars](https://badgen.net/github/stars/HFQR/FlashFunk) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | Self-hosted platform for AI-assisted Python strategy development, backtesting, paper trading, and live execution across crypto exchanges and traditional brokers | ![GitHub stars](https://badgen.net/github/stars/OpenByteInc/QuantDinger) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ### General - Vector Based Frameworks
