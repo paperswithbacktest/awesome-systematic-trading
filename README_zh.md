@@ -12,7 +12,7 @@
 <!-- omit in toc -->
 ### 你在这里会发现什么？
 
-- [108 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
+- [110 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
 - 来自已发表论文的[策略](#策略)，附上每一个被编码运行后实测的夏普比率
 - [55本](#书籍)适合初学者和专业人士的[书籍](#书籍)
 - [22个视频](#视频)和采访
@@ -89,7 +89,7 @@
 
 # 库和包
 
-*108个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
+*110个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
 
 
 ## 回溯测试和真实交易
@@ -111,6 +111,7 @@
 | [WonderTrader](https://github.com/wondertrader/wondertrader) | WonderTrader——量化研发交易一站式框架  | ![GitHub stars](https://badgen.net/github/stars/wondertrader/wondertrader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 一个高性能的算法交易平台和事件驱动的回测器 | ![GitHub stars](https://badgen.net/github/stars/nautechsystems/nautilus_trader) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) | 基于c++开发，支持多种交易API，跨平台的高频量化交易平台 | ![GitHub stars](https://badgen.net/github/stars/pegasusTrader/PandoraTrader) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
+| [canli-backtest](https://github.com/arhancanli/canli-backtest) | 前视偏差会直接报错的事件驱动回测器：在第 t 根 K 线收盘时决策、于 t+1 开盘成交，资金费率与公司行为按时点回放，并按全部试验次数计算紧缩夏普比率 | ![GitHub stars](https://badgen.net/github/stars/arhancanli/canli-backtest) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 [HFTBacktest](https://github.com/nkaz001/hftbacktest) | Python+Numba 对高频交易数据进行高精度回测 | ![GitHub stars](https://badgen.net/github/stars/nkaz001/hftbacktest) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [aat](https://github.com/AsyncAlgoTrading/aat) | 一个异步的、事件驱动的框架，用于用python编写算法交易策略，并可选择用C++进行加速。它的设计是模块化和可扩展的，支持各种工具和策略，在多个交易所之间进行实时交易。 | ![GitHub stars](https://badgen.net/github/stars/AsyncAlgoTrading/aat) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) | 这个项目主要是为那些有兴趣学习使用python解释器编写自己的交易算法的algo交易新手准备的。 | ![GitHub stars](https://badgen.net/github/stars/sreenivasdoosa/sdoosa-algo-trade-python) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
@@ -275,6 +276,7 @@
 | [Marketstore](https://github.com/alpacahq/marketstore) | 金融时序数据的DataFrame服务器 | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [Tectonicdb](https://github.com/0b01/tectonicdb) | Tectonicdb是一个快速、高度压缩的独立数据库和流媒体协议，用于订单簿上的点子。 | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | 用于时间序列和tick数据的高性能数据存储 | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [canli-pit-lake](https://github.com/arhancanli/canli-pit-lake) | 基于 DuckDB 与 Parquet 的时点市场数据湖：每次读取都需显式的 as-of 时间，公司行为按可知时间过滤，退市股票保留在库中 | ![GitHub stars](https://badgen.net/github/stars/arhancanli/canli-pit-lake) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## 图形计算
 
