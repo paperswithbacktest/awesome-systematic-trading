@@ -12,7 +12,7 @@
 <!-- omit in toc -->
 ### 你在这里会发现什么？
 
-- [108 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
+- [109 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
 - 来自已发表论文的[策略](#策略)，附上每一个被编码运行后实测的夏普比率
 - [55本](#书籍)适合初学者和专业人士的[书籍](#书籍)
 - [22个视频](#视频)和采访
@@ -89,7 +89,7 @@
 
 # 库和包
 
-*108个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
+*109个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
 
 
 ## 回溯测试和真实交易
@@ -162,6 +162,7 @@
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | PyTrendFollow - 使用趋势跟踪的系统性期货交易 | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [TradeSight](https://github.com/rmbell09-lang/tradesight) | AI 驱动的算法交易平台：RSI/MACD 信号、隔夜策略锦标赛、通过 Alpaca 进行模拟交易、多股票扫描和网页看板 | ![GitHub stars](https://badgen.net/github/stars/rmbell09-lang/tradesight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PRISM-INSIGHT](https://github.com/dragon1086/prism-insight) | AI 驱动的股票分析，由 13 个专业智能体协作，并通过 KIS API 自动交易（韩国和美国市场） | ![GitHub stars](https://badgen.net/github/stars/dragon1086/prism-insight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Blave Agent](https://github.com/Blave-TW/blave-agent) | macOS 桌面量化工作台：接入自己的 Claude Code 或 Codex 编写策略、回测（蒙特卡洛置换检验、参数扫描、walk-forward）并在 Binance、OKX、BingX、Gate.io、Bybit 实盘运行或模拟盘运行；下单环节不经过 LLM | ![GitHub stars](https://badgen.net/github/stars/Blave-TW/blave-agent) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## 分析
 
