@@ -10,6 +10,39 @@
 我们正在收集一份关于寻找、开发和运行系统性交易（量化交易）策略的资源论文、软件、书籍、文章清单。
 
 <!-- omit in toc -->
+### 用 Papers With Backtest 复现第一篇论文
+
+从已发表的策略、对应的 Python 代码和数据开始。将策略克隆到自己的工作区，在浏览器中运行回测。
+
+**[试用价值与规模效应示例 →](https://paperswithbacktest.com/strategies/value-and-size-effect-now-you-see-it-now-you-don-t?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_zh_primary)**
+
+无需信用卡，也无需本地安装。免费账户包含**一次完整策略解锁、一次克隆和 1 美元研究代理额度**。
+这些额度每个账户仅提供一次，不会重置；已解锁的策略可持续阅读。
+
+从以下示例中选择一个，使用你的免费解锁额度：
+
+| 研究问题 | 打开示例 |
+|---|---|
+| 价值和规模如何影响股票收益？ | [价值与规模效应](https://paperswithbacktest.com/strategies/value-and-size-effect-now-you-see-it-now-you-don-t?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_zh_equity) |
+| 相关性是否能改善商品动量策略？ | [商品动量](https://paperswithbacktest.com/strategies/how-to-improve-commodity-momentum-using-intra-market-correlation?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_zh_commodity) |
+| 趋势与均值回归在比特币市场中表现如何？ | [比特币的季节性、趋势与均值回归](https://paperswithbacktest.com/strategies/seasonality-trend-following-and-mean-reversion-in-bitcoin?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_zh_bitcoin) |
+
+<details>
+<summary>完成第一次回测的步骤</summary>
+
+1. 打开一个示例，创建免费账户，解锁该策略的代码和回测结果。
+2. 将策略克隆到自己的工作区，回测会在策略聊天窗口中开始运行。
+3. 查看结果和代码。使用可用的代理额度，询问回测包含哪些交易成本，以及这些成本如何影响结果。
+
+后续研究会消耗剩余代理额度，也可以充值。
+**Backtester** 包含每月 100 次策略解锁、市场数据集、课程、每月 10 美元浏览器代理额度，
+以及通过 MCP 从自己的 Claude、Codex 或 Cursor 访问策略目录的权限。
+[比较免费与付费权益](https://paperswithbacktest.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_zh_pricing) ·
+[连接自己的 AI 助手](https://paperswithbacktest.com/docs/mcp/?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_zh_mcp)
+
+</details>
+
+<!-- omit in toc -->
 ### 你在这里会发现什么？
 
 - [108 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
