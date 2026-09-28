@@ -49,7 +49,7 @@ MCP 経由で戦略カタログにアクセスする権限が含まれます。
 
 ### ここで見つかるもの
 
-- リサーチとライブトレーディング向けの [103のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
+- リサーチとライブトレーディング向けの [104のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
 - 公開論文からの [戦略](#戦略)。コード化して実行したときに出たシャープレシオ付き
 - 初心者からプロ向けの [55冊の書籍](#書籍)
 - [22本の動画](#動画) とインタビュー
@@ -130,7 +130,7 @@ MCP 経由で戦略カタログにアクセスする権限が含まれます。
 
 # ライブラリとパッケージ
 
-_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **103のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
+_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **104のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
 
 ## バックテストとライブトレーディング
 
@@ -193,6 +193,7 @@ _トレーディングボットとアルファモデル。古くメンテナン�
 | [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2)       | Node.js + TypeScript製の自動アービトラージ取引システム。                       | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2)            | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 | [analyzingalpha](https://github.com/leosmigel/analyzingalpha)   | シンプルな戦略の実装集。                                                       | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)         |
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow)    | PyTrendFollow - トレンドフォローを使ったシステマティック先物取引。             | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)         |
+| [Blave Agent](https://github.com/Blave-TW/blave-agent) | 自分の Claude Code または Codex が戦略を書き、バックテスト（モンテカルロ並べ替え検定、パラメータスキャン、ウォークフォワード）を行い、Binance・OKX・BingX・Gate.io・Bybit またはペーパートレードで実運用する macOS デスクトップワークスペース。発注ループに LLM は入らない。 | ![GitHub stars](https://badgen.net/github/stars/Blave-TW/blave-agent) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## アナリティクス
 
