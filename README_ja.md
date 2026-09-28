@@ -49,7 +49,7 @@ MCP 経由で戦略カタログにアクセスする権限が含まれます。
 
 ### ここで見つかるもの
 
-- リサーチとライブトレーディング向けの [103のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
+- リサーチとライブトレーディング向けの [105のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
 - 公開論文からの [戦略](#戦略)。コード化して実行したときに出たシャープレシオ付き
 - 初心者からプロ向けの [55冊の書籍](#書籍)
 - [22本の動画](#動画) とインタビュー
@@ -130,7 +130,7 @@ MCP 経由で戦略カタログにアクセスする権限が含まれます。
 
 # ライブラリとパッケージ
 
-_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **103のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
+_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **105のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
 
 ## バックテストとライブトレーディング
 
@@ -157,6 +157,7 @@ _トレーディングボット、バックテスター、インジケーター�
 | [quanttrader](https://github.com/letianzj/quanttrader)                                 | Pythonでのバックテストとライブトレーディング。イベントベースでbacktesting.pyに類似。                                                                                                            | ![GitHub stars](https://badgen.net/github/stars/letianzj/quanttrader)                    | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [gobacktest](https://github.com/gobacktest/gobacktest)                                 | イベント駆動型バックテストフレームワークのGo実装。                                                                                                                                              | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest)                   | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)         |
 | [FlashFunk](https://github.com/HFQR/FlashFunk)                                         | Rustによる高性能ランタイム。                                                                                                                                                                    | ![GitHub stars](https://badgen.net/github/stars/HFQR/FlashFunk)                          | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg)     |
+| [canli-backtest](https://github.com/arhancanli/canli-backtest) | 先読みバイアスがあるとエラーになるイベント駆動型バックテスター：バー t の終値で判断しバー t+1 の始値で約定、資金調達料とコーポレートアクションをポイントインタイムで再生し、全試行数でデフレーテッド・シャープレシオを算出 | ![GitHub stars](https://badgen.net/github/stars/arhancanli/canli-backtest) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ### 汎用 - ベクトルベースフレームワーク
 
@@ -298,6 +299,7 @@ _金融メトリクスのライブラリ。_
 | [Marketstore](https://github.com/alpacahq/marketstore)        | 金融時系列データ向けDataFrameサーバー。                                                            | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)         |
 | [Tectonicdb](https://github.com/0b01/tectonicdb)              | オーダーブックのティック向け高速・高圧縮スタンドアロンデータベースおよびストリーミングプロトコル。 | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb)      | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg)     |
 | [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | 時系列・ティックデータ向け高性能データストア。                                                     | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB)   | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [canli-pit-lake](https://github.com/arhancanli/canli-pit-lake) | DuckDB と Parquet によるポイントインタイムの市場データレイク：すべての読み込みに明示的な as-of が必要で、コーポレートアクションは判明時点で絞り込み、上場廃止銘柄も保持 | ![GitHub stars](https://badgen.net/github/stars/arhancanli/canli-pit-lake) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## グラフ計算
 
