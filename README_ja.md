@@ -10,6 +10,42 @@
 システマティックトレーディング（クオンタティブ・トレーディング）戦略の発見・開発・運用に役立つ論文、ソフトウェア、書籍、記事のリストを収集しています。
 
 <!-- omit in toc -->
+### Papers With Backtest で最初の論文を再現する
+
+公開論文の戦略と、その Python コード・データから始めます。
+自分のワークスペースに複製して、ブラウザでバックテストを実行できます。
+
+**[バリュー・サイズ効果の例を試す →](https://paperswithbacktest.com/strategies/value-and-size-effect-now-you-see-it-now-you-don-t?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_ja_primary)**
+
+カード登録もローカル環境の準備も不要です。無料アカウントには、
+**戦略の完全な閲覧権 1 件、複製 1 回、リサーチエージェントの利用枠 1 ドル分**が含まれます。
+各アカウントにつき一度限りで、利用枠はリセットされません。開いた戦略は引き続き閲覧できます。
+
+無料の閲覧枠で試す戦略を一つ選んでください。
+
+| 検証したい問い | 例を開く |
+|---|---|
+| バリューとサイズは株式リターンにどう影響するか？ | [バリュー・サイズ効果](https://paperswithbacktest.com/strategies/value-and-size-effect-now-you-see-it-now-you-don-t?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_ja_equity) |
+| 相関を使うと商品モメンタム戦略は改善するか？ | [商品モメンタム](https://paperswithbacktest.com/strategies/how-to-improve-commodity-momentum-using-intra-market-correlation?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_ja_commodity) |
+| ビットコインでトレンドと平均回帰はどう振る舞うか？ | [ビットコインの季節性・トレンド・平均回帰](https://paperswithbacktest.com/strategies/seasonality-trend-following-and-mean-reversion-in-bitcoin?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_ja_bitcoin) |
+
+<details>
+<summary>最初のバックテストの手順</summary>
+
+1. 例を開き、無料アカウントを作成して、その戦略のコードと結果を閲覧できるようにします。
+2. 自分のワークスペースに複製すると、戦略のチャットでバックテストが始まります。
+3. 結果とコードを確認します。利用枠を使って、含まれる取引コストと結果への影響をエージェントに質問できます。
+
+追加の調査には残りのエージェント利用枠を使うか、利用枠をチャージできます。
+**Backtester** には、月 100 件の戦略閲覧枠、市場データセット、講座、
+月 10 ドル分のブラウザエージェント利用枠と、手元の Claude・Codex・Cursor から
+MCP 経由で戦略カタログにアクセスする権限が含まれます。
+[無料・有料プランを比較](https://paperswithbacktest.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_ja_pricing) ·
+[自分の AI アシスタントを接続](https://paperswithbacktest.com/docs/mcp/?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_ja_mcp)
+
+</details>
+
+<!-- omit in toc -->
 
 ### ここで見つかるもの
 
@@ -37,12 +73,6 @@
 
 手法と注意点は[ウィキ](https://paperswithbacktest.com/wiki)にまとめています。
 
-<div align="center" style="margin-bottom: 50px; margin-top: 50px;">
-  <div style="border: 2px solid #007bff; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
-    <h2>📈 Pythonで実装されたトレーディング戦略に興味がありますか？</h2>
-    <p>限定コンテンツは <a href="https://paperswithbacktest.com" target="_blank">paperswithbacktest.com</a> にてご覧いただけます！</p>
-  </div>
-</div>
 
 <details>
 <summary>目次全体を表示するにはここをクリック</summary>
