@@ -10,6 +10,43 @@
 We are collecting a list of resources papers, softwares, books, articles for finding, developing, and running systematic trading (quantitative trading) strategies.
 
 <!-- omit in toc -->
+### Run your first paper with Papers With Backtest
+
+Start with a published strategy, its Python code and its data. Clone it into your
+workspace and run a backtest in your browser.
+
+**[Try the value-and-size example →](https://paperswithbacktest.com/strategies/value-and-size-effect-now-you-see-it-now-you-don-t?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_en_primary)**
+
+No card or local setup required. A free account includes **one full strategy
+unlock, one clone and $1 of research-agent credit**, once per account. The strategy
+you unlock stays readable; the allowance does not reset.
+
+Choose one starting point for your free unlock:
+
+| Research question | Open the example |
+|---|---|
+| How do value and size affect equity returns? | [Value and Size Effect](https://paperswithbacktest.com/strategies/value-and-size-effect-now-you-see-it-now-you-don-t?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_en_equity) |
+| Can correlation improve commodity momentum? | [Commodity Momentum](https://paperswithbacktest.com/strategies/how-to-improve-commodity-momentum-using-intra-market-correlation?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_en_commodity) |
+| How do trend and mean reversion behave in Bitcoin? | [Bitcoin Seasonality, Trend and Mean Reversion](https://paperswithbacktest.com/strategies/seasonality-trend-following-and-mean-reversion-in-bitcoin?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_en_bitcoin) |
+
+<details>
+<summary>Walk through your first backtest</summary>
+
+1. Open an example, create a free account and unlock that strategy's code and results.
+2. Clone it into your workspace. Its backtest starts in the strategy chat.
+3. Inspect the result and the code. Use the available agent credit to ask which
+   trading costs the backtest includes and how they affect the result.
+
+Further research uses the remaining agent credit or a top-up.
+**Backtester** includes 100 strategy unlocks per month, market datasets, the course,
+$10/month of browser-agent credit and catalog access from your own Claude, Codex
+or Cursor over MCP.
+[Compare free and paid access](https://paperswithbacktest.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_en_pricing) ·
+[Connect your own assistant](https://paperswithbacktest.com/docs/mcp/?utm_source=github&utm_medium=referral&utm_campaign=awesome_systematic_trading&utm_content=readme_en_mcp)
+
+</details>
+
+<!-- omit in toc -->
 ### What will you find here?
 
 - [136 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
@@ -37,12 +74,6 @@ knowing before you pick one to implement:
 
 Method and caveats are written up on [the wiki](https://paperswithbacktest.com/wiki).
 
-<div align="center" style="margin-bottom: 50px; margin-top: 50px;">
-  <div style="border: 2px solid #007bff; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
-    <h2>📈 Interested in trading strategies implemented in Python?</h2>
-    <p>Visit our comprehensive collection at <a href="https://paperswithbacktest.com" target="_blank">paperswithbacktest.com</a> for exclusive content!</p>
-  </div>
-</div>
 
 
 <details>
