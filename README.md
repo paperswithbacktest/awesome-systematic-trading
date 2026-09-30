@@ -49,7 +49,7 @@ or Cursor over MCP.
 <!-- omit in toc -->
 ### What will you find here?
 
-- [136 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
+- [137 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
 - [Strategies](#strategies) from published papers, with the Sharpe ratio each one produced when it was coded and run
 - [55 books](#books) for beginners and professionals
 - [22 videos](#videos) and interviews
@@ -131,7 +131,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 # Libraries and packages
 
-*List of **136 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+*List of **137 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
 
 
 ## Backtesting and Live Trading
@@ -228,6 +228,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [ta-rust](https://github.com/greyblake/ta-rs) `dormant since 2024-07` | Technical analysis library for Rust language | ![GitHub stars](https://badgen.net/github/stars/greyblake/ta-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [kand](https://github.com/kand-ta/kand) | Technical analysis library written in Rust with Python and WASM bindings, exposing both batch and incremental streaming updates | ![GitHub stars](https://badgen.net/github/stars/kand-ta/kand) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [wickra](https://github.com/wickra-lib/wickra) | Streaming-first technical-analysis library with a Rust core and native Python/Node/WASM bindings plus a C ABI (C, C++, C#/.NET, Go, Java, R); 514 O(1)-per-tick indicators across 24 families, bit-exact batch and streaming | ![GitHub stars](https://badgen.net/github/stars/wickra-lib/wickra) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [technical-indicators](https://github.com/Pinxitu/technical-indicators) | Dependency-free TypeScript technical indicators (RSI, MACD, Bollinger, ATR, ADX, Ichimoku, SuperTrend…) with hand-verifiable tests, open datasets with provenance and reproducible behaviour reports | ![GitHub stars](https://badgen.net/github/stars/Pinxitu/technical-indicators) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 
 ### Metrics computation
 
