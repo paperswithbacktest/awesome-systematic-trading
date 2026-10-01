@@ -49,7 +49,7 @@ or Cursor over MCP.
 <!-- omit in toc -->
 ### What will you find here?
 
-- [136 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
+- [137 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
 - [Strategies](#strategies) from published papers, with the Sharpe ratio each one produced when it was coded and run
 - [55 books](#books) for beginners and professionals
 - [22 videos](#videos) and interviews
@@ -131,7 +131,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 # Libraries and packages
 
-*List of **136 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+*List of **137 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
 
 
 ## Backtesting and Live Trading
@@ -195,6 +195,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) `dormant since 2023-03` | Crawl orderbook and trade messages from crypto exchanges | ![GitHub stars](https://badgen.net/github/stars/crypto-crawler/crypto-crawler-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [Hummingbot](https://github.com/CoinAlpha/hummingbot) | A client for crypto market making | ![GitHub stars](https://badgen.net/github/stars/CoinAlpha/hummingbot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) `dormant since 2019-06` | Simple to use Crypto Exchange REST API client in rust. | ![GitHub stars](https://badgen.net/github/stars/monomadic/cryptotrader-core) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [resolvedkit](https://github.com/resolvedmarkets/resolvedkit) | Polymarket backtester that fills orders by walking the historical L2 order book, with taker fees, latency and settlement at the real resolution | ![GitHub stars](https://badgen.net/github/stars/resolvedmarkets/resolvedkit) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Trading bots
 
