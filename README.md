@@ -640,6 +640,7 @@ A comprehensive list of **55 books** for quantitative traders.
 | [Max Dama on Automated Trading](https://bit.ly/3wVZbh9)            |
 | [Medallion.Club on Systematic Trading (FR)](https://medallion.club/trading-algorithmique-quantitatif-systematique/)            |
 | [Proof Engineering: The Algorithmic Trading Platform](https://bit.ly/3lX7zYN) |
+| [quant.observer - Curated quant tools directory and frontier research notes](https://quant.observer/) |
 | [Quantsportal, Jacques Joubert's Blog](http://www.quantsportal.com/blog-page/) |
 | [Quantstart - Machine Learning for Trading articles](https://www.quantstart.com/articles) |
 | [RobotWealth, Kris Longmore Blog](https://robotwealth.com/blog/) |
