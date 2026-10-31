@@ -49,7 +49,7 @@ or Cursor over MCP.
 <!-- omit in toc -->
 ### What will you find here?
 
-- [136 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
+- [137 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
 - [Strategies](#strategies) from published papers, with the Sharpe ratio each one produced when it was coded and run
 - [55 books](#books) for beginners and professionals
 - [22 videos](#videos) and interviews
@@ -131,7 +131,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 # Libraries and packages
 
-*List of **136 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+*List of **137 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
 
 
 ## Backtesting and Live Trading
@@ -221,7 +221,8 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
-| [ta-lib](https://github.com/mrjbq7/ta-lib) | Perform technical analysis of financial market data | ![GitHub stars](https://badgen.net/github/stars/mrjbq7/ta-lib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TA-Lib](https://github.com/TA-Lib/ta-lib) | Technical analysis library with 200+ functions, including candlestick patterns, implemented natively in C/C++, Rust, Java and C#, with batch and streaming APIs | ![GitHub stars](https://badgen.net/github/stars/TA-Lib/ta-lib) | ![made-with-c](https://img.shields.io/badge/Made%20with-C-1f425f.svg) |
+| [ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | Python wrapper for TA-Lib | ![GitHub stars](https://badgen.net/github/stars/TA-Lib/ta-lib-python) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [go-tart](https://github.com/iamjinlei/go-tart) `dormant since 2021-06` | A Go implementation of the [ta-lib]((https://github.com/mrjbq7/ta-lib) with streaming update support | ![GitHub stars](https://badgen.net/github/stars/iamjinlei/go-tart) | ![made-with-go](https://img.shields.io/badge/Made%20with-go-1f425f.svg) |
 | [pandas-ta](https://github.com/twopirllc/pandas-ta) `no longer available` | Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns | ![GitHub stars](https://badgen.net/github/stars/twopirllc/pandas-ta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [finta](https://github.com/peerchemist/finta) `archived` | Common financial technical indicators implemented in Pandas | ![GitHub stars](https://badgen.net/github/stars/peerchemist/finta) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
