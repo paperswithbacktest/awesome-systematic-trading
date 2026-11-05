@@ -45,7 +45,7 @@
 <!-- omit in toc -->
 ### 你在这里会发现什么？
 
-- [108 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
+- [109 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
 - 来自已发表论文的[策略](#策略)，附上每一个被编码运行后实测的夏普比率
 - [55本](#书籍)适合初学者和专业人士的[书籍](#书籍)
 - [22个视频](#视频)和采访
@@ -122,7 +122,7 @@
 
 # 库和包
 
-*108个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
+*109个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
 
 
 ## 回溯测试和真实交易
@@ -273,6 +273,7 @@
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | 完整的基本面分析软件包能够收集20年的公司简介、财务报表、比率和20,000多家公司的股票数据。 | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) | 华尔街。实时股票和期权工具 | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pwb-toolbox](https://github.com/paperswithbacktest/pwb-toolbox) | Hugging Face 上 32 个 Papers With Backtest 数据集的加载器：股票、ETF、指数、外汇和大宗商品自 1962 年起的日频价格，主权收益率曲线，季度财务报表，FRED-MD 宏观序列，以及 57 亿行美股分钟级数据。数据卡和字段说明公开可读，下载需要授权。 | ![GitHub stars](https://badgen.net/github/stars/paperswithbacktest/pwb-toolbox) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [autorekt](https://github.com/autorekt/autorekt) | 面向 AI agent 的命令行市场数据工具，数据直接来自免费公开数据源：跨资产价格、美元流动性、互换利差、CFTC 持仓、期权伽马、中国货币市场和预测市场赔率，以紧凑文本输出，并标明每个数值的新鲜程度。不需要 API 密钥。 | ![GitHub stars](https://badgen.net/github/stars/autorekt/autorekt) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 
 
