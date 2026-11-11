@@ -195,7 +195,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) `dormant since 2023-03` | Crawl orderbook and trade messages from crypto exchanges | ![GitHub stars](https://badgen.net/github/stars/crypto-crawler/crypto-crawler-rs) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [Hummingbot](https://github.com/CoinAlpha/hummingbot) | A client for crypto market making | ![GitHub stars](https://badgen.net/github/stars/CoinAlpha/hummingbot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) `dormant since 2019-06` | Simple to use Crypto Exchange REST API client in rust. | ![GitHub stars](https://badgen.net/github/stars/monomadic/cryptotrader-core) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
-| [Crypto-Strategies](https://github.com/CacheCarti/Crypto-Strategies) | Open corpus of 748 crypto trading strategies with per-stage validation report cards; new batches released weekly | ![GitHub stars](https://badgen.net/github/stars/CacheCarti/Crypto-Strategies) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Crypto-Strategies](https://github.com/CacheCarti/Crypto-Strategies) | Open corpus of 2,700 crypto trading strategies with per-stage validation report cards and hash-bound certificates; new batches released weekly | ![GitHub stars](https://badgen.net/github/stars/CacheCarti/Crypto-Strategies) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Trading bots
 
