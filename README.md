@@ -266,6 +266,8 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 
 
+- [Position Sizing Reference Data](https://positionsizetool.com/reference-data.html) - Contract sizes, pip sizes and lot steps for 131 instruments, plus the fixed-fractional sizing formula. [GitHub](https://github.com/tk25719/position-sizing-data)
+
 ## Broker APIs
 
 | Repository | Description | Stars | Made with |
