@@ -275,6 +275,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [pmxt](https://github.com/pmxt-dev/pmxt) | Unified prediction market trading API across Polymarket, Kalshi and other venues, in the spirit of ccxt | ![GitHub stars](https://badgen.net/github/stars/pmxt-dev/pmxt) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 | [Coinnect](https://github.com/hugues31/coinnect) `dormant since 2021-11` | Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API. | ![GitHub stars](https://badgen.net/github/stars/hugues31/coinnect) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) `dormant since 2024-05` | Javascript SDK for Trading, Data, and Websockets for FTX, FTXUS, OKX, Bybit, & More. | ![GitHub stars](https://badgen.net/github/stars/CompendiumFi/PENDAX-SDK) | ![made-with-javascript](https://img.shields.io/badge/Made%20with-Javascript-1f425f.svg) |
+| [ninjatrader8-python-bridge](https://github.com/SimplAiTech/ninjatrader8-python-bridge) | Send orders from Python to NinjaTrader 8 and read fills back through a file-based NinjaScript bridge; includes a futures prop-account risk helper. | ![GitHub stars](https://badgen.net/github/stars/SimplAiTech/ninjatrader8-python-bridge) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ## Data Sources
