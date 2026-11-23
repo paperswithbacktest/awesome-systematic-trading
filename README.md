@@ -308,6 +308,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [Gekko-Datasets](https://github.com/xFFFFF/Gekko-Datasets) `dormant since 2018-05` | Gekko trading bot dataset dumps. Download and use history files in SQLite format. | ![GitHub stars](https://badgen.net/github/stars/xFFFFF/Gekko-Datasets) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [CryptoInscriber](https://github.com/Optixal/CryptoInscriber) `dormant since 2018-03` | A live crypto currency historical trade data blotter. Download live historical trade data from any crypto exchange. | ![GitHub stars](https://badgen.net/github/stars/Optixal/CryptoInscriber) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Crypto Lake](https://github.com/crypto-lake/lake-api) | High frequency order book & trade data for crypto | ![GitHub stars](https://badgen.net/github/stars/crypto-lake/lake-api) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [exchange-latency](https://github.com/DanielChernov7/exchange-latency) | Measured round-trip latency from 21 cloud cities to Binance, Bybit, OKX, Coinbase, Kraken and Hyperliquid public APIs, with the script to re-run it. Useful for picking where to host a bot. | ![GitHub stars](https://badgen.net/github/stars/DanielChernov7/exchange-latency) | ![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg) |
 
 
 ## Data Science
