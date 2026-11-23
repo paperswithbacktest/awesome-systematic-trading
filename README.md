@@ -655,6 +655,7 @@ A comprehensive list of **55 books** for quantitative traders.
 |--------------------------------------------------------------------|
 | [AAA Quants, Tom Starke Blog](http://aaaquants.com/category/blog/) |
 | [AI & Systematic Trading](https://blog.paperswithbacktest.com/)          |
+| [AI Quant Nav - Free comparison of open-source backtrader alternatives](https://aiquantnav.com/en/compare/backtrader-alternatives) |
 | [Blackarbs blog](http://www.blackarbs.com/blog/)                   |
 | [Hardikp, Hardik Patel blog](https://www.hardikp.com/)             |
 | [Hudson River Trading - HRTBeat Engineering](https://www.hudsonrivertrading.com/hrtbeat/category/engineering/) |
