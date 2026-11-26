@@ -237,6 +237,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 |------------|-------------|-------|-----------|
 | [quantstats](https://github.com/ranaroussi/quantstats) | Portfolio analytics for quants, written in Python | ![GitHub stars](https://badgen.net/github/stars/ranaroussi/quantstats) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ffn](https://github.com/pmorissette/ffn) | A financial function library for Python | ![GitHub stars](https://badgen.net/github/stars/pmorissette/ffn) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [vlab](https://github.com/aazh2026/vlab) | Backtest validity toolkit: look-ahead guard, overfit gap, walk-forward validation | ![GitHub stars](https://badgen.net/github/stars/aazh2026/vlab) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ### Optimization
 
