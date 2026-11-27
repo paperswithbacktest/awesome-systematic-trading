@@ -168,6 +168,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [gobacktest](https://github.com/gobacktest/gobacktest) `archived` | A Go implementation of event-driven backtesting framework | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [PineForge](https://github.com/pineforge-4pass/pineforge-engine) | Transpiles PineScript v6 strategies to C++ and runs deterministic offline backtests on user-provided OHLCV data. | ![GitHub stars](https://badgen.net/github/stars/pineforge-4pass/pineforge-engine) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
 | [FlashFunk](https://github.com/HFQR/FlashFunk) | High Performance Runtime in Rust | ![GitHub stars](https://badgen.net/github/stars/HFQR/FlashFunk) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
+| [qkt](https://github.com/elitekaycy/qkt) | Event-driven trading engine where one declarative strategy file runs unchanged in backtest, paper and live trading (MT5 brokers, Deribit, Bybit), plus a JSON command-line interface (`qkt bot`) that lets scripts or LLM agents quote and place MT5 trades with the same journaling and tracking | ![GitHub stars](https://badgen.net/github/stars/elitekaycy/qkt) | ![made-with-kotlin](https://img.shields.io/badge/Made%20with-Kotlin-1f425f.svg) |
 
 
 ### General - Vector Based Frameworks
