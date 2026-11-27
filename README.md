@@ -383,6 +383,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [D-Tale (Man Group)](https://github.com/man-group/dtale) | D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures. | ![GitHub stars](https://badgen.net/github/stars/man-group/dtale) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [mplfinance](https://github.com/matplotlib/mplfinance) `dormant since 2024-08` | Financial Markets Data Visualization using Matplotlib | ![GitHub stars](https://badgen.net/github/stars/matplotlib/mplfinance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [btplotting](https://github.com/happydasch/btplotting) | btplotting provides plotting for backtests, optimization results and live data from backtrader. | ![GitHub stars](https://badgen.net/github/stars/happydasch/btplotting) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [TradeCanvas](https://github.com/bonguynvan/tradecanvas) | Trading charts for the web with indicators, drawing tools, replay and orders on the chart, drawn with Canvas 2D or WebGL | ![GitHub stars](https://badgen.net/github/stars/bonguynvan/tradecanvas) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 
 
 # Strategies
