@@ -376,6 +376,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 
 ## Visualization
+- [Tape](https://github.com/Yvsleyen00941/Tape) - Native macOS stock & crypto ticker sitting in the unused corner space beside the Dock.
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
