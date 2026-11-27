@@ -49,7 +49,7 @@ or Cursor over MCP.
 <!-- omit in toc -->
 ### What will you find here?
 
-- [136 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
+- [137 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
 - [Strategies](#strategies) from published papers, each with its trading rules and runnable Python
 - [55 books](#books) for beginners and professionals
 - [22 videos](#videos) and interviews
@@ -131,7 +131,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 # Libraries and packages
 
-*List of **136 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+*List of **137 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
 
 
 ## Backtesting and Live Trading
@@ -179,6 +179,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | Systematic Trading in python from book Systematic Trading by Rob Carver | ![GitHub stars](https://badgen.net/github/stars/robcarver17/pysystemtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [bt](https://github.com/pmorissette/bt) | Flexible backtesting for Python based on Algo and Strategy Tree | ![GitHub stars](https://badgen.net/github/stars/pmorissette/bt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ml-quant-trading](https://github.com/initial-d/ml-quant-trading) | PyTorch research stack for ML multi-factor trading with 213 factors, bias correction, portfolio optimization, vectorized backtesting, and public validation reports | ![GitHub stars](https://badgen.net/github/stars/initial-d/ml-quant-trading) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [manifoldbt](https://github.com/manifoldbt/manifoldbt) | Python backtesting on a Rust engine: vectorized signal expressions, parameter sweeps, walk-forward and Monte Carlo, with fills simulated from bars, trades or the order book. | ![GitHub stars](https://badgen.net/github/stars/manifoldbt/manifoldbt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 
 ### Cryptocurrencies
