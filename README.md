@@ -363,6 +363,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [TradingGym](https://github.com/Yvictor/TradingGym) `dormant since 2024-02` | Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo. | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [AlphaGen](https://github.com/ICT-FinD-Lab/alphagen) | Generating sets of formulaic alpha factors with reinforcement learning | ![GitHub stars](https://badgen.net/github/stars/ICT-FinD-Lab/alphagen) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) `dormant since 2023-12` | Stock Trading Bot using Deep Q-Learning | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [AlphaFinch](https://github.com/shloksobti/alphafinch) | LLM-driven evolution of trading strategies as code, judged on sealed holdouts and a pre-registered seven-market exam that corrects for every attempt | ![GitHub stars](https://badgen.net/github/stars/shloksobti/alphafinch) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ## TimeSeries Analysis

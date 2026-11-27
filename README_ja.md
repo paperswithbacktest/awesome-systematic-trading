@@ -319,6 +319,7 @@ _金融メトリクスのライブラリ。_
 | [MlFinLab (Hudson & Thames)](https://github.com/hudson-and-thames/mlfinlab)           | 機械学習の力を活用したいポートフォリオマネージャーやトレーダー向けに、再現可能・解釈可能・使いやすいツールを提供。                                                   | ![GitHub stars](https://badgen.net/github/stars/hudson-and-thames/mlfinlab)  | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [TradingGym](https://github.com/Yvictor/TradingGym)                                   | 強化学習エージェントやシンプルなルールベースアルゴの訓練向けトレーディング・バックテスト環境。                                                                       | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym)          | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | Deep Q-Learningを使った株式取引ボット。                                                                                                                              | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot)     | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [AlphaFinch](https://github.com/shloksobti/alphafinch) | LLMがトレーディング戦略をコードとして生成・進化させ、封印されたホールドアウトと、全試行を補正する事前登録済みの7市場テストで評価するフレームワーク | ![GitHub stars](https://badgen.net/github/stars/shloksobti/alphafinch) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## 時系列分析
 

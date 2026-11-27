@@ -330,6 +330,7 @@
 | [MlFinLab (Hudson & Thames)](https://github.com/hudson-and-thames/mlfinlab) | MlFinLab通过提供可重复的、可解释的和易于使用的工具，帮助那些希望利用机器学习的力量的投资组合经理和交易者。 | ![GitHub stars](https://badgen.net/github/stars/hudson-and-thames/mlfinlab) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [TradingGym](https://github.com/Yvictor/TradingGym) | 交易和回测环境，用于训练强化学习代理或简单的规则基础算法。 | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | 使用深度Q-学习的股票交易机器人 | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [AlphaFinch](https://github.com/shloksobti/alphafinch) | 由大语言模型以代码形式生成并进化交易策略，并在封存的样本外数据与预先注册、对每次尝试进行校正的七市场检验中评估 | ![GitHub stars](https://badgen.net/github/stars/shloksobti/alphafinch) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ## 时间序列分析
