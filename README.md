@@ -263,6 +263,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
 | [pyfolio](https://github.com/quantopian/pyfolio) `dormant since 2023-12` | Portfolio and risk analytics in Python | ![GitHub stars](https://badgen.net/github/stars/quantopian/pyfolio) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [quanttro](https://github.com/HaasEnjoyer/quanttro) | Backtest-robustness testing (CPCV, probability of backtest overfitting), risk/portfolio tooling (Kelly and volatility-target sizing, hierarchical risk parity), prop-firm evaluation-challenge simulation, and a broker-agnostic paper-trading bridge, with built-in Borsa Istanbul (BIST) data support. | ![GitHub stars](https://badgen.net/github/stars/HaasEnjoyer/quanttro) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 
