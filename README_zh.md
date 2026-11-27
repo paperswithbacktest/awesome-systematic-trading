@@ -45,7 +45,7 @@
 <!-- omit in toc -->
 ### 你在这里会发现什么？
 
-- [108 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
+- [109 个](#库和包)用于研究和实际交易的[库和包](#库和包)，已失效和停止维护的项目都作了标注
 - 来自已发表论文的[策略](#策略)，每一个都附有交易规则和可运行的 Python 代码
 - [55本](#书籍)适合初学者和专业人士的[书籍](#书籍)
 - [22个视频](#视频)和采访
@@ -122,7 +122,7 @@
 
 # 库和包
 
-*108个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
+*109个实现交易机器人、回溯测试器、指标、定价器等的库和包列表。每个库都按其编程语言分类，并按人口降序排列（星星的数量）。*
 
 
 ## 回溯测试和真实交易
@@ -163,6 +163,7 @@
 | [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | 罗布-卡弗的《系统交易》一书中的python系统交易 | ![GitHub stars](https://badgen.net/github/stars/robcarver17/pysystemtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [bt](https://github.com/pmorissette/bt) | 基于Algo和策略树的Python的灵活回测 | ![GitHub stars](https://badgen.net/github/stars/pmorissette/bt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [ml-quant-trading](https://github.com/initial-d/ml-quant-trading) | 面向机器学习多因子交易的 PyTorch 研究栈：213 个因子、偏差修正、组合优化、向量化回测，并附公开的验证报告 | ![GitHub stars](https://badgen.net/github/stars/initial-d/ml-quant-trading) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [manifoldbt](https://github.com/manifoldbt/manifoldbt) | 基于 Rust 引擎的 Python 回测库：向量化信号表达式、参数扫描、滚动前向优化与蒙特卡洛，按K线、逐笔成交或订单簿模拟成交。 | ![GitHub stars](https://badgen.net/github/stars/manifoldbt/manifoldbt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 
 ### 加密货币

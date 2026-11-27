@@ -49,7 +49,7 @@ MCP 経由で戦略カタログにアクセスする権限が含まれます。
 
 ### ここで見つかるもの
 
-- リサーチとライブトレーディング向けの [103のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
+- リサーチとライブトレーディング向けの [104のライブラリ・パッケージ](#ライブラリとパッケージ)。停止済み・休止中のプロジェクトには印を付けています
 - 公開論文からの [戦略](#戦略)。それぞれの売買ルールと実行可能な Python 付き
 - 初心者からプロ向けの [55冊の書籍](#書籍)
 - [22本の動画](#動画) とインタビュー
@@ -130,7 +130,7 @@ MCP 経由で戦略カタログにアクセスする権限が含まれます。
 
 # ライブラリとパッケージ
 
-_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **103のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
+_トレーディングボット、バックテスター、インジケーター、プライサーなどを実装した **104のライブラリ・パッケージ** のリストです。各ライブラリはプログラミング言語ごとに分類され、人気順（スター数の降順）に並んでいます。_
 
 ## バックテストとライブトレーディング
 
@@ -165,6 +165,7 @@ _トレーディングボット、バックテスター、インジケーター�
 | [vectorbt](https://github.com/polakowo/vectorbt)              | バックテストへの新しいアプローチ。pandasとNumPyオブジェクト上で動作し、Numbaにより高速化。数千の戦略を数秒でテスト可能。 | ![GitHub stars](https://badgen.net/github/stars/polakowo/vectorbt)         | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | Rob Carverの著書「Systematic Trading」に基づくPythonでのシステマティックトレーディング。                                 | ![GitHub stars](https://badgen.net/github/stars/robcarver17/pysystemtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [bt](https://github.com/pmorissette/bt)                       | AlgoとStrategy Treeに基づくPython向け柔軟なバックテストフレームワーク。                                                  | ![GitHub stars](https://badgen.net/github/stars/pmorissette/bt)            | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [manifoldbt](https://github.com/manifoldbt/manifoldbt) | Rustエンジン上のPythonバックテスト。ベクトル化されたシグナル式、パラメータスイープ、ウォークフォワード、モンテカルロに対応し、約定はバー・約定履歴・板情報からシミュレート。 | ![GitHub stars](https://badgen.net/github/stars/manifoldbt/manifoldbt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
 ### 暗号通貨
 
