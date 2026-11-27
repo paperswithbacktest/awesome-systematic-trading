@@ -325,6 +325,7 @@
 
 | 存储库 | 描述 | 明星 | 使用方法 |
 |------------|-------------|-------|-----------|
+| [AxonX](https://github.com/FlowLLM-AI/AxonX) | 量化研究框架，以插件任务组织因子分析、模型训练、预测与回测，提供产物追踪及 CLI、MCP 和网页接口。 | ![GitHub stars](https://badgen.net/github/stars/FlowLLM-AI/AxonX) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [QLib (Microsoft)](https://github.com/microsoft/qlib) | Qlib是一个以人工智能为导向的量化投资平台，旨在实现人工智能技术在量化投资中的潜力，授权研究，并创造价值。通过Qlib，你可以轻松尝试你的想法，创造更好的量化投资策略。越来越多的SOTA量化研究作品/论文在Qlib中发布。 | ![GitHub stars](https://badgen.net/github/stars/microsoft/qlib) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | FinRL是第一个开源框架，展示了在量化金融中应用深度强化学习的巨大潜力。 | ![GitHub stars](https://badgen.net/github/stars/AI4Finance-Foundation/FinRL) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [MlFinLab (Hudson & Thames)](https://github.com/hudson-and-thames/mlfinlab) | MlFinLab通过提供可重复的、可解释的和易于使用的工具，帮助那些希望利用机器学习的力量的投资组合经理和交易者。 | ![GitHub stars](https://badgen.net/github/stars/hudson-and-thames/mlfinlab) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
