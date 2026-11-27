@@ -298,6 +298,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies. | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) `dormant since 2024-07` | Wallstreet: Real time Stock and Option tools | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pwb-toolbox](https://github.com/paperswithbacktest/pwb-toolbox) | Loader for the 32 Papers With Backtest datasets on Hugging Face: daily prices back to 1962 for stocks, ETFs, indices, currencies and commodities, sovereign yield curves, quarterly fundamentals, FRED-MD macro series, and 5.7 billion rows of 1-minute US equity bars. Cards and schemas are open to read, downloads are gated. | ![GitHub stars](https://badgen.net/github/stars/paperswithbacktest/pwb-toolbox) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [CFD loss-rate series](https://tradinglookup.com/brokers/cfd-loss-rates/) | Mandated "% of retail accounts that lose money" for 31 UK/EU CFD providers, plus quarterly archived history from 2018-Q3. CSV, CC BY 4.0. | | |
 
 
 ### Cryptocurrencies
