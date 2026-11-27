@@ -168,9 +168,10 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [gobacktest](https://github.com/gobacktest/gobacktest) `archived` | A Go implementation of event-driven backtesting framework | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [PineForge](https://github.com/pineforge-4pass/pineforge-engine) | Transpiles PineScript v6 strategies to C++ and runs deterministic offline backtests on user-provided OHLCV data. | ![GitHub stars](https://badgen.net/github/stars/pineforge-4pass/pineforge-engine) | ![made-with-c++](https://img.shields.io/badge/Made%20with-c++-1f425f.svg) |
 | [FlashFunk](https://github.com/HFQR/FlashFunk) | High Performance Runtime in Rust | ![GitHub stars](https://badgen.net/github/stars/HFQR/FlashFunk) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
-
+| [Lumina AI](https://github.com/ramuza0113-sketch/lumina-ai-hedge-fund) | Autonomous multi-agent AI hedge fund combining Qlib Alpha158 quantitative ML, LangGraph consensus deliberation, and a deterministic 10-second fast watchdog sentinel | ![GitHub stars](https://badgen.net/github/stars/ramuza0113-sketch/lumina-ai-hedge-fund) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ### General - Vector Based Frameworks
+
 
 | Repository | Description | Stars | Made with |
 |------------|-------------|-------|-----------|
