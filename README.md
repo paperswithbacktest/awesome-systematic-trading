@@ -49,7 +49,7 @@ or Cursor over MCP.
 <!-- omit in toc -->
 ### What will you find here?
 
-- [136 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
+- [138 libraries and packages](#libraries-and-packages) for research and live trading, with dead and dormant projects flagged
 - [Strategies](#strategies) from published papers, each with its trading rules and runnable Python
 - [55 books](#books) for beginners and professionals
 - [22 videos](#videos) and interviews
@@ -131,7 +131,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 
 # Libraries and packages
 
-*List of **136 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
+*List of **138 libraries and packages** implementing trading bots, backtesters, indicators, pricers, etc. Each library is categorized by its programming language and ordered by descending populatrity (number of stars).*
 
 
 ## Backtesting and Live Trading
@@ -212,6 +212,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) `dormant since 2018-04` | PyTrendFollow - systematic futures trading using trend following | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [TradeSight](https://github.com/rmbell09-lang/tradesight) | AI-powered algorithmic trading platform with RSI/MACD signals, overnight strategy tournaments, paper trading via Alpaca, multi-stock scanning, and web dashboard | ![GitHub stars](https://badgen.net/github/stars/rmbell09-lang/tradesight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PRISM-INSIGHT](https://github.com/dragon1086/prism-insight) | AI-powered stock analysis with 13 specialized agents, automated trading via KIS API (Korean & US markets) | ![GitHub stars](https://badgen.net/github/stars/dragon1086/prism-insight) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [feraterra-quant-bots](https://github.com/FeraTerra/feraterra-quant-bots) | Two-sided market-making daemon (Pyth Hermes fair-value reference, inventory skew, market-maker protection), zero-pre-margin flash-arbitrage and liquidation searcher, VeighNa (vnpy) and Freqtrade/CCXT gateways, and secp256k1 ledger-tip solvency benchmarks for FeraTerra | ![GitHub stars](https://badgen.net/github/stars/FeraTerra/feraterra-quant-bots) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 ## Analytics
 
@@ -275,6 +276,7 @@ Method and caveats are written up on [the wiki](https://paperswithbacktest.com/w
 | [pmxt](https://github.com/pmxt-dev/pmxt) | Unified prediction market trading API across Polymarket, Kalshi and other venues, in the spirit of ccxt | ![GitHub stars](https://badgen.net/github/stars/pmxt-dev/pmxt) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 | [Coinnect](https://github.com/hugues31/coinnect) `dormant since 2021-11` | Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API. | ![GitHub stars](https://badgen.net/github/stars/hugues31/coinnect) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) `dormant since 2024-05` | Javascript SDK for Trading, Data, and Websockets for FTX, FTXUS, OKX, Bybit, & More. | ![GitHub stars](https://badgen.net/github/stars/CompendiumFi/PENDAX-SDK) | ![made-with-javascript](https://img.shields.io/badge/Made%20with-Javascript-1f425f.svg) |
+| [feraterra-sdk](https://github.com/FeraTerra/feraterra-sdk) | Zero-dependency Python 3 client, header-only C++23 64-byte binary wire and ITCH L3 protocol headers, CCXT/LangChain/PydanticAI adapters, and 24-tool MCP gateway with pre-trade margin simulation and Merkle solvency verification for FeraTerra | ![GitHub stars](https://badgen.net/github/stars/FeraTerra/feraterra-sdk) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
 
 ## Data Sources
